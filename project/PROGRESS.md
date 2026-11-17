@@ -172,3 +172,11 @@ Final live generic test: ReadTimeout after a 90-second timeout. Inference remain
 ## Spoken-language selector removed — 2026-11-17
 
 - User requested removal of only the ಮಾತನಾಡುವ ಭಾಷೆ selector. Removed it and fixed situation voice input to English; voice method/search selectors remain. Typed Kannada input remains supported.
+
+## Karnataka district explorer — 2026-11-17
+
+- Added a separate lazy-loaded `/#districts` page and Kannada-first navigation item.
+- Imported all 31 bilingual descriptions from the supplied DOCX and copied the 31 explicitly supplied district photographs. Editable JSON supports custom history, places, food, culture and images. Empty optional sections stay hidden.
+- Extracted 31 district shapes from the attributed C1MM/Nayvik CC BY-SA 3.0 Wikimedia map, including Vijayanagara, and checked one-to-one district mapping. The supplied Bengaluru South label uses the Ramanagara shape; geometry is illustrative and not a certified boundary product.
+- Added full Kannada/English content switching, hover/focus names, keyboard activation, selected-state highlighting, bilingual district search, mobile selector, focus/scroll to details, close/reopen and image fallback.
+- Frontend build and isolated district, dictionary, recording/search/narration browser journeys passed. All 31 actual interior district clicks and image loads checked. Desktop/mobile screenshots inspected; no horizontal overflow or JavaScript errors.

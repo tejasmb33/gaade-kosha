@@ -36,3 +36,4 @@ jobs:
       - run: npx --prefix project/frontend playwright install --with-deps chromium
       - run: node project/frontend/tests/dictionary.cjs
       - run: node project/frontend/tests/recording.cjs
+      - run: node project/frontend/tests/districts.cjs

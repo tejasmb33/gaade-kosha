@@ -231,3 +231,7 @@ Actual live check: generated a 24 kHz mono WAV, 43.2 seconds, for ಮನಸಿ�
 ## Independent cloud hosting
 
 See [deployment/README.md](deployment/README.md) for the prepared GitHub → Vercel/Render/Supabase setup. The Docker backend supports PostgreSQL, private durable audio/narration storage, and opt-in Groq speech. Local SQLite and MLX remain supported. Cloud hosting requires the owner's accounts/environment configuration and verification on the resulting URLs; source preparation alone is not a live deployment.
+
+## Karnataka district explorer
+
+Open `/#districts` from the **ಕರ್ನಾಟಕದ ಜಿಲ್ಲೆಗಳು / Districts** navigation item. The separate page includes 31 selectable SVG districts, the supplied photographs and bilingual reference descriptions, a Kannada/English toggle, searchable district list, keyboard access and responsive detail cards. It works without the backend. Edit [frontend/src/data/karnataka-districts.json](frontend/src/data/karnataka-districts.json); see [the content/schema and map attribution guide](frontend/src/data/README.md). Optional history, food, places and culture sections render when populated. Theme variables are scoped in `district-explorer.css`.

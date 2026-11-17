@@ -1,0 +1,1529 @@
+[
+  {
+    "id": "bagalkote",
+    "code": "BAG",
+    "name": {
+      "kn": "ಬಾಗಲಕೋಟೆ",
+      "en": "Bagalkote"
+    },
+    "aliases": [],
+    "image": {
+      "src": "/images/districts/bagalkote.jpg",
+      "alt": {
+        "kn": "ಬಾಗಲಕೋಟೆ — ಸ್ಥಳೀಯ ಪರಂಪರೆಯ ನೋಟ",
+        "en": "Bagalkote — a glimpse of local heritage"
+      },
+      "position": "center"
+    },
+    "description": {
+      "kn": "ಬಾಗಲಕೋಟೆ ಚಾಲುಕ್ಯರ ಪರಂಪರೆಯ ತವರೂರು. ಇಲ್ಲಿ ಬಾದಾಮಿಯ ಗುಹಾ ದೇವಾಲಯಗಳು ಹಾಗೂ ಐಹೊಳೆ ಮತ್ತು ಪಟ್ಟದಕಲ್ಲಿನ ದೇವಾಲಯ ಸಮೂಹಗಳಿವೆ. ಇವು ಆರಂಭಿಕ ದೇವಾಲಯ ವಾಸ್ತುಶಿಲ್ಪ ಮತ್ತು ಕಲ್ಲಿನ ಶಿಲ್ಪಕಲೆಯ ಅದ್ಭುತ ಪರಿಚಯ ನೀಡುತ್ತವೆ. ಸುಂದರ ವಿರೂಪಾಕ್ಷ ದೇವಾಲಯವಿರುವ ಪಟ್ಟದಕಲ್ಲು ಯುನೆಸ್ಕೋ ವಿಶ್ವ ಪರಂಪರೆಯ ತಾಣವಾಗಿದ್ದು, ಇತಿಹಾಸ ಮತ್ತು ಕಲೆಯ ವಿದ್ಯಾರ್ಥಿಗಳು ತಪ್ಪದೇ ನೋಡಬೇಕಾದ ಜಿಲ್ಲೆ ಇದು.",
+      "en": "Bagalkote is the heartland of Chalukyan heritage, with the rock-cut cave temples of Badami and the temple clusters of Aihole and Pattadakal. Together they offer a remarkable look at early temple architecture and stone sculpture. Pattadakal, home to the graceful Virupaksha Temple, is recognised as a UNESCO World Heritage Site, making the district a must-visit for students of history and art."
+    },
+    "highlights": {
+      "kn": [
+        "ಬಾದಾಮಿ ಗುಹಾ ದೇವಾಲಯಗಳು",
+        "ಐಹೊಳೆ",
+        "ಪಟ್ಟದಕಲ್ಲು"
+      ],
+      "en": [
+        "Badami cave temples",
+        "Aihole",
+        "Pattadakal"
+      ]
+    },
+    "history": {
+      "kn": "",
+      "en": ""
+    },
+    "places": {
+      "kn": [],
+      "en": []
+    },
+    "food": {
+      "kn": [],
+      "en": []
+    },
+    "culture": {
+      "kn": "",
+      "en": ""
+    },
+    "source": "Karnataka_31_Districts.docx"
+  },
+  {
+    "id": "ballari",
+    "code": "BAL",
+    "name": {
+      "kn": "ಬಳ್ಳಾರಿ",
+      "en": "Ballari"
+    },
+    "aliases": [],
+    "image": {
+      "src": "/images/districts/ballari.jpg",
+      "alt": {
+        "kn": "ಬಳ್ಳಾರಿ — ಸ್ಥಳೀಯ ಪರಂಪರೆಯ ನೋಟ",
+        "en": "Ballari — a glimpse of local heritage"
+      },
+      "position": "center"
+    },
+    "description": {
+      "kn": "ಬಳ್ಳಾರಿ ವಿಜಯನಗರ ಸಾಮ್ರಾಜ್ಯದ ಐತಿಹಾಸಿಕ ಪರಿಸರದ ಒಂದು ಭಾಗ. ಇಲ್ಲಿನ ಕೋಟೆಗಳು, ದೇವಾಲಯಗಳು ಮತ್ತು ಪುರಾತತ್ವ ಅವಶೇಷಗಳು ಬಲಿಷ್ಠ ರಾಜ್ಯಗಳ ಮತ್ತು ಚುರುಕಾದ ವ್ಯಾಪಾರದ ಕಥೆಗಳನ್ನು ಹೇಳುತ್ತವೆ. ತುಂಗಭದ್ರಾ ನದಿಯ ಬಳಿ ಇರುವ ಈ ಜಿಲ್ಲೆ ತನ್ನ ವಿಶಿಷ್ಟ ಕಲ್ಲುಬಂಡೆಗಳ ಭೂಪ್ರದೇಶಕ್ಕೆ ಹೆಸರಾಗಿದ್ದು, ಹಂಪಿ ಸುತ್ತಲಿನ ವಿಶಾಲ ಪ್ರದೇಶಕ್ಕೆ ಸೇರಿದೆ.",
+      "en": "Ballari is part of the historic landscape of the Vijayanagara Empire. Its forts, temples and archaeological remains tell stories of powerful kingdoms and busy trade. The district lies along the Tungabhadra river and is known for its distinctive rocky terrain, and it belongs to the wider region around Hampi, helping visitors connect the many pieces of this great medieval empire."
+    },
+    "highlights": {
+      "kn": [
+        "ವಿಜಯನಗರ ಕಾಲದ ಪರಂಪರೆ",
+        "ಹಂಪಿಯ ಸುತ್ತಲಿನ ಪ್ರದೇಶ"
+      ],
+      "en": [
+        "Vijayanagara-era heritage",
+        "Region around Hampi"
+      ]
+    },
+    "history": {
+      "kn": "",
+      "en": ""
+    },
+    "places": {
+      "kn": [],
+      "en": []
+    },
+    "food": {
+      "kn": [],
+      "en": []
+    },
+    "culture": {
+      "kn": "",
+      "en": ""
+    },
+    "source": "Karnataka_31_Districts.docx"
+  },
+  {
+    "id": "belagavi",
+    "code": "BEL",
+    "name": {
+      "kn": "ಬೆಳಗಾವಿ",
+      "en": "Belagavi"
+    },
+    "aliases": [],
+    "image": {
+      "src": "/images/districts/belagavi.jpg",
+      "alt": {
+        "kn": "ಬೆಳಗಾವಿ — ಸ್ಥಳೀಯ ಪರಂಪರೆಯ ನೋಟ",
+        "en": "Belagavi — a glimpse of local heritage"
+      },
+      "position": "center"
+    },
+    "description": {
+      "kn": "ಬೆಳಗಾವಿ ಬ್ರಿಟಿಷ್ ಆಳ್ವಿಕೆಯ ವಿರುದ್ಧ ಹೋರಾಡಿದ ಆರಂಭಿಕ ವ್ಯಕ್ತಿಗಳಲ್ಲಿ ಒಬ್ಬರಾದ ಕಿತ್ತೂರು ರಾಣಿ ಚೆನ್ನಮ್ಮನ ಹೆಸರಿನೊಂದಿಗೆ ಬೆಸೆದುಕೊಂಡಿದೆ. ಮಹಾರಾಷ್ಟ್ರ ಮತ್ತು ಗೋವಾಕ್ಕೆ ಸಮೀಪವಿರುವುದರಿಂದ ಇಲ್ಲಿ ಐತಿಹಾಸಿಕ ಕೋಟೆಗಳು ಮತ್ತು ಶ್ರೀಮಂತ ಸಾಂಸ್ಕೃತಿಕ ಮಿಶ್ರಣವಿದೆ. ಬೆಳಗಾವಿ ಕುಂದಾ ಇಲ್ಲಿನ ಪ್ರಸಿದ್ಧ ಸ್ಥಳೀಯ ಸಿಹಿ; ಸ್ಮಾರಕಗಳ ಜೊತೆಗೆ ಈ ಪ್ರದೇಶವನ್ನು ರುಚಿಯ ಮೂಲಕವೂ ಅನುಭವಿಸಬಹುದು.",
+      "en": "Belagavi is remembered for Kittur Rani Chennamma, one of the early figures of resistance to British rule. The district has historic forts and a rich cultural mix shaped by its location near Maharashtra and Goa. Food lovers know it for Belagavi kunda, a well-known local sweet, which makes a delicious way to experience the region beyond its monuments."
+    },
+    "highlights": {
+      "kn": [
+        "ಕಿತ್ತೂರು ರಾಣಿ ಚೆನ್ನಮ್ಮ",
+        "ಐತಿಹಾಸಿಕ ಕೋಟೆಗಳು",
+        "ಬೆಳಗಾವಿ ಕುಂದಾ"
+      ],
+      "en": [
+        "Kittur Rani Chennamma",
+        "Historic forts",
+        "Belagavi kunda"
+      ]
+    },
+    "history": {
+      "kn": "",
+      "en": ""
+    },
+    "places": {
+      "kn": [],
+      "en": []
+    },
+    "food": {
+      "kn": [],
+      "en": []
+    },
+    "culture": {
+      "kn": "",
+      "en": ""
+    },
+    "source": "Karnataka_31_Districts.docx"
+  },
+  {
+    "id": "bengaluru-rural",
+    "code": "BRU",
+    "name": {
+      "kn": "ಬೆಂಗಳೂರು ಗ್ರಾಮಾಂತರ",
+      "en": "Bengaluru Rural"
+    },
+    "aliases": [],
+    "image": {
+      "src": "/images/districts/bengaluru-rural.jpg",
+      "alt": {
+        "kn": "ಬೆಂಗಳೂರು ಗ್ರಾಮಾಂತರ — ಸ್ಥಳೀಯ ಪರಂಪರೆಯ ನೋಟ",
+        "en": "Bengaluru Rural — a glimpse of local heritage"
+      },
+      "position": "center"
+    },
+    "description": {
+      "kn": "ಬೆಂಗಳೂರು ಗ್ರಾಮಾಂತರವು ರಾಜಧಾನಿಯ ಸಮೀಪದಲ್ಲಿ ಐತಿಹಾಸಿಕ ತಾಣಗಳು, ಕೃಷಿ ಮತ್ತು ಸುಂದರ ಗ್ರಾಮೀಣ ಪರಿಸರದ ಮಿಶ್ರಣವನ್ನು ನೀಡುತ್ತದೆ. ದೇವನಹಳ್ಳಿ ಕೋಟೆಯು ಟಿಪ್ಪು ಸುಲ್ತಾನನ ಆರಂಭಿಕ ಜೀವನದೊಂದಿಗೆ ಸಂಬಂಧ ಹೊಂದಿದ್ದು, ಸಮೀಪದ ನಂದಿ ಬೆಟ್ಟಗಳ ಪ್ರದೇಶ ಬೆಟ್ಟದ ಸೌಂದರ್ಯ ಮತ್ತು ಸೂರ್ಯೋದಯದ ನೋಟಕ್ಕೆ ಹೆಸರಾಗಿದೆ. ಇಲ್ಲಿ ಪರಂಪರೆ ಮತ್ತು ಗ್ರಾಮೀಣ ಜೀವನ ಒಟ್ಟಿಗೆ ಕಾಣಸಿಗುತ್ತವೆ.",
+      "en": "Bengaluru Rural offers a mix of historic sites, agriculture and scenic countryside close to the capital. Devanahalli Fort is linked with the early life of Tipu Sultan, while the nearby Nandi Hills area is known for its hill scenery and sunrise views. The district shows a quieter side of the Bengaluru region, where heritage and rural life sit side by side."
+    },
+    "highlights": {
+      "kn": [
+        "ದೇವನಹಳ್ಳಿ ಕೋಟೆ",
+        "ನಂದಿ ಬೆಟ್ಟದ ಸುತ್ತಲಿನ ಪ್ರದೇಶ"
+      ],
+      "en": [
+        "Devanahalli Fort",
+        "Nandi Hills region"
+      ]
+    },
+    "history": {
+      "kn": "",
+      "en": ""
+    },
+    "places": {
+      "kn": [],
+      "en": []
+    },
+    "food": {
+      "kn": [],
+      "en": []
+    },
+    "culture": {
+      "kn": "",
+      "en": ""
+    },
+    "source": "Karnataka_31_Districts.docx"
+  },
+  {
+    "id": "bengaluru-south",
+    "code": "RAM",
+    "name": {
+      "kn": "ಬೆಂಗಳೂರು ದಕ್ಷಿಣ",
+      "en": "Bengaluru South"
+    },
+    "aliases": [
+      "Ramanagara",
+      "ರಾಮನಗರ"
+    ],
+    "image": {
+      "src": "/images/districts/bengaluru-south.jpg",
+      "alt": {
+        "kn": "ಬೆಂಗಳೂರು ದಕ್ಷಿಣ — ಸ್ಥಳೀಯ ಪರಂಪರೆಯ ನೋಟ",
+        "en": "Bengaluru South — a glimpse of local heritage"
+      },
+      "position": "center"
+    },
+    "description": {
+      "kn": "ರಾಮನಗರವನ್ನು ಕೇಂದ್ರ ಸ್ಥಾನವಾಗಿ ಹೊಂದಿರುವ ಬೆಂಗಳೂರು ದಕ್ಷಿಣ ಜಿಲ್ಲೆ ರೇಷ್ಮೆ ಕೃಷಿ ಮತ್ತು ರೇಷ್ಮೆ ಉತ್ಪಾದನೆಗೆ ಹೆಸರಾಗಿದೆ; ರಾಮನಗರವನ್ನು ಕರ್ನಾಟಕದ ರೇಷ್ಮೆ ನಗರ ಎಂದು ಕರೆಯುತ್ತಾರೆ. ರಾಮದೇವರ ಬೆಟ್ಟ ಸೇರಿದಂತೆ ಇಲ್ಲಿನ ನಾಟಕೀಯ ಗ್ರಾನೈಟ್ ಬೆಟ್ಟಗಳು ಆಕರ್ಷಕ ಬಂಡೆ ರಚನೆಗಳಿಗೆ ಹೆಸರಾಗಿವೆ. ಈ ಹಿಂದೆ ಇದು ರಾಮನಗರ ಜಿಲ್ಲೆ ಎಂದು ಪಟ್ಟಿಯಾಗಿತ್ತು.",
+      "en": "Bengaluru South, with Ramanagara as its headquarters, is strongly associated with sericulture and silk production, and Ramanagara is often called Karnataka’s silk town. The district is also known for its dramatic granite hills, including the Ramadevara Betta area, with striking rock formations and natural landscapes. It was formerly listed as Ramanagara district before being reorganised."
+    },
+    "highlights": {
+      "kn": [
+        "ರೇಷ್ಮೆ ಉತ್ಪಾದನೆ",
+        "ರಾಮನಗರದ ಗ್ರಾನೈಟ್ ಬೆಟ್ಟಗಳು",
+        "ರಾಮದೇವರ ಬೆಟ್ಟ"
+      ],
+      "en": [
+        "Silk production",
+        "Ramanagara granite hills",
+        "Ramadevara Betta"
+      ]
+    },
+    "history": {
+      "kn": "",
+      "en": ""
+    },
+    "places": {
+      "kn": [],
+      "en": []
+    },
+    "food": {
+      "kn": [],
+      "en": []
+    },
+    "culture": {
+      "kn": "",
+      "en": ""
+    },
+    "source": "Karnataka_31_Districts.docx"
+  },
+  {
+    "id": "bengaluru-urban",
+    "code": "BUR",
+    "name": {
+      "kn": "ಬೆಂಗಳೂರು ನಗರ",
+      "en": "Bengaluru Urban"
+    },
+    "aliases": [],
+    "image": {
+      "src": "/images/districts/bengaluru-urban.jpg",
+      "alt": {
+        "kn": "ಬೆಂಗಳೂರು ನಗರ — ಸ್ಥಳೀಯ ಪರಂಪರೆಯ ನೋಟ",
+        "en": "Bengaluru Urban — a glimpse of local heritage"
+      },
+      "position": "center"
+    },
+    "description": {
+      "kn": "ಬೆಂಗಳೂರು ನಗರ ಜಿಲ್ಲೆಯಲ್ಲಿ ಕರ್ನಾಟಕದ ರಾಜಧಾನಿ ನಗರವಿದೆ. ಇದು ಭಾರತದ ತಂತ್ರಜ್ಞಾನ ಕೇಂದ್ರವಾಗಿ, ಹಾಗೂ ಉದ್ಯಾನಗಳು, ಶಿಕ್ಷಣ ಸಂಸ್ಥೆಗಳು, ಮಾರುಕಟ್ಟೆಗಳು, ವಸ್ತುಸಂಗ್ರಹಾಲಯಗಳು ಮತ್ತು ಉತ್ಸಾಹಭರಿತ ಆಹಾರ ಸಂಸ್ಕೃತಿಗೆ ಹೆಸರಾಗಿದೆ. ವಿಧಾನಸೌಧ, ಲಾಲ್‌ಬಾಗ್ ಮತ್ತು ಬೆಂಗಳೂರು ಅರಮನೆಯಂತಹ ತಾಣಗಳು ನಗರದ ಐತಿಹಾಸಿಕ ಸ್ವರೂಪ ಮತ್ತು ಆಧುನಿಕ ಬಹುಸಂಸ್ಕೃತಿಯ ಗುರುತನ್ನು ಬೆಸೆಯುತ್ತವೆ.",
+      "en": "Bengaluru Urban is home to Karnataka’s capital city. It is widely known as India’s technology hub, as well as for its gardens, educational institutions, markets, museums and lively food culture. Landmarks such as Vidhana Soudha, Lalbagh and Bengaluru Palace show how the city blends historic character with a modern, cosmopolitan identity that welcomes people from across the country."
+    },
+    "highlights": {
+      "kn": [
+        "ತಂತ್ರಜ್ಞಾನ ಕೇಂದ್ರ",
+        "ಉದ್ಯಾನಗಳು",
+        "ವೈವಿಧ್ಯಮಯ ನಗರ ಸಂಸ್ಕೃತಿ"
+      ],
+      "en": [
+        "Technology hub",
+        "Gardens",
+        "Cosmopolitan culture"
+      ]
+    },
+    "history": {
+      "kn": "",
+      "en": ""
+    },
+    "places": {
+      "kn": [],
+      "en": []
+    },
+    "food": {
+      "kn": [],
+      "en": []
+    },
+    "culture": {
+      "kn": "",
+      "en": ""
+    },
+    "source": "Karnataka_31_Districts.docx"
+  },
+  {
+    "id": "bidar",
+    "code": "BID",
+    "name": {
+      "kn": "ಬೀದರ್",
+      "en": "Bidar"
+    },
+    "aliases": [],
+    "image": {
+      "src": "/images/districts/bidar.jpg",
+      "alt": {
+        "kn": "ಬೀದರ್ — ಸ್ಥಳೀಯ ಪರಂಪರೆಯ ನೋಟ",
+        "en": "Bidar — a glimpse of local heritage"
+      },
+      "position": "center"
+    },
+    "description": {
+      "kn": "ಬೀದರ್ ಬಿದ್ರಿ ಕಲೆಗೆ ಪ್ರಸಿದ್ಧ; ಇದರಲ್ಲಿ ಕಪ್ಪು ಲೋಹದ ಮೇಲ್ಮೈಯಲ್ಲಿ ಬೆಳ್ಳಿಯ ವಿನ್ಯಾಸಗಳನ್ನು ಸೂಕ್ಷ್ಮವಾಗಿ ಕೂರಿಸಲಾಗುತ್ತದೆ. ಬೀದರ್ ಕೋಟೆ ಮತ್ತು ಬಹಮನಿ ಸ್ಮಾರಕಗಳು ಮಧ್ಯಕಾಲೀನ ದಖ್ಖನ್ ಕೇಂದ್ರವಾಗಿ ಇದರ ಮಹತ್ವವನ್ನು ತೋರಿಸುತ್ತವೆ. ಕರ್ನಾಟಕದ ಉತ್ತರದ ತುದಿಯ ಈ ಜಿಲ್ಲೆಯಲ್ಲಿ ಸ್ಥಳೀಯ ಕುಶಲಕರ್ಮಿಗಳ ಸೂಕ್ಷ್ಮ ಕೆಲಸ ಮತ್ತು ಐತಿಹಾಸಿಕ ಸೊಬಗು ಎರಡನ್ನೂ ಕಾಣಬಹುದು.",
+      "en": "Bidar is famous for Bidriware, an intricate metal craft in which silver designs are inlaid into a dark alloy surface. The district’s Bidar Fort and Bahmani monuments reflect its importance as a medieval Deccan centre. Visitors can enjoy both the delicate work of local artisans and the strong historical character of one of Karnataka’s northernmost districts."
+    },
+    "highlights": {
+      "kn": [
+        "ಬಿದರಿ ಲೋಹದ ಕರಕುಶಲ",
+        "ಬಹಮನಿ ಪರಂಪರೆ",
+        "ಬೀದರ್ ಕೋಟೆ"
+      ],
+      "en": [
+        "Bidriware metal craft",
+        "Bahmani heritage",
+        "Bidar Fort"
+      ]
+    },
+    "history": {
+      "kn": "",
+      "en": ""
+    },
+    "places": {
+      "kn": [],
+      "en": []
+    },
+    "food": {
+      "kn": [],
+      "en": []
+    },
+    "culture": {
+      "kn": "",
+      "en": ""
+    },
+    "source": "Karnataka_31_Districts.docx"
+  },
+  {
+    "id": "chamarajanagar",
+    "code": "CHA",
+    "name": {
+      "kn": "ಚಾಮರಾಜನಗರ",
+      "en": "Chamarajanagar"
+    },
+    "aliases": [],
+    "image": {
+      "src": "/images/districts/chamarajanagar.jpg",
+      "alt": {
+        "kn": "ಚಾಮರಾಜನಗರ — ಸ್ಥಳೀಯ ಪರಂಪರೆಯ ನೋಟ",
+        "en": "Chamarajanagar — a glimpse of local heritage"
+      },
+      "position": "center"
+    },
+    "description": {
+      "kn": "ಚಾಮರಾಜನಗರ ತನ್ನ ಕಾಡುಗಳು, ಬೆಟ್ಟಗಳು ಮತ್ತು ಜೀವವೈವಿಧ್ಯಕ್ಕೆ ಹೆಸರಾಗಿದೆ. ಬಿಳಿಗಿರಿರಂಗನ ಬೆಟ್ಟ ಹುಲಿ ಸಂರಕ್ಷಿತ ಪ್ರದೇಶ (ಬಿಆರ್‌ಟಿ) ಪಶ್ಚಿಮ ಮತ್ತು ಪೂರ್ವ ಘಟ್ಟಗಳು ಸಂಧಿಸುವ ಪ್ರಮುಖ ಪರಿಸರ ಪ್ರದೇಶವಾಗಿದೆ. ಜಿಲ್ಲೆಯಲ್ಲಿ ಪ್ರಮುಖ ದೇವಾಲಯ ಮತ್ತು ಜನಪದ ಪರಂಪರೆಗಳೂ ಇದ್ದು, ವನ್ಯಜೀವಿ, ಶಾಂತ ಬೆಟ್ಟದ ಸೌಂದರ್ಯ ಮತ್ತು ಜೀವಂತ ಸಂಸ್ಕೃತಿ ಒಂದೇ ಕಡೆ ಸಿಗುತ್ತದೆ.",
+      "en": "Chamarajanagar is known for its forests, hills and biodiversity. The Biligiri Rangaswamy Temple Tiger Reserve (BRT) is an important ecological landscape where the Western and Eastern Ghats meet. The district also has significant temple and folk traditions, so a visit combines wildlife, quiet hill scenery and living culture in one southern corner of Karnataka."
+    },
+    "highlights": {
+      "kn": [
+        "ಬಿಳಿಗಿರಿರಂಗನ ಬೆಟ್ಟ",
+        "ಬಿಆರ್‌ಟಿ ಹುಲಿ ಸಂರಕ್ಷಿತ ಪ್ರದೇಶ",
+        "ಅರಣ್ಯ ಮತ್ತು ಜೀವವೈವಿಧ್ಯ"
+      ],
+      "en": [
+        "Biligiri Ranganatha Hills",
+        "BRT Tiger Reserve",
+        "Forests and biodiversity"
+      ]
+    },
+    "history": {
+      "kn": "",
+      "en": ""
+    },
+    "places": {
+      "kn": [],
+      "en": []
+    },
+    "food": {
+      "kn": [],
+      "en": []
+    },
+    "culture": {
+      "kn": "",
+      "en": ""
+    },
+    "source": "Karnataka_31_Districts.docx"
+  },
+  {
+    "id": "chikkaballapur",
+    "code": "CHI",
+    "name": {
+      "kn": "ಚಿಕ್ಕಬಳ್ಳಾಪುರ",
+      "en": "Chikkaballapur"
+    },
+    "aliases": [],
+    "image": {
+      "src": "/images/districts/chikkaballapur.jpg",
+      "alt": {
+        "kn": "ಚಿಕ್ಕಬಳ್ಳಾಪುರ — ಸ್ಥಳೀಯ ಪರಂಪರೆಯ ನೋಟ",
+        "en": "Chikkaballapur — a glimpse of local heritage"
+      },
+      "position": "center"
+    },
+    "description": {
+      "kn": "ಚಿಕ್ಕಬಳ್ಳಾಪುರ ಸುಂದರ ನಂದಿ ಬೆಟ್ಟಗಳು ಮತ್ತು ಸುತ್ತಲಿನ ಕೃಷಿ ಪರಿಸರಕ್ಕೆ ಹೆಸರಾಗಿದೆ. ಇಲ್ಲಿ ದ್ರಾಕ್ಷಿ ತೋಟಗಳು, ತೋಟಗಾರಿಕೆ ಮತ್ತು ರೇಷ್ಮೆ ಸಂಬಂಧಿತ ಚಟುವಟಿಕೆಗಳಿವೆ, ಜೊತೆಗೆ ಐತಿಹಾಸಿಕ ದೇವಾಲಯಗಳು ಮತ್ತು ಗಿರಿದುರ್ಗಗಳೂ ಇವೆ. ಬೆಂಗಳೂರಿನ ಉತ್ತರದ ಈ ಗ್ರಾಮೀಣ ಪ್ರದೇಶದಲ್ಲಿ ಕೃಷಿ, ಪರಂಪರೆ ಮತ್ತು ಬೆಟ್ಟದ ಸೌಂದರ್ಯ ಒಟ್ಟಾಗಿ ಕಾಣಸಿಗುತ್ತವೆ.",
+      "en": "Chikkaballapur is known for the scenic Nandi Hills and its surrounding agricultural landscape. The district has vineyards, horticulture and silk-related activity, along with historic temples and hill forts. It is a good example of how farming, heritage and hill scenery come together in the countryside north of Bengaluru, offering visitors both natural beauty and local livelihoods to explore."
+    },
+    "highlights": {
+      "kn": [
+        "ನಂದಿ ಬೆಟ್ಟ",
+        "ದ್ರಾಕ್ಷಿತೋಟಗಳು",
+        "ರೇಷ್ಮೆಗೆ ಸಂಬಂಧಿಸಿದ ಕೃಷಿ"
+      ],
+      "en": [
+        "Nandi Hills",
+        "Vineyards",
+        "Silk-related agriculture"
+      ]
+    },
+    "history": {
+      "kn": "",
+      "en": ""
+    },
+    "places": {
+      "kn": [],
+      "en": []
+    },
+    "food": {
+      "kn": [],
+      "en": []
+    },
+    "culture": {
+      "kn": "",
+      "en": ""
+    },
+    "source": "Karnataka_31_Districts.docx"
+  },
+  {
+    "id": "chikkamagaluru",
+    "code": "CHK",
+    "name": {
+      "kn": "ಚಿಕ್ಕಮಗಳೂರು",
+      "en": "Chikkamagaluru"
+    },
+    "aliases": [],
+    "image": {
+      "src": "/images/districts/chikkamagaluru.jpg",
+      "alt": {
+        "kn": "ಚಿಕ್ಕಮಗಳೂರು — ಸ್ಥಳೀಯ ಪರಂಪರೆಯ ನೋಟ",
+        "en": "Chikkamagaluru — a glimpse of local heritage"
+      },
+      "position": "center"
+    },
+    "description": {
+      "kn": "ಚಿಕ್ಕಮಗಳೂರು ಕಾಫಿ ಕೃಷಿ ಮತ್ತು ಸುಂದರ ಗುಡ್ಡಗಾಡು ಪ್ರದೇಶದೊಂದಿಗೆ ನಿಕಟ ಸಂಬಂಧ ಹೊಂದಿದೆ. ಇಲ್ಲಿನ ತೋಟಗಳು, ಮಂಜು ಮುಸುಕಿದ ಇಳಿಜಾರುಗಳು ಮತ್ತು ಚಾರಣ ಪ್ರದೇಶಗಳು ವರ್ಷಪೂರ್ತಿ ಪ್ರವಾಸಿಗರನ್ನು ಸೆಳೆಯುತ್ತವೆ. ಕರ್ನಾಟಕದ ಅತ್ಯಂತ ಎತ್ತರದ ಶಿಖರವಾದ ಮುಳ್ಳಯ್ಯನಗಿರಿ ಈ ಜಿಲ್ಲೆಯಲ್ಲಿದೆ. ಕಾಫಿ ತೋಟಗಳು, ಕಾಡುಗಳು ಮತ್ತು ಬೆಟ್ಟಗಳು ಇಲ್ಲಿನ ಜನಜೀವನವನ್ನು ಹೇಗೆ ರೂಪಿಸುತ್ತವೆ ಎಂಬುದನ್ನು ತಿಳಿಯಲು ಇದು ಉತ್ತಮ ತಾಣ.",
+      "en": "Chikkamagaluru is closely associated with coffee cultivation and beautiful hill country. Its plantations, misty slopes and trekking landscapes attract visitors throughout the year. Mullayanagiri, Karnataka’s highest peak, is located in this district. It is a favourite place to understand how coffee estates, forests and hills shape both the scenery and the everyday life of the region."
+    },
+    "highlights": {
+      "kn": [
+        "ಕಾಫಿ ತೋಟಗಳು",
+        "ಮುಳ್ಳಯ್ಯನಗಿರಿ ಬೆಟ್ಟ"
+      ],
+      "en": [
+        "Coffee plantations",
+        "Mullayanagiri hills"
+      ]
+    },
+    "history": {
+      "kn": "",
+      "en": ""
+    },
+    "places": {
+      "kn": [],
+      "en": []
+    },
+    "food": {
+      "kn": [],
+      "en": []
+    },
+    "culture": {
+      "kn": "",
+      "en": ""
+    },
+    "source": "Karnataka_31_Districts.docx"
+  },
+  {
+    "id": "chitradurga",
+    "code": "CHD",
+    "name": {
+      "kn": "ಚಿತ್ರದುರ್ಗ",
+      "en": "Chitradurga"
+    },
+    "aliases": [],
+    "image": {
+      "src": "/images/districts/chitradurga.jpg",
+      "alt": {
+        "kn": "ಚಿತ್ರದುರ್ಗ — ಸ್ಥಳೀಯ ಪರಂಪರೆಯ ನೋಟ",
+        "en": "Chitradurga — a glimpse of local heritage"
+      },
+      "position": "center"
+    },
+    "description": {
+      "kn": "ಚಿತ್ರದುರ್ಗ ತನ್ನ ಬೃಹತ್ ಗಿರಿದುರ್ಗಕ್ಕೆ ಹೆಸರಾಗಿದೆ; ಇದು ಹಲವಾರು ಕಲ್ಲಿನ ಬೆಟ್ಟಗಳ ಮೇಲೆ ಬಾಗಿಲುಗಳು, ಗೋಡೆಗಳು ಮತ್ತು ನೀರಿನ ರಚನೆಗಳೊಂದಿಗೆ ನಿರ್ಮಿತವಾಗಿದೆ. ಈ ಕೋಟೆ ಒನಕೆ ಓಬವ್ವನ ಧೈರ್ಯದ ಕಥೆಯೊಂದಿಗೆ ಸಂಬಂಧ ಹೊಂದಿದ್ದು ಕರ್ನಾಟಕದ ಪ್ರಸಿದ್ಧ ಪರಂಪರೆಯ ಹೆಗ್ಗುರುತುಗಳಲ್ಲಿ ಒಂದಾಗಿದೆ. ಇದರ ಅದ್ಭುತ ಕಲ್ಲಿನ ರಕ್ಷಣಾ ರಚನೆಗಳು ಸೇನಾ ವಾಸ್ತುಶಿಲ್ಪ ಮತ್ತು ಸ್ಥಳೀಯ ದಂತಕಥೆಗಳ ಬಗ್ಗೆ ಆಸಕ್ತರಿಗೆ ಆಕರ್ಷಕವಾಗಿವೆ.",
+      "en": "Chitradurga is best known for its massive hill fort, built across a series of rocky hills with gateways, walls and water structures. The fort is associated with the courageous story of Onake Obavva and is one of Karnataka’s best-known heritage landmarks. Its remarkable stone defences make the district a favourite for anyone curious about military architecture and local legends."
+    },
+    "highlights": {
+      "kn": [
+        "ಚಿತ್ರದುರ್ಗ ಕೋಟೆ",
+        "ಒನಕೆ ಓಬವ್ವನ ಕಥೆ"
+      ],
+      "en": [
+        "Chitradurga Fort",
+        "Onake Obavva legend"
+      ]
+    },
+    "history": {
+      "kn": "",
+      "en": ""
+    },
+    "places": {
+      "kn": [],
+      "en": []
+    },
+    "food": {
+      "kn": [],
+      "en": []
+    },
+    "culture": {
+      "kn": "",
+      "en": ""
+    },
+    "source": "Karnataka_31_Districts.docx"
+  },
+  {
+    "id": "dakshina-kannada",
+    "code": "DAK",
+    "name": {
+      "kn": "ದಕ್ಷಿಣ ಕನ್ನಡ",
+      "en": "Dakshina Kannada"
+    },
+    "aliases": [],
+    "image": {
+      "src": "/images/districts/dakshina-kannada.jpg",
+      "alt": {
+        "kn": "ದಕ್ಷಿಣ ಕನ್ನಡ — ಸ್ಥಳೀಯ ಪರಂಪರೆಯ ನೋಟ",
+        "en": "Dakshina Kannada — a glimpse of local heritage"
+      },
+      "position": "center"
+    },
+    "description": {
+      "kn": "ದಕ್ಷಿಣ ಕನ್ನಡ ಕಡಲತೀರಗಳು, ದೇವಾಲಯಗಳು, ಬಂದರುಗಳು ಮತ್ತು ವಿಶಿಷ್ಟ ಆಹಾರ ಪರಂಪರೆಗೆ ಹೆಸರಾದ ಕರಾವಳಿ ಜಿಲ್ಲೆ. ವಿಸ್ತೃತ ವೇಷಭೂಷಣ ಮತ್ತು ಸಂಗೀತದೊಂದಿಗಿನ ಉತ್ಸಾಹಭರಿತ ನೃತ್ಯ-ನಾಟಕ ಕಲೆಯಾದ ಯಕ್ಷಗಾನ ಕರಾವಳಿಯಲ್ಲಿ ಜನಪ್ರಿಯ. ಮಂಗಳೂರು ಪಾಕಪದ್ಧತಿಯಲ್ಲಿ ಸ್ಥಳೀಯ ಪದಾರ್ಥಗಳು ಮತ್ತು ಸಮುದಾಯಗಳಿಂದ ರೂಪುಗೊಂಡ ಖಾದ್ಯಗಳಿದ್ದು, ಕರಾವಳಿಯ ರುಚಿ ಮತ್ತು ಪ್ರದರ್ಶನ ಕಲೆಗಳನ್ನು ಒಟ್ಟಿಗೆ ಅನುಭವಿಸಬಹುದು.",
+      "en": "Dakshina Kannada is a coastal district known for its beaches, temples, ports and distinctive food traditions. Yakshagana, a vibrant form of dance-drama with elaborate costumes and music, is popular in the coastal region. Mangalorean cuisine includes dishes shaped by local ingredients and communities, giving visitors a taste of the coast alongside its performing arts."
+    },
+    "highlights": {
+      "kn": [
+        "ಕರಾವಳಿ ಸಂಸ್ಕೃತಿ",
+        "ಯಕ್ಷಗಾನ",
+        "ಮಂಗಳೂರಿನ ಪಾಕಪದ್ಧತಿ"
+      ],
+      "en": [
+        "Coastal culture",
+        "Yakshagana",
+        "Mangaluru cuisine"
+      ]
+    },
+    "history": {
+      "kn": "",
+      "en": ""
+    },
+    "places": {
+      "kn": [],
+      "en": []
+    },
+    "food": {
+      "kn": [],
+      "en": []
+    },
+    "culture": {
+      "kn": "",
+      "en": ""
+    },
+    "source": "Karnataka_31_Districts.docx"
+  },
+  {
+    "id": "davanagere",
+    "code": "DAV",
+    "name": {
+      "kn": "ದಾವಣಗೆರೆ",
+      "en": "Davanagere"
+    },
+    "aliases": [],
+    "image": {
+      "src": "/images/districts/davanagere.jpg",
+      "alt": {
+        "kn": "ದಾವಣಗೆರೆ — ಸ್ಥಳೀಯ ಪರಂಪರೆಯ ನೋಟ",
+        "en": "Davanagere — a glimpse of local heritage"
+      },
+      "position": "center"
+    },
+    "description": {
+      "kn": "ದಾವಣಗೆರೆ ತನ್ನ ಬೆಣ್ಣೆ ದೋಸೆಗೆ ವ್ಯಾಪಕವಾಗಿ ಹೆಸರಾಗಿದೆ; ಇದು ಕರ್ನಾಟಕದ ಅಚ್ಚುಮೆಚ್ಚಿನ ಆಹಾರ ವಿಶೇಷತೆ. ರಾಜ್ಯದ ಮಧ್ಯಭಾಗದಲ್ಲಿರುವ ಈ ಜಿಲ್ಲೆಯಲ್ಲಿ ಜವಳಿ ಮತ್ತು ಹತ್ತಿ ಸಂಬಂಧಿತ ಉದ್ಯಮಗಳ ಇತಿಹಾಸವೂ ಇದೆ. ಆಹಾರ ಮತ್ತು ಸ್ಥಳೀಯ ವ್ಯಾಪಾರ ಒಂದು ಜಿಲ್ಲೆಯ ಗುರುತನ್ನು ಹೇಗೆ ರೂಪಿಸುತ್ತವೆ ಎಂಬುದರ ಸರಳ ಮತ್ತು ಸ್ನೇಹಪೂರ್ಣ ಪರಿಚಯ ಇದು.",
+      "en": "Davanagere is widely recognised for its buttery benne dose, a much-loved Karnataka food speciality that many people travel to taste. Located in the central part of the state, the district also has a history of textile and cotton-related industries. It is a simple, friendly introduction to how food and local trade shape the identity of a district."
+    },
+    "highlights": {
+      "kn": [
+        "ದಾವಣಗೆರೆ ಬೆಣ್ಣೆ ದೋಸೆ",
+        "ಜವಳಿ ಪರಂಪರೆ"
+      ],
+      "en": [
+        "Davanagere benne dose",
+        "Textile heritage"
+      ]
+    },
+    "history": {
+      "kn": "",
+      "en": ""
+    },
+    "places": {
+      "kn": [],
+      "en": []
+    },
+    "food": {
+      "kn": [],
+      "en": []
+    },
+    "culture": {
+      "kn": "",
+      "en": ""
+    },
+    "source": "Karnataka_31_Districts.docx"
+  },
+  {
+    "id": "dharwad",
+    "code": "DHR",
+    "name": {
+      "kn": "ಧಾರವಾಡ",
+      "en": "Dharwad"
+    },
+    "aliases": [],
+    "image": {
+      "src": "/images/districts/dharwad.jpg",
+      "alt": {
+        "kn": "ಧಾರವಾಡ — ಸ್ಥಳೀಯ ಪರಂಪರೆಯ ನೋಟ",
+        "en": "Dharwad — a glimpse of local heritage"
+      },
+      "position": "center"
+    },
+    "description": {
+      "kn": "ಧಾರವಾಡ ಹಿಂದೂಸ್ತಾನಿ ಶಾಸ್ತ್ರೀಯ ಸಂಗೀತಕ್ಕೆ ನೀಡಿದ ಕೊಡುಗೆಗೆ ಮತ್ತು ಪ್ರಸಿದ್ಧ ಸಿಹಿ ಧಾರವಾಡ ಪೇಢೆಗೆ ಹೆಸರಾಗಿದೆ. ಜಿಲ್ಲೆಯಲ್ಲಿ ಬಲವಾದ ಶೈಕ್ಷಣಿಕ ಮತ್ತು ಸಾಹಿತ್ಯಿಕ ಸಂಸ್ಕೃತಿ ಇದ್ದು, ಐತಿಹಾಸಿಕ ಸಂಸ್ಥೆಗಳು ಹಾಗೂ ಕನ್ನಡ ಬರವಣಿಗೆ ಮತ್ತು ಪ್ರದರ್ಶನದ ಶ್ರೀಮಂತ ಪರಂಪರೆ ಇದೆ. ಸಂಗೀತ, ಕಲಿಕೆ ಮತ್ತು ಆಹಾರ ಒಂದು ಜಿಲ್ಲೆಯ ಹೆಮ್ಮೆಯ ಸಾಂಸ್ಕೃತಿಕ ಗುರುತಾಗಬಲ್ಲವು ಎಂಬುದನ್ನು ಇದು ತೋರಿಸುತ್ತದೆ.",
+      "en": "Dharwad is celebrated for its contribution to Hindustani classical music and for the famous Dharwad peda, a well-known sweet. The district has a strong educational and literary culture, with historic institutions and a rich tradition of Kannada writing and performance. It shows how music, learning and food can all become part of a district’s proud cultural identity."
+    },
+    "highlights": {
+      "kn": [
+        "ಧಾರವಾಡ ಪೇಡಾ",
+        "ಹಿಂದೂಸ್ತಾನಿ ಶಾಸ್ತ್ರೀಯ ಸಂಗೀತ"
+      ],
+      "en": [
+        "Dharwad peda",
+        "Hindustani classical music"
+      ]
+    },
+    "history": {
+      "kn": "",
+      "en": ""
+    },
+    "places": {
+      "kn": [],
+      "en": []
+    },
+    "food": {
+      "kn": [],
+      "en": []
+    },
+    "culture": {
+      "kn": "",
+      "en": ""
+    },
+    "source": "Karnataka_31_Districts.docx"
+  },
+  {
+    "id": "gadag",
+    "code": "GAD",
+    "name": {
+      "kn": "ಗದಗ",
+      "en": "Gadag"
+    },
+    "aliases": [],
+    "image": {
+      "src": "/images/districts/gadag.jpg",
+      "alt": {
+        "kn": "ಗದಗ — ಸ್ಥಳೀಯ ಪರಂಪರೆಯ ನೋಟ",
+        "en": "Gadag — a glimpse of local heritage"
+      },
+      "position": "center"
+    },
+    "description": {
+      "kn": "ಗದಗ ಲಕ್ಕುಂಡಿಯ ಐತಿಹಾಸಿಕ ದೇವಾಲಯಗಳು ಮತ್ತು ಮೆಟ್ಟಿಲು ಬಾವಿಗಳಿಗೆ ಹೆಸರಾಗಿದ್ದು, ಇವು ಈ ಪ್ರದೇಶದ ಸೂಕ್ಷ್ಮ ಕಲ್ಲಿನ ಕೆತ್ತನೆ ಕೌಶಲ್ಯವನ್ನು ತೋರಿಸುತ್ತವೆ. ಪಶ್ಚಿಮ ಚಾಲುಕ್ಯ ವಾಸ್ತುಶಿಲ್ಪದ ವಿಶಿಷ್ಟ ಗದಗ ಶೈಲಿ ಮತ್ತು ಪ್ರಮುಖ ಕನ್ನಡ ಸಾಹಿತ್ಯ ಪರಂಪರೆಯೊಂದಿಗೂ ಈ ಜಿಲ್ಲೆ ಸಂಬಂಧ ಹೊಂದಿದೆ. ಕಲೆ ಮತ್ತು ಇತಿಹಾಸದ ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ಕೆತ್ತಿದ ಕಲ್ಲು ಮತ್ತು ಸಾಹಿತ್ಯ ಒಟ್ಟಾಗಿ ಬೆಳೆದ ರೀತಿಯನ್ನು ಕಾಣಲು ಇದು ಉತ್ತಮ ತಾಣ.",
+      "en": "Gadag is known for the historic temples and stepwells of Lakkundi, which showcase the region’s fine stone craftsmanship. The district is also associated with the distinctive Gadag style of Western Chalukyan architecture and with important Kannada literary heritage. For students of art and history, it is a rewarding place to see how carved stone and literature developed together."
+    },
+    "highlights": {
+      "kn": [
+        "ಲಕ್ಕುಂಡಿ ದೇವಾಲಯಗಳು ಮತ್ತು ಮೆಟ್ಟಿಲು ಬಾವಿಗಳು",
+        "ಗದಗ ಶೈಲಿಯ ವಾಸ್ತುಶಿಲ್ಪ",
+        "ಕನ್ನಡ ಸಾಹಿತ್ಯ ಪರಂಪರೆ"
+      ],
+      "en": [
+        "Lakkundi temples and stepwells",
+        "Gadag style architecture",
+        "Kannada literary heritage"
+      ]
+    },
+    "history": {
+      "kn": "",
+      "en": ""
+    },
+    "places": {
+      "kn": [],
+      "en": []
+    },
+    "food": {
+      "kn": [],
+      "en": []
+    },
+    "culture": {
+      "kn": "",
+      "en": ""
+    },
+    "source": "Karnataka_31_Districts.docx"
+  },
+  {
+    "id": "hassan",
+    "code": "HAS",
+    "name": {
+      "kn": "ಹಾಸನ",
+      "en": "Hassan"
+    },
+    "aliases": [],
+    "image": {
+      "src": "/images/districts/hassan.jpg",
+      "alt": {
+        "kn": "ಹಾಸನ — ಸ್ಥಳೀಯ ಪರಂಪರೆಯ ನೋಟ",
+        "en": "Hassan — a glimpse of local heritage"
+      },
+      "position": "center"
+    },
+    "description": {
+      "kn": "ಹಾಸನ ಹೊಯ್ಸಳ ಕಲೆ ಮತ್ತು ವಾಸ್ತುಶಿಲ್ಪದ ಪ್ರಮುಖ ಕೇಂದ್ರ. ಬೇಲೂರಿನ ಚೆನ್ನಕೇಶವ ದೇವಾಲಯ ಮತ್ತು ಹಳೇಬೀಡಿನ ಹೊಯ್ಸಳೇಶ್ವರ ದೇವಾಲಯಗಳು ತಮ್ಮ ಸೂಕ್ಷ್ಮ ಕಲ್ಲಿನ ಕೆತ್ತನೆ, ಶಿಲ್ಪಗಳು ಮತ್ತು ದೇವಾಲಯ ವಿನ್ಯಾಸಕ್ಕೆ ಹೆಸರಾಗಿವೆ. ಪ್ರತಿ ಕಂಬ, ಗೋಡೆ ಮತ್ತು ಬಾಗಿಲು ಒಂದು ಕಥೆ ಹೇಳುವಂತಿದ್ದು, ಕರ್ನಾಟಕದ ದೇವಾಲಯ ಪರಂಪರೆಯ ಬಗ್ಗೆ ಆಸಕ್ತರಿಗೆ ಇದು ಮೊದಲ ತಾಣವಾಗಿರುತ್ತದೆ.",
+      "en": "Hassan is a major centre of Hoysala art and architecture. The Chennakeshava Temple at Belur and the Hoysaleswara Temple at Halebidu are celebrated for their detailed stone carvings, sculptures and temple design. Every pillar, wall and doorway seems to tell a story, which is why the district is often a first stop for anyone interested in Karnataka’s temple heritage."
+    },
+    "highlights": {
+      "kn": [
+        "ಬೇಲೂರಿನ ಚೆನ್ನಕೇಶವ ದೇವಾಲಯ",
+        "ಹಳೇಬೀಡಿನ ಹೊಯ್ಸಳೇಶ್ವರ ದೇವಾಲಯ",
+        "ಹೊಯ್ಸಳ ವಾಸ್ತುಶಿಲ್ಪ"
+      ],
+      "en": [
+        "Belur Chennakeshava Temple",
+        "Halebidu Hoysaleswara Temple",
+        "Hoysala architecture"
+      ]
+    },
+    "history": {
+      "kn": "",
+      "en": ""
+    },
+    "places": {
+      "kn": [],
+      "en": []
+    },
+    "food": {
+      "kn": [],
+      "en": []
+    },
+    "culture": {
+      "kn": "",
+      "en": ""
+    },
+    "source": "Karnataka_31_Districts.docx"
+  },
+  {
+    "id": "haveri",
+    "code": "HAV",
+    "name": {
+      "kn": "ಹಾವೇರಿ",
+      "en": "Haveri"
+    },
+    "aliases": [],
+    "image": {
+      "src": "/images/districts/haveri.jpg",
+      "alt": {
+        "kn": "ಹಾವೇರಿ — ಸ್ಥಳೀಯ ಪರಂಪರೆಯ ನೋಟ",
+        "en": "Haveri — a glimpse of local heritage"
+      },
+      "position": "center"
+    },
+    "description": {
+      "kn": "ಹಾವೇರಿ ಬ್ಯಾಡಗಿ ಮೆಣಸಿನಕಾಯಿಗೆ ವಿಶೇಷವಾಗಿ ಹೆಸರಾಗಿದ್ದು, ಅದರ ಗಾಢ ಕೆಂಪು ಬಣ್ಣ ಮತ್ತು ವಿಶಿಷ್ಟ ರುಚಿಗೆ ಮೌಲ್ಯವಿದೆ. ಜಿಲ್ಲೆಯಲ್ಲಿ ಬಂಕಾಪುರದಂತಹ ಐತಿಹಾಸಿಕ ದೇವಾಲಯಗಳು ಮತ್ತು ತಾಣಗಳಿದ್ದು, ಪ್ರದೇಶದ ದೀರ್ಘ ಸಾಂಸ್ಕೃತಿಕ ಇತಿಹಾಸವನ್ನು ಪ್ರತಿಬಿಂಬಿಸುತ್ತವೆ. ಇಲ್ಲಿಗೆ ಭೇಟಿ ನೀಡಿದರೆ ಅನೇಕ ಅಡುಗೆಮನೆಗಳಿಗೆ ಬಣ್ಣ ನೀಡುವ ಸಾಂಬಾರ ಪದಾರ್ಥವನ್ನು ಜಿಲ್ಲೆಯ ಹಳೆಯ ಪಟ್ಟಣಗಳು ಮತ್ತು ದೇವಾಲಯಗಳೊಂದಿಗೆ ಬೆಸೆಯಬಹುದು.",
+      "en": "Haveri is especially known for Byadgi chilli, valued for its deep red colour and distinctive flavour. The district also has historic temples and sites such as Bankapura, reflecting the region’s long cultural history. A visit here connects the spice that colours many Indian kitchens with the old towns and temples that give the district its character and heritage."
+    },
+    "highlights": {
+      "kn": [
+        "ಬ್ಯಾಡಗಿ ಮೆಣಸಿನಕಾಯಿ",
+        "ಬಂಕಾಪುರ"
+      ],
+      "en": [
+        "Byadgi chilli",
+        "Bankapura"
+      ]
+    },
+    "history": {
+      "kn": "",
+      "en": ""
+    },
+    "places": {
+      "kn": [],
+      "en": []
+    },
+    "food": {
+      "kn": [],
+      "en": []
+    },
+    "culture": {
+      "kn": "",
+      "en": ""
+    },
+    "source": "Karnataka_31_Districts.docx"
+  },
+  {
+    "id": "kalaburagi",
+    "code": "GUL",
+    "name": {
+      "kn": "ಕಲಬುರಗಿ",
+      "en": "Kalaburagi"
+    },
+    "aliases": [],
+    "image": {
+      "src": "/images/districts/kalaburagi.jpg",
+      "alt": {
+        "kn": "ಕಲಬುರಗಿ — ಸ್ಥಳೀಯ ಪರಂಪರೆಯ ನೋಟ",
+        "en": "Kalaburagi — a glimpse of local heritage"
+      },
+      "position": "center"
+    },
+    "description": {
+      "kn": "ಕಲಬುರಗಿ ಶ್ರೀಮಂತ ದಖ್ಖನ್ ಇತಿಹಾಸ ಹೊಂದಿದ್ದು, ಗುಲ್ಬರ್ಗಾ ಕೋಟೆ ಮತ್ತು ಪ್ರಮುಖ ಸೂಫಿ ಕೇಂದ್ರವಾದ ಖ್ವಾಜಾ ಬಂದೇನವಾಜ್ ದರ್ಗಾಕ್ಕೆ ಹೆಸರಾಗಿದೆ. ಜೋಳದ ಖಾದ್ಯಗಳು ಮತ್ತು ಸ್ಥಳೀಯ ಆಹಾರ ಪರಂಪರೆಗಳೂ ಜಿಲ್ಲೆಯ ಗುರುತಿನ ಭಾಗ. ಕರ್ನಾಟಕದ ಉತ್ತರ ಭಾಗದಲ್ಲಿ ಮಧ್ಯಕಾಲೀನ ಕೋಟೆಗಳು, ಆಧ್ಯಾತ್ಮಿಕ ಪರಂಪರೆ ಮತ್ತು ದೈನಂದಿನ ಆಹಾರ ಒಂದೆಡೆ ಸೇರುವುದನ್ನು ಇಲ್ಲಿ ಕಾಣಬಹುದು.",
+      "en": "Kalaburagi has a rich Deccan history and is known for the Gulbarga Fort and the Khwaja Bande Nawaz Dargah, an important Sufi centre. Jowar-based dishes and local food traditions are also part of the district’s identity. It offers a meeting point of medieval fortifications, spiritual heritage and everyday cuisine in the northern part of Karnataka."
+    },
+    "highlights": {
+      "kn": [
+        "ಕಲಬುರಗಿ ಕೋಟೆ",
+        "ಖ್ವಾಜಾ ಬಂದೇ ನವಾಜ್ ದರ್ಗಾ",
+        "ಜೋಳ ಆಧಾರಿತ ಆಹಾರ"
+      ],
+      "en": [
+        "Gulbarga Fort",
+        "Khwaja Bande Nawaz Dargah",
+        "Jowar-based food"
+      ]
+    },
+    "history": {
+      "kn": "",
+      "en": ""
+    },
+    "places": {
+      "kn": [],
+      "en": []
+    },
+    "food": {
+      "kn": [],
+      "en": []
+    },
+    "culture": {
+      "kn": "",
+      "en": ""
+    },
+    "source": "Karnataka_31_Districts.docx"
+  },
+  {
+    "id": "kodagu",
+    "code": "KOD",
+    "name": {
+      "kn": "ಕೊಡಗು",
+      "en": "Kodagu"
+    },
+    "aliases": [],
+    "image": {
+      "src": "/images/districts/kodagu.jpg",
+      "alt": {
+        "kn": "ಕೊಡಗು — ಸ್ಥಳೀಯ ಪರಂಪರೆಯ ನೋಟ",
+        "en": "Kodagu — a glimpse of local heritage"
+      },
+      "position": "center"
+    },
+    "description": {
+      "kn": "ಕೊಡಗು, ಕೂರ್ಗ್ ಎಂದೂ ಕರೆಯಲ್ಪಡುತ್ತದೆ, ಕಾಫಿ ತೋಟಗಳು, ಹಸಿರು ಬೆಟ್ಟಗಳು ಮತ್ತು ವಿಶಿಷ್ಟ ಕೊಡವ ಸಂಸ್ಕೃತಿಗೆ ಪ್ರಸಿದ್ಧ. ಏಲಕ್ಕಿ, ಅರಣ್ಯ ಪ್ರದೇಶಗಳು ಮತ್ತು ಕೊಯ್ಲು ಹಬ್ಬ ಪುತ್ತರಿಯಂತಹ ಸಂಪ್ರದಾಯಗಳಿಗೂ ಹೆಸರಾಗಿದೆ. ಪಂದಿ ಕರಿಯಂತಹ ಸ್ಥಳೀಯ ಖಾದ್ಯಗಳು ಇಲ್ಲಿನ ಆಹಾರ ಪರಂಪರೆಯ ಭಾಗ; ಹೀಗಾಗಿ ಇಲ್ಲಿನ ಸೌಂದರ್ಯ, ಹಬ್ಬಗಳು ಮತ್ತು ಆಹಾರ ರಾಜ್ಯದ ಇತರ ಭಾಗಗಳಿಗಿಂತ ಭಿನ್ನವೆನಿಸುತ್ತವೆ.",
+      "en": "Kodagu, also known as Coorg, is famous for its coffee estates, green hills and distinctive Kodava culture. The district is also known for cardamom, forest landscapes and traditions such as the harvest festival Puthari. Its cuisine includes local specialities such as pandi curry, so a visit offers scenery, festivals and food that feel different from the rest of the state."
+    },
+    "highlights": {
+      "kn": [
+        "ಕಾಫಿ ತೋಟಗಳು",
+        "ಏಲಕ್ಕಿ",
+        "ಕೊಡವ ಸಂಸ್ಕೃತಿ"
+      ],
+      "en": [
+        "Coffee estates",
+        "Cardamom",
+        "Kodava culture"
+      ]
+    },
+    "history": {
+      "kn": "",
+      "en": ""
+    },
+    "places": {
+      "kn": [],
+      "en": []
+    },
+    "food": {
+      "kn": [],
+      "en": []
+    },
+    "culture": {
+      "kn": "",
+      "en": ""
+    },
+    "source": "Karnataka_31_Districts.docx"
+  },
+  {
+    "id": "kolar",
+    "code": "KOL",
+    "name": {
+      "kn": "ಕೋಲಾರ",
+      "en": "Kolar"
+    },
+    "aliases": [],
+    "image": {
+      "src": "/images/districts/kolar.jpg",
+      "alt": {
+        "kn": "ಕೋಲಾರ — ಸ್ಥಳೀಯ ಪರಂಪರೆಯ ನೋಟ",
+        "en": "Kolar — a glimpse of local heritage"
+      },
+      "position": "center"
+    },
+    "description": {
+      "kn": "ಕೋಲಾರ ಒಂದು ಕಾಲದಲ್ಲಿ ಭಾರತದ ಅತ್ಯಂತ ಪ್ರಸಿದ್ಧ ಚಿನ್ನದ ಗಣಿ ಕೇಂದ್ರಗಳಲ್ಲಿ ಒಂದಾಗಿದ್ದ ಐತಿಹಾಸಿಕ ಕೋಲಾರ ಚಿನ್ನದ ಗಣಿಗಳೊಂದಿಗೆ (ಕೆಜಿಎಫ್) ಸಂಬಂಧ ಹೊಂದಿದೆ. ಜಿಲ್ಲೆ ಪ್ರಮುಖ ತೋಟಗಾರಿಕೆ ಪ್ರದೇಶವೂ ಆಗಿದ್ದು, ಟೊಮೆಟೊ ಬೆಳೆಗೆ ವ್ಯಾಪಕವಾಗಿ ಹೆಸರಾಗಿದೆ. ಗಣಿ ಪರಂಪರೆ ಮತ್ತು ಕೃಷಿ ಸೇರಿ ಭೂಮಿ, ಸಂಪನ್ಮೂಲ ಮತ್ತು ಜೀವನೋಪಾಯ ಜಿಲ್ಲೆಯ ಕಥೆಯನ್ನು ಹೇಗೆ ರೂಪಿಸಿವೆ ಎಂಬುದನ್ನು ಕೋಲಾರ ತೋರಿಸುತ್ತದೆ.",
+      "en": "Kolar is associated with the historic Kolar Gold Fields, once among India’s best-known gold-mining centres. The district is also an important horticultural region and is widely associated with tomato cultivation. Together, mining heritage and farming make Kolar an interesting place to see how land, resources and livelihoods have shaped a district’s story over many decades."
+    },
+    "highlights": {
+      "kn": [
+        "ಕೋಲಾರ ಚಿನ್ನದ ಗಣಿ ಪರಂಪರೆ",
+        "ಟೊಮೇಟೊ ಕೃಷಿ"
+      ],
+      "en": [
+        "Kolar Gold Fields heritage",
+        "Tomato cultivation"
+      ]
+    },
+    "history": {
+      "kn": "",
+      "en": ""
+    },
+    "places": {
+      "kn": [],
+      "en": []
+    },
+    "food": {
+      "kn": [],
+      "en": []
+    },
+    "culture": {
+      "kn": "",
+      "en": ""
+    },
+    "source": "Karnataka_31_Districts.docx"
+  },
+  {
+    "id": "koppal",
+    "code": "KOP",
+    "name": {
+      "kn": "ಕೊಪ್ಪಳ",
+      "en": "Koppal"
+    },
+    "aliases": [],
+    "image": {
+      "src": "/images/districts/koppal.jpg",
+      "alt": {
+        "kn": "ಕೊಪ್ಪಳ — ಸ್ಥಳೀಯ ಪರಂಪರೆಯ ನೋಟ",
+        "en": "Koppal — a glimpse of local heritage"
+      },
+      "position": "center"
+    },
+    "description": {
+      "kn": "ಕೊಪ್ಪಳ ಜಿಲ್ಲೆ ಕೊಪ್ಪಳ ಕೋಟೆ ಮತ್ತು ಹಂಪಿಗೆ ತುಂಗಭದ್ರಾ ನದಿಯ ಆಚೆ ಇರುವ ಪ್ರಾಚೀನ ವಸಾಹತು ಆನೆಗೊಂದಿ ಸೇರಿದಂತೆ ಶ್ರೀಮಂತ ಪುರಾತತ್ವ ಮತ್ತು ಐತಿಹಾಸಿಕ ಪರಿಸರ ಹೊಂದಿದೆ. ಇಲ್ಲಿನ ಸ್ಮಾರಕಗಳು ಮತ್ತು ಬಂಡೆಗಳ ದೃಶ್ಯಗಳು ಜಿಲ್ಲೆಯನ್ನು ವಿಜಯನಗರ ಪ್ರದೇಶದ ಕಥೆಯೊಂದಿಗೆ ಜೋಡಿಸುತ್ತವೆ. ಶಾಂತ ಅವಶೇಷಗಳು, ನದಿಯ ನೋಟಗಳು ಮತ್ತು ಬಂಡೆಗಳ ಬೆಟ್ಟಗಳನ್ನು ಇಷ್ಟಪಡುವವರಿಗೆ ಇಲ್ಲಿ ಬಹಳಷ್ಟು ಇದೆ.",
+      "en": "Koppal district has a rich archaeological and historical landscape, including Koppal Fort and Anegundi, an ancient settlement across the Tungabhadra from Hampi. Its monuments and rocky scenery connect the district to the story of the Vijayanagara region. Visitors who enjoy quiet ruins, river views and boulder-strewn hills will find plenty to explore here."
+    },
+    "highlights": {
+      "kn": [
+        "ಆನೆಗೊಂದಿ",
+        "ಕೊಪ್ಪಳ ಕೋಟೆ",
+        "ಹಂಪಿಯ ಪರಂಪರೆಯ ಪರಿಸರ"
+      ],
+      "en": [
+        "Anegundi",
+        "Koppal Fort",
+        "Hampi heritage landscape"
+      ]
+    },
+    "history": {
+      "kn": "",
+      "en": ""
+    },
+    "places": {
+      "kn": [],
+      "en": []
+    },
+    "food": {
+      "kn": [],
+      "en": []
+    },
+    "culture": {
+      "kn": "",
+      "en": ""
+    },
+    "source": "Karnataka_31_Districts.docx"
+  },
+  {
+    "id": "mandya",
+    "code": "MAN",
+    "name": {
+      "kn": "ಮಂಡ್ಯ",
+      "en": "Mandya"
+    },
+    "aliases": [],
+    "image": {
+      "src": "/images/districts/mandya.jpg",
+      "alt": {
+        "kn": "ಮಂಡ್ಯ — ಸ್ಥಳೀಯ ಪರಂಪರೆಯ ನೋಟ",
+        "en": "Mandya — a glimpse of local heritage"
+      },
+      "position": "center"
+    },
+    "description": {
+      "kn": "ವ್ಯಾಪಕ ಕಬ್ಬು ಕೃಷಿ ಮತ್ತು ಸಕ್ಕರೆ ಉದ್ಯಮದಿಂದಾಗಿ ಮಂಡ್ಯವನ್ನು ಕರ್ನಾಟಕದ ಸಕ್ಕರೆಯ ಬಟ್ಟಲು ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ. ಜಿಲ್ಲೆ ಬೆಲ್ಲ, ಕೃಷ್ಣರಾಜ ಸಾಗರ (ಕೆಆರ್‌ಎಸ್) ಅಣೆಕಟ್ಟು ಮತ್ತು ಬೃಂದಾವನ ಉದ್ಯಾನಗಳಿಗೂ ಹೆಸರಾಗಿದೆ. ಕೃಷಿ, ಜಲ ನಿರ್ವಹಣೆ ಮತ್ತು ಸಾರ್ವಜನಿಕ ಉದ್ಯಾನಗಳು ಒಂದು ಜಿಲ್ಲೆಯ ಸ್ವರೂಪವನ್ನು ಹೇಗೆ ರೂಪಿಸುತ್ತವೆ ಎಂಬುದಕ್ಕೆ ಇದು ಸುಂದರ ಉದಾಹರಣೆ.",
+      "en": "Mandya is often called the sugar bowl of Karnataka because of its extensive sugarcane cultivation and sugar industry. The district is also known for jaggery, the Krishna Raja Sagara (KRS) dam and the Brindavan Gardens. It is a lovely example of how agriculture, water management and public gardens come together to define the character of a district."
+    },
+    "highlights": {
+      "kn": [
+        "ಕಬ್ಬು ಮತ್ತು ಬೆಲ್ಲ",
+        "ಕೆಆರ್‌ಎಸ್ ಅಣೆಕಟ್ಟು",
+        "ಬೃಂದಾವನ ಉದ್ಯಾನ"
+      ],
+      "en": [
+        "Sugarcane and jaggery",
+        "KRS dam",
+        "Brindavan Gardens"
+      ]
+    },
+    "history": {
+      "kn": "",
+      "en": ""
+    },
+    "places": {
+      "kn": [],
+      "en": []
+    },
+    "food": {
+      "kn": [],
+      "en": []
+    },
+    "culture": {
+      "kn": "",
+      "en": ""
+    },
+    "source": "Karnataka_31_Districts.docx"
+  },
+  {
+    "id": "mysuru",
+    "code": "MYS",
+    "name": {
+      "kn": "ಮೈಸೂರು",
+      "en": "Mysuru"
+    },
+    "aliases": [],
+    "image": {
+      "src": "/images/districts/mysuru.jpg",
+      "alt": {
+        "kn": "ಮೈಸೂರು — ಸ್ಥಳೀಯ ಪರಂಪರೆಯ ನೋಟ",
+        "en": "Mysuru — a glimpse of local heritage"
+      },
+      "position": "center"
+    },
+    "description": {
+      "kn": "ಮೈಸೂರು ತನ್ನ ರಾಜ ಪರಂಪರೆಗೆ ಮತ್ತು ವೈಭವದ ಮೈಸೂರು ದಸರಾ ಆಚರಣೆಗೆ ಪ್ರಸಿದ್ಧ. ಮೈಸೂರು ಅರಮನೆ, ಸಾಂಪ್ರದಾಯಿಕ ಚಿತ್ರಕಲೆ, ಮೈಸೂರು ರೇಷ್ಮೆ ಮತ್ತು ಮೈಸೂರು ಪಾಕ್ ಇದರ ಪ್ರಸಿದ್ಧ ಸಾಂಸ್ಕೃತಿಕ ಸಂಕೇತಗಳು. ಕರ್ನಾಟಕದ ಕಲೆ, ಸಂಗೀತ ಮತ್ತು ಪರಂಪರೆಯಲ್ಲಿ ಈ ನಗರ ಪ್ರಮುಖ ಪಾತ್ರ ವಹಿಸಿದ್ದು, ರಾಜ್ಯದ ಸಂಪ್ರದಾಯಗಳನ್ನು ಅನುಭವಿಸಲು ಈಗಲೂ ಅತ್ಯಂತ ಜನಪ್ರಿಯ ತಾಣಗಳಲ್ಲಿ ಒಂದು.",
+      "en": "Mysuru is famous for its royal heritage and the grand celebration of Mysuru Dasara. Mysuru Palace, traditional painting, Mysore silk and Mysore pak are among its best-known cultural symbols. The city has played an important role in Karnataka’s art, music and heritage, and it remains one of the most popular places to experience the state’s traditions."
+    },
+    "highlights": {
+      "kn": [
+        "ಮೈಸೂರು ಅರಮನೆ",
+        "ಮೈಸೂರು ದಸರಾ",
+        "ಮೈಸೂರು ರೇಷ್ಮೆ ಮತ್ತು ಮೈಸೂರು ಪಾಕ್"
+      ],
+      "en": [
+        "Mysuru Palace",
+        "Mysuru Dasara",
+        "Mysore silk and Mysore pak"
+      ]
+    },
+    "history": {
+      "kn": "",
+      "en": ""
+    },
+    "places": {
+      "kn": [],
+      "en": []
+    },
+    "food": {
+      "kn": [],
+      "en": []
+    },
+    "culture": {
+      "kn": "",
+      "en": ""
+    },
+    "source": "Karnataka_31_Districts.docx"
+  },
+  {
+    "id": "raichur",
+    "code": "RAI",
+    "name": {
+      "kn": "ರಾಯಚೂರು",
+      "en": "Raichur"
+    },
+    "aliases": [],
+    "image": {
+      "src": "/images/districts/raichur.jpg",
+      "alt": {
+        "kn": "ರಾಯಚೂರು — ಸ್ಥಳೀಯ ಪರಂಪರೆಯ ನೋಟ",
+        "en": "Raichur — a glimpse of local heritage"
+      },
+      "position": "center"
+    },
+    "description": {
+      "kn": "ರಾಯಚೂರು ಕೃಷ್ಣಾ ಮತ್ತು ತುಂಗಭದ್ರಾ ನದಿಗಳ ನಡುವಿನ ಐತಿಹಾಸಿಕವಾಗಿ ಮಹತ್ವದ ಪ್ರದೇಶದಲ್ಲಿದ್ದು, ಇದನ್ನು ರಾಯಚೂರು ದೋಆಬ್ ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ. ಇಲ್ಲಿನ ಕೋಟೆ ದಖ್ಖನ್ ರಾಜ್ಯಗಳ ನಡುವಿನ ಶತಮಾನಗಳ ಪೈಪೋಟಿಯನ್ನು ಪ್ರತಿಬಿಂಬಿಸುತ್ತದೆ. ಭತ್ತ ಮತ್ತು ಹತ್ತಿ ಸೇರಿದಂತೆ ಕೃಷಿಗೂ ಜಿಲ್ಲೆ ಹೆಸರಾಗಿದ್ದು, ಇದರ ಕಥೆ ಸೇನಾ ಇತಿಹಾಸ ಮತ್ತು ತಲೆಮಾರುಗಳಿಂದ ಜನರನ್ನು ಪೋಷಿಸಿದ ಫಲವತ್ತಾದ ನದಿ ಭೂಮಿಯನ್ನು ಬೆಸೆಯುತ್ತದೆ.",
+      "en": "Raichur lies in the historically important region between the Krishna and Tungabhadra rivers, known as the Raichur Doab. Its fort reflects centuries of competition between Deccan kingdoms. The district is also known for agriculture, including paddy and cotton, so its story combines military history with the fertile river lands that have supported people for generations."
+    },
+    "highlights": {
+      "kn": [
+        "ರಾಯಚೂರು ಕೋಟೆ",
+        "ರಾಯಚೂರು ದೋಆಬ್"
+      ],
+      "en": [
+        "Raichur Fort",
+        "Raichur Doab"
+      ]
+    },
+    "history": {
+      "kn": "",
+      "en": ""
+    },
+    "places": {
+      "kn": [],
+      "en": []
+    },
+    "food": {
+      "kn": [],
+      "en": []
+    },
+    "culture": {
+      "kn": "",
+      "en": ""
+    },
+    "source": "Karnataka_31_Districts.docx"
+  },
+  {
+    "id": "shivamogga",
+    "code": "SHI",
+    "name": {
+      "kn": "ಶಿವಮೊಗ್ಗ",
+      "en": "Shivamogga"
+    },
+    "aliases": [],
+    "image": {
+      "src": "/images/districts/shivamogga.jpg",
+      "alt": {
+        "kn": "ಶಿವಮೊಗ್ಗ — ಸ್ಥಳೀಯ ಪರಂಪರೆಯ ನೋಟ",
+        "en": "Shivamogga — a glimpse of local heritage"
+      },
+      "position": "center"
+    },
+    "description": {
+      "kn": "ಶಿವಮೊಗ್ಗ ತನ್ನ ಹಸಿರು ಮಲೆನಾಡಿನ ಪರಿಸರ, ನದಿಗಳು ಮತ್ತು ಜಲಪಾತಗಳಿಗೆ ಹೆಸರಾಗಿದೆ. ಶರಾವತಿ ನದಿಯ ಮೇಲಿರುವ ಜೋಗ ಜಲಪಾತ ಭಾರತದ ಪ್ರಸಿದ್ಧ ಜಲಪಾತಗಳಲ್ಲಿ ಒಂದು. ಜಿಲ್ಲೆಯಲ್ಲಿ ಸಮೃದ್ಧ ಜೀವವೈವಿಧ್ಯ, ಐತಿಹಾಸಿಕ ತಾಣಗಳು ಮತ್ತು ಅಡಿಕೆ ಕೃಷಿಯೂ ಇದ್ದು, ಹಸಿರು ಬೆಟ್ಟಗಳು, ಹರಿಯುವ ನೀರು ಮತ್ತು ಪಶ್ಚಿಮ ಘಟ್ಟ ಪ್ರದೇಶದ ಸಾಂಪ್ರದಾಯಿಕ ಗ್ರಾಮೀಣ ಜೀವನವನ್ನು ಇಷ್ಟಪಡುವ ಪ್ರಕೃತಿ ಪ್ರೇಮಿಗಳಿಗೆ ಇದು ಉತ್ತಮ ತಾಣ.",
+      "en": "Shivamogga is known for its lush Malnad landscapes, rivers and waterfalls. Jog Falls on the Sharavathi River is one of India’s celebrated waterfalls. The district also has rich biodiversity, historic sites and areca-nut cultivation, making it a rewarding stop for nature lovers who enjoy green hills, flowing water and the traditional rural life of the Western Ghats region."
+    },
+    "highlights": {
+      "kn": [
+        "ಜೋಗ ಜಲಪಾತ",
+        "ಮಲೆನಾಡಿನ ಪರಿಸರ",
+        "ಅಡಿಕೆ ಕೃಷಿ"
+      ],
+      "en": [
+        "Jog Falls",
+        "Malnad landscapes",
+        "Areca-nut cultivation"
+      ]
+    },
+    "history": {
+      "kn": "",
+      "en": ""
+    },
+    "places": {
+      "kn": [],
+      "en": []
+    },
+    "food": {
+      "kn": [],
+      "en": []
+    },
+    "culture": {
+      "kn": "",
+      "en": ""
+    },
+    "source": "Karnataka_31_Districts.docx"
+  },
+  {
+    "id": "tumakuru",
+    "code": "TUM",
+    "name": {
+      "kn": "ತುಮಕೂರು",
+      "en": "Tumakuru"
+    },
+    "aliases": [],
+    "image": {
+      "src": "/images/districts/tumakuru.jpg",
+      "alt": {
+        "kn": "ತುಮಕೂರು — ಸ್ಥಳೀಯ ಪರಂಪರೆಯ ನೋಟ",
+        "en": "Tumakuru — a glimpse of local heritage"
+      },
+      "position": "center"
+    },
+    "description": {
+      "kn": "ತುಮಕೂರು ದೇವರಾಯನದುರ್ಗದ ಬೆಟ್ಟದ ದೇವಾಲಯಗಳು ಮತ್ತು ಪರಿಸರಕ್ಕೆ, ಹಾಗೂ ಶಿಕ್ಷಣ ಮತ್ತು ಸಮಾಜ ಸೇವೆಯ ಪರಂಪರೆಗಾಗಿ ಗೌರವಿಸಲ್ಪಡುವ ಸಿದ್ಧಗಂಗಾ ಮಠಕ್ಕೆ ಹೆಸರಾಗಿದೆ. ಜಿಲ್ಲೆಯಲ್ಲಿ ಪ್ರಮುಖ ಕೃಷಿ ಮತ್ತು ಕೈಗಾರಿಕಾ ಚಟುವಟಿಕೆಗಳೂ ಇವೆ. ಬೆಂಗಳೂರಿನಿಂದ ಹೆಚ್ಚು ದೂರವಿಲ್ಲದ ಒಂದೇ ಜಿಲ್ಲೆಯಲ್ಲಿ ಬೆಟ್ಟದ ಸೌಂದರ್ಯ, ಆಧ್ಯಾತ್ಮಿಕ ಸಂಸ್ಥೆಗಳು ಮತ್ತು ದೈನಂದಿನ ಆರ್ಥಿಕ ಜೀವನ ಹೇಗೆ ಜೊತೆಯಾಗಿರುತ್ತವೆ ಎಂಬುದನ್ನು ಇದು ತೋರಿಸುತ್ತದೆ.",
+      "en": "Tumakuru is known for Devarayanadurga’s hill temples and landscapes, as well as Siddaganga Mutt, respected for its educational and social service traditions. The district also has important agricultural and industrial activity. It shows how hill scenery, spiritual institutions and everyday economic life can sit together in a single district not far from Bengaluru."
+    },
+    "highlights": {
+      "kn": [
+        "ದೇವರಾಯನದುರ್ಗದ ಬೆಟ್ಟಗಳು",
+        "ಸಿದ್ಧಗಂಗಾ ಮಠ"
+      ],
+      "en": [
+        "Devarayanadurga hills",
+        "Siddaganga Mutt"
+      ]
+    },
+    "history": {
+      "kn": "",
+      "en": ""
+    },
+    "places": {
+      "kn": [],
+      "en": []
+    },
+    "food": {
+      "kn": [],
+      "en": []
+    },
+    "culture": {
+      "kn": "",
+      "en": ""
+    },
+    "source": "Karnataka_31_Districts.docx"
+  },
+  {
+    "id": "udupi",
+    "code": "UDU",
+    "name": {
+      "kn": "ಉಡುಪಿ",
+      "en": "Udupi"
+    },
+    "aliases": [],
+    "image": {
+      "src": "/images/districts/udupi.jpg",
+      "alt": {
+        "kn": "ಉಡುಪಿ — ಸ್ಥಳೀಯ ಪರಂಪರೆಯ ನೋಟ",
+        "en": "Udupi — a glimpse of local heritage"
+      },
+      "position": "center"
+    },
+    "description": {
+      "kn": "ಉಡುಪಿ ಶ್ರೀಕೃಷ್ಣ ದೇವಾಲಯಕ್ಕೆ ಮತ್ತು ದೇಶದಾದ್ಯಂತ ಪ್ರಸಿದ್ಧವಾದ ಉಡುಪಿ ಶೈಲಿಯ ಸಸ್ಯಾಹಾರಿ ಪಾಕಪದ್ಧತಿಗೆ ಹೆಸರಾಗಿದೆ. ಈ ಕರಾವಳಿ ಜಿಲ್ಲೆಯಲ್ಲಿ ಕಡಲತೀರಗಳು, ದೇವಾಲಯ ಪರಂಪರೆಗಳು ಮತ್ತು ಯಕ್ಷಗಾನ ಹಾಗೂ ತುಳು-ಕನ್ನಡ ಸಂಸ್ಕೃತಿಯೊಂದಿಗೆ ಬಲವಾದ ನಂಟು ಇದೆ. ಭಕ್ತಿ, ಆಹಾರ ಮತ್ತು ಸಮುದ್ರದ ಗಾಳಿ ಬೆರೆತ ಉಡುಪಿ ಕರ್ನಾಟಕದ ಕರಾವಳಿಯ ಹೆಚ್ಚು ಗುರುತಿಸಲ್ಪಡುವ ಸಾಂಸ್ಕೃತಿಕ ತಾಣಗಳಲ್ಲಿ ಒಂದು.",
+      "en": "Udupi is famous for the Sri Krishna Temple and for the Udupi style of vegetarian cuisine, known across India. The coastal district also has beaches, temple traditions and a strong connection with Yakshagana and Tulu-Kannada culture. A visit blends devotion, food and sea breeze, making it one of the most recognisable cultural destinations on Karnataka’s coast."
+    },
+    "highlights": {
+      "kn": [
+        "ಶ್ರೀಕೃಷ್ಣ ದೇವಾಲಯ",
+        "ಉಡುಪಿ ಪಾಕಪದ್ಧತಿ",
+        "ಯಕ್ಷಗಾನ"
+      ],
+      "en": [
+        "Sri Krishna Temple",
+        "Udupi cuisine",
+        "Yakshagana"
+      ]
+    },
+    "history": {
+      "kn": "",
+      "en": ""
+    },
+    "places": {
+      "kn": [],
+      "en": []
+    },
+    "food": {
+      "kn": [],
+      "en": []
+    },
+    "culture": {
+      "kn": "",
+      "en": ""
+    },
+    "source": "Karnataka_31_Districts.docx"
+  },
+  {
+    "id": "uttara-kannada",
+    "code": "UTT",
+    "name": {
+      "kn": "ಉತ್ತರ ಕನ್ನಡ",
+      "en": "Uttara Kannada"
+    },
+    "aliases": [],
+    "image": {
+      "src": "/images/districts/uttara-kannada.jpg",
+      "alt": {
+        "kn": "ಉತ್ತರ ಕನ್ನಡ — ಸ್ಥಳೀಯ ಪರಂಪರೆಯ ನೋಟ",
+        "en": "Uttara Kannada — a glimpse of local heritage"
+      },
+      "position": "center"
+    },
+    "description": {
+      "kn": "ಉತ್ತರ ಕನ್ನಡ ಅರಬ್ಬೀ ಸಮುದ್ರದ ತೀರದಿಂದ ಅರಣ್ಯಮಯ ಪಶ್ಚಿಮ ಘಟ್ಟಗಳವರೆಗೆ ಹರಡಿದೆ. ಇದು ಕಡಲತೀರಗಳು, ಬಂದರುಗಳು, ದೇವಾಲಯಗಳು, ವನ್ಯಜೀವಿ ಮತ್ತು ನದಿ ಪರಿಸರಕ್ಕೆ ಹೆಸರಾಗಿದೆ. ಗೋಕರ್ಣ, ಕಾರವಾರ ಮತ್ತು ಪಶ್ಚಿಮ ಘಟ್ಟಗಳ ಕಾಡುಗಳಂತಹ ಸ್ಥಳಗಳು ಈ ಜಿಲ್ಲೆಯನ್ನು ವಿಶೇಷವಾಗಿ ವೈವಿಧ್ಯಮಯವಾಗಿಸಿದ್ದು, ಪ್ರವಾಸಿಗರು ಮತ್ತು ಪ್ರಕೃತಿ ಪ್ರೇಮಿಗಳು ಒಂದೇ ಪ್ರಯಾಣದಲ್ಲಿ ಕರಾವಳಿ ಮತ್ತು ಕಾಡು ಎರಡನ್ನೂ ಕಾಣಬಹುದು.",
+      "en": "Uttara Kannada stretches from the Arabian Sea coast to the forested Western Ghats. It is known for beaches, ports, temples, wildlife and river landscapes. Places such as Gokarna, Karwar and the forests of the Western Ghats make it especially diverse, so the district offers coast and forest within a single journey for travellers and nature enthusiasts."
+    },
+    "highlights": {
+      "kn": [
+        "ಕಾರವಾರದ ಕರಾವಳಿ",
+        "ಗೋಕರ್ಣ",
+        "ಪಶ್ಚಿಮ ಘಟ್ಟಗಳು"
+      ],
+      "en": [
+        "Karwar coast",
+        "Gokarna",
+        "Western Ghats"
+      ]
+    },
+    "history": {
+      "kn": "",
+      "en": ""
+    },
+    "places": {
+      "kn": [],
+      "en": []
+    },
+    "food": {
+      "kn": [],
+      "en": []
+    },
+    "culture": {
+      "kn": "",
+      "en": ""
+    },
+    "source": "Karnataka_31_Districts.docx"
+  },
+  {
+    "id": "vijayanagara",
+    "code": "VIJ",
+    "name": {
+      "kn": "ವಿಜಯನಗರ",
+      "en": "Vijayanagara"
+    },
+    "aliases": [],
+    "image": {
+      "src": "/images/districts/vijayanagara.jpg",
+      "alt": {
+        "kn": "ವಿಜಯನಗರ — ಸ್ಥಳೀಯ ಪರಂಪರೆಯ ನೋಟ",
+        "en": "Vijayanagara — a glimpse of local heritage"
+      },
+      "position": "center"
+    },
+    "description": {
+      "kn": "ವಿಜಯನಗರ ಜಿಲ್ಲೆ ವಿಜಯನಗರ ಸಾಮ್ರಾಜ್ಯದ ಪ್ರಸಿದ್ಧ ರಾಜಧಾನಿ ಹಂಪಿಯ ತವರು. ಇಲ್ಲಿನ ದೇವಾಲಯಗಳು, ರಾಜ ಆವರಣಗಳು, ಬಜಾರುಗಳು ಮತ್ತು ಭವ್ಯ ಕಲ್ಲಿನ ರಚನೆಗಳು ಯುನೆಸ್ಕೋ ವಿಶ್ವ ಪರಂಪರೆಯ ತಾಣವನ್ನು ರೂಪಿಸಿ, ಸಾಮ್ರಾಜ್ಯದ ಇತಿಹಾಸದ ಸ್ಪಷ್ಟ ಚಿತ್ರಣ ನೀಡುತ್ತವೆ. ಕಲ್ಲಿನ ರಥ ಮತ್ತು ವಿರೂಪಾಕ್ಷ ದೇವಾಲಯದಂತಹ ಹೆಗ್ಗುರುತುಗಳು ಇದನ್ನು ಭಾರತದ ಹೆಚ್ಚು ಭೇಟಿ ನೀಡುವ ಪರಂಪರೆಯ ತಾಣಗಳಲ್ಲಿ ಒಂದಾಗಿಸಿವೆ.",
+      "en": "Vijayanagara district is home to Hampi, the celebrated capital of the Vijayanagara Empire. Its temples, royal enclosures, bazaars and monumental stone structures form a UNESCO World Heritage Site and offer a vivid picture of the empire’s history. Landmarks such as the Stone Chariot and the Virupaksha Temple make it one of the most visited heritage destinations in India."
+    },
+    "highlights": {
+      "kn": [
+        "ಹಂಪಿ",
+        "ವಿಜಯನಗರ ಸಾಮ್ರಾಜ್ಯದ ಅವಶೇಷಗಳು"
+      ],
+      "en": [
+        "Hampi",
+        "Ruins of the Vijayanagara Empire"
+      ]
+    },
+    "history": {
+      "kn": "",
+      "en": ""
+    },
+    "places": {
+      "kn": [],
+      "en": []
+    },
+    "food": {
+      "kn": [],
+      "en": []
+    },
+    "culture": {
+      "kn": "",
+      "en": ""
+    },
+    "source": "Karnataka_31_Districts.docx"
+  },
+  {
+    "id": "vijayapura",
+    "code": "BIJ",
+    "name": {
+      "kn": "ವಿಜಯಪುರ",
+      "en": "Vijayapura"
+    },
+    "aliases": [],
+    "image": {
+      "src": "/images/districts/vijayapura.jpg",
+      "alt": {
+        "kn": "ವಿಜಯಪುರ — ಸ್ಥಳೀಯ ಪರಂಪರೆಯ ನೋಟ",
+        "en": "Vijayapura — a glimpse of local heritage"
+      },
+      "position": "center"
+    },
+    "description": {
+      "kn": "ವಿಜಯಪುರ ಆದಿಲ್‌ಶಾಹಿ ವಂಶದ ಸ್ಮಾರಕಗಳಿಗೆ ಪ್ರಸಿದ್ಧ. ಬೃಹತ್ ಗುಮ್ಮಟ ಮತ್ತು ಪ್ರಸಿದ್ಧ ಪಿಸುಮಾತಿನ ಗ್ಯಾಲರಿ ಹೊಂದಿರುವ ಗೋಲ್ ಗುಂಬಜ್ ಜಿಲ್ಲೆಯ ಅತ್ಯಂತ ಪ್ರಸಿದ್ಧ ಹೆಗ್ಗುರುತು. ನಗರದಲ್ಲಿ ಮಸೀದಿಗಳು, ಸಮಾಧಿಗಳು ಮತ್ತು ಐತಿಹಾಸಿಕ ನೀರಿನ ರಚನೆಗಳೂ ಇದ್ದು, ಕರ್ನಾಟಕದ ಈ ಭಾಗದಲ್ಲಿ ದಖ್ಖನ್ ಇಸ್ಲಾಮಿಕ್ ವಾಸ್ತುಶಿಲ್ಪ ಹೇಗೆ ಬೆಳೆಯಿತು ಎಂಬ ಸ್ಪಷ್ಟ ಚಿತ್ರಣವನ್ನು ಪ್ರವಾಸಿಗರಿಗೆ ನೀಡುತ್ತವೆ.",
+      "en": "Vijayapura is renowned for the monuments of the Adil Shahi dynasty. Gol Gumbaz, with its enormous dome and famous whispering gallery, is the district’s best-known landmark. The city also has mosques, tombs and historic water structures, which together give visitors a clear picture of how Deccan Islamic architecture developed in this part of Karnataka."
+    },
+    "highlights": {
+      "kn": [
+        "ಗೋಲ್ ಗುಂಬಜ್",
+        "ಆದಿಲ್‌ಶಾಹಿ ವಾಸ್ತುಶಿಲ್ಪ"
+      ],
+      "en": [
+        "Gol Gumbaz",
+        "Adil Shahi architecture"
+      ]
+    },
+    "history": {
+      "kn": "",
+      "en": ""
+    },
+    "places": {
+      "kn": [],
+      "en": []
+    },
+    "food": {
+      "kn": [],
+      "en": []
+    },
+    "culture": {
+      "kn": "",
+      "en": ""
+    },
+    "source": "Karnataka_31_Districts.docx"
+  },
+  {
+    "id": "yadgir",
+    "code": "YAD",
+    "name": {
+      "kn": "ಯಾದಗಿರಿ",
+      "en": "Yadgir"
+    },
+    "aliases": [],
+    "image": {
+      "src": "/images/districts/yadgir.jpg",
+      "alt": {
+        "kn": "ಯಾದಗಿರಿ — ಸ್ಥಳೀಯ ಪರಂಪರೆಯ ನೋಟ",
+        "en": "Yadgir — a glimpse of local heritage"
+      },
+      "position": "center"
+    },
+    "description": {
+      "kn": "ಯಾದಗಿರಿ ಪಟ್ಟಣದ ಮೇಲೆ ನೋಟ ಬೀರುವ ಕಲ್ಲಿನ ಬೆಟ್ಟದ ಮೇಲೆ ನಿಂತಿರುವ ಯಾದಗಿರಿ ಕೋಟೆಗೆ ಹೆಸರಾಗಿದೆ. ಜಿಲ್ಲೆಯ ಇತಿಹಾಸದಲ್ಲಿ ಸುರಪುರ (ಶೋರಾಪುರ) ಸಂಸ್ಥಾನ ಮತ್ತು ಅದರ ಸಾಂಸ್ಕೃತಿಕ ಪರಂಪರೆ ಸೇರಿವೆ. ಕೃಷ್ಣಾ ಮತ್ತು ಭೀಮಾ ನದಿ ಪ್ರದೇಶಗಳು ಹಾಗೂ ಕೃಷಿಯೂ ಸ್ಥಳೀಯ ಜೀವನಕ್ಕೆ ಮುಖ್ಯವಾಗಿದ್ದು, ಜಿಲ್ಲೆಯಲ್ಲಿ ಬೆಟ್ಟದ ಮೇಲಿನ ಪರಂಪರೆ ಮತ್ತು ನದಿ ನೀರಿನ ಕೃಷಿ ಜೀವನ ಒಂದಾಗಿವೆ.",
+      "en": "Yadgir is known for Yadgir Fort, which stands on a rocky hill overlooking the town. The district’s history includes the Surpur (Shorapur) kingdom and its cultural legacy. Agriculture and the Krishna and Bhima river regions are also important to local life, so the district combines hilltop heritage with the rhythms of river-fed farming."
+    },
+    "highlights": {
+      "kn": [
+        "ಯಾದಗಿರಿ ಕೋಟೆ",
+        "ಸುರಪುರ ಪ್ರದೇಶ"
+      ],
+      "en": [
+        "Yadgir Fort",
+        "Surpur (Shorapur) region"
+      ]
+    },
+    "history": {
+      "kn": "",
+      "en": ""
+    },
+    "places": {
+      "kn": [],
+      "en": []
+    },
+    "food": {
+      "kn": [],
+      "en": []
+    },
+    "culture": {
+      "kn": "",
+      "en": ""
+    },
+    "source": "Karnataka_31_Districts.docx"
+  }
+]

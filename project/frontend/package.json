@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "test:journey": "node tests/journey.cjs",
-    "test:dictionary": "node tests/dictionary.cjs"
+    "test:dictionary": "node tests/dictionary.cjs",
+    "test:districts": "node tests/districts.cjs"
   },
   "dependencies": {
     "react": "^19.0.0",
