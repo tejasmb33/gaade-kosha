@@ -67,3 +67,29 @@ def test_approved_seed_never_overwrites_or_imports_pending(tmp_path):
     empty=create_app(tmp_path/'other','synthetic-token')
     with pytest.raises(ValueError):seed(empty,[{'record':{**record,'verification_status':'PENDING_VERIFICATION'},'translation':None}])
     assert TestClient(empty).get('/api/proverbs').json()['total']==0
+
+
+def test_cloud_startup_diagnostics_do_not_leak_database_password(monkeypatch):
+    from scripts.bootstrap_cloud import validate_environment,safe_failure
+    for key,value in {'DATABASE_URL':'postgresql://postgres.fixture:synthetic%40password@fixture.pooler.supabase.com:5432/postgres','SUPABASE_URL':'https://fixture.supabase.co','SUPABASE_SERVICE_ROLE_KEY':'synthetic-private-key','GROQ_API_KEY':'synthetic-private-key','GAADE_SPEECH_PROVIDER':'groq'}.items():monkeypatch.setenv(key,value)
+    validate_environment()
+    monkeypatch.setenv('DATABASE_URL','postgresql://postgres.fixture:[synthetic@password]@fixture.pooler.supabase.com:5432/postgres')
+    with pytest.raises(ValueError,match='URL-encode') as error:validate_environment()
+    assert 'synthetic@password' not in str(error.value)
+    message=safe_failure('database connection and schema',RuntimeError('password authentication failed: synthetic-secret'))
+    assert 'synthetic-secret' not in message and 'rejected' in message
+    monkeypatch.delenv('SUPABASE_SERVICE_ROLE_KEY')
+    with pytest.raises(ValueError,match='SUPABASE_SERVICE_ROLE_KEY'):validate_environment()
+
+
+def test_missing_storage_bucket_400_created_privately(monkeypatch):
+    monkeypatch.setenv('SUPABASE_URL','https://synthetic.supabase.co');monkeypatch.setenv('SUPABASE_SERVICE_ROLE_KEY','synthetic-private-key')
+    calls=[]
+    def request(client,method,url,**kwargs):
+        calls.append(method)
+        if len(calls)==1:return httpx.Response(400,json={'statusCode':'404','error':'Bucket not found'},request=httpx.Request(method,url))
+        if method=='POST':assert kwargs['json']['public'] is False
+        return httpx.Response(200,json={'public':False},request=httpx.Request(method,url))
+    monkeypatch.setattr(httpx.Client,'request',request)
+    ObjectStore().ensure_bucket()
+    assert calls==['GET','POST','GET']

@@ -38,13 +38,21 @@ class ObjectStore:
             with httpx.Client(timeout=30,follow_redirects=False) as client:
                 url=self.url+'/storage/v1/bucket/'+quote(self.bucket)
                 response=client.get(url,headers=headers)
-                if response.status_code==404:
+                missing=response.status_code==404
+                if response.status_code==400:
+                    try:missing=str(response.json().get('statusCode',''))=='404' or response.json().get('code') in ['NoSuchBucket','NoSuchKey']
+                    except ValueError:pass
+                if missing:
                     response=client.post(self.url+'/storage/v1/bucket',headers=headers,json={'id':self.bucket,'name':self.bucket,'public':False,'file_size_limit':26214400})
                     response.raise_for_status()
                     response=client.get(url,headers=headers)
                 response.raise_for_status()
                 if response.json().get('public') is not False:raise ValueError('Audio bucket must be private')
-        except (httpx.HTTPError,ValueError):raise ValueError('Private audio bucket is unavailable or not private') from None
+        except httpx.HTTPStatusError as exc:
+            if exc.response.status_code in (401,403):raise ValueError('Supabase Storage rejected the backend key (HTTP '+str(exc.response.status_code)+'). Check SUPABASE_SERVICE_ROLE_KEY; do not use a publishable or anon key.') from None
+            raise ValueError('Supabase Storage request failed (HTTP '+str(exc.response.status_code)+'). Check SUPABASE_URL and the gaade-private bucket.') from None
+        except httpx.HTTPError:raise ValueError('Cannot reach Supabase Storage. Check SUPABASE_URL and project availability.') from None
+        except ValueError:raise ValueError('The gaade-private audio bucket must have Public turned OFF.') from None
 
     def upload(self,key,path):
         if self.enabled:self._request('POST',key,path.read_bytes())
