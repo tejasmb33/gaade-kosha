@@ -1,0 +1,40 @@
+services:
+  - type: web
+    name: gaade-kosha-api
+    runtime: docker
+    plan: free
+    rootDir: project
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /api/health
+    autoDeployTrigger: commit
+    envVars:
+      - key: DATABASE_URL
+        sync: false
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_SERVICE_ROLE_KEY
+        sync: false
+      - key: SUPABASE_STORAGE_BUCKET
+        value: gaade-private
+      - key: FRONTEND_ORIGIN
+        sync: false
+      - key: ADMIN_TOKEN
+        generateValue: true
+      - key: GAADE_SPEECH_PROVIDER
+        value: groq
+      - key: GROQ_API_KEY
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GAADE_AI_PROVIDER
+        value: gemini
+      - key: GAADE_AI_MODEL
+        value: gemini-3.5-flash-lite
+      - key: GAADE_GROQ_MODEL
+        value: openai/gpt-oss-20b
+      - key: GAADE_AI_WEB_FALLBACK
+        value: "false"
+      - key: GAADE_TTS_ENABLED
+        value: "true"
+      - key: GAADE_TTS_MODEL
+        value: gemini-3.8-flash-lite-tts

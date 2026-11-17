@@ -1,0 +1,914 @@
+[
+  {
+    "query": "Months of careful work were ruined by one careless act.",
+    "passed": false,
+    "top1_passed": false,
+    "returned": [],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ತಿಂಗಳುಗಳ ಶ್ರಮವನ್ನು ಒಬ್ಬನ ಅಜಾಗರೂಕ ಕೆಲಸ ಕ್ಷಣದಲ್ಲೇ ಹಾಳುಮಾಡಿತು.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಕುಂಬಾರನಿಗೆ ವರುಷ, ದೊಣ್ಣೆಗೆ ನಿಮಿಷ"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "I need to stop depending on others and take responsibility for my own expenses.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಅವರವರ ತಲೆಗೆ ಅವರವರದೇ ಕೈ"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ಇತರರನ್ನು ಅವಲಂಬಿಸದೆ ನನ್ನ ಖರ್ಚಿನ ಜವಾಬ್ದಾರಿಯನ್ನು ನಾನೇ ತೆಗೆದುಕೊಳ್ಳಬೇಕು.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಅವರವರ ತಲೆಗೆ ಅವರವರದೇ ಕೈ"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "Despite many obstacles she kept trying and found a way to finish her studies.",
+    "passed": false,
+    "top1_passed": false,
+    "returned": [],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ಹಲವು ಅಡೆತಡೆಗಳಿದ್ದರೂ ಪ್ರಯತ್ನ ಬಿಡದೆ ಅವಳು ಓದು ಮುಗಿಸಲು ದಾರಿ ಕಂಡುಕೊಂಡಳು.",
+    "passed": false,
+    "top1_passed": false,
+    "returned": [],
+    "mode": "hybrid"
+  },
+  {
+    "query": "My colleague keeps boasting, so I stopped giving his boasts any attention.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಅಹಂಕಾರಕ್ಕೆ ಉದಾಸೀನವೇ ಮದ್ದು"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ನನ್ನ ಸಹೋದ್ಯೋಗಿ ಸದಾ ಬಡಾಯಿ ಕೊಚ್ಚುತ್ತಾನೆ; ಅವನ ಮಾತಿಗೆ ಗಮನ ಕೊಡುವುದನ್ನು ನಿಲ್ಲಿಸಿದೆ.",
+    "passed": false,
+    "top1_passed": false,
+    "returned": [],
+    "mode": "hybrid"
+  },
+  {
+    "query": "He became the team leader only because all the other candidates withdrew.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಅಳಿದೂರಿಗೆ ಉಳಿದವನೇ ಗೌಡ"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ಉಳಿದ ಅಭ್ಯರ್ಥಿಗಳೆಲ್ಲ ಹಿಂದೆ ಸರಿದದ್ದರಿಂದ ಮಾತ್ರ ಅವನು ತಂಡದ ನಾಯಕನಾದ.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಅಳಿದೂರಿಗೆ ಉಳಿದವನೇ ಗೌಡ"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "They renamed the extra charge, but we still have to pay the same amount.",
+    "passed": false,
+    "top1_passed": false,
+    "returned": [],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ಹೆಚ್ಚುವರಿ ಶುಲ್ಕಕ್ಕೆ ಹೊಸ ಹೆಸರು ಕೊಟ್ಟಿದ್ದಾರೆ, ಆದರೆ ನಾವು ಕೊಡುವ ಹಣ ಬದಲಾಗಿಲ್ಲ.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಅಳಿಯ ಅಲ್ಲ, ಮಗಳ ಗಂಡ"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "People dismissed her plain appearance, but her work was excellent.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಆಕಳು ಕಪ್ಪಾದರೂ ಹಾಲು ಕಪ್ಪೆ ?"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ಅವಳ ಸರಳ ಹೊರನೋಟ ನೋಡಿ ಜನ ಕಡಿಮೆ ಅಂದಾಜು ಮಾಡಿದರು, ಆದರೆ ಅವಳ ಕೆಲಸ ಅತ್ಯುತ್ತಮವಾಗಿತ್ತು.",
+    "passed": false,
+    "top1_passed": false,
+    "returned": [],
+    "mode": "hybrid"
+  },
+  {
+    "query": "Everyone can use this free resource, so there is no reason to fight over access.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಆಕಾಶ ನೋಡೋಕೆ ನೂಕಾಟವೇಕೆ?"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ಈ ಉಚಿತ ಸೌಲಭ್ಯ ಎಲ್ಲರಿಗೂ ಸಿಗುತ್ತದೆ; ಅದಕ್ಕಾಗಿ ಜಗಳವಾಡುವ ಅಗತ್ಯವಿಲ್ಲ.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಆಕಾಶ ನೋಡೋಕೆ ನೂಕಾಟವೇಕೆ?"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "My friend missed an opportunity and needs reassurance that something better may follow.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಆಗೋದೆಲ್ಲಾ ಒಳ್ಳೇದಕ್ಕೆ"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ನನ್ನ ಗೆಳೆಯನಿಗೆ ಒಂದು ಅವಕಾಶ ತಪ್ಪಿದೆ; ಮುಂದೆ ಒಳ್ಳೆಯದಾಗಬಹುದು ಎಂದು ಅವನಿಗೆ ಸಮಾಧಾನ ಹೇಳಬೇಕು.",
+    "passed": false,
+    "top1_passed": false,
+    "returned": [],
+    "mode": "hybrid"
+  },
+  {
+    "query": "The speaker talked for an hour but offered almost no useful information.",
+    "passed": false,
+    "top1_passed": false,
+    "returned": [
+      "ಮಾತು ಬೆಳ್ಳಿ, ಮೌನ ಬಂಗಾರ"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ಭಾಷಣಕಾರ ಒಂದು ಗಂಟೆ ಮಾತನಾಡಿದರೂ ಉಪಯುಕ್ತ ಮಾಹಿತಿ ಬಹಳ ಕಡಿಮೆ ಇತ್ತು.",
+    "passed": false,
+    "top1_passed": false,
+    "returned": [],
+    "mode": "hybrid"
+  },
+  {
+    "query": "An unprepared presenter blamed the sound technician for his poor presentation.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಆಟ ಕೆಟ್ಟರೆ ದೀವಟಿಗೆಯವನ ಸುತ್ತ"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ತಯಾರಿ ಮಾಡದ ಭಾಷಣಕಾರ ತನ್ನ ಕೆಟ್ಟ ಭಾಷಣಕ್ಕೆ ಧ್ವನಿವ್ಯವಸ್ಥೆಯ ಸಿಬ್ಬಂದಿಯನ್ನು ದೂರಿದ.",
+    "passed": false,
+    "top1_passed": false,
+    "returned": [],
+    "mode": "hybrid"
+  },
+  {
+    "query": "Our family has lost income, and we must face this difficult period with courage.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಇಲ್ಲದ ಕಾಲಕ್ಕೆ ಕಲ್ಲೆದೆ ಬೇಕು"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ನಮ್ಮ ಕುಟುಂಬದ ಆದಾಯ ಕಡಿಮೆಯಾಗಿದೆ; ಈ ಕಷ್ಟದ ಸಮಯವನ್ನು ಧೈರ್ಯದಿಂದ ಎದುರಿಸಬೇಕು.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಇಲ್ಲದ ಕಾಲಕ್ಕೆ ಕಲ್ಲೆದೆ ಬೇಕು"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "An innocent meeting at a suspicious place caused people to spread rumours.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಈಚಲ ಮರದ ಕೆಳಗೆ ಕುಳಿತು ಮಜ್ಜಿಗೆ ಕುಡಿದ ಹಾಗೆ."
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ಅನುಮಾನ ಬರುವಂತಹ ಸ್ಥಳದಲ್ಲಿ ನಡೆದ ನಿರಪರಾಧ ಭೇಟಿಯ ಬಗ್ಗೆ ಜನ ವದಂತಿ ಹಬ್ಬಿಸಿದರು.",
+    "passed": false,
+    "top1_passed": false,
+    "returned": [
+      "ಉಂಬಾಗ ಉಡುವಾಗ ಊರೆಲ್ಲ ನೆಂಟರು"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "A guest accepted our hospitality and then started prying into our private finances.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಉಂಡ ಮನೆ ಜಂತೆ ಎಣಿಸಬಾರದು"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ನಮ್ಮ ಆತಿಥ್ಯ ಸ್ವೀಕರಿಸಿದ ಅತಿಥಿ ನಂತರ ನಮ್ಮ ಮನೆಯ ಖಾಸಗಿ ಹಣಕಾಸಿನ ವಿಚಾರಗಳನ್ನು ಕೆದಕತೊಡಗಿದ.",
+    "passed": false,
+    "top1_passed": false,
+    "returned": [],
+    "mode": "hybrid"
+  },
+  {
+    "query": "People who never visit suddenly claim to be close relatives when gifts are being distributed.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಉಂಬಾಗ ಉಡುವಾಗ ಊರೆಲ್ಲ ನೆಂಟರು"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ಸಾಮಾನ್ಯವಾಗಿ ಬಾರದವರೆಲ್ಲ ಉಡುಗೊರೆ ಹಂಚುವಾಗ ನಾವು ಹತ್ತಿರದ ಸಂಬಂಧಿಗಳು ಎಂದು ಹೇಳುತ್ತಿದ್ದಾರೆ.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಉಂಬಾಗ ಉಡುವಾಗ ಊರೆಲ್ಲ ನೆಂಟರು"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "If I speak up I hurt my friend, but if I stay silent I will be blamed; both choices are painful.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಉಗಿದರೆ ತುಪ್ಪ ಕೆಡುತ್ತದೆ, ನುಂಗಿದರೆ ಗಂಟಲು ಕೆಡುತ್ತದೆ",
+      "ಮಾತು ಬೆಳ್ಳಿ, ಮೌನ ಬಂಗಾರ"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ಸತ್ಯ ಹೇಳಿದರೆ ಗೆಳೆಯನಿಗೆ ನೋವಾಗುತ್ತದೆ; ಸುಮ್ಮನಿದ್ದರೆ ನನ್ನ ಮೇಲೆ ತಪ್ಪು ಬರುತ್ತದೆ; ಎರಡೂ ಆಯ್ಕೆಗಳು ಕಷ್ಟವಾಗಿವೆ.",
+    "passed": false,
+    "top1_passed": false,
+    "returned": [
+      "ಕಂಡದ್ದು ಕಂಡಂತೆ ನುಡಿದರೆ ಕೆಂಡದಂತಹಾ ಸಿಟ್ಟು",
+      "ಚಿನ್ನದ ಸೂಜಿ ಅಂತ ಕಣ್ಣು ಚುಚ್ಚಿಕೊಂಡಾರೆ?",
+      "ಆಟ ಕೆಟ್ಟರೆ ದೀವಟಿಗೆಯವನ ಸುತ್ತ"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "I cannot comfortably accept this offer, but I also find it difficult to refuse openly.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ನುಂಗಲಾರದ ಬಿಸಿ ತುಪ್ಪ"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ಈ ಅವಕಾಶವನ್ನು ಒಪ್ಪಿಕೊಳ್ಳಲೂ ಕಷ್ಟವಾಗುತ್ತಿದೆ, ಬಹಿರಂಗವಾಗಿ ನಿರಾಕರಿಸಲೂ ಆಗುತ್ತಿಲ್ಲ.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ನುಂಗಲಾರದ ಬಿಸಿ ತುಪ್ಪ"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "They want to replace the whole computer because of one easily fixed setting.",
+    "passed": false,
+    "top1_passed": false,
+    "returned": [],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ಸುಲಭವಾಗಿ ಸರಿಪಡಿಸಬಹುದಾದ ಒಂದು ಸೆಟ್ಟಿಂಗ್ ಸಮಸ್ಯೆಗೆ ಇಡೀ ಕಂಪ್ಯೂಟರನ್ನೇ ಬದಲಾಯಿಸಲು ಹೊರಟಿದ್ದಾರೆ.",
+    "passed": false,
+    "top1_passed": false,
+    "returned": [],
+    "mode": "hybrid"
+  },
+  {
+    "query": "My child needs to focus on homework now and enjoy games during playtime.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಓದುವಾಗ ಓದು, ಆಡುವಾಗ ಆಡು"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ನನ್ನ ಮಗು ಈಗ ಮನೆಪಾಠದ ಕಡೆ ಗಮನ ಕೊಡಬೇಕು; ಆಟದ ಸಮಯದಲ್ಲಿ ಆಟವಾಡಲಿ.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಓದುವಾಗ ಓದು, ಆಡುವಾಗ ಆಡು"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "He promised to donate money from our shared fund without asking any of us.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಕಂಡವರ ಮನೆಯಲ್ಲಿ ದಾನ ಮಾಡಿದಂತೆ"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ನಮ್ಮನ್ನು ಕೇಳದೆ ನಮ್ಮ ಜಂಟಿ ನಿಧಿಯಿಂದ ದಾನ ಕೊಡುವುದಾಗಿ ಅವನು ಭರವಸೆ ಕೊಟ್ಟನು.",
+    "passed": false,
+    "top1_passed": false,
+    "returned": [],
+    "mode": "hybrid"
+  },
+  {
+    "query": "Two people with the same dishonest habits have become business partners.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಕಂತೆಗೆ ತಕ್ಕ ಬೊಂತೆ"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ಒಂದೇ ರೀತಿಯ ಮೋಸದ ಸ್ವಭಾವದ ಇಬ್ಬರು ವ್ಯಾಪಾರದ ಪಾಲುದಾರರಾಗಿದ್ದಾರೆ.",
+    "passed": false,
+    "top1_passed": false,
+    "returned": [],
+    "mode": "hybrid"
+  },
+  {
+    "query": "I searched the whole room for my phone while it was already in my hand.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಕಂಕುಳಲ್ಲಿ ಮಗು ಇಟ್ಟುಕೊಂಡು ಊರೆಲ್ಲ ಹುಡುಕಿದರಂತೆ"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ಕೈಯಲ್ಲೇ ಇದ್ದ ಮೊಬೈಲನ್ನು ಮರೆತು ಇಡೀ ಕೋಣೆಯಲ್ಲಿ ಹುಡುಕಾಡಿದೆ.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಕಂಕುಳಲ್ಲಿ ಮಗು ಇಟ್ಟುಕೊಂಡು ಊರೆಲ್ಲ ಹುಡುಕಿದರಂತೆ"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "My honest feedback about his mistakes made him furious.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಕಂಡದ್ದು ಕಂಡಂತೆ ನುಡಿದರೆ ಕೆಂಡದಂತಹಾ ಸಿಟ್ಟು"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ಅವನ ತಪ್ಪುಗಳನ್ನು ನೇರವಾಗಿ ಹೇಳಿದಾಗ ಅವನಿಗೆ ತುಂಬಾ ಕೋಪ ಬಂತು.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಕಂಡದ್ದು ಕಂಡಂತೆ ನುಡಿದರೆ ಕೆಂಡದಂತಹಾ ಸಿಟ್ಟು"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "The quiet competitor made a decisive move without announcing any threats.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಕಚ್ಚುವ ನಾಯಿ ಬೊಗಳುವುದಿಲ್ಲ"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ಯಾವ ಬೆದರಿಕೆಯನ್ನೂ ಹಾಕದೆ ಮೌನವಾಗಿದ್ದ ಸ್ಪರ್ಧಿ ಏಕಾಏಕಿ ನಿರ್ಣಾಯಕ ಕ್ರಮ ತೆಗೆದುಕೊಂಡನು.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಕಚ್ಚುವ ನಾಯಿ ಬೊಗಳುವುದಿಲ್ಲ"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "A person known for misusing money was put in charge of protecting the funds.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಕಡಲೆ ಕಾಯೋಕೆ ಕಾಗೆ ಕಾವಲು ಹಾಕಿದಂತೆ"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ಹಣ ದುರುಪಯೋಗ ಮಾಡುವವನಿಗೇ ಹಣವನ್ನು ಕಾಪಾಡುವ ಜವಾಬ್ದಾರಿ ಕೊಟ್ಟಿದ್ದಾರೆ.",
+    "passed": false,
+    "top1_passed": false,
+    "returned": [
+      "ಅವರವರ ತಲೆಗೆ ಅವರವರದೇ ಕೈ"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "Someone turned a tiny delay into a huge scandal.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಕಡ್ಡಿಯನ್ನು ಗುಡ್ಡೆ ಮಾಡಿದಂತೆ"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ಸ್ವಲ್ಪ ತಡವಾದ ವಿಷಯವನ್ನು ಒಬ್ಬರು ದೊಡ್ಡ ಹಗರಣವೆಂಬಂತೆ ಮಾಡಿದರು.",
+    "passed": false,
+    "top1_passed": false,
+    "returned": [],
+    "mode": "hybrid"
+  },
+  {
+    "query": "I was furious but waited until I calmed down before replying.",
+    "passed": false,
+    "top1_passed": false,
+    "returned": [],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ನನಗೆ ತುಂಬಾ ಕೋಪ ಬಂದಿತ್ತು, ಆದರೆ ಶಾಂತವಾದ ನಂತರವೇ ಉತ್ತರ ಕೊಟ್ಟೆ.",
+    "passed": false,
+    "top1_passed": false,
+    "returned": [
+      "ಕಂಡದ್ದು ಕಂಡಂತೆ ನುಡಿದರೆ ಕೆಂಡದಂತಹಾ ಸಿಟ್ಟು"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "A short video looks convincing, but we should check the full context before blaming anyone.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಕಣ್ಣಾರೆ ಕಂಡರೂ ಪರಾಂಬರಿಸಿ ನೋಡು"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ಚಿಕ್ಕ ವಿಡಿಯೋ ನೋಡಿದ ತಕ್ಷಣ ಯಾರನ್ನೂ ದೂರಬಾರದು; ಪೂರ್ಣ ವಿಚಾರ ಪರಿಶೀಲಿಸಬೇಕು.",
+    "passed": false,
+    "top1_passed": false,
+    "returned": [],
+    "mode": "hybrid"
+  },
+  {
+    "query": "He supported the candidate only after it was clear that the candidate would win.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಗೆದ್ದೆತ್ತಿನ ಬಾಲ ಹಿಡಿದ ಹಾಗೆ"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ಅಭ್ಯರ್ಥಿ ಗೆಲ್ಲುವುದು ಖಚಿತವಾದ ನಂತರವೇ ಅವನು ಬೆಂಬಲ ನೀಡಲು ಬಂದನು.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಗೆದ್ದೆತ್ತಿನ ಬಾಲ ಹಿಡಿದ ಹಾಗೆ"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "Changing the company's logo does not erase the harm caused by its misconduct.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಚರ್ಮ ತೊಳೆದರೆ ಕರ್ಮ ಹೋದೀತೆ"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ಕಂಪನಿಯ ಚಿಹ್ನೆ ಬದಲಾಯಿಸಿದ ಮಾತ್ರಕ್ಕೆ ಅದರ ತಪ್ಪುಗಳಿಂದಾದ ಹಾನಿ ಅಳಿದುಹೋಗುವುದಿಲ್ಲ.",
+    "passed": false,
+    "top1_passed": false,
+    "returned": [],
+    "mode": "hybrid"
+  },
+  {
+    "query": "She visits every house collecting private stories and passes them on to everyone.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಚಾಡಿಕೋರನಿಗೆ ಊರೆಲ್ಲ ನೆಂಟರು"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ಅವಳು ಮನೆಮನೆಗೆ ಹೋಗಿ ಖಾಸಗಿ ಸುದ್ದಿಗಳನ್ನು ಸಂಗ್ರಹಿಸಿ ಎಲ್ಲರಿಗೂ ಹೇಳುತ್ತಾಳೆ.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಚಾಡಿಕೋರನಿಗೆ ಊರೆಲ್ಲ ನೆಂಟರು"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "A huge company used its power to swallow a small struggling business.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಚಿಕ್ಕ ಮೀನನ್ನು ದೊಡ್ಡ ಮೀನು ನುಂಗಿತಂತೆ"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ಒಂದು ದೊಡ್ಡ ಕಂಪನಿ ತನ್ನ ಬಲದಿಂದ ಸಣ್ಣ ವ್ಯಾಪಾರವನ್ನು ತನ್ನೊಳಗೆ ಸೇರಿಸಿಕೊಂಡಿತು.",
+    "passed": false,
+    "top1_passed": false,
+    "returned": [],
+    "mode": "hybrid"
+  },
+  {
+    "query": "The smallest player on the team showed extraordinary strength and skill.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಚಿಕ್ಕ ಮೆಣಸಿಗೆ ಕಾರ ಹೆಚ್ಚು"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ತಂಡದ ಅತ್ಯಂತ ಸಣ್ಣ ಆಟಗಾರ ಅದ್ಭುತ ಶಕ್ತಿ ಮತ್ತು ಕೌಶಲ್ಯ ತೋರಿಸಿದ.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಚಿಕ್ಕ ಮೆಣಸಿಗೆ ಕಾರ ಹೆಚ್ಚು"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "The job has a prestigious title, but its harmful conditions make it unwise to accept.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಚಿನ್ನದ ಚೂರಿ ಎಂದು ಕುತ್ತಿಗೆ ಕುಯಿಸಿಕೊಳ್ಳಬಹುದೇ"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ಹುದ್ದೆಯ ಹೆಸರು ಪ್ರತಿಷ್ಠಿತವಾಗಿದೆ, ಆದರೆ ಅದರ ಹಾನಿಕಾರಕ ಷರತ್ತುಗಳ ಕಾರಣ ಒಪ್ಪಿಕೊಳ್ಳುವುದು ಸರಿಯಲ್ಲ.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಚಿನ್ನದ ಚೂರಿ ಎಂದು ಕುತ್ತಿಗೆ ಕುಯಿಸಿಕೊಳ್ಳಬಹುದೇ",
+      "ಅಳಿಯ ಅಲ್ಲ, ಮಗಳ ಗಂಡ",
+      "ಚಿನ್ನದ ಸೂಜಿ ಅಂತ ಕಣ್ಣು ಚುಚ್ಚಿಕೊಂಡಾರೆ?"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "An expensive and attractive product is still a bad choice if using it will harm me.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಚಿನ್ನದ ಸೂಜಿ ಅಂತ ಕಣ್ಣು ಚುಚ್ಚಿಕೊಂಡಾರೆ?",
+      "ಚಿನ್ನದ ಚೂರಿ ಎಂದು ಕುತ್ತಿಗೆ ಕುಯಿಸಿಕೊಳ್ಳಬಹುದೇ"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ದುಬಾರಿ ಮತ್ತು ಆಕರ್ಷಕ ವಸ್ತುವಾದರೂ ಅದನ್ನು ಬಳಸುವುದರಿಂದ ನನಗೆ ಹಾನಿಯಾದರೆ ತೆಗೆದುಕೊಳ್ಳಬಾರದು.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಚಿನ್ನದ ಸೂಜಿ ಅಂತ ಕಣ್ಣು ಚುಚ್ಚಿಕೊಂಡಾರೆ?"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "He never uses his tools but refuses to let anyone else borrow them.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ತಾನೂ ತಿನ್ನ, ಪರರಿಗೂ ಕೊಡ"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ಅವನು ತನ್ನ ಉಪಕರಣಗಳನ್ನು ಬಳಸುವುದಿಲ್ಲ; ಇತರರಿಗೂ ಬಳಸಲು ಕೊಡುವುದಿಲ್ಲ.",
+    "passed": false,
+    "top1_passed": false,
+    "returned": [],
+    "mode": "hybrid"
+  },
+  {
+    "query": "We planned an outdoor celebration carefully, but unexpected rain changed everything.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ತಾನೊಂದೆಣಿಸಿದರೆ ದೈವವೊಂದೆಣಿಸಿತು"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ಹೊರಾಂಗಣ ಕಾರ್ಯಕ್ರಮಕ್ಕೆ ಚೆನ್ನಾಗಿ ಯೋಜಿಸಿದ್ದೆವು, ಆದರೆ ಅನಿರೀಕ್ಷಿತ ಮಳೆ ಎಲ್ಲವನ್ನೂ ಬದಲಿಸಿತು.",
+    "passed": false,
+    "top1_passed": false,
+    "returned": [],
+    "mode": "hybrid"
+  },
+  {
+    "query": "A mediator chose his words carefully and prevented a quarrel.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಊಟ ಬಲ್ಲವನಿಗೆ ರೋಗವಿಲ್ಲ, ಮಾತು ಬಲ್ಲವನಿಗೆ ಜಗಳವಿಲ್ಲ"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ಮಧ್ಯಸ್ಥನು ಎಚ್ಚರಿಕೆಯಿಂದ ಮಾತಾಡಿ ಜಗಳವಾಗದಂತೆ ನೋಡಿಕೊಂಡನು.",
+    "passed": false,
+    "top1_passed": false,
+    "returned": [
+      "ಕಚ್ಚುವ ನಾಯಿ ಬೊಗಳುವುದಿಲ್ಲ"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "Buying the crop took minutes, but the farmer had worked all year to grow it.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ವ್ಯಾಪಾರಕ್ಕೆ ನಿಮಿಷ ಬೇಸಾಯಕ್ಕೆ ವರುಷ"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ಬೆಳೆ ಖರೀದಿಸಲು ಕೆಲವೇ ನಿಮಿಷ ಹಿಡಿಯಿತು, ಆದರೆ ಅದನ್ನು ಬೆಳೆಸಲು ರೈತ ವರ್ಷವಿಡೀ ಶ್ರಮಿಸಿದ್ದ.",
+    "passed": false,
+    "top1_passed": false,
+    "returned": [],
+    "mode": "hybrid"
+  },
+  {
+    "query": "A valuable instrument was given to someone who could neither appreciate it nor handle it properly.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಮಂಗನ ಕೈಯಲ್ಲಿ ಮಾಣಿಕ್ಯ ಕೊಟ್ಟ ಹಾಗೆ"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ಬೆಲೆಬಾಳುವ ವಾದ್ಯವನ್ನು ಅದರ ಬೆಲೆ ಅರಿಯದ, ಸರಿಯಾಗಿ ಬಳಸಲೂ ಬಾರದವನಿಗೆ ಕೊಟ್ಟರು.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಮಂಗನ ಕೈಯಲ್ಲಿ ಮಾಣಿಕ್ಯ ಕೊಟ್ಟ ಹಾಗೆ"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "I need to put in real work if I want to earn my living.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಆಳಾಗಿ ದುಡಿ, ಅರಸನಾಗಿ ಉಣ್ಣು"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ಜೀವನ ಸಾಗಿಸಲು ನಾನು ನಿಜವಾಗಿ ದುಡಿಯಬೇಕು.",
+    "passed": false,
+    "top1_passed": false,
+    "returned": [],
+    "mode": "hybrid"
+  },
+  {
+    "query": "My adviser cannot help properly if I hide important facts from them.",
+    "passed": false,
+    "top1_passed": false,
+    "returned": [],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ಮುಖ್ಯ ವಿಚಾರಗಳನ್ನು ಮರೆಮಾಚಿದರೆ ಸಲಹೆಗಾರರು ನನಗೆ ಸರಿಯಾಗಿ ಸಹಾಯ ಮಾಡಲಾಗುವುದಿಲ್ಲ.",
+    "passed": false,
+    "top1_passed": false,
+    "returned": [
+      "ಅಳಿಯ ಅಲ್ಲ, ಮಗಳ ಗಂಡ"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "I chose silence rather than add unnecessary words to a pointless argument.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಮಾತು ಬೆಳ್ಳಿ, ಮೌನ ಬಂಗಾರ"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ಅರ್ಥವಿಲ್ಲದ ವಾದಕ್ಕೆ ಅನಗತ್ಯ ಮಾತು ಸೇರಿಸುವ ಬದಲು ಮೌನವಾಗಿರಲು ನಿರ್ಧರಿಸಿದೆ.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಮಾತು ಬೆಳ್ಳಿ, ಮೌನ ಬಂಗಾರ"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "Two products look alike, but we should verify their contents instead of assuming they are the same.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಬೆಳ್ಳಗಿರೋದೆಲ್ಲ ಹಾಲಲ್ಲ"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ಎರಡು ವಸ್ತುಗಳು ಒಂದೇ ರೀತಿ ಕಾಣುತ್ತವೆ; ಅವು ಒಂದೇ ಎಂದು ಊಹಿಸದೆ ಒಳಗಿನ ಅಂಶಗಳನ್ನು ಪರಿಶೀಲಿಸಬೇಕು.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಬೆಳ್ಳಗಿರೋದೆಲ್ಲ ಹಾಲಲ್ಲ"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "The flashy advertisement attracted me, but the product turned out to be poor quality.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಹೊಳೆಯೋದೆಲ್ಲಾ ಚಿನ್ನವಲ್ಲ"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ಆಕರ್ಷಕ ಜಾಹೀರಾತಿಗೆ ಮರುಳಾದೆ, ಆದರೆ ವಸ್ತುವಿನ ಗುಣಮಟ್ಟ ಕಳಪೆಯಾಗಿತ್ತು.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಹೊಳೆಯೋದೆಲ್ಲಾ ಚಿನ್ನವಲ್ಲ"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "Saving a small amount every week eventually helped us build a substantial fund.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಹನಿ ಹನಿ ಕೂಡಿದರೆ ಹಳ್ಳ"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ಪ್ರತಿ ವಾರ ಸ್ವಲ್ಪ ಸ್ವಲ್ಪ ಉಳಿಸಿದ ಹಣ ಕೊನೆಗೆ ದೊಡ್ಡ ಮೊತ್ತವಾಯಿತು.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಹನಿ ಹನಿ ಕೂಡಿದರೆ ಹಳ್ಳ"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "During illness I realised how irreplaceable my mother's affection and care are.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ತಾಯಿಗಿಂತ ಬಂಧು ಇಲ್ಲ, ಉಪ್ಪಿಗಿಂತ ರುಚಿಯಿಲ್ಲ"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ಅನಾರೋಗ್ಯದ ಸಮಯದಲ್ಲಿ ತಾಯಿಯ ಪ್ರೀತಿ ಮತ್ತು ಆರೈಕೆಗೆ ಪರ್ಯಾಯವಿಲ್ಲ ಎಂದು ಅರಿವಾಯಿತು.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ತಾಯಿಗಿಂತ ಬಂಧು ಇಲ್ಲ, ಉಪ್ಪಿಗಿಂತ ರುಚಿಯಿಲ್ಲ"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "Our team is making no progress because each leader is pulling towards a different goal.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಎತ್ತು ಏರಿಗೆಳೆಯಿತು, ಕೋಣ ನೀರಿಗೆಳೆಯಿತು"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ನಾಯಕರು ಬೇರೆ ಬೇರೆ ಗುರಿಗಳತ್ತ ಎಳೆಯುತ್ತಿರುವುದರಿಂದ ನಮ್ಮ ತಂಡದ ಕೆಲಸ ಮುಂದೆ ಸಾಗುತ್ತಿಲ್ಲ.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಎತ್ತು ಏರಿಗೆಳೆಯಿತು, ಕೋಣ ನೀರಿಗೆಳೆಯಿತು"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "After working very hard through the season, we enjoyed the comfort our earnings provided.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಆಳಾಗಿ ದುಡಿ, ಅರಸನಾಗಿ ಉಣ್ಣು"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ಋತುವಿಡೀ ಕಷ್ಟಪಟ್ಟು ದುಡಿದ ನಂತರ ನಮ್ಮ ದುಡಿಮೆಯಿಂದ ಬಂದ ಸುಖವನ್ನು ಅನುಭವಿಸಿದೆವು.",
+    "passed": false,
+    "top1_passed": false,
+    "returned": [],
+    "mode": "hybrid"
+  },
+  {
+    "query": "We should choose a celebration we can afford instead of borrowing beyond our income.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಹಾಸಿಗೆ ಇದ್ದಷ್ಟು ಕಾಲು ಚಾಚು"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ಆದಾಯ ಮೀರಿಸಿ ಸಾಲ ಮಾಡುವ ಬದಲು ನಮಗೆ ಕೈಗೆಟುಕುವಷ್ಟು ಖರ್ಚಿನಲ್ಲಿ ಸಮಾರಂಭ ಮಾಡಬೇಕು.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಹಾಸಿಗೆ ಇದ್ದಷ್ಟು ಕಾಲು ಚಾಚು"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "What is the temperature in Bengaluru right now?",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ಈಗ ಬೆಂಗಳೂರಿನಲ್ಲಿ ತಾಪಮಾನ ಎಷ್ಟಿದೆ?",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [],
+    "mode": "hybrid"
+  },
+  {
+    "query": "How do I install a Python package?",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ಪೈಥಾನ್ ಪ್ಯಾಕೇಜನ್ನು ಹೇಗೆ ಸ್ಥಾಪಿಸಬೇಕು?",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [],
+    "mode": "hybrid"
+  },
+  {
+    "query": "What is seven multiplied by eight?",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ಏಳು ಗುಣಿಸು ಎಂಟು ಎಷ್ಟು?",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [],
+    "mode": "hybrid"
+  },
+  {
+    "query": "Come home.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ಮನೆಗೆ ಬಾ.",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [],
+    "mode": "hybrid"
+  }
+]

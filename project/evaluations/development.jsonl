@@ -1,0 +1,15 @@
+{"query": "I spend more money than I earn", "expected_ids": ["69216f8625b74cafaa80d76f28118eac"]}
+{"query": "A person blames someone else for their mistakes", "expected_ids": ["387f1cdb019444dfa3cd616c44d61774"]}
+{"query": "Working hard brings rewards", "expected_ids": ["68c8122529e24aca8092881e1d22c955", "8c8110368b004e0aa40a18a538c83216"]}
+{"query": "Small savings grow over time", "expected_ids": ["7a3fe2f7d1334354bef71355b7f3d6ca"]}
+{"query": "My teammates pull in opposite directions", "expected_ids": ["166c7770c5854731aaa49b93c9fd1862"]}
+{"query": "Someone makes a huge fuss about a tiny issue", "expected_ids": ["52e623dc698546fd9bb36e5f698713d2"]}
+{"query": "I should think before getting angry", "expected_ids": ["3670a504c8984cb0ac3d25deff8cf091"]}
+{"query": "ನನ್ನ ಆದಾಯಕ್ಕಿಂತ ಹೆಚ್ಚು ಖರ್ಚು ಮಾಡುತ್ತಿದ್ದೇನೆ", "expected_ids": ["69216f8625b74cafaa80d76f28118eac"]}
+{"query": "ಚಿಕ್ಕ ಚಿಕ್ಕ ಉಳಿತಾಯದಿಂದ ದೊಡ್ಡ ಮೊತ್ತವಾಗುತ್ತದೆ", "expected_ids": ["7a3fe2f7d1334354bef71355b7f3d6ca"]}
+{"query": "ನಾವು ಒಗ್ಗಟ್ಟಾಗಿ ಕೆಲಸ ಮಾಡುತ್ತಿಲ್ಲ", "expected_ids": ["166c7770c5854731aaa49b93c9fd1862"]}
+{"query": "ಶ್ರಮಕ್ಕೆ ತಕ್ಕ ಫಲ", "expected_ids": ["8c8110368b004e0aa40a18a538c83216", "68c8122529e24aca8092881e1d22c955"]}
+{"query": "What is the weather in Bengaluru tomorrow", "expected_ids": []}
+{"query": "How do I install Python", "expected_ids": []}
+{"query": "manege ba", "expected_ids": []}
+{"query": "ಮನೆಗೆ ಬಾ", "expected_ids": []}

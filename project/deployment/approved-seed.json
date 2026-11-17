@@ -1,0 +1,2852 @@
+[
+  {
+    "record": {
+      "id": "0fe177e6941449cca57c62901654df72",
+      "proverb_kn": "ಕಂತೆಗೆ ತಕ್ಕ ಬೊಂತೆ",
+      "transliteration": "",
+      "literal_meaning": "Draft: A patched quilt to match the rag bundle.",
+      "contextual_meaning": "Draft for human verification: Describes a fitting match, often between people with similar shortcomings.",
+      "example_usage": "Draft: Two habitual tricksters become partners; an observer uses this proverb.",
+      "category": "Compatibility",
+      "keywords": "ಜೋಡಿ, ಸ್ವಭಾವ, ಹೊಂದಾಣಿಕೆ, pairing, character, compatibility",
+      "region": "",
+      "dialect": "",
+      "source": "https://yakshadeepa.com/2022/01/18/famous-proverbs-in-kannada/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T07:22:38.168048+00:00",
+      "reviewed_at": "2026-11-17T07:27:49.336469+00:00"
+    },
+    "translation": {
+      "status": "MACHINE_TRANSLATION_DRAFT",
+      "input_hash": "160f42ce64dabff43cb85f9ee4d0fc492513e21cc09f1d5f93f0407fe4099ac0",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "translated_at": "2026-11-17T10:08:08.034611+00:00",
+      "fields": {
+        "proverb_en": "A patched quilt to match the rag bundle",
+        "literal_meaning_kn": "ಕರಡು: ಕಂತೆ ಗಂಟುಗೆ ತಕ್ಕ ಬೊಂತೆ.",
+        "contextual_meaning_kn": "ಮಾನವ ಪರಿಶೀಲನೆಗಾಗಿ ಕರಡು: ಸಮಾನವಾದ ನ್ಯೂನತೆಗಳನ್ನು ಹೊಂದಿರುವ ವ್ಯಕ್ತಿಗಳ ನಡುವಿನ ಸೂಕ್ತ ಹೊಂದಾಣಿಕೆಯನ್ನು ವಿವರಿಸುತ್ತದೆ.",
+        "example_usage_kn": "ಕರಡು: ಇಬ್ಬರು ಅಭ್ಯಾಸಗತ ವಂಚಕರು ಪಾಲುದಾರರಾಗುತ್ತಾರೆ; ಒಬ್ಬ ವೀಕ್ಷಕನು ಈ ಗಾದೆಯನ್ನು ಬಳಸುತ್ತಾನೆ.",
+        "category_kn": "ಹೊಂದಾಣಿಕೆ",
+        "keywords_kn": "ಜೋಡಿ, ಸ್ವಭಾವ, ಹೊಂದಾಣಿಕೆ",
+        "keywords_en": "pairing, character, compatibility",
+        "region_kn": "",
+        "dialect_kn": ""
+      }
+    }
+  },
+  {
+    "record": {
+      "id": "1174156cd62246079992ada7e0f44b57",
+      "proverb_kn": "ರಾವಣನ ಹೊಟ್ಟೆಗೆ ಅರೆಕಾಸಿನ ಮಜ್ಜಿಗೆ",
+      "transliteration": "",
+      "literal_meaning": "Draft: Half a coin's worth of buttermilk for Ravana's stomach.",
+      "contextual_meaning": "Draft for human verification: An extremely small provision is inadequate for a very large need.",
+      "example_usage": "Draft: A tiny budget is assigned to a major repair project; the organiser uses this proverb.",
+      "category": "Inadequate resources",
+      "keywords": "ಕೊರತೆ, ಬಜೆಟ್, ಅಗತ್ಯ, shortage, budget, need",
+      "region": "",
+      "dialect": "",
+      "source": "https://www.kannadapedia.com/kannada-gadegalu-proverbs/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T10:18:12.639708+00:00",
+      "reviewed_at": "2026-11-17T10:59:08.034785+00:00"
+    },
+    "translation": null
+  },
+  {
+    "record": {
+      "id": "158a990b026e43c9a2c7fab4e6c7b825",
+      "proverb_kn": "ಗಾಳಿ ಬಂದಾಗ ತೂರಿಕೋ",
+      "transliteration": "",
+      "literal_meaning": "Draft: Winnow when the wind blows.",
+      "contextual_meaning": "Draft for human verification: Make timely use of favourable circumstances.",
+      "example_usage": "Draft: A seller uses a brief period of strong demand to clear stock; a friend recalls this proverb.",
+      "category": "Opportunity and timing",
+      "keywords": "ಅವಕಾಶ, ಸಮಯ, ಸಿದ್ಧತೆ, opportunity, timing, readiness",
+      "region": "",
+      "dialect": "",
+      "source": "https://www.kannadapedia.com/kannada-gadegalu-proverbs/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T10:18:12.639689+00:00",
+      "reviewed_at": "2026-11-17T10:59:06.280331+00:00"
+    },
+    "translation": null
+  },
+  {
+    "record": {
+      "id": "166c7770c5854731aaa49b93c9fd1862",
+      "proverb_kn": "ಎತ್ತು ಏರಿಗೆಳೆಯಿತು, ಕೋಣ ನೀರಿಗೆಳೆಯಿತು",
+      "transliteration": "",
+      "literal_meaning": "Draft: The ox pulled towards the bank; the buffalo pulled towards the water.",
+      "contextual_meaning": "Draft for human verification: People working towards conflicting goals prevent joint progress.",
+      "example_usage": "Draft: Two project leaders issue contradictory instructions; a team member uses this proverb.",
+      "category": "Teamwork and disagreement",
+      "keywords": "ಸಹಕಾರ, ಭಿನ್ನಾಭಿಪ್ರಾಯ, ತಂಡ, cooperation, disagreement, teamwork",
+      "region": "",
+      "dialect": "",
+      "source": "https://www.lingodesi.com/kannada/proverbs/classics/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T07:22:38.168108+00:00",
+      "reviewed_at": "2026-11-17T07:29:08.266673+00:00"
+    },
+    "translation": {
+      "status": "MACHINE_TRANSLATION_DRAFT",
+      "input_hash": "87b19977059603693a813791159b3eba03f77d097194220d32b7f597a77dfeb8",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "translated_at": "2026-11-17T10:08:12.744164+00:00",
+      "fields": {
+        "proverb_en": "The ox pulled towards the bank, the buffalo pulled towards the water",
+        "literal_meaning_kn": "ಡ್ರಾಫ್ಟ್: ಎತ್ತು ದಂಡೆಯ ಕಡೆಗೆ ಎಳೆಯಿತು; ಕೋಣ ನೀರಿನ ಕಡೆಗೆ ಎಳೆಯಿತು.",
+        "contextual_meaning_kn": "ಮಾನವ ಪರಿಶೀಲನೆಗಾಗಿ ಡ್ರಾಫ್ಟ್: ಪರಸ್ಪರ ವಿರೋಧಿ ಗುರಿಗಳಿಗಾಗಿ ಕೆಲಸ ಮಾಡುವ ಜನರು ಜಂಟಿ ಪ್ರಗತಿಯನ್ನು ತಡೆಯುತ್ತಾರೆ.",
+        "example_usage_kn": "ಡ್ರಾಫ್ಟ್: ಇಬ್ಬರು ಪ್ರಾಜೆಕ್ಟ್ ನಾಯಕರು ಪರಸ್ಪರ ವಿರೋಧಾಭಾಸದ ಸೂಚನೆಗಳನ್ನು ನೀಡುತ್ತಾರೆ; ತಂಡದ ಸದಸ್ಯರು ಈ ಗಾದೆಯನ್ನು ಬಳಸುತ್ತಾರೆ.",
+        "category_kn": "ತಂಡದ ಕೆಲಸ ಮತ್ತು ಭಿನ್ನಾಭಿಪ್ರಾಯ",
+        "keywords_kn": "ಸಹಕಾರ, ಭಿನ್ನಾಭಿಪ್ರಾಯ, ತಂಡ",
+        "keywords_en": "cooperation, disagreement, teamwork",
+        "region_kn": "",
+        "dialect_kn": ""
+      }
+    }
+  },
+  {
+    "record": {
+      "id": "19c99748fb0642daafc1b709b179cf33",
+      "proverb_kn": "ಚಾಡಿಕೋರನಿಗೆ ಊರೆಲ್ಲ ನೆಂಟರು",
+      "transliteration": "",
+      "literal_meaning": "Draft: For a gossipmonger, the whole village consists of relatives.",
+      "contextual_meaning": "Draft for human verification: A person who spreads gossip cultivates contacts everywhere to gather and circulate stories.",
+      "example_usage": "Draft: Someone visits every household collecting private news; a neighbour uses this proverb.",
+      "category": "Gossip",
+      "keywords": "ಚಾಡಿ, ವದಂತಿ, ಸಂಪರ್ಕ, gossip, rumours, contacts",
+      "region": "",
+      "dialect": "",
+      "source": "https://yakshadeepa.com/2022/01/18/famous-proverbs-in-kannada/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T07:22:38.168070+00:00",
+      "reviewed_at": "2026-11-17T07:28:25.520662+00:00"
+    },
+    "translation": {
+      "status": "MACHINE_TRANSLATION_DRAFT",
+      "input_hash": "dfc917ab00c01f48b56d5b5e8803bacc0228725681e6d67cb52a6211d5cf7596",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "translated_at": "2026-11-17T10:10:17.076827+00:00",
+      "fields": {
+        "proverb_en": "For a gossipmonger, the whole village consists of relatives.",
+        "literal_meaning_kn": "ಡ್ರಾಫ್ಟ್: ಚಾಡಿಕೋರನಿಗೆ ಊರೆಲ್ಲ ನೆಂಟರು.",
+        "contextual_meaning_kn": "ಮಾನವ ಪರಿಶೀಲನೆಗಾಗಿ ಡ್ರಾಫ್ಟ್: ವದಂತಿಗಳನ್ನು ಹಬ್ಬಿಸುವ ವ್ಯಕ್ತಿಯು ಕಥೆಗಳನ್ನು ಸಂಗ್ರಹಿಸಲು ಮತ್ತು ಹಂಚಿಕೊಳ್ಳಲು ಎಲ್ಲೆಡೆ ಸಂಪರ್ಕಗಳನ್ನು ಬೆಳೆಸಿಕೊಳ್ಳುತ್ತಾನೆ.",
+        "example_usage_kn": "ಡ್ರಾಫ್ಟ್: ಯಾರಾದರೂ ಪ್ರೈವೇಟ್ ಸುದ್ದಿಯನ್ನು ಸಂಗ್ರಹಿಸಲು ಪ್ರತಿ ಮನೆಗೆ ಭೇಟಿ ನೀಡುತ್ತಾರೆ; ಒಬ್ಬ ನೆರೆಹೊರೆಯವರು ಈ ಗಾದೆಯನ್ನು ಬಳಸುತ್ತಾರೆ.",
+        "category_kn": "ಚಾಡಿ",
+        "keywords_kn": "ಚಾಡಿ, ವದಂತಿ, ಸಂಪರ್ಕ",
+        "keywords_en": "gossip, rumours, contacts",
+        "region_kn": "",
+        "dialect_kn": ""
+      }
+    }
+  },
+  {
+    "record": {
+      "id": "1f121491bfd74a92b0999fda08185978",
+      "proverb_kn": "ಮಾಡಿದ್ದುಣ್ಣೋ ಮಾರಾಯ",
+      "transliteration": "",
+      "literal_meaning": "Draft: Eat what you have done, good fellow.",
+      "contextual_meaning": "Draft for human verification: People have to face the consequences of their own actions.",
+      "example_usage": "Draft: Someone ignores repeated maintenance reminders and then faces a breakdown; a friend uses this proverb.",
+      "category": "Actions and consequences",
+      "keywords": "ಕರ್ಮ, ಪರಿಣಾಮ, ಹೊಣೆಗಾರಿಕೆ, actions, consequences, accountability",
+      "region": "",
+      "dialect": "",
+      "source": "https://www.kannadapedia.com/kannada-gadegalu-proverbs/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T10:18:12.639695+00:00",
+      "reviewed_at": "2026-11-17T10:59:06.845880+00:00"
+    },
+    "translation": null
+  },
+  {
+    "record": {
+      "id": "2073f30bcc1c4f6ca46456bfa1e7a4db",
+      "proverb_kn": "ಗಿಡವಾಗಿ ಬಗ್ಗದ್ದು ಮರವಾಗಿ ಬಗ್ಗೀತೇ ?",
+      "transliteration": "",
+      "literal_meaning": "Draft: Will what did not bend as a sapling bend as a tree?",
+      "contextual_meaning": "Draft for human verification: Habits and behaviour are generally easier to shape early than after they become established.",
+      "example_usage": "Draft: A parent uses this proverb when explaining why children should learn consideration early.",
+      "category": "Early learning and habits",
+      "keywords": "ಬಾಲ್ಯ, ಅಭ್ಯಾಸ, ಶಿಕ್ಷಣ, childhood, habits, education",
+      "region": "",
+      "dialect": "",
+      "source": "https://yakshadeepa.com/2022/01/18/famous-proverbs-in-kannada/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T10:18:12.639763+00:00",
+      "reviewed_at": "2026-11-17T10:59:13.001227+00:00"
+    },
+    "translation": null
+  },
+  {
+    "record": {
+      "id": "229018dc101e42129418041a0473a843",
+      "proverb_kn": "ಹಾವೂ ಸಾಯಲಿಲ್ಲ ಕೋಲು ಮುರೀಲಿಲ್ಲ",
+      "transliteration": "",
+      "literal_meaning": "Draft: The snake did not die, and the stick did not break.",
+      "contextual_meaning": "Draft for human verification: An attempt has neither resolved the problem nor produced a decisive outcome; this wording should not be confused with the different saying about killing the snake without breaking the stick.",
+      "example_usage": "Draft: A meeting ends without settling the dispute or changing either position; a participant uses this proverb.",
+      "category": "Inconclusive action",
+      "keywords": "ಸಮಸ್ಯೆ, ನಿರ್ಧಾರ, ವಿಫಲ ಪ್ರಯತ್ನ, problem, decision, inconclusive effort",
+      "region": "",
+      "dialect": "",
+      "source": "https://www.vishaya.in/gaade/kannada-proverb-collection/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T10:18:12.639718+00:00",
+      "reviewed_at": "2026-11-17T10:59:09.067291+00:00"
+    },
+    "translation": null
+  },
+  {
+    "record": {
+      "id": "247458bb00ca47d5ace97bc383771f7b",
+      "proverb_kn": "ನೀರ ಕಡೆದರೆ ಬೆಣ್ಣೆ ಬಂದಾದೇನೆ",
+      "transliteration": "",
+      "literal_meaning": "Draft: Will churning water produce butter?",
+      "contextual_meaning": "Draft for human verification: No amount of effort can produce a result when the essential material or basis is missing.",
+      "example_usage": "Draft: A team expects reliable analysis from data it never collected; a member uses this proverb.",
+      "category": "Necessary conditions",
+      "keywords": "ಮೂಲಸಾಧನ, ಪ್ರಯತ್ನ, ಫಲಿತಾಂಶ, prerequisites, effort, results",
+      "region": "",
+      "dialect": "",
+      "source": "https://www.vishaya.in/gaade/kannada-proverb-collection/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T10:18:12.639738+00:00",
+      "reviewed_at": "2026-11-17T10:59:11.131269+00:00"
+    },
+    "translation": null
+  },
+  {
+    "record": {
+      "id": "24c88296a9954915b367eb84037ac0f9",
+      "proverb_kn": "ಕುಂತು ತಿಂದರೆ, ಕುಡಿಕೆ ಹೊನ್ನೂ ಸಾಲದು",
+      "transliteration": "",
+      "literal_meaning": "Draft: If one sits and eats, even a pot of gold will not suffice.",
+      "contextual_meaning": "Draft for human verification: Savings can run out if a person keeps spending without earning.",
+      "example_usage": "Draft: Someone repeatedly draws on savings while refusing available work; a relative uses this proverb.",
+      "category": "Work and financial sustainability",
+      "keywords": "ಉಳಿತಾಯ, ದುಡಿಮೆ, ಖರ್ಚು, savings, work, spending",
+      "region": "",
+      "dialect": "",
+      "source": "https://www.kannadapedia.com/kannada-gadegalu-proverbs/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T10:18:12.639714+00:00",
+      "reviewed_at": "2026-11-17T10:59:08.650904+00:00"
+    },
+    "translation": null
+  },
+  {
+    "record": {
+      "id": "31601b3cee5f415f9010b73bef78e8d3",
+      "proverb_kn": "ಇಬ್ಬರ ಜಗಳ ಮೂರನೆಯವನಿಗೆ ಲಾಭ.",
+      "transliteration": "",
+      "literal_meaning": "Draft: A quarrel between two benefits a third.",
+      "contextual_meaning": "Draft for human verification: A bystander or competitor can profit while others waste their resources fighting.",
+      "example_usage": "Draft: Two sellers undercut each other until a buyer secures a bargain; someone uses this proverb.",
+      "category": "Conflict and opportunity",
+      "keywords": "ಜಗಳ, ಸ್ಪರ್ಧೆ, ಲಾಭ, quarrel, competition, advantage",
+      "region": "",
+      "dialect": "",
+      "source": "https://www.vishaya.in/gaade/kannada-proverb-collection/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T10:18:12.639742+00:00",
+      "reviewed_at": "2026-11-17T10:59:11.534942+00:00"
+    },
+    "translation": null
+  },
+  {
+    "record": {
+      "id": "32945943104d45da940efa26be2b2cee",
+      "proverb_kn": "ನಾಲಿಗೆ ಒಳ್ಳೆಯದಾದರೆ ನಾಡೆಲ್ಲಾ ಒಳ್ಳೆಯದು",
+      "transliteration": "",
+      "literal_meaning": "Draft: If the tongue is good, the whole land is good.",
+      "contextual_meaning": "Draft for human verification: Courteous speech helps a person maintain good relationships wherever they go.",
+      "example_usage": "Draft: A newcomer wins neighbours over by speaking respectfully; an elder uses this proverb.",
+      "category": "Courtesy and relationships",
+      "keywords": "ಮಾತು, ಸೌಜನ್ಯ, ಸಂಬಂಧ, speech, courtesy, relationships",
+      "region": "",
+      "dialect": "",
+      "source": "https://www.kannadapedia.com/kannada-gadegalu-proverbs/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T10:18:12.639680+00:00",
+      "reviewed_at": "2026-11-17T10:59:05.468655+00:00"
+    },
+    "translation": null
+  },
+  {
+    "record": {
+      "id": "339aa550138d469ebff3bf655a9d981c",
+      "proverb_kn": "ಕಾಲಕ್ಕೆ ತಕ್ಕಂತೆ ನಡೆಯಬೇಕು, ತಾಳಕ್ಕೆ ತಕ್ಕಂತೆ ಕುಣಿಯಬೇಕು",
+      "transliteration": "",
+      "literal_meaning": "Draft: Walk according to the times; dance according to the beat.",
+      "contextual_meaning": "Draft for human verification: Adjust methods and behaviour to changing circumstances.",
+      "example_usage": "Draft: A small business changes its services to match customers' new needs; an adviser uses this proverb.",
+      "category": "Adaptability",
+      "keywords": "ಕಾಲ, ಬದಲಾವಣೆ, ಹೊಂದಾಣಿಕೆ, times, change, adaptability",
+      "region": "",
+      "dialect": "",
+      "source": "https://www.vishaya.in/gaade/kannada-proverb-collection/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T10:18:12.639744+00:00",
+      "reviewed_at": "2026-11-17T10:59:11.732581+00:00"
+    },
+    "translation": null
+  },
+  {
+    "record": {
+      "id": "34e6af5f96a648b48bb5d1b442f239ce",
+      "proverb_kn": "ಮಂಗನ ಕೈಯಲ್ಲಿ ಮಾಣಿಕ್ಯ ಕೊಟ್ಟ ಹಾಗೆ",
+      "transliteration": "",
+      "literal_meaning": "Draft: Like placing a ruby in a monkey's hand.",
+      "contextual_meaning": "Draft for human verification: Something valuable is wasted when entrusted to someone unable to appreciate or handle it.",
+      "example_usage": "Draft: An expensive instrument is given to someone who damages it through careless handling; a teacher uses this proverb.",
+      "category": "Value and competence",
+      "keywords": "ಮೌಲ್ಯ, ಅಜ್ಞಾನ, ದುರುಪಯೋಗ, value, ignorance, misuse",
+      "region": "",
+      "dialect": "",
+      "source": "https://yakshadeepa.com/2022/01/18/famous-proverbs-in-kannada/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T07:22:38.168090+00:00",
+      "reviewed_at": "2026-11-17T07:28:50.447851+00:00"
+    },
+    "translation": {
+      "status": "MACHINE_TRANSLATION_DRAFT",
+      "input_hash": "889a9239835508cabfb3c3d1ba0962f75602878780d7de445c036bfab7761323",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "translated_at": "2026-11-17T10:10:21.887384+00:00",
+      "fields": {
+        "proverb_en": "Like placing a ruby in a monkey's hand",
+        "literal_meaning_kn": "ಡ್ರಾфт: ಮಂಗನ ಕೈಯಲ್ಲಿ ಮಾಣಿಕ್ಯ ಇಟ್ಟಂತೆ.",
+        "contextual_meaning_kn": "ಮಾನವ ಪರಿಶೀಲನೆಗಾಗಿ ಡ್ರಾфт: ಮೌಲ್ಯಯುತವಾದ ವಸ್ತುವನ್ನು ಅದನ್ನು ಮೆಚ್ಚಿಕೊಳ್ಳಲು ಅಥವಾ ನಿರ್ವಹಿಸಲು ಅಸಾಧ್ಯವಾದ ವ್ಯಕ್ತಿಗೆ ನೀಡಿದಾಗ ಅದು ವ್ಯರ್ಥವಾಗುತ್ತದೆ.",
+        "example_usage_kn": "ಡ್ರಾфт: ದುಬಾರಿ ಉಪಕರಣವನ್ನು ಅದನ್ನು ನಿರ್ಲಕ್ಷ್ಯದಿಂದ ಹಾನಿ ಮಾಡುವ ವ್ಯಕ್ತಿಗೆ ನೀಡಲಾಗುತ್ತದೆ; ಒಬ್ಬ ಶಿಕ್ಷಕರು ಈ ಗಾದೆಯನ್ನು ಬಳಸುತ್ತಾರೆ.",
+        "category_kn": "ಮೌಲ್ಯ ಮತ್ತು ಸಾಮರ್ಥ್ಯ",
+        "keywords_kn": "ಮೌಲ್ಯ, ಅಜ್ಞಾನ, ದುರುಪಯೋಗ",
+        "keywords_en": "value, ignorance, misuse",
+        "region_kn": "",
+        "dialect_kn": ""
+      }
+    }
+  },
+  {
+    "record": {
+      "id": "35015035265b4ec8be91f862d904569d",
+      "proverb_kn": "ಊರೇ ಕೊಳ್ಳೆ ಹೊಡೆದ ಮೇಲೆ ಕೋಟೆ ಬಾಗಿಲು ಮುಚ್ಚಿದಂತೆ",
+      "transliteration": "",
+      "literal_meaning": "Draft: Like closing the fort gate after the whole town has been plundered.",
+      "contextual_meaning": "Draft for human verification: Protective action is ineffective when taken only after the damage has occurred.",
+      "example_usage": "Draft: A shop improves security only after losing its stock to theft; someone uses this proverb.",
+      "category": "Prevention and delay",
+      "keywords": "ಮುನ್ನೆಚ್ಚರಿಕೆ, ತಡ, ನಷ್ಟ, prevention, delay, loss",
+      "region": "",
+      "dialect": "",
+      "source": "https://www.kannadapedia.com/kannada-gadegalu-proverbs/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T10:18:12.639699+00:00",
+      "reviewed_at": "2026-11-17T10:59:07.250900+00:00"
+    },
+    "translation": null
+  },
+  {
+    "record": {
+      "id": "3670a504c8984cb0ac3d25deff8cf091",
+      "proverb_kn": "ಕಡು ಕೋಪ ಬಂದಾಗ ತಡಕೊಂಡವನೇ ಜಾಣ",
+      "transliteration": "",
+      "literal_meaning": "Draft: The wise person is the one who holds back when intense anger arises.",
+      "contextual_meaning": "Draft for human verification: Restraining an angry reaction shows good judgement.",
+      "example_usage": "Draft: Someone waits before replying to an insulting message; a friend uses this proverb approvingly.",
+      "category": "Self-control",
+      "keywords": "ಕೋಪ, ತಾಳ್ಮೆ, ಸಂಯಮ, anger, patience, restraint",
+      "region": "",
+      "dialect": "",
+      "source": "https://yakshadeepa.com/2022/01/18/famous-proverbs-in-kannada/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T07:22:38.168061+00:00",
+      "reviewed_at": "2026-11-17T07:28:15.819318+00:00"
+    },
+    "translation": {
+      "status": "MACHINE_TRANSLATION_DRAFT",
+      "input_hash": "4bbc77adeb40c9783a5d108e82405089d855bb8e9a25bc5e9cd4017ca4f58dc9",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "translated_at": "2026-11-17T10:10:26.682520+00:00",
+      "fields": {
+        "proverb_en": "The wise person is the one who holds back when intense anger arises.",
+        "literal_meaning_kn": "ಕರಡು: ಕಡು ಕೋಪ ಉಂಟಾದಾಗ ತಡೆದುಕೊಂಡವನೇ ಜಾಣನು.",
+        "contextual_meaning_kn": "ಕರಡು (ಮಾನವ ಪರಿಶೀಲನೆಗಾಗಿ): ಕೋಪದ ಪ್ರತಿಕ್ರಿಯೆಯನ್ನು ನಿಯಂತ್ರಿಸುವುದು ಉತ್ತಮ ನಿರ್ಧಾರವನ್ನು ತೋರಿಸುತ್ತದೆ.",
+        "example_usage_kn": "ಕರಡು: ಯಾರಾದರೂ ಅವಮಾನಕರ ಸಂದೇಶಕ್ಕೆ ಉತ್ತರಿಸುವ ಮೊದಲು ಕಾಯುತ್ತಾರೆ; ಒಬ್ಬ ಸ್ನೇಹಿತನು ಈ ಗಾದೆಯನ್ನು ಮೆಚ್ಚುಗೆಯಿಂದ ಬಳಸುತ್ತಾನೆ.",
+        "category_kn": "ಸ್ವಯಂ-ನಿಯಂತ್ರಣ",
+        "keywords_kn": "ಕೋಪ, ತಾಳ್ಮೆ, ಸಂಯಮ",
+        "keywords_en": "anger, patience, restraint",
+        "region_kn": "",
+        "dialect_kn": ""
+      }
+    }
+  },
+  {
+    "record": {
+      "id": "387f1cdb019444dfa3cd616c44d61774",
+      "proverb_kn": "ಆಟ ಕೆಟ್ಟರೆ ದೀವಟಿಗೆಯವನ ಸುತ್ತ",
+      "transliteration": "",
+      "literal_meaning": "Draft: When the performance goes wrong, they turn on the torchbearer.",
+      "contextual_meaning": "Draft for human verification: People sometimes blame a supporting person for their own failure.",
+      "example_usage": "Draft: A speaker blames the technician for an unprepared talk; a colleague uses this proverb.",
+      "category": "Blame and accountability",
+      "keywords": "ತಪ್ಪು, ಹೊಣೆ, ಆರೋಪ, failure, responsibility, scapegoating",
+      "region": "",
+      "dialect": "",
+      "source": "https://yakshadeepa.com/2022/01/18/famous-proverbs-in-kannada/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T07:22:38.168025+00:00",
+      "reviewed_at": "2026-11-17T07:27:15.670739+00:00"
+    },
+    "translation": {
+      "status": "MACHINE_TRANSLATION_DRAFT",
+      "input_hash": "d2c276143fcf51366386a97051e42e2a2e911ac06737dad1828cb7e8d61bff4e",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "translated_at": "2026-11-17T10:12:37.566794+00:00",
+      "fields": {
+        "proverb_en": "When the play goes wrong, the blame falls around the torchbearer.",
+        "literal_meaning_kn": "ಡ್ರಾಫ್ಟ್: ಆಟವು ಕೆಟ್ಟಾಗ, ಅವರು ದೀವಟಿಗೆ ಹಿಡಿದವನ ಮೇಲೆ ತಿರುಗುತ್ತಾರೆ.",
+        "contextual_meaning_kn": "ಮಾನವ ಪರಿಶೀಲನೆಗಾಗಿ ಡ್ರಾಫ್ಟ್: ಜನರು ಕೆಲವೊಮ್ಮೆ ತಮ್ಮದೇ ಆದ ವೈಫಲ್ಯಕ್ಕೆ ಸಹಾಯ ಮಾಡುವ ವ್ಯಕ್ತಿಯನ್ನು ದೂಷಿಸುತ್ತಾರೆ.",
+        "example_usage_kn": "ಡ್ರಾಫ್ಟ್: ಮಾತನಾಡಲು ಸಿದ್ಧವಿಲ್ಲದ ವಕ್ತಾರರು ತಾಂತ್ರಿಕ ಸಿಬ್ಬಂದಿಯನ್ನು ದೂಷಿಸುತ್ತಾರೆ; ಒಬ್ಬ ಸಹೋದ್ಯೋಗಿ ಈ ಗಾದೆಯನ್ನು ಬಳಸುತ್ತಾರೆ.",
+        "category_kn": "ದೋಷ ಮತ್ತು ಜವಾಬ್ದಾರಿ",
+        "keywords_kn": "ತಪ್ಪು, ಹೊಣೆ, ಆರೋಪ, ವೈಫಲ್ಯ, ಜವಾಬ್ದಾರಿ, ಬಲಿಪಶು",
+        "keywords_en": "tappu, hone, aaropa, failure, responsibility, scapegoating",
+        "region_kn": "",
+        "dialect_kn": ""
+      }
+    }
+  },
+  {
+    "record": {
+      "id": "3d4a4b9872fa426fad8b640c53d82a01",
+      "proverb_kn": "ನಾಳೆ ಎಂದವನ ಮನೆ ಹಾಳು",
+      "transliteration": "",
+      "literal_meaning": "Draft: The house of the one who says tomorrow falls into ruin.",
+      "contextual_meaning": "Draft for human verification: Repeated postponement can cause neglected work and serious losses.",
+      "example_usage": "Draft: A roof repair is delayed until rain causes damage; a neighbour uses this proverb.",
+      "category": "Procrastination",
+      "keywords": "ಮುಂದೂಡುವಿಕೆ, ಕೆಲಸ, ನಷ್ಟ, procrastination, work, loss",
+      "region": "",
+      "dialect": "",
+      "source": "https://www.kannadapedia.com/kannada-gadegalu-proverbs/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T10:18:12.639691+00:00",
+      "reviewed_at": "2026-11-17T10:59:06.466692+00:00"
+    },
+    "translation": null
+  },
+  {
+    "record": {
+      "id": "3dbdbb08cfff4f56bd671abf8aae0d58",
+      "proverb_kn": "ಕಣ್ಣಾರೆ ಕಂಡರೂ ಪರಾಂಬರಿಸಿ ನೋಡು",
+      "transliteration": "",
+      "literal_meaning": "Draft: Even after seeing with your own eyes, examine carefully.",
+      "contextual_meaning": "Draft for human verification: Verify the circumstances before drawing conclusions from appearances.",
+      "example_usage": "Draft: Before blaming someone based on a short video, a friend uses this proverb and asks for the full context.",
+      "category": "Verification and judgement",
+      "keywords": "ಪರಿಶೀಲನೆ, ಸಾಕ್ಷಿ, ತೀರ್ಮಾನ, verification, evidence, judgement",
+      "region": "",
+      "dialect": "",
+      "source": "https://yakshadeepa.com/2022/01/18/famous-proverbs-in-kannada/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T07:22:38.168063+00:00",
+      "reviewed_at": "2026-11-17T07:28:18.169048+00:00"
+    },
+    "translation": {
+      "status": "MACHINE_TRANSLATION_DRAFT",
+      "input_hash": "e2567eef940b53cb38e5ea2d60312cf2c73badb58c0853312e226306533fdf9d",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "translated_at": "2026-11-17T10:08:34.757058+00:00",
+      "fields": {
+        "proverb_en": "Even if you see with your own eyes, verify and examine",
+        "literal_meaning_kn": "ಖುದ್ದು ನಿಮ್ಮ ಕಣ್ಣುಗಳಿಂದ ನೋಡಿದ ಮೇಲೆಯೂ ಸಹ, ಎಚ್ಚರಿಕೆಯಿಂದ ಪರಿಶೀಲಿಸಿ ನೋಡಿ.",
+        "contextual_meaning_kn": "ಮೇಲ್ನೋಟದ ಸ್ಥಿತಿಗತಿಗಳಿಂದ ನಿರ್ಣಯಕ್ಕೆ ಬರುವ ಮುಂಚೆ ಸಂದರ್ಭಗಳನ್ನು ಪರಿಶೀಲಿಸಿರಿ.",
+        "example_usage_kn": "ಚಿಕ್ಕ ವೀಡಿಯೊವನ್ನು ಆಧರಿಸಿ ಯಾರನ್ನಾದರೂ ದೂಷಿಸುವ ಮುಂಚೆ, ಒಬ್ಬ ಸ್ನೇಹಿತ ಈ ಗಾದೆಯನ್ನು ಬಳಸಿ ಸಂಪೂರ್ಣ ಸಂದರ್ಭವನ್ನು ಕೇಳುತ್ತಾನೆ.",
+        "category_kn": "ಪರಿಶೀಲನೆ ಮತ್ತು ತೀರ್ಪು",
+        "keywords_kn": "ಪರಿಶೀಲನೆ, ಸಾಕ್ಷಿ, ತೀರ್ಮಾನ",
+        "keywords_en": "verification, evidence, judgement",
+        "region_kn": "",
+        "dialect_kn": ""
+      }
+    }
+  },
+  {
+    "record": {
+      "id": "3fefaf89b24a4b42a66857156abf02ff",
+      "proverb_kn": "ಕಚ್ಚುವ ನಾಯಿ ಬೊಗಳುವುದಿಲ್ಲ",
+      "transliteration": "",
+      "literal_meaning": "Draft: A dog that bites does not bark.",
+      "contextual_meaning": "Draft for human verification: A person who intends to act may give little warning.",
+      "example_usage": "Draft: A quiet competitor unexpectedly makes a decisive move; an observer uses this proverb.",
+      "category": "Action and warning",
+      "keywords": "ಮೌನ, ಕ್ರಿಯೆ, ಎಚ್ಚರಿಕೆ, silence, action, warning",
+      "region": "",
+      "dialect": "",
+      "source": "https://yakshadeepa.com/2022/01/18/famous-proverbs-in-kannada/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T07:22:38.168054+00:00",
+      "reviewed_at": "2026-11-17T07:28:08.768458+00:00"
+    },
+    "translation": {
+      "status": "MACHINE_TRANSLATION_DRAFT",
+      "input_hash": "ed2fb3cd2629437f5155a17e5df1e065cab702822fa3e0566e529fe87b90b590",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "translated_at": "2026-11-17T10:08:39.416985+00:00",
+      "fields": {
+        "proverb_en": "The dog that bites does not bark",
+        "literal_meaning_kn": "ಕರಡು: ಕಚ್ಚುವ ನಾಯಿಯು ಬೊಗಳುವುದಿಲ್ಲ.",
+        "contextual_meaning_kn": "ಮಾನವ ಪರಿಶೀಲನೆಗಾಗಿ ಕರಡು: ಕಾರ್ಯನಿರ್ವಹಿಸಲು ಉದ್ದೇಶಿಸಿರುವ ವ್ಯಕ್ತಿಯು ಕಡಿಮೆ ಮುನ್ಸೂಚನೆಯನ್ನು ನೀಡಬಹುದು.",
+        "example_usage_kn": "ಕರಡು: ಶಾಂತ ಸ್ಪರ್ಧಿಯು ಅನಿರೀಕ್ಷಿತವಾಗಿ ನಿರ್ಣಾಯಕ ಹೆಜ್ಜೆಯನ್ನು ಇಡುತ್ತಾನೆ; ಒಬ್ಬ ವೀಕ್ಷಕನು ಈ ಗಾದೆಯನ್ನು ಬಳಸುತ್ತಾನೆ.",
+        "category_kn": "ಕ್ರಿಯೆ ಮತ್ತು ಎಚ್ಚರಿಕೆ",
+        "keywords_kn": "ಮೌನ, ಕ್ರಿಯೆ, ಎಚ್ಚರಿಕೆ",
+        "keywords_en": "silence, action, warning",
+        "region_kn": "",
+        "dialect_kn": ""
+      }
+    }
+  },
+  {
+    "record": {
+      "id": "422ad2f706f14a93b10c73b2716d42af",
+      "proverb_kn": "ಹೊಟ್ಟೆ ತುಂಬಿದ ಮೇಲೆ ಹುಗ್ಗಿ ಮುಳ್ಳು ಮುಳ್ಳು",
+      "transliteration": "",
+      "literal_meaning": "Draft: Once the stomach is full, even huggi feels thorny.",
+      "contextual_meaning": "Draft for human verification: Something welcome while needed can become unwelcome after the need is satisfied.",
+      "example_usage": "Draft: After eating a large meal, a guest complains about another serving of a favourite dish; the host recalls this proverb.",
+      "category": "Satisfaction and excess",
+      "keywords": "ತೃಪ್ತಿ, ಊಟ, ಅತಿಯಾದುದು, satisfaction, food, excess",
+      "region": "",
+      "dialect": "",
+      "source": "https://www.kannadapedia.com/kannada-gadegalu-proverbs/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T10:18:12.639674+00:00",
+      "reviewed_at": "2026-11-17T10:59:03.550880+00:00"
+    },
+    "translation": null
+  },
+  {
+    "record": {
+      "id": "42b68e0b00054a03ab39028fddc29492",
+      "proverb_kn": "ಕಬ್ಬು ಡೊಂಕಾದ್ರೆ ಸವಿ ಡೊಂಕೇ",
+      "transliteration": "",
+      "literal_meaning": "Draft: If the sugarcane is crooked, is its sweetness crooked?",
+      "contextual_meaning": "Draft for human verification: An outward irregularity need not reduce inner worth or usefulness.",
+      "example_usage": "Draft: A buyer dismisses unusually shaped fruit despite its good taste; the seller uses this proverb.",
+      "category": "Worth beyond form",
+      "keywords": "ರೂಪ, ಗುಣ, ಮೌಲ್ಯ, form, quality, worth",
+      "region": "",
+      "dialect": "",
+      "source": "https://www.vishaya.in/gaade/kannada-proverb-collection/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T10:18:12.639736+00:00",
+      "reviewed_at": "2026-11-17T10:59:10.917756+00:00"
+    },
+    "translation": null
+  },
+  {
+    "record": {
+      "id": "42c07be4a8894300b966bce17a162baf",
+      "proverb_kn": "ಬೆಟ್ಟ ಅಗೆದು ಇಲಿ ಹಿಡಿದ",
+      "transliteration": "",
+      "literal_meaning": "Draft: Dug up a mountain and caught a mouse.",
+      "contextual_meaning": "Draft for human verification: A great deal of effort produces a disappointingly small result.",
+      "example_usage": "Draft: A lengthy investigation uncovers only a trivial issue; someone uses this proverb.",
+      "category": "Effort and results",
+      "keywords": "ಶ್ರಮ, ಫಲಿತಾಂಶ, ನಿರಾಶೆ, effort, results, disappointment",
+      "region": "",
+      "dialect": "",
+      "source": "https://www.kannadapedia.com/kannada-gadegalu-proverbs/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T10:18:12.639703+00:00",
+      "reviewed_at": "2026-11-17T10:59:07.651662+00:00"
+    },
+    "translation": null
+  },
+  {
+    "record": {
+      "id": "42cd418cc25c4c7e994e3b5514287e02",
+      "proverb_kn": "ಎರಡು ದಾಸರ ನಂಬಿ ಕುರುಡು ದಾಸ ಕೆಟ್ಟ",
+      "transliteration": "",
+      "literal_meaning": "Draft: Trusting two mendicants, the blind mendicant came to grief.",
+      "contextual_meaning": "Draft for human verification: Relying on two helpers without clear responsibility can leave a task unattended.",
+      "example_usage": "Draft: Two colleagues each assume the other has booked transport, leaving a traveller stranded; someone uses this proverb.",
+      "category": "Unclear responsibility",
+      "keywords": "ಅವಲಂಬನೆ, ಹೊಣೆ, ಸಮನ್ವಯ, reliance, responsibility, coordination",
+      "region": "",
+      "dialect": "",
+      "source": "https://www.vishaya.in/gaade/kannada-proverb-collection/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T10:18:12.639752+00:00",
+      "reviewed_at": "2026-11-17T10:59:11.933635+00:00"
+    },
+    "translation": null
+  },
+  {
+    "record": {
+      "id": "440431ec61ab42699e7ff8d4c4eddf4c",
+      "proverb_kn": "ತಾನೊಂದೆಣಿಸಿದರೆ ದೈವವೊಂದೆಣಿಸಿತು",
+      "transliteration": "",
+      "literal_meaning": "Draft: One planned one thing; fate planned another.",
+      "contextual_meaning": "Draft for human verification: Events can overturn even carefully made plans.",
+      "example_usage": "Draft: Rain forces a planned outdoor celebration indoors; the organiser uses this proverb.",
+      "category": "Plans and uncertainty",
+      "keywords": "ಯೋಜನೆ, ವಿಧಿ, ಬದಲಾವಣೆ, planning, fate, uncertainty",
+      "region": "",
+      "dialect": "",
+      "source": "https://yakshadeepa.com/2022/01/18/famous-proverbs-in-kannada/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T07:22:38.168083+00:00",
+      "reviewed_at": "2026-11-17T07:28:44.152294+00:00"
+    },
+    "translation": {
+      "status": "MACHINE_TRANSLATION_DRAFT",
+      "input_hash": "9b6eaf05382425782f00ca168db9982ec75f0df9de5bd2c04549045ac74c53a9",
+      "provider": "assistant",
+      "origin": "locally_authored_ai_translation_draft",
+      "translated_at": "2026-11-17T10:16:20.081872+00:00",
+      "fields": {
+        "proverb_en": "One planned one thing; fate planned another.",
+        "literal_meaning_kn": "ಕರಡು: ತಾನು ಒಂದು ರೀತಿಯಾಗಿ ಯೋಜಿಸಿದರೆ ವಿಧಿ ಬೇರೊಂದು ರೀತಿಯಾಗಿ ಯೋಜಿಸಿತು.",
+        "contextual_meaning_kn": "ಮಾನವ ಪರಿಶೀಲನೆಗಾಗಿ ಕರಡು: ಎಚ್ಚರಿಕೆಯಿಂದ ರೂಪಿಸಿದ ಯೋಜನೆಗಳನ್ನೂ ಅನಿರೀಕ್ಷಿತ ಘಟನೆಗಳು ಬದಲಿಸಬಹುದು.",
+        "example_usage_kn": "ಕರಡು: ಮಳೆಯಿಂದಾಗಿ ಹೊರಾಂಗಣ ಸಮಾರಂಭವನ್ನು ಒಳಾಂಗಣಕ್ಕೆ ಸ್ಥಳಾಂತರಿಸಬೇಕಾದಾಗ ಆಯೋಜಕರು ಈ ಗಾದೆಯನ್ನು ಬಳಸುತ್ತಾರೆ.",
+        "category_kn": "ಯೋಜನೆಗಳು ಮತ್ತು ಅನಿಶ್ಚಿತತೆ",
+        "keywords_kn": "ಯೋಜನೆ, ವಿಧಿ, ಬದಲಾವಣೆ",
+        "keywords_en": "planning, fate, uncertainty",
+        "region_kn": "",
+        "dialect_kn": ""
+      }
+    }
+  },
+  {
+    "record": {
+      "id": "443d50ed4ae547458a408567010ef678",
+      "proverb_kn": "ಅಳಿಯುವುದು ಕಾಯ ಉಳಿಯುವುದು ಕೀರ್ತಿ",
+      "transliteration": "",
+      "literal_meaning": "Draft: The body perishes; reputation remains.",
+      "contextual_meaning": "Draft for human verification: A person's deeds and reputation can outlast their lifetime.",
+      "example_usage": "Draft: At a remembrance gathering, people recall a teacher's lasting contributions and use this proverb.",
+      "category": "Legacy and reputation",
+      "keywords": "ಕೀರ್ತಿ, ಒಳ್ಳೆಯ ಕೆಲಸ, ನೆನಪು, reputation, good deeds, legacy",
+      "region": "",
+      "dialect": "",
+      "source": "https://yakshadeepa.com/2022/01/18/famous-proverbs-in-kannada/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T10:18:12.639781+00:00",
+      "reviewed_at": "2026-11-17T10:59:18.652131+00:00"
+    },
+    "translation": null
+  },
+  {
+    "record": {
+      "id": "46b8d2df566d45229e402040c4464cd6",
+      "proverb_kn": "ಕೊಡಲಿ ಕಾವು ಕುಲಕ್ಕೆ ಸಾವು",
+      "transliteration": "",
+      "literal_meaning": "Draft: The axe handle brings death to its own kind.",
+      "contextual_meaning": "Draft for human verification: Someone from within a group may enable harm to that group, as wood helps an axe cut trees.",
+      "example_usage": "Draft: An insider supplies information that helps outsiders exploit the organisation; someone uses this proverb.",
+      "category": "Betrayal",
+      "keywords": "ದ್ರೋಹ, ಒಳಗಿನವರು, ಹಾನಿ, betrayal, insiders, harm",
+      "region": "",
+      "dialect": "",
+      "source": "https://www.vishaya.in/gaade/kannada-proverb-collection/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T10:18:12.639740+00:00",
+      "reviewed_at": "2026-11-17T10:59:11.334174+00:00"
+    },
+    "translation": null
+  },
+  {
+    "record": {
+      "id": "486cba9698c44c31ae354f943e0f734a",
+      "proverb_kn": "ಆಕಾಶ ನೋಡೋಕೆ ನೂಕಾಟವೇಕೆ?",
+      "transliteration": "",
+      "literal_meaning": "Draft: Why push one another to look at the sky?",
+      "contextual_meaning": "Draft for human verification: Competition is unnecessary when something is freely available to everyone.",
+      "example_usage": "Draft: People crowd around a freely accessible online resource; an organiser uses this proverb to discourage needless competition.",
+      "category": "Cooperation",
+      "keywords": "ನೂಕಾಟ, ಸ್ಪರ್ಧೆ, ಅವಕಾಶ, crowding, competition, access",
+      "region": "",
+      "dialect": "",
+      "source": "https://yakshadeepa.com/2022/01/18/famous-proverbs-in-kannada/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T07:22:38.168016+00:00",
+      "reviewed_at": "2026-11-17T07:27:01.455005+00:00"
+    },
+    "translation": {
+      "status": "MACHINE_TRANSLATION_DRAFT",
+      "input_hash": "2264c58aa415264e9a62934c35f3b1810d418a5e7b145aabb81d322ef830e2ed",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "translated_at": "2026-11-17T10:08:49.108485+00:00",
+      "fields": {
+        "proverb_en": "Why push one another to look at the sky?",
+        "literal_meaning_kn": "ಕರಡು: ಆಕಾಶವನ್ನು ನೋಡಲು ಪರಸ್ಪರ ನೂಕಾಡುವುದು ಏಕೆ?",
+        "contextual_meaning_kn": "ಮಾನವ ಪರಿಶೀಲನೆಗಾಗಿ ಕರಡು: ಎಲ್ಲರಿಗೂ ಮುಕ್ತವಾಗಿ ಲಭ್ಯವಿರುವ ಯಾವುದೋ ಒಂದು ವಿಷಯಕ್ಕೆ ಸ್ಪರ್ಧೆ ಅನಾವಶ್ಯಕ.",
+        "example_usage_kn": "ಕರಡು: ಮುಕ್ತವಾಗಿ ಲಭ್ಯವಿರುವ ಆನ್‌ಲೈನ್ ಸಂಪನ್ಮೂಲದ ಸುತ್ತಲೂ ಜನರು ಗುಂಪುಗೂಡುತ್ತಾರೆ; ಅನಗತ್ಯ ಸ್ಪರ್ಧೆಯನ್ನು ನಿರುತ್ಸಾಹಗೊಳಿಸಲು ಒಬ್ಬ ಸಂಘಟಕನು ಈ ಗಾದೆಯನ್ನು ಬಳಸುತ್ತಾನೆ.",
+        "category_kn": "ಸಹಕಾರ",
+        "keywords_kn": "ನೂಕಾಟ, ಸ್ಪರ್ಧೆ, ಅವಕಾಶ",
+        "keywords_en": "crowding, competition, access",
+        "region_kn": "",
+        "dialect_kn": ""
+      }
+    }
+  },
+  {
+    "record": {
+      "id": "4878fdc07d4a4147b0bcd0e975538787",
+      "proverb_kn": "ಆಗೋದೆಲ್ಲಾ ಒಳ್ಳೇದಕ್ಕೆ",
+      "transliteration": "",
+      "literal_meaning": "Draft: Everything that happens is for the good.",
+      "contextual_meaning": "Draft for human verification: Used to express hope or offer consolation after an unwelcome event.",
+      "example_usage": "Draft: After missing a job opportunity, a friend uses this proverb to encourage continued effort.",
+      "category": "Hope and consolation",
+      "keywords": "ನಿರಾಶೆ, ಭರವಸೆ, ಸಮಾಧಾನ, disappointment, hope, consolation",
+      "region": "",
+      "dialect": "",
+      "source": "https://yakshadeepa.com/2022/01/18/famous-proverbs-in-kannada/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T07:22:38.168018+00:00",
+      "reviewed_at": "2026-11-17T07:27:04.236947+00:00"
+    },
+    "translation": {
+      "status": "MACHINE_TRANSLATION_DRAFT",
+      "input_hash": "e5ccc979ab693b7cba375cb06a2222ccf740bb7b5cf12f70d76997f4baa49d58",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "translated_at": "2026-11-17T10:08:53.805053+00:00",
+      "fields": {
+        "proverb_en": "Everything that happens is for the good.",
+        "literal_meaning_kn": "ಡ್ರಾಫ್ಟ್: ಸಂಭವಿಸುವ ಪ್ರತಿಯೊಂದೂ ಒಳ್ಳೆಯದಕ್ಕಾಗಿಯೇ.",
+        "contextual_meaning_kn": "ಮಾನವ ಪರಿಶೀಲನೆಗಾಗಿ ಡ್ರಾಫ್ಟ್: ಅಪೇಕ್ಷಿಸದ ಘಟನೆಯ ನಂತರ ಭರವಸೆಯನ್ನು ವ್ಯಕ್ತಪಡಿಸಲು ಅಥವಾ ಸಾಂತ್ವನ ನೀಡಲು ಬಳಸಲಾಗುತ್ತದೆ.",
+        "example_usage_kn": "ಡ್ರಾಫ್ಟ್: ಉದ್ಯೋಗಾವಕಾಶವನ್ನು ಕಳೆದುಕೊಂಡ ನಂತರ, ಒಬ್ಬ ಸ್ನೇಹಿತನು ಮುಂದುವರros ಪ್ರಯತ್ನವನ್ನು ಪ್ರೋತ್ಸಾಹಿಸಲು ಈ ಗಾದೆಯನ್ನು ಬಳಸುತ್ತಾನೆ.",
+        "category_kn": "ಭರವಸೆ ಮತ್ತು ಸಾಂತ್ವನ",
+        "keywords_kn": "ನಿರಾಶೆ, ಭರವಸೆ, ಸಮಾಧಾನ",
+        "keywords_en": "disappointment, hope, consolation",
+        "region_kn": "",
+        "dialect_kn": ""
+      }
+    }
+  },
+  {
+    "record": {
+      "id": "4a61efa0f0d94d399ce0002d56ee3924",
+      "proverb_kn": "ಚಿಕ್ಕ ಮೆಣಸಿಗೆ ಕಾರ ಹೆಚ್ಚು",
+      "transliteration": "",
+      "literal_meaning": "Draft: The small chilli has greater pungency.",
+      "contextual_meaning": "Draft for human verification: Small size does not imply little strength, ability, or intensity.",
+      "example_usage": "Draft: The youngest player delivers an outstanding performance; a spectator uses this proverb.",
+      "category": "Size and ability",
+      "keywords": "ಸಣ್ಣದು, ಸಾಮರ್ಥ್ಯ, ಪ್ರತಿಭೆ, size, ability, talent",
+      "region": "",
+      "dialect": "",
+      "source": "https://yakshadeepa.com/2022/01/18/famous-proverbs-in-kannada/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T07:22:38.168074+00:00",
+      "reviewed_at": "2026-11-17T07:28:34.885210+00:00"
+    },
+    "translation": {
+      "status": "MACHINE_TRANSLATION_DRAFT",
+      "input_hash": "e811b4bc27491a9a5831b03c1a379fba43e59ef8aa8425ea396f6bf65672430b",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "translated_at": "2026-11-17T10:08:58.821979+00:00",
+      "fields": {
+        "proverb_en": "Small chilli, greater pungency",
+        "literal_meaning_kn": "ಡ್ರಾಫ್ಟ್: ಸಣ್ಣ ಮೆಣಸಿನಕಾಯಿಯಲ್ಲಿ ಕಾರ ಹೆಚ್ಚು.",
+        "contextual_meaning_kn": "ಮಾನವ ಪರಿಶೀಲನೆಗಾಗಿ ಡ್ರಾಫ್ಟ್: ಸಣ್ಣ ಗಾತ್ರವು ಕಡಿಮೆ ಶಕ್ತಿ, ಸಾಮರ್ಥ್ಯ ಅಥವಾ ತೀವ್ರತೆಯನ್ನು ಸೂಚಿಸುವುದಿಲ್ಲ.",
+        "example_usage_kn": "ಡ್ರಾಫ್ಟ್: ಅತಿ ಕಿರಿಯ ಆಟಗಾರ ಅತ್ಯುತ್ತಮ ಪ್ರದರ್ಶನ ನೀಡುತ್ತಾನೆ; ಒಬ್ಬ ಪ್ರೇಕ್ಷಕನು ಈ ಗಾದೆಯನ್ನು ಬಳಸುತ್ತಾನೆ.",
+        "category_kn": "ಗಾತ್ರ ಮತ್ತು ಸಾಮರ್ಥ್ಯ",
+        "keywords_kn": "ಸಣ್ಣದು, ಸಾಮರ್ಥ್ಯ, ಪ್ರತಿಭೆ",
+        "keywords_en": "size, ability, talent",
+        "region_kn": "",
+        "dialect_kn": ""
+      }
+    }
+  },
+  {
+    "record": {
+      "id": "504afee0bf15456898b55d13430af565",
+      "proverb_kn": "ಬೆಳ್ಳಗಿರೋದೆಲ್ಲ ಹಾಲಲ್ಲ",
+      "transliteration": "",
+      "literal_meaning": "Draft: Not everything white is milk.",
+      "contextual_meaning": "Draft for human verification: Superficial resemblance does not establish a thing's identity or quality.",
+      "example_usage": "Draft: A buyer checks the contents of a product instead of trusting its familiar packaging and uses this proverb.",
+      "category": "Appearances and judgement",
+      "keywords": "ಹೊರನೋಟ, ಪರಿಶೀಲನೆ, ಗುಣಮಟ್ಟ, appearances, verification, quality",
+      "region": "",
+      "dialect": "",
+      "source": "https://yakshadeepa.com/2022/01/18/famous-proverbs-in-kannada/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T07:22:38.168099+00:00",
+      "reviewed_at": "2026-11-17T07:28:59.583294+00:00"
+    },
+    "translation": {
+      "status": "MACHINE_TRANSLATION_DRAFT",
+      "input_hash": "5e2b3f65e50d481e5ec927910bd35ce12d8cce9374d9bee9987a7c3401e7abf3",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "translated_at": "2026-11-17T10:10:41.718583+00:00",
+      "fields": {
+        "proverb_en": "Not everything white is milk",
+        "literal_meaning_kn": "ಡ್ರಾಫ್ಟ್: ಬಿಳಿ ಇರುವುದೆಲ್ಲವೂ ಹಾಲಲ್ಲ.",
+        "contextual_meaning_kn": "ಮಾನವ ಪರಿಶೀಲನೆಗಾಗಿ ಡ್ರಾಫ್ಟ್: ಮೇಲ್ನೋಟದ ಹೋಲಿಕೆಯು ವಸ್ತುವಿನ ಗುರುತನ್ನು ಅಥವಾ ಗುಣಮಟ್ಟವನ್ನು ಸ್ಥಾಪಿಸುವುದಿಲ್ಲ.",
+        "example_usage_kn": "ಡ್ರಾಫ್ಟ್: ಖರೀದಿದಾರನು ತನ್ನ ಪರಿಚಿತ ಪ್ಯಾಕೇಜಿಂಗ್ ಅನ್ನು ನಂಬುವ ಬದಲು ಉತ್ಪನ್ನದ ಒಳಗಿನ ಅಂಶಗಳನ್ನು ಪರಿಶೀಲಿಸುತ್ತಾನೆ ಮತ್ತು ಈ ಗಾದೆಯನ್ನು ಬಳಸುತ್ತಾನೆ.",
+        "category_kn": "ರೂಪಗಳು ಮತ್ತು ತೀರ್ಪು",
+        "keywords_kn": "ಹೊರನೋಟ, ಪರಿಶೀಲನೆ, ಗುಣಮಟ್ಟ",
+        "keywords_en": "appearances, verification, quality",
+        "region_kn": "",
+        "dialect_kn": ""
+      }
+    }
+  },
+  {
+    "record": {
+      "id": "507590c57c38406fbb84967aa54fc539",
+      "proverb_kn": "ಉಗಿದರೆ ತುಪ್ಪ ಕೆಡುತ್ತದೆ, ನುಂಗಿದರೆ ಗಂಟಲು ಕೆಡುತ್ತದೆ",
+      "transliteration": "",
+      "literal_meaning": "Draft: Spitting spoils the ghee; swallowing harms the throat.",
+      "contextual_meaning": "Draft for human verification: Describes a dilemma in which either choice has an unpleasant consequence.",
+      "example_usage": "Draft: Someone must either reveal a friend's mistake or bear responsibility for it and uses this proverb.",
+      "category": "Dilemmas",
+      "keywords": "ಸಂಕಟ, ಆಯ್ಕೆ, ಪರಿಣಾಮ, dilemma, choice, consequences",
+      "region": "",
+      "dialect": "",
+      "source": "https://yakshadeepa.com/2022/01/18/famous-proverbs-in-kannada/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T07:22:38.168036+00:00",
+      "reviewed_at": "2026-11-17T07:27:28.320247+00:00"
+    },
+    "translation": {
+      "status": "MACHINE_TRANSLATION_DRAFT",
+      "input_hash": "2fc508505361f7f29baf6c442035a15e3438e95779396e8296f6c764d3025f7f",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "translated_at": "2026-11-17T10:09:12.963150+00:00",
+      "fields": {
+        "proverb_en": "If you spit it out, the ghee is spoiled; if you swallow it, your throat is harmed.",
+        "literal_meaning_kn": "ಕರಡು: ಉಗಿದರೆ ತುಪ್ಪ ಕೆಡುತ್ತದೆ, ನುಂಗಿದರೆ ಗಂಟಲು ಕೆಡುತ್ತದೆ.",
+        "contextual_meaning_kn": "ಕರಡು ಮಾನವ ಪರಿಶೀಲನೆಗಾಗಿ: ಎರಡು ಆಯ್ಕೆಗಳೂ ಅಹಿತಕರ ಪರಿಣಾಮಗಳನ್ನು ಬೀರುವ ಸಂದಿಗ್ಧ ಪರಿಸ್ಥಿತಿಯನ್ನು ಇದು ವಿವರಿಸುತ್ತದೆ.",
+        "example_usage_kn": "ಕರಡು: ಒಬ್ಬ ವ್ಯಕ್ತಿಯು ತನ್ನ ಸ್ನೇಹಿತನ ತಪ್ಪನ್ನು ಬಹಿರಂಗಪಡಿಸಬೇಕು ಅಥವಾ ಅದರ ಜವಾಬ್ದಾರಿಯನ್ನು ತಾನೇ ಹೊರಬೇಕಾದ ಸಂದರ್ಭದಲ್ಲಿ ಈ ಗಾದೆಯನ್ನು ಬಳಸಲಾಗುತ್ತದೆ.",
+        "category_kn": "ಸಂದಿಗ್ಧತೆಗಳು",
+        "keywords_kn": "ಸಂಕಟ, ಆಯ್ಕೆ, ಪರಿಣಾಮ",
+        "keywords_en": "dilemma, choice, consequences",
+        "region_kn": "",
+        "dialect_kn": ""
+      }
+    }
+  },
+  {
+    "record": {
+      "id": "527c2deac51b4bdd8972cdb47a6a8e02",
+      "proverb_kn": "ಚಿನ್ನದ ಸೂಜಿ ಅಂತ ಕಣ್ಣು ಚುಚ್ಚಿಕೊಂಡಾರೆ?",
+      "transliteration": "",
+      "literal_meaning": "Draft: Would one pierce one's eye because the needle is gold?",
+      "contextual_meaning": "Draft for human verification: Something valuable or appealing should still be rejected if it causes harm.",
+      "example_usage": "Draft: A shopper declines an expensive product that is unsuitable for them and uses this proverb.",
+      "category": "Prudence",
+      "keywords": "ಮೌಲ್ಯ, ಹಾನಿ, ವಿವೇಕ, value, harm, judgement",
+      "region": "",
+      "dialect": "",
+      "source": "https://yakshadeepa.com/2022/01/18/famous-proverbs-in-kannada/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T07:22:38.168079+00:00",
+      "reviewed_at": "2026-11-17T07:28:40.184263+00:00"
+    },
+    "translation": {
+      "status": "MACHINE_TRANSLATION_DRAFT",
+      "input_hash": "ac183ec3c28ee3097fbba0ef504d370c12a525640499478f9349b34e398a40cd",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "translated_at": "2026-11-17T10:10:46.447761+00:00",
+      "fields": {
+        "proverb_en": "Draft: Would one pierce one's eye because the needle is gold?",
+        "literal_meaning_kn": "ಡ್ರಾಫ್ಟ್: ಚಿನ್ನದ ಸೂಜಿ ಎಂದು ಕಣ್ಣನ್ನು ಚುಚ್ಚಿಕೊಳ್ಳಬಹುದೇ?",
+        "contextual_meaning_kn": "ಮಾನವ ಪರಿಶೀಲನೆಗಾಗಿ ಡ್ರಾಫ್ಟ್: ಬೆಲೆಬಾಳುವ ಅಥವಾ ಆಕರ್ಷಕವಾಗಿರುವ ವಸ್ತುವಿನಿಂದ ಹಾನಿಯಾದರೆ, ಅದನ್ನು ತಿರಸ್ಕರಿಸಬೇಕು.",
+        "example_usage_kn": "ಡ್ರಾಫ್ಟ್: ಒಬ್ಬ ಗ್ರಾಹಕನು ತನಗೆ ಸೂಕ್ತವಲ್ಲದ ದುಬಾರಿ ಉತ್ಪನ್ನವನ್ನು ತಿರಸ್ಕರಿಸಿ ಈ ಗಾದೆಯನ್ನು ಬಳಸುತ್ತಾನೆ.",
+        "category_kn": "ವಿವೇಕ",
+        "keywords_kn": "ಮೌಲ್ಯ, ಹಾನಿ, ವಿವೇಕ",
+        "keywords_en": "value, harm, judgement",
+        "region_kn": "",
+        "dialect_kn": ""
+      }
+    }
+  },
+  {
+    "record": {
+      "id": "52e623dc698546fd9bb36e5f698713d2",
+      "proverb_kn": "ಕಡ್ಡಿಯನ್ನು ಗುಡ್ಡೆ ಮಾಡಿದಂತೆ",
+      "transliteration": "",
+      "literal_meaning": "Draft: Like turning a stick into a hill.",
+      "contextual_meaning": "Draft for human verification: Describes exaggerating a small matter into a major issue.",
+      "example_usage": "Draft: A minor delay becomes the subject of a dramatic complaint; someone uses this proverb.",
+      "category": "Exaggeration",
+      "keywords": "ಅತಿಶಯೋಕ್ತಿ, ಸಣ್ಣ ವಿಷಯ, ದೂರು, exaggeration, minor issue, complaint",
+      "region": "",
+      "dialect": "",
+      "source": "https://yakshadeepa.com/2022/01/18/famous-proverbs-in-kannada/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T07:22:38.168059+00:00",
+      "reviewed_at": "2026-11-17T07:28:13.885527+00:00"
+    },
+    "translation": {
+      "status": "MACHINE_TRANSLATION_DRAFT",
+      "input_hash": "a11b9343d7a7e397c8726803c63c12d68c7025c419265851fade7080ae75cf5c",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "translated_at": "2026-11-17T10:13:30.698124+00:00",
+      "fields": {
+        "proverb_en": "Like turning a stick into a hill",
+        "literal_meaning_kn": "ಕರಡು: ಕಡ್ಡಿಯನ್ನು ಗುಡ್ಡೆ ಮಾಡಿದಂತೆ.",
+        "contextual_meaning_kn": "ಕರಡು ಮನುಷ್ಯರ ಪರಿಶೀಲನೆಗಾಗಿ: ಸಣ್ಣ ವಿಷಯವನ್ನು ದೊಡ್ಡ ಸಮಸ್ಯೆಯಾಗಿ ಉತ್ಪ್ರೇಕ್ಷಿಸುವುದನ್ನು ಇದು ವಿವರಿಸುತ್ತದೆ.",
+        "example_usage_kn": "ಕರಡು: ಸಣ್ಣ ವಿಳಂಬವು ನಾಟಕೀಯ ದೂರಿನ ವಿಷಯವಾಗುತ್ತದೆ; ಯಾರಾದರೂ ಈ ಗಾದೆಯನ್ನು ಬಳಸುತ್ತಾರೆ.",
+        "category_kn": "ಉತ್ಪ್ರೇಕ್ಷೆ",
+        "keywords_kn": "ಅತಿಶಯೋಕ್ತಿ, ಸಣ್ಣ ವಿಷಯ, ದೂರು",
+        "keywords_en": "exaggeration, minor issue, complaint",
+        "region_kn": "",
+        "dialect_kn": ""
+      }
+    }
+  },
+  {
+    "record": {
+      "id": "5a84ad6aea384570aac5e18bd662259f",
+      "proverb_kn": "ಇಲ್ಲದ ಕಾಲಕ್ಕೆ ಕಲ್ಲೆದೆ ಬೇಕು",
+      "transliteration": "",
+      "literal_meaning": "Draft: In a time of scarcity, one needs a heart of stone.",
+      "contextual_meaning": "Draft for human verification: Hard times require courage and emotional endurance.",
+      "example_usage": "Draft: A family facing a temporary loss of income uses this proverb to encourage resilience.",
+      "category": "Resilience",
+      "keywords": "ಬಡತನ, ಕಷ್ಟ, ಧೈರ್ಯ, scarcity, hardship, courage",
+      "region": "",
+      "dialect": "",
+      "source": "https://yakshadeepa.com/2022/01/18/famous-proverbs-in-kannada/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T07:22:38.168027+00:00",
+      "reviewed_at": "2026-11-17T07:27:18.337712+00:00"
+    },
+    "translation": {
+      "status": "MACHINE_TRANSLATION_DRAFT",
+      "input_hash": "eed1b52f3c7fcf9ecaf2d841c5452c9fb9d4fb695f465bfc02f3eb6e8ff3bf18",
+      "provider": "assistant",
+      "origin": "locally_authored_ai_translation_draft",
+      "translated_at": "2026-11-17T10:16:20.080896+00:00",
+      "fields": {
+        "proverb_en": "In a time of scarcity, one needs a heart of stone.",
+        "literal_meaning_kn": "ಕರಡು: ಕೊರತೆಯ ಕಾಲದಲ್ಲಿ ಕಲ್ಲಿನಂತಹ ಗಟ್ಟಿಯಾದ ಮನಸ್ಸು ಬೇಕು.",
+        "contextual_meaning_kn": "ಮಾನವ ಪರಿಶೀಲನೆಗಾಗಿ ಕರಡು: ಕಷ್ಟದ ಸಮಯವನ್ನು ಎದುರಿಸಲು ಧೈರ್ಯ ಮತ್ತು ಮನೋಸ್ಥೈರ್ಯ ಅಗತ್ಯ.",
+        "example_usage_kn": "ಕರಡು: ತಾತ್ಕಾಲಿಕವಾಗಿ ಆದಾಯ ಕಳೆದುಕೊಂಡ ಕುಟುಂಬವು ಮನೋಸ್ಥೈರ್ಯವನ್ನು ಉತ್ತೇಜಿಸಲು ಈ ಗಾದೆಯನ್ನು ಬಳಸುತ್ತದೆ.",
+        "category_kn": "ಮನೋಸ್ಥೈರ್ಯ",
+        "keywords_kn": "ಬಡತನ, ಕಷ್ಟ, ಧೈರ್ಯ",
+        "keywords_en": "scarcity, hardship, courage",
+        "region_kn": "",
+        "dialect_kn": ""
+      }
+    }
+  },
+  {
+    "record": {
+      "id": "5b4f98ac4cfd4806b2d60957893cfe8a",
+      "proverb_kn": "ಅಳಿಯ ಅಲ್ಲ, ಮಗಳ ಗಂಡ",
+      "transliteration": "",
+      "literal_meaning": "Draft: Not a son-in-law, but the daughter's husband.",
+      "contextual_meaning": "Draft for human verification: Changing the description does not change the underlying fact.",
+      "example_usage": "Draft: A company renames a fee without removing it; a customer responds with this proverb.",
+      "category": "Words and reality",
+      "keywords": "ಹೆಸರು, ವಾಸ್ತವ, ನೆಪ, naming, reality, excuses",
+      "region": "",
+      "dialect": "",
+      "source": "https://yakshadeepa.com/2022/01/18/famous-proverbs-in-kannada/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T07:22:38.168011+00:00",
+      "reviewed_at": "2026-11-17T07:26:18.523272+00:00"
+    },
+    "translation": {
+      "status": "MACHINE_TRANSLATION_DRAFT",
+      "input_hash": "17b0d00bac7c503f0ff292e5755a7847e5bd8588558ccae87c9e9368aa9b0ab1",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "translated_at": "2026-11-17T10:13:48.004826+00:00",
+      "fields": {
+        "proverb_en": "Not a son-in-law, but the daughter's husband",
+        "literal_meaning_kn": "ಡ್ರಾಫ್ಟ್: ಅಳಿಯ ಅಲ್ಲ, ಮಗಳ ಗಂಡ.",
+        "contextual_meaning_kn": "ಮಾನವ ಪರಿಶೀಲನೆಗಾಗಿ ಡ್ರಾಫ್ಟ್: ವಿವರಣೆಯನ್ನು ಬದಲಾಯಿಸುವುದರಿಂದ ಅಡಿಯಲ್ಲಿರುವ ಸತ್ಯ ಬದಲಾಗುವುದಿಲ್ಲ.",
+        "example_usage_kn": "ಡ್ರಾಫ್ಟ್: ಒಂದು ಕಂಪನಿಯು ಶುಲ್ಕವನ್ನು ತೆಗೆದುಹಾಕದೆ ಮರುನಾಮಕರಣ ಮಾಡುತ್ತದೆ; ಒಬ್ಬ ಗ್ರಾಹಕರು ಈ ಗಾದೆಯಿಂದ ಪ್ರತಿಕ್ರಿಯಿಸುತ್ತಾರೆ.",
+        "category_kn": "ಮಾತುಗಳು ಮತ್ತು ವಾಸ್ತವ",
+        "keywords_kn": "ಹೆಸರು, ವಾಸ್ತವ, ನೆಪ",
+        "keywords_en": "naming, reality, excuses",
+        "region_kn": "",
+        "dialect_kn": ""
+      }
+    }
+  },
+  {
+    "record": {
+      "id": "5ceefb84be9e48d28ae7cb7cd9fe7f82",
+      "proverb_kn": "ಅಲ್ಪರ ಸಂಘ ಅಭಿಮಾನ ಭಂಗ",
+      "transliteration": "",
+      "literal_meaning": "Draft: Association with petty people brings injury to dignity.",
+      "contextual_meaning": "Draft for human verification: Warns that keeping company with people who behave badly can damage self-respect or reputation.",
+      "example_usage": "Draft: A student distances herself from friends who repeatedly humiliate others and recalls this proverb.",
+      "category": "Company and reputation",
+      "keywords": "ಸಂಗತಿ, ಗೌರವ, ಅವಮಾನ, company, dignity, humiliation",
+      "region": "",
+      "dialect": "",
+      "source": "https://www.kannadapedia.com/kannada-gadegalu-proverbs/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T10:18:12.639682+00:00",
+      "reviewed_at": "2026-11-17T10:59:05.699185+00:00"
+    },
+    "translation": null
+  },
+  {
+    "record": {
+      "id": "5fbe721f6ea34d4f87e8f4e544895171",
+      "proverb_kn": "ಉಂಡ ಮನೆ ಜಂತೆ ಎಣಿಸಬಾರದು",
+      "transliteration": "",
+      "literal_meaning": "Draft: One should not count the roof beams of the house where one has eaten.",
+      "contextual_meaning": "Draft for human verification: Do not exploit a host's hospitality or pry into their household affairs.",
+      "example_usage": "Draft: A guest starts investigating the host's property and finances; another guest uses this proverb.",
+      "category": "Gratitude and hospitality",
+      "keywords": "ಆತಿಥ್ಯ, ಕೃತಜ್ಞತೆ, ನಂಬಿಕೆ, hospitality, gratitude, trust",
+      "region": "",
+      "dialect": "",
+      "source": "https://yakshadeepa.com/2022/01/18/famous-proverbs-in-kannada/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T07:22:38.168032+00:00",
+      "reviewed_at": "2026-11-17T07:27:23.670474+00:00"
+    },
+    "translation": {
+      "status": "MACHINE_TRANSLATION_DRAFT",
+      "input_hash": "7ce25da0608bda632c73d1fed6aff7f51e773c1d72157e30efd0e88258e4cb6b",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "translated_at": "2026-11-17T10:09:35.776713+00:00",
+      "fields": {
+        "proverb_en": "One should not count the roof beams of the house where one has eaten.",
+        "literal_meaning_kn": "ಡ್ರಾಫ್ಟ್: ಊಟ ಮಾಡಿದ ಮನೆಯ ಜಂತೆಗಳನ್ನು (ಛಾವಣಿಯ ತೊಲೆಗಳನ್ನು) ಎಣಿಸಬಾರದು.",
+        "contextual_meaning_kn": "ಮಾನವ ಪರಿಶೀಲನೆಗಾಗಿ ಡ್ರಾಫ್ಟ್: ಆತಿಥ್ಯ ನೀಡಿದವರ ಸೌಜನ್ಯವನ್ನು ದುರುಪಯೋಗಪಡಿಸಿಕೊಳ್ಳಬಾರದು ಅಥವಾ ಅವರ ಮನೆಯ ವ್ಯವಹಾರಗಳಲ್ಲಿ ಮೂಗು ತೂರಿಸಬಾರದು.",
+        "example_usage_kn": "ಡ್ರಾಫ್ಟ್: ಅತಿಥಿಯೊಬ್ಬರು ಆತಿಥ್ಯಕಾರರ ಆಸ್ತಿ ಮತ್ತು ಹಣಕಾಸಿನ ಬಗ್ಗೆ ವಿಚಾರಿಸಲು ಪ್ರಾರಂಭಿಸುತ್ತಾರೆ; ಇನ್ನೊಬ್ಬ ಅತಿಥಿ ಈ ಗಾದೆಯನ್ನು ಬಳಸುತ್ತಾರೆ.",
+        "category_kn": "ಕೃತಜ್ಞತೆ ಮತ್ತು ಆತಿಥ್ಯ",
+        "keywords_kn": "ಆತಿಥ್ಯ, ಕೃತಜ್ಞತೆ, ನಂಬಿಕೆ",
+        "keywords_en": "hospitality, gratitude, trust",
+        "region_kn": "",
+        "dialect_kn": ""
+      }
+    }
+  },
+  {
+    "record": {
+      "id": "636d889a1d924e7486642405b9cfa3ed",
+      "proverb_kn": "ಆರುವ ದೀಪಕ್ಕೆ ಕಾಂತಿ ಹೆಚ್ಚು",
+      "transliteration": "",
+      "literal_meaning": "Draft: A lamp about to go out shines more brightly.",
+      "contextual_meaning": "Draft for human verification: An apparent final surge of activity can occur before decline or an ending.",
+      "example_usage": "Draft: A failing group briefly becomes unusually active before closing; an observer uses this proverb.",
+      "category": "Decline and final effort",
+      "keywords": "ಅಂತ್ಯ, ಚಟುವಟಿಕೆ, ಕುಸಿತ, ending, activity, decline",
+      "region": "",
+      "dialect": "",
+      "source": "https://yakshadeepa.com/2022/01/18/famous-proverbs-in-kannada/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T10:18:12.639775+00:00",
+      "reviewed_at": "2026-11-17T10:59:16.633876+00:00"
+    },
+    "translation": null
+  },
+  {
+    "record": {
+      "id": "6580125ea3134825bdaef28ef4afaa48",
+      "proverb_kn": "ಓದುವಾಗ ಓದು, ಆಡುವಾಗ ಆಡು",
+      "transliteration": "",
+      "literal_meaning": "Draft: Study when it is time to study; play when it is time to play.",
+      "contextual_meaning": "Draft for human verification: Give each activity its proper time and full attention.",
+      "example_usage": "Draft: A parent uses this proverb while helping a child balance homework and games.",
+      "category": "Time management",
+      "keywords": "ಓದು, ಆಟ, ಶಿಸ್ತು, study, play, discipline",
+      "region": "",
+      "dialect": "",
+      "source": "https://yakshadeepa.com/2022/01/18/famous-proverbs-in-kannada/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T07:22:38.168043+00:00",
+      "reviewed_at": "2026-11-17T07:27:35.836556+00:00"
+    },
+    "translation": {
+      "status": "MACHINE_TRANSLATION_DRAFT",
+      "input_hash": "c35d580b6c70cbbb310256f73ef48d85afab5912fc24a4174b52a28115b9cac9",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "translated_at": "2026-11-17T10:09:40.450701+00:00",
+      "fields": {
+        "proverb_en": "Study when reading, play when playing",
+        "literal_meaning_kn": "ಕರಡು: ಓದುವಾಗ ಓದಿ; ಆಡುವಾಗ ಆಡಿ.",
+        "contextual_meaning_kn": "ಕರಡು (ಮಾನವ ಪರಿಶೀಲನೆಗಾಗಿ): ಪ್ರತಿಯೊಂದು ಚಟುವಟಿಕೆಗೂ ಅದರ ಸರಿಯಾದ ಸಮಯ ಮತ್ತು ಸಂಪೂರ್ಣ ಗಮನವನ್ನು ನೀಡಿ.",
+        "example_usage_kn": "ಕರಡು: ಮಗುವಿಗೆ ಹೋಮ್ವರ್ಕ್ ಮತ್ತು ಆಟಗಳ ನಡುವೆ ಸಮತೋಲನ ಕಾಯ್ದುಕೊಳ್ಳಲು ಸಹಾಯ ಮಾಡುವಾಗ ತಂದೆ-ತಾಯಿ ಈ ಗಾದೆಯನ್ನು ಬಳಸುತ್ತಾರೆ.",
+        "category_kn": "ಸಮಯ ನಿರ್ವಹಣೆ",
+        "keywords_kn": "ಓದು, ಆಟ, ಶಿಸ್ತು",
+        "keywords_en": "study, play, discipline",
+        "region_kn": "",
+        "dialect_kn": ""
+      }
+    }
+  },
+  {
+    "record": {
+      "id": "67ceccd62bba406e9186923268349aff",
+      "proverb_kn": "ಕಂಡದ್ದು ಕಂಡಂತೆ ನುಡಿದರೆ ಕೆಂಡದಂತಹಾ ಸಿಟ್ಟು",
+      "transliteration": "",
+      "literal_meaning": "Draft: Speaking of what one saw just as one saw it brings anger like burning embers.",
+      "contextual_meaning": "Draft for human verification: Frankly stating an uncomfortable truth can provoke anger.",
+      "example_usage": "Draft: A reviewer honestly identifies a friend's mistakes and receives an angry response; someone uses this proverb.",
+      "category": "Truth and criticism",
+      "keywords": "ಸತ್ಯ, ಟೀಕೆ, ಸಿಟ್ಟು, truth, criticism, anger",
+      "region": "",
+      "dialect": "",
+      "source": "https://yakshadeepa.com/2022/01/18/famous-proverbs-in-kannada/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T07:22:38.168052+00:00",
+      "reviewed_at": "2026-11-17T07:28:05.852173+00:00"
+    },
+    "translation": {
+      "status": "MACHINE_TRANSLATION_DRAFT",
+      "input_hash": "5718e017f952ebf4bb7de7fbfea733ef724d9421846669d86057c148ccaf00a5",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "translated_at": "2026-11-17T10:09:45.619246+00:00",
+      "fields": {
+        "proverb_en": "If you speak what you saw as you saw it, it brings anger like burning embers",
+        "literal_meaning_kn": "ಡ್ರಾಫ್ಟ್: ಕಂಡದ್ದನ್ನು ಕಂಡಂತೆಯೇ ಹೇಳಿದರೆ ಕೆಂಡದಂತಹ ಸಿಟ್ಟು ಬರುತ್ತದೆ.",
+        "contextual_meaning_kn": "ಮಾನವ ಪರಿಶೀಲನೆಗಾಗಿ ಡ್ರಾಫ್ಟ್: ಅಹಿತಕರ ಸತ್ಯವನ್ನು ನೇರವಾಗಿ ಹೇಳುವುದು ಕೋಪವನ್ನು ಹುಟ್ಟುಹಾಕಬಹುದು.",
+        "example_usage_kn": "ಡ್ರಾಫ್ಟ್: ಒಬ್ಬ ವಿಮರ್ಶಕನು ಪ್ರಾಮಾಣಿಕವಾಗಿ ತನ್ನ ಸ್ನೇಹಿತನ ತಪ್ಪುಗಳನ್ನು ಗುರುತಿಸಿ ಕೋಪದ ಪ್ರತಿಕ್ರಿಯೆಯನ್ನು ಪಡೆಯುತ್ತಾನೆ; ಆಗ ಯಾರಾದರೂ ಈ ಗಾದೆಯನ್ನು ಬಳಸುತ್ತಾರೆ.",
+        "category_kn": "ಸತ್ಯ ಮತ್ತು ಟೀಕೆ",
+        "keywords_kn": "ಸತ್ಯ, ಟೀಕೆ, ಸಿಟ್ಟು",
+        "keywords_en": "truth, criticism, anger",
+        "region_kn": "",
+        "dialect_kn": ""
+      }
+    }
+  },
+  {
+    "record": {
+      "id": "68c8122529e24aca8092881e1d22c955",
+      "proverb_kn": "ಆಳಾಗಿ ದುಡಿ, ಅರಸನಾಗಿ ಉಣ್ಣು",
+      "transliteration": "",
+      "literal_meaning": "Draft: Work as a servant; eat as a king.",
+      "contextual_meaning": "Draft for human verification: Work diligently and enjoy the rewards earned through that effort.",
+      "example_usage": "Draft: After a demanding harvest, a family celebrates with a generous meal and recalls this proverb.",
+      "category": "Work and reward",
+      "keywords": "ದುಡಿಮೆ, ಶ್ರಮ, ಸುಖ, diligence, effort, enjoyment",
+      "region": "",
+      "dialect": "",
+      "source": "https://www.lingodesi.com/kannada/proverbs/classics/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T07:22:38.168110+00:00",
+      "reviewed_at": "2026-11-17T07:29:10.645010+00:00"
+    },
+    "translation": {
+      "status": "MACHINE_TRANSLATION_DRAFT",
+      "input_hash": "9472fdb930df8f500b3a727197b67bf0a3e8ec49e73593d99537344592d7242d",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "translated_at": "2026-11-17T10:11:12.561690+00:00",
+      "fields": {
+        "proverb_en": "Work as a servant, eat as a king",
+        "literal_meaning_kn": "ಕರಡು: ಆಳಾಗಿ ಕೆಲಸ ಮಾಡಿ; ಅರಸನಾಗಿ ಊಟ ಮಾಡಿ.",
+        "contextual_meaning_kn": "ಮಾನವ ಪರಿಶೀಲನೆಗಾಗಿ ಕರಡು: ಶ್ರದ್ಧೆಯಿಂದ ಕೆಲಸ ಮಾಡಿ ಮತ್ತು ಆ ಪ್ರಯತ್ನದಿಂದ ಗಳಿಸಿದ ಪ್ರತಿಫಲವನ್ನು ಆನಂದಿಸಿ.",
+        "example_usage_kn": "ಕರಡು: ಕಷ್ಟದ ಕೊಯ್ಲಿನ ನಂತರ, ಒಂದು ಕುಟುಂಬವು ಭಕ್ಷ್ಯದೊಂದಿಗೆ ಆಚರಿಸುತ್ತದೆ ಮತ್ತು ಈ ಗಾದೆಯನ್ನು ನೆನಪಿಸಿಕೊಳ್ಳುತ್ತದೆ.",
+        "category_kn": "ಕೆಲಸ ಮತ್ತು ಪ್ರತಿಫಲ",
+        "keywords_kn": "ದುಡಿಮೆ, ಶ್ರಮ, ಸುಖ",
+        "keywords_en": "diligence, effort, enjoyment",
+        "region_kn": "",
+        "dialect_kn": ""
+      }
+    }
+  },
+  {
+    "record": {
+      "id": "69216f8625b74cafaa80d76f28118eac",
+      "proverb_kn": "ಹಾಸಿಗೆ ಇದ್ದಷ್ಟು ಕಾಲು ಚಾಚು",
+      "transliteration": "",
+      "literal_meaning": "Draft: Stretch your legs only as far as the bed allows.",
+      "contextual_meaning": "Draft for human verification: Keep spending and ambitions within available resources.",
+      "example_usage": "Draft: A family chooses an affordable celebration instead of borrowing for an elaborate one and uses this proverb.",
+      "category": "Money and moderation",
+      "keywords": "ಬಜೆಟ್, ಖರ್ಚು, ಸಾಲ, budget, expenses, debt",
+      "region": "",
+      "dialect": "",
+      "source": "https://www.lingodesi.com/kannada/proverbs/classics/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T07:22:38.168112+00:00",
+      "reviewed_at": "2026-11-17T07:29:12.766157+00:00"
+    },
+    "translation": {
+      "status": "MACHINE_TRANSLATION_DRAFT",
+      "input_hash": "5f238415b82ceea2d1d288166aeaec87770dab99ddfd61866e2f23254b43c069",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "translated_at": "2026-11-17T10:13:57.733807+00:00",
+      "fields": {
+        "proverb_en": "Stretch your legs as much as the bed is available.",
+        "literal_meaning_kn": "ಡ್ರಾಪ್ಟ್: ಹಾಸಿಗೆ ಎಷ್ಟು ಅವಕಾಶ ನೀಡುತ್ತದೆಯೋ ಅಷ್ಟು ಮಾತ್ರ ನಿಮ್ಮ ಕಾಲುಗಳನ್ನು ಚಾಚಿ.",
+        "contextual_meaning_kn": "ಮಾನವ ಪರಿಶೀಲನೆಗಾಗಿ ಡ್ರಾಪ್ಟ್: ಲಭ್ಯವಿರುವ ಸಂಪನ್ಮೂಲಗಳ ಒಳಗೆ ಖರ್ಚು ಮತ್ತು ಮಹತ್ವಾಕಾಂಕ್ಷೆಗಳನ್ನು ಮಿತವಾಗಿರಿಸಿ.",
+        "example_usage_kn": "ಡ್ರಾಪ್ಟ್: ಒಂದು ಕುಟುಂಬವು ಅದ್ದೂರಿ ಸಮಾರಂಭಕ್ಕಾಗಿ ಸಾಲ ಮಾಡುವುದನ್ನು ಬಿಟ್ಟು ಕೈಗೆಟುಕುವ ಆಚರಣೆಯನ್ನು ಆರಿಸಿಕೊಳ್ಳುತ್ತದೆ ಮತ್ತು ಈ ಗಾದೆಯನ್ನು ಬಳಸುತ್ತದೆ.",
+        "category_kn": "ಹಣ ಮತ್ತು ಮಿತಸಂಯಮ",
+        "keywords_kn": "ಬಜೆಟ್, ಖರ್ಚು, ಸಾಲ",
+        "keywords_en": "budget, expenses, debt",
+        "region_kn": "",
+        "dialect_kn": ""
+      }
+    }
+  },
+  {
+    "record": {
+      "id": "6efe3287342046cab02878397a852414",
+      "proverb_kn": "ಮನೆಗೆ ಮಾರಿ ಊರಿಗೆ ಉಪಕಾರಿ",
+      "transliteration": "",
+      "literal_meaning": "Draft: A scourge at home, a benefactor to the village.",
+      "contextual_meaning": "Draft for human verification: Criticises someone who helps outsiders while neglecting or mistreating their own household.",
+      "example_usage": "Draft: A person volunteers publicly but leaves every household responsibility to relatives; someone uses this proverb.",
+      "category": "Family responsibility and hypocrisy",
+      "keywords": "ಮನೆ, ಜವಾಬ್ದಾರಿ, ಉಪಕಾರ, family, responsibility, hypocrisy",
+      "region": "",
+      "dialect": "",
+      "source": "https://www.kannadapedia.com/kannada-gadegalu-proverbs/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T10:18:12.639687+00:00",
+      "reviewed_at": "2026-11-17T10:59:06.085048+00:00"
+    },
+    "translation": null
+  },
+  {
+    "record": {
+      "id": "751ac039e75f4e5786e0e47fa02a4457",
+      "proverb_kn": "ವೈದ್ಯರ ಹತ್ತಿರ, ವಕೀಲರ ಹತ್ತಿರ ಸುಳ್ಳು ಹೇಳಬೇಡ",
+      "transliteration": "",
+      "literal_meaning": "Draft: Do not lie to a doctor or a lawyer.",
+      "contextual_meaning": "Draft for human verification: Professionals need accurate information to give appropriate help.",
+      "example_usage": "Draft: Someone hesitates to disclose relevant facts during a consultation; a relative uses this saying.",
+      "category": "Honesty and advice",
+      "keywords": "ಸತ್ಯ, ವೈದ್ಯ, ವಕೀಲ, honesty, consultation, disclosure",
+      "region": "",
+      "dialect": "",
+      "source": "https://yakshadeepa.com/2022/01/18/famous-proverbs-in-kannada/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T07:22:38.168094+00:00",
+      "reviewed_at": "2026-11-17T07:28:54.547492+00:00"
+    },
+    "translation": {
+      "status": "MACHINE_TRANSLATION_DRAFT",
+      "input_hash": "79f04fafd7de87ee0cd82ad2567fc2fd195502015ab5a84f8c44d40492968dc5",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "translated_at": "2026-11-17T10:11:21.162718+00:00",
+      "fields": {
+        "proverb_en": "Do not lie near a doctor or a lawyer",
+        "literal_meaning_kn": "ಕರಡು: ವೈದ್ಯನ ಬಳಿ ಅಥವಾ ವಕೀಲನ ಬಳಿ ಸುಳ್ಳು ಹೇಳಬೇಡಿ.",
+        "contextual_meaning_kn": "ಮಾನವ ಪರಿಶೀಲನೆಗಾಗಿ ಕರಡು: ಸೂಕ್ತ ಸಹಾಯವನ್ನು ನೀಡಲು ವೃತ್ತಿಪರರಿಗೆ ನಿಖರವಾದ ಮಾಹಿತಿ ಬೇಕಾಗುತ್ತದೆ.",
+        "example_usage_kn": "ಕರಡು: ಸಮಾಲೋಚನೆಯ ಸಮಯದಲ್ಲಿ ಯಾರಾದರೂ ಸಂಬಂಧಿತ ಸಂಗತಿಗಳನ್ನು ಬಹಿರಂಗಪಡಿಸಲು ಹಿಂಜರಿಯುತ್ತಾರೆ; ಒಬ್ಬ ಸಂಬಂಧಿಕರು ಈ ಗಾದೆಯನ್ನು ಬಳಸುತ್ತಾರೆ.",
+        "category_kn": "ಪ್ರಾಮಾಣಿಕತೆ ಮತ್ತು ಸಲಹೆ",
+        "keywords_kn": "ಸತ್ಯ, ವೈದ್ಯ, ವಕೀಲ, ಪ್ರಾಮಾಣಿಕತೆ, ಸಮಾಲೋಚನೆ, ಬಹಿರಂಗಪಡಿಸುವಿಕೆ",
+        "keywords_en": "truth, doctor, lawyer, honesty, consultation, disclosure",
+        "region_kn": "",
+        "dialect_kn": ""
+      }
+    }
+  },
+  {
+    "record": {
+      "id": "78c2be9c5dbd45eeadcd0433b6c4c289",
+      "proverb_kn": "ವ್ಯಾಪಾರಕ್ಕೆ ನಿಮಿಷ ಬೇಸಾಯಕ್ಕೆ ವರುಷ",
+      "transliteration": "",
+      "literal_meaning": "Draft: A minute for trade; a year for farming.",
+      "contextual_meaning": "Draft for human verification: Contrasts the speed of a transaction with the long effort needed to produce a crop.",
+      "example_usage": "Draft: During a discussion about crop prices, a farmer uses this proverb to emphasise the time invested in cultivation.",
+      "category": "Work and agriculture",
+      "keywords": "ವ್ಯಾಪಾರ, ಬೇಸಾಯ, ಸಮಯ, trade, farming, labour",
+      "region": "",
+      "dialect": "",
+      "source": "https://yakshadeepa.com/2022/01/18/famous-proverbs-in-kannada/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T07:22:38.168088+00:00",
+      "reviewed_at": "2026-11-17T07:28:48.200861+00:00"
+    },
+    "translation": {
+      "status": "MACHINE_TRANSLATION_DRAFT",
+      "input_hash": "88c283d4c3d97c6e1861743ea236acbe35e60a8a5db6526fb27c5e8a0bfb8db2",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "translated_at": "2026-11-17T10:14:06.950327+00:00",
+      "fields": {
+        "proverb_en": "A minute for trade; a year for farming.",
+        "literal_meaning_kn": "ಡ್ರಾಫ್ಟ್: ವ್ಯಾಪಾರಕ್ಕೆ ಒಂದು ನಿಮಿಷ; ಬೇಸಾಯಕ್ಕೆ ಒಂದು ವರುಷ.",
+        "contextual_meaning_kn": "ಮಾನವ ಪರಿಶೀಲನೆಗಾಗಿ ಡ್ರಾಫ್ಟ್: ಒಂದು ವ್ಯವಹಾರದ ವೇಗವನ್ನು ಬೆಳೆ ಬೆಳೆಯಲು ಬೇಕಾಗುವ ದೀರ್ಘ ಪ್ರಯತ್ನದೊಂದಿಗೆ ಹೋಲಿಸುತ್ತದೆ.",
+        "example_usage_kn": "ಡ್ರಾಫ್ಟ್: ಬೆಳೆ ಬೆಲೆಗಳ ಬに関する ಚರ್ಚೆಯ ಸಮಯದಲ್ಲಿ, ಒಬ್ಬ ರೈತನು ಕೃಷಿಯಲ್ಲಿ ತೊಡಗಿಸಿದ ಸಮಯವನ್ನು ಒತ್ತಿಹೇಳಲು ಈ ಗಾದೆಯನ್ನು ಬಳಸುತ್ತಾನೆ.",
+        "category_kn": "ಕೆಲಸ ಮತ್ತು ಕೃಷಿ",
+        "keywords_kn": "ವ್ಯಾಪಾರ, ಬೇಸಾಯ, ಸಮಯ, ವ್ಯಾಪಾರ, ಕೃಷಿ, ಶ್ರಮ",
+        "keywords_en": "trade, farming, time, labor",
+        "region_kn": "",
+        "dialect_kn": ""
+      }
+    }
+  },
+  {
+    "record": {
+      "id": "790ab65e46a6481c9832839b42b9c1a8",
+      "proverb_kn": "ಗೆದ್ದೆತ್ತಿನ ಬಾಲ ಹಿಡಿದ ಹಾಗೆ",
+      "transliteration": "",
+      "literal_meaning": "Draft: Like holding the tail of the winning bull.",
+      "contextual_meaning": "Draft for human verification: Describes joining the successful side after its success becomes clear.",
+      "example_usage": "Draft: Someone supports a candidate only after the result is certain; an observer uses this proverb.",
+      "category": "Opportunism",
+      "keywords": "ಗೆಲುವು, ಬೆಂಬಲ, ಅವಕಾಶವಾದ, winning, support, opportunism",
+      "region": "",
+      "dialect": "",
+      "source": "https://yakshadeepa.com/2022/01/18/famous-proverbs-in-kannada/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T07:22:38.168066+00:00",
+      "reviewed_at": "2026-11-17T07:28:21.335282+00:00"
+    },
+    "translation": {
+      "status": "MACHINE_TRANSLATION_DRAFT",
+      "input_hash": "4c1af24f9a0c3573001facecaafb4672c54863dfbbc9dfce8928bd368629d324",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "translated_at": "2026-11-17T10:10:17.284068+00:00",
+      "fields": {
+        "proverb_en": "Like holding the tail of the winning bull",
+        "literal_meaning_kn": "ಗೆದ್ದ ಎತ್ತಿನ ಬಾಲ ಹಿಡಿದ ಹಾಗೆ.",
+        "contextual_meaning_kn": "ಯಶಸ್ಸು ಸ್ಪಷ್ಟವಾದ ನಂತರ ವಿಜಯಶಾಲಿ ಪಕ್ಷವನ್ನು ಸೇರುವುದನ್ನು ಇದು ವಿವರಿಸುತ್ತದೆ.",
+        "example_usage_kn": "ಫಲಿತಾಂಶ ನಿಗದಿಯಾದ ನಂತರವೇ ಒಬ್ಬ ವ್ಯಕ್ತಿಯು ಅಭ್ಯರ್ಥಿಯನ್ನು ಬೆಂಬಲಿಸುತ್ತಾನೆ; ಒಬ್ಬ ವೀಕ್ಷಕನು ಈ ಗಾದೆಯನ್ನು ಬಳಸುತ್ತಾನೆ.",
+        "category_kn": "ಅವಕಾಶವಾದ",
+        "keywords_kn": "ಗೆಲುವು, ಬೆಂಬಲ, ಅವಕಾಶವಾದ",
+        "keywords_en": "winning, support, opportunism",
+        "region_kn": "",
+        "dialect_kn": ""
+      }
+    }
+  },
+  {
+    "record": {
+      "id": "7a3fe2f7d1334354bef71355b7f3d6ca",
+      "proverb_kn": "ಹನಿ ಹನಿ ಕೂಡಿದರೆ ಹಳ್ಳ",
+      "transliteration": "",
+      "literal_meaning": "Draft: Drops gathered together become a stream.",
+      "contextual_meaning": "Draft for human verification: Small, repeated contributions can accumulate into a substantial result.",
+      "example_usage": "Draft: Someone saves a small amount each week and eventually buys a needed appliance; a friend uses this proverb.",
+      "category": "Persistence and accumulation",
+      "keywords": "ಉಳಿತಾಯ, ಸಣ್ಣ ಪ್ರಯತ್ನ, ಸಂಗ್ರಹ, savings, small efforts, accumulation",
+      "region": "",
+      "dialect": "",
+      "source": "https://www.lingodesi.com/kannada/proverbs/classics/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T07:22:38.168103+00:00",
+      "reviewed_at": "2026-11-17T07:29:04.233487+00:00"
+    },
+    "translation": {
+      "status": "MACHINE_TRANSLATION_DRAFT",
+      "input_hash": "32bb142e97cbe36db2f3bd51b5fbf4f8b85f04f0d2c29679a2ac743cbfa2fb46",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "translated_at": "2026-11-17T10:10:22.112679+00:00",
+      "fields": {
+        "proverb_en": "Drop by drop, a stream is formed",
+        "literal_meaning_kn": "ಡ್ರಾಫ್ಟ್: ಹನಿಗಳು ಒಟ್ಟಾಗಿ ಸೇರಿದರೆ ಹಳ್ಳವಾಗುತ್ತದೆ.",
+        "contextual_meaning_kn": "ಮಾನವ ಪರಿಶೀಲನೆಗಾಗಿ ಡ್ರಾಫ್ಟ್: ಸಣ್ಣ ಮತ್ತು ಪುನರಾವರ್ತಿತ ಕೊಡುಗೆಗಳು ಒಟ್ಟುಗೂಡಿ ಗಣನೀಯ ಫಲಿತಾಂಶವನ್ನು ನೀಡಬಹುದು.",
+        "example_usage_kn": "ಡ್ರಾಫ್ಟ್: ಒಬ್ಬ ವ್ಯಕ್ತಿಯು ಪ್ರತಿ ವಾರ ಸ್ವಲ್ಪ ಮೊತ್ತವನ್ನು ಉಳಿಸಿ ಕೊನೆಗೆ ತನಗೆ ಬೇಕಾದ ಉಪಕರಣವನ್ನು ಖರೀದಿಸುತ್ತಾನೆ; ಒಬ್ಬ ಸ್ನೇಹಿತ ಈ ಗಾದೆಯನ್ನು ಬಳಸುತ್ತಾನೆ.",
+        "category_kn": "விடாமுய esfuerzo ಮತ್ತು ಸಂಗ್ರಹ (Persistence and accumulation)",
+        "keywords_kn": "ಉಳಿತಾಯ, ಸಣ್ಣ ಪ್ರಯತ್ನ, ಸಂಗ್ರಹ",
+        "keywords_en": "savings, small efforts, accumulation",
+        "region_kn": "",
+        "dialect_kn": ""
+      }
+    }
+  },
+  {
+    "record": {
+      "id": "7c2cab7082c7489a8e94ddd48dee89ad",
+      "proverb_kn": "ಆಚಾರ್ಯರಿಗೆ ಮಂತ್ರಕ್ಕಿಂತ ಉಗುಳು ಜಾಸ್ತಿ",
+      "transliteration": "",
+      "literal_meaning": "Draft: The priest has more spittle than sacred chants.",
+      "contextual_meaning": "Draft for human verification: Criticises activity or talk that contains more display than useful substance.",
+      "example_usage": "Draft: After a long presentation with little practical information, a listener uses this proverb.",
+      "category": "Talk and substance",
+      "keywords": "ಮಾತು, ಆಡಂಬರ, ಸಾರ, talk, pretence, substance",
+      "region": "",
+      "dialect": "",
+      "source": "https://yakshadeepa.com/2022/01/18/famous-proverbs-in-kannada/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T07:22:38.168021+00:00",
+      "reviewed_at": "2026-11-17T07:27:09.338207+00:00"
+    },
+    "translation": {
+      "status": "MACHINE_TRANSLATION_DRAFT",
+      "input_hash": "d3e849d125800607d3760888c80d523cc1f9b9425f77ca63cedc8d1392fb2feb",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "translated_at": "2026-11-17T10:11:36.587555+00:00",
+      "fields": {
+        "proverb_en": "More spittle than mantras for the teacher",
+        "literal_meaning_kn": "ಖಸಡಾ: ಪೂಜಾರಿಗೆ ಪವಿತ್ರ ಮಂತ್ರಗಳಿಗಿಂತ ಉಗುಳೇ ಹೆಚ್ಚು.",
+        "contextual_meaning_kn": "ಮಾನವ ಪರಿಶೀಲನೆಗಾಗಿ ಖಸಡಾ: ಉಪಯುಕ್ತ ಸಾರಾಂಶಕ್ಕಿಂತ ಪ್ರದರ್ಶನವೇ ಹೆಚ್ಚಿರುವ ಮಾತು ಅಥವಾ ಚಟುವಟಿಕೆಯನ್ನು ಟೀಕಿಸುತ್ತದೆ.",
+        "example_usage_kn": "ಖಸಡಾ: ಪ್ರಾಯೋಗಿಕ ಮಾಹಿತಿಯಿಲ್ಲದ ಸುದೀರ್ಘ ಪ್ರಸ್ತುತಿಯ ನಂತರ, ಕೇಳುಗನೊಬ್ಬ ಈ ಗಾದೆಯನ್ನು ಬಳಸುತ್ತಾನೆ.",
+        "category_kn": "ಮಾತು ಮತ್ತು ಸಾರ",
+        "keywords_kn": "ಮಾತು, ಆಡಂಬರ, ಸಾರ",
+        "keywords_en": "talk, pretence, substance",
+        "region_kn": "",
+        "dialect_kn": ""
+      }
+    }
+  },
+  {
+    "record": {
+      "id": "7df2ffe4769d4f7188435b8edc23a410",
+      "proverb_kn": "ತಾಳಿದವನು ಬಾಳಿಯಾನು",
+      "transliteration": "",
+      "literal_meaning": "Draft: The one who endures will live and prosper.",
+      "contextual_meaning": "Draft for human verification: Patience and perseverance help a person get through difficult periods.",
+      "example_usage": "Draft: A learner continues practising after several setbacks; a teacher uses this proverb encouragingly.",
+      "category": "Patience and perseverance",
+      "keywords": "ತಾಳ್ಮೆ, ಸಹನೆ, ಪ್ರಯತ್ನ, patience, endurance, perseverance",
+      "region": "",
+      "dialect": "",
+      "source": "https://yakshadeepa.com/2022/01/18/famous-proverbs-in-kannada/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T10:18:12.639767+00:00",
+      "reviewed_at": "2026-11-17T10:59:13.417873+00:00"
+    },
+    "translation": null
+  },
+  {
+    "record": {
+      "id": "8288a48bd93c4920a5c2f273b9ce9021",
+      "proverb_kn": "ಅತಿ ಆಸೆ ಗತಿ ಗೇಡು",
+      "transliteration": "",
+      "literal_meaning": "Draft: Excessive desire leads to ruin.",
+      "contextual_meaning": "Draft for human verification: Greed can make someone risk and lose what they already possess.",
+      "example_usage": "Draft: Someone rejects a fair offer while chasing an unrealistic profit and loses the sale; a friend uses this proverb.",
+      "category": "Greed",
+      "keywords": "ಆಸೆ, ಲಾಭ, ನಷ್ಟ, greed, profit, loss",
+      "region": "",
+      "dialect": "",
+      "source": "https://www.kannadapedia.com/kannada-gadegalu-proverbs/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T10:18:12.639706+00:00",
+      "reviewed_at": "2026-11-17T10:59:07.834065+00:00"
+    },
+    "translation": null
+  },
+  {
+    "record": {
+      "id": "8464a2c9d5e04277bb149fd94c22c9be",
+      "proverb_kn": "ಚಿನ್ನದ ಚೂರಿ ಎಂದು ಕುತ್ತಿಗೆ ಕುಯಿಸಿಕೊಳ್ಳಬಹುದೇ",
+      "transliteration": "",
+      "literal_meaning": "Draft: Can one cut one's throat merely because the knife is gold?",
+      "contextual_meaning": "Draft for human verification: Prestige or attractiveness does not justify accepting something harmful.",
+      "example_usage": "Draft: Someone rejects a prestigious job with damaging conditions and uses this proverb.",
+      "category": "Prudence",
+      "keywords": "ಪ್ರತಿಷ್ಠೆ, ಅಪಾಯ, ಆಯ್ಕೆ, prestige, harm, choice",
+      "region": "",
+      "dialect": "",
+      "source": "https://yakshadeepa.com/2022/01/18/famous-proverbs-in-kannada/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T07:22:38.168077+00:00",
+      "reviewed_at": "2026-11-17T07:28:37.684399+00:00"
+    },
+    "translation": {
+      "status": "MACHINE_TRANSLATION_DRAFT",
+      "input_hash": "04a0d972a7dccf674b329f024be6d8b8fa5725f8347f26c6f8102444c648721f",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "translated_at": "2026-11-17T10:11:42.059813+00:00",
+      "fields": {
+        "proverb_en": "Can one get one's neck cut just because it is a golden knife?",
+        "literal_meaning_kn": "ಡ್ರಾಫ್ಟ್: ಕೇವಲ ಚೂರಿಯು ಚಿನ್ನದ್ದು ಎಂದ ಮಾತ್ರಕ್ಕೆ ಯಾರಾದರೂ ತಮ್ಮ ಕುತ್ತಿಗೆಯನ್ನು ಕುಯಿಸಿಕೊಳ್ಳಬಹುದೇ?",
+        "contextual_meaning_kn": "ಮಾನವ ಪರಿಶೀಲನೆಗಾಗಿ ಡ್ರಾಫ್ಟ್: ಪ್ರತಿಷ್ಠೆ ಅಥವಾ ಆಕರ್ಷಣೆಯು ಹಾನಿಕಾರಕವಾದುದನ್ನು ಸ್ವೀಕರಿಸುವುದನ್ನು ಸಮರ್ಥಿಸುವುದಿಲ್ಲ.",
+        "example_usage_kn": "ಡ್ರಾಫ್ಟ್: ಹಾನಿಕಾರಕ ಷರತ್ತುಗಳಿರುವ ಪ್ರತಿಷ್ಠಿತ ಉದ್ಯೋಗವನ್ನು ಯಾರಾದರೂ ತಿರಸ್ಕರಿಸಿ ಈ ಗಾದೆಯನ್ನು ಬಳಸುತ್ತಾರೆ.",
+        "category_kn": "ವಿವೇಚನೆ",
+        "keywords_kn": "ಪ್ರತಿಷ್ಠೆ, ಅಪಾಯ, ಆಯ್ಕೆ",
+        "keywords_en": "prestige, harm, choice",
+        "region_kn": "",
+        "dialect_kn": ""
+      }
+    }
+  },
+  {
+    "record": {
+      "id": "86bbf866223442d18853d5b10a4f4163",
+      "proverb_kn": "ಆರೋಗ್ಯವೇ ಭಾಗ್ಯ",
+      "transliteration": "",
+      "literal_meaning": "Draft: Health itself is good fortune.",
+      "contextual_meaning": "Draft for human verification: Good health is a central form of well-being and deserves priority.",
+      "example_usage": "Draft: Someone chooses rest and recovery over extra earnings and recalls this saying.",
+      "category": "Health and well-being",
+      "keywords": "ಆರೋಗ್ಯ, ನೆಮ್ಮದಿ, ಆದ್ಯತೆ, health, well-being, priorities",
+      "region": "",
+      "dialect": "",
+      "source": "https://yakshadeepa.com/2022/01/18/famous-proverbs-in-kannada/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T10:18:12.639779+00:00",
+      "reviewed_at": "2026-11-17T10:59:17.050933+00:00"
+    },
+    "translation": null
+  },
+  {
+    "record": {
+      "id": "8ac794b727f04dab934dbc8239e16945",
+      "proverb_kn": "ಕಲಿತವನಿಗಿಂತ ನುರಿತವನೇ ಮೇಲು.",
+      "transliteration": "",
+      "literal_meaning": "Draft: The experienced person is better than the merely learned person.",
+      "contextual_meaning": "Draft for human verification: Practical experience can be more useful than theoretical learning alone.",
+      "example_usage": "Draft: An experienced mechanic solves a fault that a novice cannot diagnose from a manual; someone uses this proverb.",
+      "category": "Experience and learning",
+      "keywords": "ಅನುಭವ, ವಿದ್ಯೆ, ಕೌಶಲ್ಯ, experience, education, skill",
+      "region": "",
+      "dialect": "",
+      "source": "https://www.vishaya.in/gaade/kannada-proverb-collection/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T10:18:12.639732+00:00",
+      "reviewed_at": "2026-11-17T10:59:10.500288+00:00"
+    },
+    "translation": null
+  },
+  {
+    "record": {
+      "id": "8c8110368b004e0aa40a18a538c83216",
+      "proverb_kn": "ಕೈ ಕೆಸರಾದರೆ ಬಾಯಿ ಮೊಸರು",
+      "transliteration": "",
+      "literal_meaning": "Draft: If the hands become muddy, the mouth gets curd.",
+      "contextual_meaning": "Draft for human verification: Willingness to work brings sustenance and comfort.",
+      "example_usage": "Draft: A parent uses this proverb while encouraging children to help cultivate the vegetable patch.",
+      "category": "Work and reward",
+      "keywords": "ದುಡಿಮೆ, ಶ್ರಮ, ಫಲ, work, effort, reward",
+      "region": "",
+      "dialect": "",
+      "source": "https://yakshadeepa.com/2022/01/18/famous-proverbs-in-kannada/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T07:22:38.168092+00:00",
+      "reviewed_at": "2026-11-17T07:28:52.351358+00:00"
+    },
+    "translation": {
+      "status": "MACHINE_TRANSLATION_DRAFT",
+      "input_hash": "7c0085826dd394a19c5d14f454520b0cdd8e640bc7a4ff1dfd06148adbabe42e",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "translated_at": "2026-11-17T10:11:46.948067+00:00",
+      "fields": {
+        "proverb_en": "If hands become muddy, the mouth gets curd.",
+        "literal_meaning_kn": "ಕರಡು: ಕೈಗಳು ಕೆಸರಾದರೆ, ಬಾಯಿಗೆ ಮೊಸರು ಸಿಗುತ್ತದೆ.",
+        "contextual_meaning_kn": "ಕರಡು ಮನುಷ್ಯ ಪರಿಶೀಲನೆಗಾಗಿ: ಕೆಲಸ ಮಾಡುವ ಇಚ್ಛೆಯು ಜೀವನಾಧಾರವನ್ನು ಮತ್ತು ನೆಮ್ಮದಿಯನ್ನು ತರುತ್ತದೆ.",
+        "example_usage_kn": "ಕರಡು: ತರಕಾರಿ ತೋಟವನ್ನು ಬೆಳೆಯಲು ಸಹಾಯ ಮಾಡಲು ಮಕ್ಕಳನ್ನು ಉತ್ತೇಜಿಸುವಾಗ ಪೋಷಕರು ಈ ಗಾದೆಯನ್ನು ಬಳಸುತ್ತಾರೆ.",
+        "category_kn": "ಕೆಲಸ ಮತ್ತು ಪ್ರತಿಫಲ",
+        "keywords_kn": "ದುಡಿಮೆ, ಶ್ರಮ, ಫಲ",
+        "keywords_en": "work, effort, reward",
+        "region_kn": "",
+        "dialect_kn": ""
+      }
+    }
+  },
+  {
+    "record": {
+      "id": "8c9f34efd943444eb710985ba9707e78",
+      "proverb_kn": "ರಾತ್ರಿ ಕಂಡ ಬಾವಿಗೆ ಹಗಲು ಬಿದ್ದ ಹಾಗೆ",
+      "transliteration": "",
+      "literal_meaning": "Draft: Like falling by daylight into a well seen at night.",
+      "contextual_meaning": "Draft for human verification: Describes suffering a mishap from a danger one already knew about.",
+      "example_usage": "Draft: Someone ignores a previously identified fault and loses work because of it; a colleague uses this proverb.",
+      "category": "Known risks",
+      "keywords": "ಅಪಾಯ, ನಿರ್ಲಕ್ಷ್ಯ, ತಪ್ಪು, risk, neglect, avoidable mistake",
+      "region": "",
+      "dialect": "",
+      "source": "https://yakshadeepa.com/2022/01/18/famous-proverbs-in-kannada/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T10:18:12.639769+00:00",
+      "reviewed_at": "2026-11-17T10:59:13.633914+00:00"
+    },
+    "translation": null
+  },
+  {
+    "record": {
+      "id": "8e7cfee06caf4033b1bdd03b7a3b9d41",
+      "proverb_kn": "ಆಡಿ ತಪ್ಪ ಬೇಡ ಓಡಿ ಸಿಕ್ಕ ಬೇಡ",
+      "transliteration": "",
+      "literal_meaning": "Draft: Do not speak and fail to keep it; do not run and get caught.",
+      "contextual_meaning": "Draft for human verification: Be careful about commitments and avoid conduct that leaves you unable to stand by your actions.",
+      "example_usage": "Draft: Before making an unrealistic promise, a colleague is reminded of this proverb.",
+      "category": "Prudence and commitments",
+      "keywords": "ಮಾತು, ಭರವಸೆ, ಎಚ್ಚರಿಕೆ, promises, commitments, caution",
+      "region": "",
+      "dialect": "",
+      "source": "https://www.vishaya.in/gaade/kannada-proverb-collection/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T10:18:12.639720+00:00",
+      "reviewed_at": "2026-11-17T10:59:09.268908+00:00"
+    },
+    "translation": null
+  },
+  {
+    "record": {
+      "id": "91bdfdb9dfa04838ab0973386a780efc",
+      "proverb_kn": "ನುಂಗಲಾರದ ಬಿಸಿ ತುಪ್ಪ",
+      "transliteration": "",
+      "literal_meaning": "Draft: Hot ghee that cannot be swallowed.",
+      "contextual_meaning": "Draft for human verification: Describes a difficult situation that is hard to accept or openly reject.",
+      "example_usage": "Draft: An employee receives an unwanted promotion carrying unaffordable relocation costs and describes it with this expression.",
+      "category": "Dilemmas",
+      "keywords": "ಇಕ್ಕಟ್ಟು, ನಿರ್ಧಾರ, ಒತ್ತಡ, predicament, decision, pressure",
+      "region": "",
+      "dialect": "",
+      "source": "https://yakshadeepa.com/2022/01/18/famous-proverbs-in-kannada/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T07:22:38.168039+00:00",
+      "reviewed_at": "2026-11-17T07:27:30.236295+00:00"
+    },
+    "translation": {
+      "status": "MACHINE_TRANSLATION_DRAFT",
+      "input_hash": "a14f92b96f2f13c819f29a94ecd549bf7b9c800fb4bffd5293db7237c4c9ad0b",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "translated_at": "2026-11-17T10:11:51.677348+00:00",
+      "fields": {
+        "proverb_en": "Hot ghee that cannot be swallowed",
+        "literal_meaning_kn": "ಡ್ರಾಫ್ಟ್: ನುಂಗಲು ಸಾಧ್ಯವಿಲ್ಲದ ಬಿಸಿ ತುಪ್ಪ.",
+        "contextual_meaning_kn": "ಮಾನವ ಪರಿಶೀಲನೆಗಾಗಿ ಡ್ರಾಫ್ಟ್: ಒಪ್ಪಿಕೊಳ್ಳಲು ಅಥವಾ ಬಹಿರಂಗವಾಗಿ ತಿರಸ್ಕರಿಸಲು ಕಷ್ಟಕರವಾದ ಕಷ್ಟಕರವಾದ ಪರಿಸ್ಥಿತಿಯನ್ನು ವಿವರಿಸುತ್ತದೆ.",
+        "example_usage_kn": "ಡ್ರಾಫ್ಟ್: ಒಬ್ಬ ಉದ್ಯೋಗಿಯು ಭರಿಸಲಾಗದ ಸ್ಥಳಾಂತರ ವೆಚ್ಚವನ್ನು ಹೊತ್ತುಕೊಳ್ಳುವ ಅನಪೇಕ್ಷಿತ ಬಡ್ತಿಯನ್ನು ಪಡೆದುಕೊಳ್ಳುತ್ತಾನೆ ಮತ್ತು ಈ ಅಭಿವ್ಯಕ್ತಿಯೊಂದಿಗೆ ಅದನ್ನು ವಿವರಿಸುತ್ತಾನೆ.",
+        "category_kn": "ಇಕ್ಕಟ್ಟುಗಳು",
+        "keywords_kn": "ಇಕ್ಕಟ್ಟು, ನಿರ್ಧಾರ, ಒತ್ತಡ",
+        "keywords_en": "predicament, decision, pressure",
+        "region_kn": "",
+        "dialect_kn": ""
+      }
+    }
+  },
+  {
+    "record": {
+      "id": "948ca50648194f40bab038244f5216e2",
+      "proverb_kn": "ಕೊಚ್ಚೆ ಮೇಲೆ ಕಲ್ಲು ಹಾಕಿದ ಹಾಗೆ",
+      "transliteration": "",
+      "literal_meaning": "Draft: Like throwing a stone into filth.",
+      "contextual_meaning": "Draft for human verification: Interfering in a dirty quarrel can bring unpleasant consequences back on oneself.",
+      "example_usage": "Draft: Someone joins an abusive argument and becomes its next target; a friend uses this proverb.",
+      "category": "Quarrels and consequences",
+      "keywords": "ಜಗಳ, ಮಧ್ಯಪ್ರವೇಶ, ಅಪವಾದ, quarrel, intervention, backlash",
+      "region": "",
+      "dialect": "",
+      "source": "https://www.kannadapedia.com/kannada-gadegalu-proverbs/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T10:18:12.639712+00:00",
+      "reviewed_at": "2026-11-17T10:59:08.449354+00:00"
+    },
+    "translation": null
+  },
+  {
+    "record": {
+      "id": "94fdb7480caf4b7db7b321166b0a0a47",
+      "proverb_kn": "ಜಟ್ಟಿ ಅಡಿಗೆ ಬಿದ್ದರೂ ಮೂಗು ಮೇಲಿದೆ ಅಂದ.",
+      "transliteration": "",
+      "literal_meaning": "Draft: Even after falling underneath, the wrestler said his nose was above.",
+      "contextual_meaning": "Draft for human verification: Someone refuses to admit defeat and finds a flimsy reason to claim superiority.",
+      "example_usage": "Draft: A losing debater insists that speaking last proves victory; an observer uses this proverb.",
+      "category": "Denial and pride",
+      "keywords": "ಸೋಲು, ಹೆಮ್ಮೆ, ನೆಪ, defeat, pride, excuses",
+      "region": "",
+      "dialect": "",
+      "source": "https://www.vishaya.in/gaade/kannada-proverb-collection/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T10:18:12.639722+00:00",
+      "reviewed_at": "2026-11-17T10:59:09.467504+00:00"
+    },
+    "translation": null
+  },
+  {
+    "record": {
+      "id": "951a9c0eccb54c11903f2938c4cb433c",
+      "proverb_kn": "ಆನೆಯಂಥದೂ ಮುಗ್ಗರಿಸ್ತದೆ",
+      "transliteration": "",
+      "literal_meaning": "Draft: Even something as mighty as an elephant stumbles.",
+      "contextual_meaning": "Draft for human verification: Capable and experienced people can also make mistakes.",
+      "example_usage": "Draft: An expert makes an unusual error; a colleague uses this proverb to encourage understanding.",
+      "category": "Fallibility",
+      "keywords": "ತಪ್ಪು, ಅನುಭವ, ಸಹನೆ, mistakes, expertise, understanding",
+      "region": "",
+      "dialect": "",
+      "source": "https://www.vishaya.in/gaade/kannada-proverb-collection/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T10:18:12.639761+00:00",
+      "reviewed_at": "2026-11-17T10:59:12.781358+00:00"
+    },
+    "translation": null
+  },
+  {
+    "record": {
+      "id": "9ae99e471bf3462c95431af6f3d14d98",
+      "proverb_kn": "ನಾಯಿ ಬಾಲ ಎ೦ದಿಗೂ ಡೊ೦ಕು.",
+      "transliteration": "",
+      "literal_meaning": "Draft: A dog's tail is always crooked.",
+      "contextual_meaning": "Draft for human verification: Comments on a deeply ingrained habit that repeatedly returns despite correction.",
+      "example_usage": "Draft: Someone resumes the same troublesome habit after repeated promises to stop; a friend uses this proverb.",
+      "category": "Habits",
+      "keywords": "ಅಭ್ಯಾಸ, ಬದಲಾವಣೆ, ಪುನರಾವರ್ತನೆ, habits, change, repetition",
+      "region": "",
+      "dialect": "",
+      "source": "https://www.vishaya.in/gaade/kannada-proverb-collection/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T10:18:12.639730+00:00",
+      "reviewed_at": "2026-11-17T10:59:10.284946+00:00"
+    },
+    "translation": null
+  },
+  {
+    "record": {
+      "id": "9b84f3a860ff47e79c564cda5420b914",
+      "proverb_kn": "ತಾನೂ ತಿನ್ನ, ಪರರಿಗೂ ಕೊಡ",
+      "transliteration": "",
+      "literal_meaning": "Draft: Neither eats it oneself nor gives it to others.",
+      "contextual_meaning": "Draft for human verification: Criticises hoarding something one does not use while preventing others from benefiting.",
+      "example_usage": "Draft: Someone keeps unused tools locked away and refuses to lend them; a neighbour uses this proverb.",
+      "category": "Hoarding and selfishness",
+      "keywords": "ಸ್ವಾರ್ಥ, ಸಂಗ್ರಹ, ಹಂಚಿಕೆ, selfishness, hoarding, sharing",
+      "region": "",
+      "dialect": "",
+      "source": "https://yakshadeepa.com/2022/01/18/famous-proverbs-in-kannada/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T07:22:38.168081+00:00",
+      "reviewed_at": "2026-11-17T07:28:42.055115+00:00"
+    },
+    "translation": {
+      "status": "MACHINE_TRANSLATION_DRAFT",
+      "input_hash": "e7054a5e2658349896c51e63fa6f48123ba4049e5b0f0617d2930463ab79c282",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "translated_at": "2026-11-17T10:14:16.181681+00:00",
+      "fields": {
+        "proverb_en": "One neither eats oneself nor gives to others.",
+        "literal_meaning_kn": "ಡ್ರಾಫ್ಟ್: ತಾನೂ ತಿನ್ನುವುದಿಲ್ಲ ಮತ್ತು ಇತರರಿಗೂ ನೀಡುವುದಿಲ್ಲ.",
+        "contextual_meaning_kn": "ಮನುಷ್ಯನ ಪರಿಶೀಲನೆಗಾಗಿ ಡ್ರಾಫ್ಟ್: ತಾನು ಬಳಸದ ವಸ್ತುವನ್ನು ಸಂಗ್ರಹಿಸಿಟ್ಟುಕೊಂಡು, ಇ Aಯುವವರಿಗೆ ಪ್ರಯೋಜನವಾಗುವುದನ್ನು ತಡೆಯುವುದನ್ನು ಟೀಕಿಸುತ್ತದೆ.",
+        "example_usage_kn": "ಡ್ರಾಫ್ಟ್: ಯಾರಾದರೂ ಬಳಸದ ಉಪಕರಣಗಳನ್ನು ಲಾಕ್ ಮಾಡಿಟ್ಟುಕೊಂಡು ಸಾಲವಾಗಿ ನೀಡಲು ನಿರಾಕರಿಸಿದಾಗ; ಒಬ್ಬ ನೆರೆಹೊರೆಯವರು ಈ ಗಾದೆಯನ್ನು ಬಳಸುತ್ತಾರೆ.",
+        "category_kn": "ಸ್ವಾರ್ಥ ಮತ್ತು ಸಂಗ್ರಹಣೆ",
+        "keywords_kn": "ಸ್ವಾರ್ಥ, ಸಂಗ್ರಹ, ಹಂಚಿಕೆ",
+        "keywords_en": "selfishness, hoarding, sharing",
+        "region_kn": "",
+        "dialect_kn": ""
+      }
+    }
+  },
+  {
+    "record": {
+      "id": "9c02431f8f1d434297cbdf0756476086",
+      "proverb_kn": "ರವಿ ಕಾಣದ್ದನ್ನು ಕವಿ ಕಂಡ",
+      "transliteration": "",
+      "literal_meaning": "Draft: The poet saw what the sun did not see.",
+      "contextual_meaning": "Draft for human verification: Imagination and poetic insight can reveal meanings beyond ordinary observation.",
+      "example_usage": "Draft: A poem brings attention to an unnoticed experience; a reader uses this saying appreciatively.",
+      "category": "Imagination and insight",
+      "keywords": "ಕವಿ, ಕಲ್ಪನೆ, ಒಳನೋಟ, poetry, imagination, insight",
+      "region": "",
+      "dialect": "",
+      "source": "https://yakshadeepa.com/2022/01/18/famous-proverbs-in-kannada/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T10:18:12.639777+00:00",
+      "reviewed_at": "2026-11-17T10:59:16.849793+00:00"
+    },
+    "translation": null
+  },
+  {
+    "record": {
+      "id": "9c0c8bf1305a4d9e87bf273111d99028",
+      "proverb_kn": "ಸಮಯಕ್ಕೆ ಬಾರದ ಬುದ್ಧಿ ಸಾವಿರ ಇದ್ದರೂ ಲದ್ಧಿ",
+      "transliteration": "",
+      "literal_meaning": "Draft: Even a thousand ideas are dung if they do not come at the needed time.",
+      "contextual_meaning": "Draft for human verification: Advice or cleverness has little practical value when it arrives too late.",
+      "example_usage": "Draft: After a deadline passes, someone suggests the obvious solution; a colleague uses this proverb.",
+      "category": "Timely judgement",
+      "keywords": "ಸಮಯ, ಬುದ್ಧಿ, ತಡ, timing, judgement, delay",
+      "region": "",
+      "dialect": "",
+      "source": "https://www.vishaya.in/gaade/kannada-proverb-collection/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T10:18:12.639756+00:00",
+      "reviewed_at": "2026-11-17T10:59:12.367189+00:00"
+    },
+    "translation": null
+  },
+  {
+    "record": {
+      "id": "9d210b84bb85441a88355d60e6b2762f",
+      "proverb_kn": "ಚರ್ಮ ತೊಳೆದರೆ ಕರ್ಮ ಹೋದೀತೆ",
+      "transliteration": "",
+      "literal_meaning": "Draft: Will washing the skin remove one's deeds or their consequences?",
+      "contextual_meaning": "Draft for human verification: Outward cleansing or cosmetic changes cannot erase wrongdoing.",
+      "example_usage": "Draft: A business changes its branding without addressing past misconduct; a customer uses this proverb.",
+      "category": "Conduct and consequences",
+      "keywords": "ಕರ್ಮ, ತಪ್ಪು, ಹೊರನೋಟ, deeds, wrongdoing, appearances",
+      "region": "",
+      "dialect": "",
+      "source": "https://yakshadeepa.com/2022/01/18/famous-proverbs-in-kannada/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T07:22:38.168068+00:00",
+      "reviewed_at": "2026-11-17T07:28:23.584955+00:00"
+    },
+    "translation": {
+      "status": "MACHINE_TRANSLATION_DRAFT",
+      "input_hash": "2d5255b02a1792900a6115e91421cfa55825b54681c3717d703733e059c9526a",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "translated_at": "2026-11-17T10:12:00.802019+00:00",
+      "fields": {
+        "proverb_en": "If you wash the skin, will karma go away?",
+        "literal_meaning_kn": "ಡ್ರಾಫ್ಟ್: ಚರ್ಮವನ್ನು ತೊಳೆದರೆ ಮನುಷ್ಯನ ಕರ್ಮ ಅಥವಾ ಅದರ ಪರಿಣಾಮಗಳು ದೂರವಾಗುತ್ತವೆಯೇ?",
+        "contextual_meaning_kn": "ಮಾನವ ಪರಿಶೀಲನೆಗಾಗಿ ಡ್ರಾಫ್ಟ್: ಮೇಲ್ಮೈ ಶುದ್ಧೀಕರಣ ಅಥವಾ ಸೌಂದರ್ಯವರ್ಧಕ ಬದಲಾವಣೆಗಳು ತಪ್ಪುಗಳನ್ನು ಅಳಿಸಿಹಾಕಲು ಸಾಧ್ಯವಿಲ್ಲ.",
+        "example_usage_kn": "ಡ್ರಾಫ್ಟ್: ಒಂದು ವ್ಯವಹಾರವು ಹಿಂದಿನ ದುಷ್ಕೃತ್ಯಗಳನ್ನು ಸರಿಪಡಿಸದೆ ತನ್ನ ಬ್ರಾಂಡ್‌ ಅನ್ನು ಬದಲಾಯಿಸುತ್ತದೆ; ಒಬ್ಬ ಗ್ರಾಹಕನು ಈ ಗಾದೆಯನ್ನು ಬಳಸುತ್ತಾನೆ.",
+        "category_kn": "ನಡವಳಿಕೆ ಮತ್ತು ಪರಿಣಾಮಗಳು",
+        "keywords_kn": "ಕರ್ಮ, ತಪ್ಪು, ಹೊರನೋಟ",
+        "keywords_en": "deeds, wrongdoing, appearances",
+        "region_kn": "",
+        "dialect_kn": ""
+      }
+    }
+  },
+  {
+    "record": {
+      "id": "9d86a342a7ed4d3e82fb4d916ae4d09a",
+      "proverb_kn": "ಜನ ಮರುಳೋ ಜಾತ್ರೆ ಮರುಳೋ.",
+      "transliteration": "",
+      "literal_meaning": "Draft: Are the people foolish, or is the fair foolish?",
+      "contextual_meaning": "Draft for human verification: Expresses puzzlement or criticism about collective excitement and unthinking participation.",
+      "example_usage": "Draft: A crowd rushes to buy an ordinary item merely because everyone else is buying it; an observer uses this proverb.",
+      "category": "Crowd behaviour",
+      "keywords": "ಜನಸಂದಣಿ, ಅನುಕರಣೆ, ಹುಚ್ಚು ಉತ್ಸಾಹ, crowds, imitation, hype",
+      "region": "",
+      "dialect": "",
+      "source": "https://www.vishaya.in/gaade/kannada-proverb-collection/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T10:18:12.639754+00:00",
+      "reviewed_at": "2026-11-17T10:59:12.150592+00:00"
+    },
+    "translation": null
+  },
+  {
+    "record": {
+      "id": "9f18a4a4f90940dc8fe57294ba00c749",
+      "proverb_kn": "ಚಿಕ್ಕ ಮೀನನ್ನು ದೊಡ್ಡ ಮೀನು ನುಂಗಿತಂತೆ",
+      "transliteration": "",
+      "literal_meaning": "Draft: The big fish swallowed the little fish.",
+      "contextual_meaning": "Draft for human verification: The powerful can overwhelm or absorb those with fewer resources.",
+      "example_usage": "Draft: A large company buys out a struggling small competitor; someone uses this proverb.",
+      "category": "Power and inequality",
+      "keywords": "ಬಲ, ದುರ್ಬಲತೆ, ವ್ಯಾಪಾರ, power, vulnerability, business",
+      "region": "",
+      "dialect": "",
+      "source": "https://yakshadeepa.com/2022/01/18/famous-proverbs-in-kannada/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T07:22:38.168072+00:00",
+      "reviewed_at": "2026-11-17T07:28:28.034081+00:00"
+    },
+    "translation": {
+      "status": "MACHINE_TRANSLATION_DRAFT",
+      "input_hash": "0b515a1799f05d32bf073b571ea34089d5d9abe8ca00d1af285993f7377875d5",
+      "provider": "assistant",
+      "origin": "locally_authored_ai_translation_draft",
+      "translated_at": "2026-11-17T10:16:20.081651+00:00",
+      "fields": {
+        "proverb_en": "The big fish swallowed the little fish.",
+        "literal_meaning_kn": "ಕರಡು: ದೊಡ್ಡ ಮೀನು ಚಿಕ್ಕ ಮೀನನ್ನು ನುಂಗಿತು.",
+        "contextual_meaning_kn": "ಮಾನವ ಪರಿಶೀಲನೆಗಾಗಿ ಕರಡು: ಅಧಿಕ ಬಲವುಳ್ಳವರು ಕಡಿಮೆ ಸಂಪನ್ಮೂಲವುಳ್ಳವರನ್ನು ಮಣಿಸಬಹುದು ಅಥವಾ ತಮ್ಮೊಳಗೆ ಸೇರಿಸಿಕೊಳ್ಳಬಹುದು.",
+        "example_usage_kn": "ಕರಡು: ದೊಡ್ಡ ಕಂಪನಿಯು ಸಂಕಷ್ಟದಲ್ಲಿರುವ ಸಣ್ಣ ಸ್ಪರ್ಧಿ ಸಂಸ್ಥೆಯನ್ನು ಖರೀದಿಸಿದಾಗ ಒಬ್ಬರು ಈ ಗಾದೆಯನ್ನು ಬಳಸುತ್ತಾರೆ.",
+        "category_kn": "ಅಧಿಕಾರ ಮತ್ತು ಅಸಮಾನತೆ",
+        "keywords_kn": "ಬಲ, ದುರ್ಬಲತೆ, ವ್ಯಾಪಾರ",
+        "keywords_en": "power, vulnerability, business",
+        "region_kn": "",
+        "dialect_kn": ""
+      }
+    }
+  },
+  {
+    "record": {
+      "id": "a217f113a3ea42b691080254b014cb18",
+      "proverb_kn": "ಕಂಕುಳಲ್ಲಿ ಮಗು ಇಟ್ಟುಕೊಂಡು ಊರೆಲ್ಲ ಹುಡುಕಿದರಂತೆ",
+      "transliteration": "",
+      "literal_meaning": "Draft: They searched the whole village while holding the child under their arm.",
+      "contextual_meaning": "Draft for human verification: People sometimes search far away for something already close at hand.",
+      "example_usage": "Draft: Someone searches every room for a phone already in their hand; a friend uses this proverb.",
+      "category": "Attention and awareness",
+      "keywords": "ಹುಡುಕಾಟ, ಮರೆವು, ಗಮನ, searching, forgetfulness, attention",
+      "region": "",
+      "dialect": "",
+      "source": "https://yakshadeepa.com/2022/01/18/famous-proverbs-in-kannada/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T07:22:38.168050+00:00",
+      "reviewed_at": "2026-11-17T07:28:03.437168+00:00"
+    },
+    "translation": {
+      "status": "MACHINE_TRANSLATION_DRAFT",
+      "input_hash": "e4d4ebba7f1e109fc6e1e72872a865abe9d41e3a38d1ac3a01c651c780a51451",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "translated_at": "2026-11-17T10:12:10.263495+00:00",
+      "fields": {
+        "proverb_en": "They searched the whole village while having the child in their armpit.",
+        "literal_meaning_kn": "ಡ್ರಾಫ್ಟ್: ಕಂಕುಳಲ್ಲಿ ಮಗುವನ್ನು ಇಟ್ಟುಕೊಂಡು ಊರೆಲ್ಲ ಹುಡುಕಿದರಂತೆ.",
+        "contextual_meaning_kn": "ಮಾನವ ಪರಿಶೀಲನೆಗಾಗಿ ಡ್ರಾಫ್ಟ್: ಜನರು ಕೆಲವೊಮ್ಮೆ ಹತ್ತಿರದಲ್ಲೇ ಇರುವ ವಸ್ತುಗಾಗಿ ದೂರದಲ್ಲಿ ಹುಡುಕುತ್ತಾರೆ.",
+        "example_usage_kn": "ಡ್ರಾಫ್ಟ್: ಕೈಯಲ್ಲಿರುವ ಫೋನ್‌ಗಾಗಿ ಯಾರೋ ಎಲ್ಲ ಕೋಣೆಗಳನ್ನೂ ಹುಡುಕುತ್ತಾರೆ; ಒಬ್ಬ ಸ್ನೇಹಿತ ಈ ಗಾದೆಯನ್ನು ಬಳಸುತ್ತಾನೆ.",
+        "category_kn": "ಗಮನ ಮತ್ತು ಜಾಗೃತಿ",
+        "keywords_kn": "ಹುಡುಕಾಟ, ಮರೆವು, ಗಮನ",
+        "keywords_en": "searching, forgetfulness, attention",
+        "region_kn": "",
+        "dialect_kn": ""
+      }
+    }
+  },
+  {
+    "record": {
+      "id": "a515d04ebede4c20a664abeabbaa910e",
+      "proverb_kn": "ಕಂಡವರ ಮನೆಯಲ್ಲಿ ದಾನ ಮಾಡಿದಂತೆ",
+      "transliteration": "",
+      "literal_meaning": "Draft: Like giving charity in someone else's house.",
+      "contextual_meaning": "Draft for human verification: Criticises generosity exercised using another person's resources.",
+      "example_usage": "Draft: Someone promises a donation from a shared fund without consulting its owners; another member uses this proverb.",
+      "category": "False generosity",
+      "keywords": "ದಾನ, ಪರರ ಹಣ, ಅನುಮತಿ, charity, others' money, permission",
+      "region": "",
+      "dialect": "",
+      "source": "https://yakshadeepa.com/2022/01/18/famous-proverbs-in-kannada/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T07:22:38.168045+00:00",
+      "reviewed_at": "2026-11-17T07:27:44.087449+00:00"
+    },
+    "translation": {
+      "status": "MACHINE_TRANSLATION_DRAFT",
+      "input_hash": "c47a18215cb5b806f79caa6ad21faf5be80faf8ae3cdac33cfa9e13af19188a1",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "translated_at": "2026-11-17T10:11:16.650355+00:00",
+      "fields": {
+        "proverb_en": "Like giving charity in someone else's house",
+        "literal_meaning_kn": "ಕರಡು: ಬೇರೆಯವರ ಮನೆಯಲ್ಲಿ ದಾನ ಮಾಡಿದ ಹಾಗೆ.",
+        "contextual_meaning_kn": "ಕರಡು ಮಾನವ ಪರಿಶೀಲನೆಗಾಗಿ: ಇತರರ ಸಂಪನ್ಮೂಲಗಳನ್ನು ಬಳಸಿ ತೋರಿಸುವ ಉದಾರತೆಯನ್ನು ಇದು ಟೀಕಿಸುತ್ತದೆ.",
+        "example_usage_kn": "ಕರಡು: ಯಾರಾದರೂ ಮಾಲೀಕರನ್ನು ಸಂಪರ್ಕಿಸದೆ ಹಂಚಿಕೆಯ ನಿಧಿಯಿಂದ ದೇಣಿಗೆ ನೀಡುವುದಾಗಿ ಭರವಸೆ ನೀಡಿದಾಗ ಮತ್ತೊಬ್ಬ ಸದಸ್ಯರು ಈ ಗಾದೆಯನ್ನು ಬಳಸುತ್ತಾರೆ.",
+        "category_kn": "ಸುಳ್ಳು ಉದಾರತೆ",
+        "keywords_kn": "ದಾನ, ಪರರ ಹಣ, ಅನುಮತಿ",
+        "keywords_en": "charity, others' money, permission",
+        "region_kn": "",
+        "dialect_kn": ""
+      }
+    }
+  },
+  {
+    "record": {
+      "id": "a55af2b113604b4682e80920939895fb",
+      "proverb_kn": "ಎಮ್ಮೆಗೆ ಎರಡು ಕೋಡು ,ಹೆಮ್ಮೆಗೆ ಎಂಟು ಕೋಡು",
+      "transliteration": "",
+      "literal_meaning": "Draft: A buffalo has two horns; pride has eight horns.",
+      "contextual_meaning": "Draft for human verification: Excessive pride makes people more difficult and confrontational.",
+      "example_usage": "Draft: A person becomes overbearing after a small success; a colleague uses this proverb.",
+      "category": "Pride",
+      "keywords": "ಹೆಮ್ಮೆ, ಅಹಂಕಾರ, ವರ್ತನೆ, pride, arrogance, behaviour",
+      "region": "",
+      "dialect": "",
+      "source": "https://www.kannadapedia.com/kannada-gadegalu-proverbs/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T10:18:12.639685+00:00",
+      "reviewed_at": "2026-11-17T10:59:05.882904+00:00"
+    },
+    "translation": null
+  },
+  {
+    "record": {
+      "id": "ac4049319e604a3184765758591726c9",
+      "proverb_kn": "ಈಚಲ ಮರದ ಕೆಳಗೆ ಕುಳಿತು ಮಜ್ಜಿಗೆ ಕುಡಿದ ಹಾಗೆ.",
+      "transliteration": "",
+      "literal_meaning": "Draft: Like drinking buttermilk while sitting under a toddy palm.",
+      "contextual_meaning": "Draft for human verification: Even innocent behaviour may attract suspicion because of its setting.",
+      "example_usage": "Draft: An innocent meeting in a place associated with misconduct leads to gossip; someone uses this proverb.",
+      "category": "Reputation and appearances",
+      "keywords": "ಅನುಮಾನ, ಸ್ಥಳ, ಅಪವಾದ, suspicion, setting, reputation",
+      "region": "",
+      "dialect": "",
+      "source": "https://yakshadeepa.com/2022/01/18/famous-proverbs-in-kannada/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T07:22:38.168030+00:00",
+      "reviewed_at": "2026-11-17T07:27:21.320308+00:00"
+    },
+    "translation": {
+      "status": "MACHINE_TRANSLATION_DRAFT",
+      "input_hash": "469989b4bec811894b64cd9d10e91a9c624bedfb837d72c34ac417e64a52e1ec",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "translated_at": "2026-11-17T10:14:33.832089+00:00",
+      "fields": {
+        "proverb_en": "Like drinking buttermilk while sitting under a toddy palm.",
+        "literal_meaning_kn": "ಕರಡು: ಈಚಲ ಮರದ ಕೆಳಗೆ ಕುಳಿತು ಮಜ್ಜಿಗೆ ಕುಡಿದ ಹಾಗೆ.",
+        "contextual_meaning_kn": "ಮಾನವ ಪರಿಶೀಲನೆಗಾಗಿ ಕರಡು: ಮುಗ್ಧ ನಡವಳಿಕೆಯೂ ಸಹ ಅದರ ಪರಿಸರದಿಂದಾಗಿ ಅನುಮಾನವನ್ನು ಆಕರ್ಷಿಸಬಹುದು.",
+        "example_usage_kn": "ಕರಡು: ತಪ್ಪು ನಡವಳಿಕೆಗೆ ಸಂಬಂಧಿಸಿದ ಸ್ಥಳದಲ್ಲಿ ನಡೆದ ಮುಗ್ಧ ಸಭೆಯು ವಂದಾನಂತಿಗೆ ಕಾರಣವಾಗುತ್ತದೆ; ಯಾರಾದರೂ ಈ ಗಾದೆಯನ್ನು ಬಳಸುತ್ತಾರೆ.",
+        "category_kn": "ಖ್ಯಾತಿ ಮತ್ತು ಗೋಚರತೆ",
+        "keywords_kn": "ಅನುಮಾನ, ಸ್ಥಳ, ಅಪವಾದ",
+        "keywords_en": "suspicion, setting, reputation",
+        "region_kn": "",
+        "dialect_kn": ""
+      }
+    }
+  },
+  {
+    "record": {
+      "id": "aef42b3e3a434828a9ead43fa8791102",
+      "proverb_kn": "ಮಂತ್ರಕ್ಕೆ ಮಾವಿನಕಾಯಿ ಉದುರೋದಿಲ್ಲ",
+      "transliteration": "",
+      "literal_meaning": "Draft: Mangoes do not fall merely because of a chant.",
+      "contextual_meaning": "Draft for human verification: Words or wishes alone cannot replace practical effort.",
+      "example_usage": "Draft: A team keeps discussing a task without starting it; a member uses this proverb to urge action.",
+      "category": "Effort and action",
+      "keywords": "ಪ್ರಯತ್ನ, ಕೆಲಸ, ಮಾತು, effort, action, empty talk",
+      "region": "",
+      "dialect": "",
+      "source": "https://www.kannadapedia.com/kannada-gadegalu-proverbs/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T10:18:12.639693+00:00",
+      "reviewed_at": "2026-11-17T10:59:06.667070+00:00"
+    },
+    "translation": null
+  },
+  {
+    "record": {
+      "id": "b50810f204c94fcfb1facac8fb9fe9b4",
+      "proverb_kn": "ಹೊಕ್ಕು ಬಳಸಿದರೆ ನಂಟು",
+      "transliteration": "",
+      "literal_meaning": "Draft: Kinship grows by visiting and interacting.",
+      "contextual_meaning": "Draft for human verification: Relationships need continuing contact and mutual involvement.",
+      "example_usage": "Draft: Two cousins become close through regular visits; an elder uses this proverb.",
+      "category": "Maintaining relationships",
+      "keywords": "ನೆಂಟರು, ಭೇಟಿ, ಬಾಂಧವ್ಯ, relatives, visits, connection",
+      "region": "",
+      "dialect": "",
+      "source": "https://www.vishaya.in/gaade/kannada-proverb-collection/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T10:18:12.639716+00:00",
+      "reviewed_at": "2026-11-17T10:59:08.868810+00:00"
+    },
+    "translation": null
+  },
+  {
+    "record": {
+      "id": "b9da0b34d7a746b1ba833dae905307ef",
+      "proverb_kn": "ಕುಂಬಾರನಿಗೆ ವರುಷ, ದೊಣ್ಣೆಗೆ ನಿಮಿಷ",
+      "transliteration": "",
+      "literal_meaning": "Draft: A year for the potter; a minute for the stick.",
+      "contextual_meaning": "Draft for human verification: Creating something takes time; destroying it can be quick.",
+      "example_usage": "Draft: After someone wrecks a carefully maintained garden, a neighbour uses this proverb.",
+      "category": "Creation and destruction",
+      "keywords": "ಶ್ರಮ, ಹಾನಿ, ಸಮಯ, effort, damage, time",
+      "region": "",
+      "dialect": "",
+      "source": "https://yakshadeepa.com/2022/01/18/famous-proverbs-in-kannada/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T07:22:38.167988+00:00",
+      "reviewed_at": "2026-11-17T07:24:38.912337+00:00"
+    },
+    "translation": {
+      "status": "MACHINE_TRANSLATION_DRAFT",
+      "input_hash": "69b9b8d09ccdd8c78322e8d8642ea7fe1cf3e66c4d0b73275ba22eb1dcc40416",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "translated_at": "2026-11-17T10:14:42.584588+00:00",
+      "fields": {
+        "proverb_en": "A year for the potter, a minute for the stick",
+        "literal_meaning_kn": "ಡ್ರಾಫ್ಟ್: ಕುಂಬಾರನಿಗೆ ಒಂದು ವರ್ಷ; ದೊಣ್ಣೆಗೆ ಒಂದು ನಿಮಿಷ.",
+        "contextual_meaning_kn": "ಮಾನವ ಪರಿಶೀಲನೆಗಾಗಿ ಡ್ರಾಫ್ಟ್: ಯಾವುದನ್ನಾದರೂ ಸೃಷ್ಟಿಸಲು ಸಮಯ ಬೇಕಾಗುತ್ತದೆ; ಅದನ್ನು ನಾಶಪಡಿಸುವುದು ಬೇಗನೆ ಆಗಬಹುದು.",
+        "example_usage_kn": "ಡ್ರಾಫ್ಟ್: ಯಾರಾದರೂ ಎಚ್ಚರಿಕೆಯಿಂದ ನಿರ್ವಹಿಸಿದ ಉದ್ಯಾನವನವನ್ನು ಹಾಳುಮಾಡಿದ ನಂತರ, ಒಬ್ಬ ನೆರೆಹೊರೆಯವರು ಈ ನಾಣ್ಣುಡಿಯನ್ನು ಬಳಸುತ್ತಾರೆ.",
+        "category_kn": "ಸೃಷ್ಟಿ ಮತ್ತು ವಿನಾಶ",
+        "keywords_kn": "ಶ್ರಮ, ಹಾನಿ, ಸಮಯ",
+        "keywords_en": "effort, damage, time",
+        "region_kn": "",
+        "dialect_kn": ""
+      }
+    }
+  },
+  {
+    "record": {
+      "id": "beb64cadf57e46bf945b2876f77423c7",
+      "proverb_kn": "ಹೊಳೆ ದಾಟಿದ ಮೇಲೆ ಅಂಬಿಗನ ಹಂಗ್ಯಾಕೆ",
+      "transliteration": "",
+      "literal_meaning": "Draft: After crossing the river, why remain obliged to the boatman?",
+      "contextual_meaning": "Draft for human verification: Criticises forgetting or dismissing a helper once their assistance is no longer needed.",
+      "example_usage": "Draft: Someone stops acknowledging the friend who helped them find work; another friend uses this proverb critically.",
+      "category": "Gratitude and ingratitude",
+      "keywords": "ಸಹಾಯ, ಕೃತಘ್ನತೆ, ಉಪಕಾರ, help, ingratitude, obligation",
+      "region": "",
+      "dialect": "",
+      "source": "https://www.kannadapedia.com/kannada-gadegalu-proverbs/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T10:18:12.639677+00:00",
+      "reviewed_at": "2026-11-17T10:59:04.987046+00:00"
+    },
+    "translation": null
+  },
+  {
+    "record": {
+      "id": "c1ff94475d1547bd83d9dc2c082213d1",
+      "proverb_kn": "ಅಳಿದೂರಿಗೆ ಉಳಿದವನೇ ಗೌಡ",
+      "transliteration": "",
+      "literal_meaning": "Draft: In a ruined village, whoever remains is the headman.",
+      "contextual_meaning": "Draft for human verification: Someone may become prominent merely because other candidates are absent.",
+      "example_usage": "Draft: When the only remaining club member becomes president, someone uses this proverb humorously.",
+      "category": "Leadership and circumstance",
+      "keywords": "ನಾಯಕತ್ವ, ಅವಕಾಶ, ಕೊರತೆ, leadership, opportunity, absence",
+      "region": "",
+      "dialect": "",
+      "source": "https://yakshadeepa.com/2022/01/18/famous-proverbs-in-kannada/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T07:22:38.168009+00:00",
+      "reviewed_at": "2026-11-17T07:25:56.623566+00:00"
+    },
+    "translation": {
+      "status": "MACHINE_TRANSLATION_DRAFT",
+      "input_hash": "ee3227af1e718072f4505fb427170b9338b1a5fd2d28c51a5a17ae96d1193834",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "translated_at": "2026-11-17T10:14:52.191910+00:00",
+      "fields": {
+        "proverb_en": "In a ruined village, whoever remains is the headman.",
+        "literal_meaning_kn": "ಡ್ರಾಫ್ಟ್: ಅಳಿದು ಹೋದ ಹಳ್ಳಿಯಲ್ಲಿ ಯಾರು ಉಳಿದಿದ್ದಾರೋ ಅವರೇ ಗೌಡರು.",
+        "contextual_meaning_kn": "ಮಾನವ ಪರಿಶೀಲನೆಗಾಗಿ ಡ್ರಾಫ್ಟ್: ಇತರ ಅಭ್ಯರ್ಥಿಗಳು ಇಲ್ಲದಿರುವ ಕಾರಣದಿಂದ ಮಾತ್ರ ಯಾರಾದರೂ ಪ್ರಮುಖರಾಗಬಹುದು.",
+        "example_usage_kn": "ಡ್ರಾಫ್ಟ್: ಉಳಿದಿರುವ ಏಕೈಕ ಕ್ಲಬ್ ಸದಸ್ಯನು ಅಧ್ಯಕ್ಷನಾದಾಗ, ಯಾರಾದರೂ ಈ ಗಾದೆಯನ್ನು ಹಾಸ್ಯಮಯವಾಗಿ ಬಳಸುತ್ತಾರೆ.",
+        "category_kn": "ನಾಯಕತ್ವ ಮತ್ತು ಪರಿಸ್ಥಿತಿ",
+        "keywords_kn": "ನಾಯಕತ್ವ, ಅವಕಾಶ, ಕೊರತೆ",
+        "keywords_en": "leadership, opportunity, absence",
+        "region_kn": "",
+        "dialect_kn": ""
+      }
+    }
+  },
+  {
+    "record": {
+      "id": "c24366ba998c4232bf5c350377d4b0f2",
+      "proverb_kn": "ಮಾತು ಬೆಳ್ಳಿ, ಮೌನ ಬಂಗಾರ",
+      "transliteration": "",
+      "literal_meaning": "Draft: Speech is silver; silence is gold.",
+      "contextual_meaning": "Draft for human verification: Remaining silent can be wiser than speaking unnecessarily.",
+      "example_usage": "Draft: Someone avoids escalating a pointless argument and recalls this proverb.",
+      "category": "Speech and restraint",
+      "keywords": "ಮಾತು, ಮೌನ, ಸಂಯಮ, speech, silence, restraint",
+      "region": "",
+      "dialect": "",
+      "source": "https://yakshadeepa.com/2022/01/18/famous-proverbs-in-kannada/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T07:22:38.168096+00:00",
+      "reviewed_at": "2026-11-17T07:28:57.084206+00:00"
+    },
+    "translation": {
+      "status": "MACHINE_TRANSLATION_DRAFT",
+      "input_hash": "d36ce09d7f389d18739c3dcc0fc8f4117d36e51852731da8d8a3dfbcf87fdf0e",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "translated_at": "2026-11-17T10:15:01.645079+00:00",
+      "fields": {
+        "proverb_en": "Speech is silver, silence is gold",
+        "literal_meaning_kn": "ಕರಡು: ಮಾತು ಬೆಳ್ಳಿಯಂತಿದೆ; ಮೌನ ಬಂಗಾರದಂತಿದೆ.",
+        "contextual_meaning_kn": "ಮಾನವ ಪರಿಶೀಲನೆಗಾಗಿ ಕರಡು: ಅನಾವಶ್ಯಕವಾಗಿ ಮಾತನಾಡುವುದಕ್ಕಿಂತ ಮೌನವಾಗಿರುವುದು ಹೆಚ್ಚು ಬುದ್ಧಿವಂತಿಕೆಯಾಗಿರಬಹುದು.",
+        "example_usage_kn": "ಕರಡು: ಯಾರಾದರೂ ಅನಗತ್ಯ ವಾಗ್ವಾದವನ್ನು ತಪ್ಪಿಸಿ ಈ ಗಾದೆಯನ್ನು ನೆನಪಿಸಿಕೊಳ್ಳುತ್ತಾರೆ.",
+        "category_kn": "ಮಾತು ಮತ್ತು ಸಂಯಮ",
+        "keywords_kn": "ಮಾತು, ಮೌನ, ಸಂಯಮ",
+        "keywords_en": "speech, silence, restraint",
+        "region_kn": "",
+        "dialect_kn": ""
+      }
+    }
+  },
+  {
+    "record": {
+      "id": "c2d7dd7d4d1943a58a2ced7b30ca2516",
+      "proverb_kn": "ಕಡಲೆ ಕಾಯೋಕೆ ಕಾಗೆ ಕಾವಲು ಹಾಕಿದಂತೆ",
+      "transliteration": "",
+      "literal_meaning": "Draft: Like appointing a crow to guard the groundnuts.",
+      "contextual_meaning": "Draft for human verification: Entrusting protection to someone likely to consume or misuse what they guard is unwise.",
+      "example_usage": "Draft: A person known for misusing funds is made treasurer; another member uses this proverb.",
+      "category": "Trust and responsibility",
+      "keywords": "ಕಾವಲು, ನಂಬಿಕೆ, ದುರುಪಯೋಗ, guarding, trust, misuse",
+      "region": "",
+      "dialect": "",
+      "source": "https://yakshadeepa.com/2022/01/18/famous-proverbs-in-kannada/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T07:22:38.168057+00:00",
+      "reviewed_at": "2026-11-17T07:28:11.553152+00:00"
+    },
+    "translation": {
+      "status": "MACHINE_TRANSLATION_DRAFT",
+      "input_hash": "27177746b421435fb5683b38ab43cf63bdfd1c5e0a2e91700ecc08f143b5a4ff",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "translated_at": "2026-11-17T10:11:36.317110+00:00",
+      "fields": {
+        "proverb_en": "Like appointing a crow to guard the groundnuts",
+        "literal_meaning_kn": "ಕರಡು: ಕಡಲೆಕಾಯಿಯನ್ನು ಕಾವಲು ಕಾಯಲು ಕಾಗೆಯನ್ನು ನೇಮಿಸಿದಂತೆ.",
+        "contextual_meaning_kn": "ಮಾನವ ಪರಿಶೀಲನೆಗಾಗಿ ಕರಡು: ತಾವೇ ಕಾವಲು ಕಾಯುವ ವಸ್ತುವನ್ನು ತಿಂದುಹಾಕುವ ಅಥವಾ ದುರುಪಯೋಗಪಡಿಸಿಕೊಳ್ಳುವ ಸಾಧ್ಯತೆಯಿರುವ ವ್ಯಕ್ತಿಗೆ ರಕ್ಷಣೆಯನ್ನು ಒಪ್ಪಿಸುವುದು ಬುದ್ಧಿವಂತಿಕೆಯಲ್ಲ.",
+        "example_usage_kn": "ಕರಡು: ಹಣಕಾಸನ್ನು ದುರುಪಯೋಗಪಡಿಸಿಕೊಳ್ಳಲು ಹೆಸರುವಾಸಿಯಾದ ವ್ಯಕ್ತಿಯನ್ನು ಖಜಾಂಚಿಯನ್ನಾಗಿ ಮಾಡಲಾಗುತ್ತದೆ; ಮತ್ತೊಬ್ಬ ಸದಸ್ಯರು ಈ ಗಾದೆಯನ್ನು ಬಳಸುತ್ತಾರೆ.",
+        "category_kn": "ನಂಬಿಕೆ ಮತ್ತು ಜವಾಬ್ದಾರಿ",
+        "keywords_kn": "ಕಾವಲು, ನಂಬಿಕೆ, ದುರುಪಯೋಗ",
+        "keywords_en": "guarding, trust, misuse",
+        "region_kn": "",
+        "dialect_kn": ""
+      }
+    }
+  },
+  {
+    "record": {
+      "id": "c4c10d3d890d4888afbfb712c7186fa1",
+      "proverb_kn": "ಹೊಳೆಯೋದೆಲ್ಲಾ ಚಿನ್ನವಲ್ಲ",
+      "transliteration": "",
+      "literal_meaning": "Draft: Not everything that shines is gold.",
+      "contextual_meaning": "Draft for human verification: Attractive appearances can conceal poor quality or other drawbacks.",
+      "example_usage": "Draft: A shopper discovers that a flashy product is poorly made and recalls this proverb.",
+      "category": "Appearances and judgement",
+      "keywords": "ಆಕರ್ಷಣೆ, ಗುಣಮಟ್ಟ, ಮೋಸ, attraction, quality, deception",
+      "region": "",
+      "dialect": "",
+      "source": "https://yakshadeepa.com/2022/01/18/famous-proverbs-in-kannada/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T07:22:38.168101+00:00",
+      "reviewed_at": "2026-11-17T07:29:02.151215+00:00"
+    },
+    "translation": {
+      "status": "MACHINE_TRANSLATION_DRAFT",
+      "input_hash": "da3faf766ae3b7f5e4eeea66005f92ab662fa27972e1b12035cc1c849c02b1af",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "translated_at": "2026-11-17T10:12:36.336017+00:00",
+      "fields": {
+        "proverb_en": "Not everything that shines is gold",
+        "literal_meaning_kn": "ಕರಡು: ಹೊಳೆಯುವ ಪ್ರತಿಯೊಂದೂ ಚಿನ್ನವಲ್ಲ.",
+        "contextual_meaning_kn": "ಮನುಷ್ಯರ ಪರಿಶೀಲನೆಗಾಗಿ ಕರಡು: ಆಕರ್ಷಕ ನೋಟವು ಕಳಪೆ ಗುಣಮಟ್ಟವನ್ನು ಅಥವಾ ಇತರ ನ್ಯೂನತೆಗಳನ್ನು ಮರೆಮಾಚಬಹುದು.",
+        "example_usage_kn": "ಕರಡು: ಒಬ್ಬ ಖರೀದಿದಾರನು ಆಕರ್ಷಕವಾದ ಉತ್ಪನ್ನವು ಕಳಪೆಯಾಗಿ ತಯಾರಿಸಲ್ಪಟ್ಟಿರುವುದನ್ನು ಕಂಡು ಈ ಗಾದೆಯನ್ನು ನೆನಪಿಸಿಕೊಳ್ಳುತ್ತಾನೆ.",
+        "category_kn": "ಸ್ವರೂಪಗಳು ಮತ್ತು ನಿರ್ಣಯ",
+        "keywords_kn": "ಆಕರ್ಷಣೆ, ಗುಣಮಟ್ಟ, ಮೋಸ",
+        "keywords_en": "attraction, quality, deception",
+        "region_kn": "",
+        "dialect_kn": ""
+      }
+    }
+  },
+  {
+    "record": {
+      "id": "ca1aa59884074006934f186e1a7c84f9",
+      "proverb_kn": "ಹಿತ್ತಲ ಗಿಡ ಮದ್ದಲ್ಲ",
+      "transliteration": "",
+      "literal_meaning": "Draft: The plant in the backyard is not considered medicine.",
+      "contextual_meaning": "Draft for human verification: People often undervalue useful knowledge or talent that is familiar and close at hand.",
+      "example_usage": "Draft: A team ignores its experienced colleague but pays an outsider for the same advice; someone uses this proverb.",
+      "category": "Familiarity and undervaluation",
+      "keywords": "ಪರಿಚಯ, ಪ್ರತಿಭೆ, ಕಡೆಗಣನೆ, familiarity, talent, undervaluation",
+      "region": "",
+      "dialect": "",
+      "source": "https://www.kannadapedia.com/kannada-gadegalu-proverbs/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T10:18:12.639701+00:00",
+      "reviewed_at": "2026-11-17T10:59:07.432095+00:00"
+    },
+    "translation": null
+  },
+  {
+    "record": {
+      "id": "cbbeac3735074374aca57e30b576e27f",
+      "proverb_kn": "ಆಕಳು ಕಪ್ಪಾದರೂ ಹಾಲು ಕಪ್ಪೆ ?",
+      "transliteration": "",
+      "literal_meaning": "Draft: Even if the cow is black, is its milk black?",
+      "contextual_meaning": "Draft for human verification: Outward appearance does not determine a person's worth or the quality of their work.",
+      "example_usage": "Draft: When a handmade product is dismissed because of plain packaging, its maker uses this proverb.",
+      "category": "Appearance and worth",
+      "keywords": "ರೂಪ, ಗುಣ, ಪೂರ್ವಗ್ರಹ, appearance, quality, prejudice",
+      "region": "",
+      "dialect": "",
+      "source": "https://yakshadeepa.com/2022/01/18/famous-proverbs-in-kannada/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T07:22:38.168014+00:00",
+      "reviewed_at": "2026-11-17T07:26:58.214370+00:00"
+    },
+    "translation": {
+      "status": "MACHINE_TRANSLATION_DRAFT",
+      "input_hash": "9744c976b267b2b3d5a69cc3ece28a3b409ff19eb4c649c11b231538431d2270",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "translated_at": "2026-11-17T10:12:41.253044+00:00",
+      "fields": {
+        "proverb_en": "Even if the cow is black, is the milk black?",
+        "literal_meaning_kn": "ಡ್ರಾಫ್ಟ್: ಹಸು ಕಪ್ಪಾಗಿದ್ದರೂ, ಅದರ ಹಾಲು ಕಪ್ಪಾಗಿದೆಯೇ?",
+        "contextual_meaning_kn": "ಮಾನವ ಪರಿಶೀಲನೆಗಾಗಿ ಡ್ರಾಫ್ಟ್: ಬಾಹ್ಯ ಸ್ವರೂಪವು ವ್ಯಕ್ತಿಯ ಮೌಲ್ಯವನ್ನು ಅಥವಾ ಅವರ ಕೆಲಸದ ಗುಣಮಟ್ಟವನ್ನು ನಿರ್ಧರಿಸುವುದಿಲ್ಲ.",
+        "example_usage_kn": "ಡ್ರಾಫ್ಟ್: ಸರಳವಾದ ಪ್ಯಾಕೇಜಿಂಗ್‌ನಿಂದಾಗಿ ಕೈಯಿಂದ ತಯಾರಿಸಿದ ಉತ್ಪನ್ನವನ್ನು ತಿರಸ್ಕರಿಸಿದಾಗ, ಅದರ ತಯಾರಕರು ಈ ಗಾದೆಯನ್ನು ಬಳಸುತ್ತಾರೆ.",
+        "category_kn": "ರೂಪ ಮತ್ತು ಮೌಲ್ಯ",
+        "keywords_kn": "ರೂಪ, ಗುಣ, ಪೂರ್ವಗ್ರಹ",
+        "keywords_en": "appearance, quality, prejudice",
+        "region_kn": "",
+        "dialect_kn": ""
+      }
+    }
+  },
+  {
+    "record": {
+      "id": "d429f6e079534273ac30fab7c1854ff7",
+      "proverb_kn": "ಹತ್ತು ಮಂದಿ ಹುಲ್ಲು ಕಡ್ಡಿ ಒಬ್ಬನ ತಲೆ ಭಾರ.",
+      "transliteration": "",
+      "literal_meaning": "Draft: A blade of grass from each of ten people becomes a load on one head.",
+      "contextual_meaning": "Draft for human verification: Many individually small demands can become a heavy burden for the person receiving them all.",
+      "example_usage": "Draft: Every team member assigns one small task to the same assistant, overwhelming them; a manager uses this proverb.",
+      "category": "Accumulated burden",
+      "keywords": "ಕೆಲಸದ ಹೊರೆ, ಸಣ್ಣ ಬೇಡಿಕೆ, ಒತ್ತಡ, workload, small demands, pressure",
+      "region": "",
+      "dialect": "",
+      "source": "https://www.vishaya.in/gaade/kannada-proverb-collection/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T10:18:12.639758+00:00",
+      "reviewed_at": "2026-11-17T10:59:12.584267+00:00"
+    },
+    "translation": null
+  },
+  {
+    "record": {
+      "id": "d783236bf0644d0a84b0da995109d592",
+      "proverb_kn": "ರಾಗ ನೆನೆಪಾದಾಗ ತಾಳ ಮರೆತು ಹೋಯಿತಂತೆ",
+      "transliteration": "",
+      "literal_meaning": "Draft: When the melody came to mind, the rhythm was forgotten.",
+      "contextual_meaning": "Draft for human verification: While concentrating on one part of a task, someone overlooks another necessary part.",
+      "example_usage": "Draft: A presenter fixes the slides but forgets to bring the presentation file; a friend uses this proverb.",
+      "category": "Coordination and oversight",
+      "keywords": "ಗಮನ, ಮರೆವು, ಸಮನ್ವಯ, attention, oversight, coordination",
+      "region": "",
+      "dialect": "",
+      "source": "https://yakshadeepa.com/2022/01/18/famous-proverbs-in-kannada/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T10:18:12.639773+00:00",
+      "reviewed_at": "2026-11-17T10:59:16.434177+00:00"
+    },
+    "translation": null
+  },
+  {
+    "record": {
+      "id": "dbf1efc8d6334e0eaa8d4723284de065",
+      "proverb_kn": "ಧರ್ಮಕ್ಕೆ ಕೊಟ್ಟ ಆಕಳ ಹಲ್ಲು ಎಣಿಸಿದರು.",
+      "transliteration": "",
+      "literal_meaning": "Draft: They counted the teeth of a cow given as charity.",
+      "contextual_meaning": "Draft for human verification: Criticises finding faults in a gift instead of appreciating it.",
+      "example_usage": "Draft: A recipient complains about minor defects in a freely donated bicycle; someone uses this proverb.",
+      "category": "Gifts and gratitude",
+      "keywords": "ಉಡುಗೊರೆ, ದಾನ, ಕೃತಜ್ಞತೆ, gifts, charity, gratitude",
+      "region": "",
+      "dialect": "",
+      "source": "https://www.vishaya.in/gaade/kannada-proverb-collection/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T10:18:12.639728+00:00",
+      "reviewed_at": "2026-11-17T10:59:10.066649+00:00"
+    },
+    "translation": null
+  },
+  {
+    "record": {
+      "id": "e36a3ff23c994b2e9345b52aee08f1da",
+      "proverb_kn": "ಅವರವರ ತಲೆಗೆ ಅವರವರದೇ ಕೈ",
+      "transliteration": "",
+      "literal_meaning": "Draft: Each person's own hand must support their own head.",
+      "contextual_meaning": "Draft for human verification: People ultimately have to take responsibility for their own needs.",
+      "example_usage": "Draft: A parent uses this proverb when encouraging an adult child to manage personal expenses.",
+      "category": "Self-reliance",
+      "keywords": "ಜವಾಬ್ದಾರಿ, ಸ್ವಾವಲಂಬನೆ, ಖರ್ಚು, responsibility, independence, expenses",
+      "region": "",
+      "dialect": "",
+      "source": "https://yakshadeepa.com/2022/01/18/famous-proverbs-in-kannada/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T07:22:38.167999+00:00",
+      "reviewed_at": "2026-11-17T07:25:01.225775+00:00"
+    },
+    "translation": {
+      "status": "MACHINE_TRANSLATION_DRAFT",
+      "input_hash": "9e7b59e2931fad67ccf484d278224d073aae35922643d4a6d16fd1ad2113c2de",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "translated_at": "2026-11-17T10:15:10.599979+00:00",
+      "fields": {
+        "proverb_en": "To each person's head belongs their own hand",
+        "literal_meaning_kn": "ಖುದ್ದು ಪ್ರತಿಯೊಬ್ಬರ ಸ್ವಂತ ತಲೆಗೆ ಅವರವರದೇ ಕೈ ಆಧಾರ.",
+        "contextual_meaning_kn": "ಮನುಷ್ಯರು ತಮ್ಮ ಸ್ವಂತ ಅಗತ್ಯಗಳಿಗೆ ಅಂತಿಮವಾಗಿ ತಾವೇ ಜವಾಬ್ದಾರಿಯನ್ನು ಹೊರಬೇಕಾಗುತ್ತದೆ.",
+        "example_usage_kn": "ವಯಸ್ಕರಾದ ತಮ್ಮ ಮಗುವಿಗೆ ವೈಯಕ್ತಿಕ ಖರ್ಚುಗಳನ್ನು ತಾವೇ ನಿರ್ವಹಿಸುವಂತೆ ಪ್ರೋತ್ಸಾಹಿಸುವಾಗ ಪೋಷಕರು ಈ ಗಾದೆಯನ್ನು ಬಳಸುತ್ತಾರೆ.",
+        "category_kn": "ಸ್ವಾವಲಂಬನೆ",
+        "keywords_kn": "ಜವಾಬ್ದಾರಿ, ಸ್ವಾವಲಂಬನೆ, ಖರ್ಚು",
+        "keywords_en": "responsibility, independence, expenses",
+        "region_kn": "",
+        "dialect_kn": ""
+      }
+    }
+  },
+  {
+    "record": {
+      "id": "e6b12a8d27a248edbf5e037537705f7c",
+      "proverb_kn": "ತಾಯಿಗಿಂತ ಬಂಧು ಇಲ್ಲ, ಉಪ್ಪಿಗಿಂತ ರುಚಿಯಿಲ್ಲ",
+      "transliteration": "",
+      "literal_meaning": "Draft: There is no relative greater than a mother, and no flavour greater than salt.",
+      "contextual_meaning": "Draft for human verification: Praises the special importance of maternal affection and of simple essentials.",
+      "example_usage": "Draft: Remembering a mother's dependable care during illness, someone uses this proverb affectionately.",
+      "category": "Family and affection",
+      "keywords": "ತಾಯಿ, ಮಮತೆ, ಕುಟುಂಬ, mother, affection, family",
+      "region": "",
+      "dialect": "",
+      "source": "https://www.lingodesi.com/kannada/proverbs/classics/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T07:22:38.168106+00:00",
+      "reviewed_at": "2026-11-17T07:29:06.416794+00:00"
+    },
+    "translation": {
+      "status": "MACHINE_TRANSLATION_DRAFT",
+      "input_hash": "1f536e36c7fb47f6d8ab478640a0dc3fd3d59e291a97f9c0403039746d4e8278",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "translated_at": "2026-11-17T10:15:19.558228+00:00",
+      "fields": {
+        "proverb_en": "There is no relative greater than a mother, and no flavour greater than salt",
+        "literal_meaning_kn": "ಡ್ರಾಫ್ಟ್: ತಾಯಿಗಿಂತ ಶ್ರೇಷ್ಠಳಾದ ಬಂಧುವಿಲ್ಲ ಮತ್ತು ಉಪ್ಪಿಗಿಂತ ಉತ್ತಮವಾದ ರುಚಿಯಿಲ್ಲ.",
+        "contextual_meaning_kn": "ಮಾನವ ಪರಿಶೀಲನೆಗಾಗಿ ಡ್ರಾಫ್ಟ್: ಮಾತೃವಾತ್ಸಲ್ಯದ ವಿಶೇಷ ಪ್ರಾಮುಖ್ಯತೆ ಮತ್ತು ಸರಳ ಅತ್ಯಾವಶ್ಯಕತೆಗಳನ್ನು ಪ್ರಶಂಸಿಸುತ್ತದೆ.",
+        "example_usage_kn": "ಡ್ರಾಫ್ಟ್: ಕಾಯಿಲೆಯ ಸಮಯದಲ್ಲಿ ತಾಯಿಯ ನಂಬಿಕಾರ್ಹ ಕಾಳಜಿಯನ್ನು ಸ್ಮರಿಸುತ್ತಾ, ಯಾರಾದರೂ ಈ ಗಾದೆಯನ್ನು ಪ್ರೀತಿಯಿಂದ ಬಳಸುತ್ತಾರೆ.",
+        "category_kn": "ಕುಟುಂಬ ಮತ್ತು ವಾತ್ಸಲ್ಯ",
+        "keywords_kn": "ತಾಯಿ, ಮಮತೆ, ಕುಟುಂಬ",
+        "keywords_en": "mother, affection, family",
+        "region_kn": "",
+        "dialect_kn": ""
+      }
+    }
+  },
+  {
+    "record": {
+      "id": "e84a460570ec4f668035bac62a445db8",
+      "proverb_kn": "ದೂರದ ಬೆಟ್ಟ ನುಣ್ಣಗೆ.",
+      "transliteration": "",
+      "literal_meaning": "Draft: A distant hill looks smooth.",
+      "contextual_meaning": "Draft for human verification: Things can seem easier or more attractive from a distance because their difficulties are hidden.",
+      "example_usage": "Draft: Someone idealises a friend's job until learning about its long hours; the friend uses this proverb.",
+      "category": "Appearances and distance",
+      "keywords": "ದೂರ, ಆಕರ್ಷಣೆ, ವಾಸ್ತವ, distance, attraction, reality",
+      "region": "",
+      "dialect": "",
+      "source": "https://www.vishaya.in/gaade/kannada-proverb-collection/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T10:18:12.639726+00:00",
+      "reviewed_at": "2026-11-17T10:59:09.885015+00:00"
+    },
+    "translation": null
+  },
+  {
+    "record": {
+      "id": "eb18d0e5688f475e982ccea0b6143de3",
+      "proverb_kn": "ಕುರುಡರ ರಾಜ್ಯದಲ್ಲಿ ಒಕ್ಕಣ್ಣನೇ ರಾಜ",
+      "transliteration": "",
+      "literal_meaning": "Draft: In a kingdom of blind people, the one-eyed person is king.",
+      "contextual_meaning": "Draft for human verification: Even limited ability can confer an advantage where others lack the relevant skill; the metaphor reflects historical attitudes to disability.",
+      "example_usage": "Draft: The only person with basic spreadsheet skills becomes the office expert; a colleague recalls this proverb.",
+      "category": "Relative advantage",
+      "keywords": "ಕೌಶಲ್ಯ, ಹೋಲಿಕೆ, ಮುನ್ನಡೆ, skill, comparison, advantage",
+      "region": "",
+      "dialect": "",
+      "source": "https://www.kannadapedia.com/kannada-gadegalu-proverbs/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T10:18:12.639710+00:00",
+      "reviewed_at": "2026-11-17T10:59:08.233321+00:00"
+    },
+    "translation": null
+  },
+  {
+    "record": {
+      "id": "eb8c470ab0824993925ed058a8ae2039",
+      "proverb_kn": "ದುಡ್ಡಿದ್ದವನೇ ದೊಡ್ಡಪ್ಪ",
+      "transliteration": "",
+      "literal_meaning": "Draft: The person with money is the important uncle.",
+      "contextual_meaning": "Draft for human verification: Comments critically on the influence and respect that wealth can command.",
+      "example_usage": "Draft: A wealthy guest receives special treatment while others are ignored; an observer uses this proverb.",
+      "category": "Wealth and social status",
+      "keywords": "ಹಣ, ಸ್ಥಾನಮಾನ, ಪಕ್ಷಪಾತ, money, status, favouritism",
+      "region": "",
+      "dialect": "",
+      "source": "https://www.kannadapedia.com/kannada-gadegalu-proverbs/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T10:18:12.639697+00:00",
+      "reviewed_at": "2026-11-17T10:59:07.051293+00:00"
+    },
+    "translation": null
+  },
+  {
+    "record": {
+      "id": "eb93aceee6114c74a8763c27539e3fa5",
+      "proverb_kn": "ಊಟ ಬಲ್ಲವನಿಗೆ ರೋಗವಿಲ್ಲ, ಮಾತು ಬಲ್ಲವನಿಗೆ ಜಗಳವಿಲ್ಲ",
+      "transliteration": "",
+      "literal_meaning": "Draft: One who knows how to eat has no illness; one who knows how to speak has no quarrel.",
+      "contextual_meaning": "Draft for human verification: Praises moderation in eating and tact in speech as ways to avoid trouble; the health wording is proverbial rather than a medical guarantee.",
+      "example_usage": "Draft: A mediator settles a disagreement through careful words; someone recalls the proverb.",
+      "category": "Moderation and communication",
+      "keywords": "ಮಿತಾಹಾರ, ಮಾತು, ಜಗಳ, moderation, tact, conflict",
+      "region": "",
+      "dialect": "",
+      "source": "https://yakshadeepa.com/2022/01/18/famous-proverbs-in-kannada/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T07:22:38.168085+00:00",
+      "reviewed_at": "2026-11-17T07:28:46.328440+00:00"
+    },
+    "translation": {
+      "status": "MACHINE_TRANSLATION_DRAFT",
+      "input_hash": "8b6796ac9e984860cc2c6cd40839cd6b8d39657afab81211024803331920e374",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "translated_at": "2026-11-17T10:15:28.260796+00:00",
+      "fields": {
+        "proverb_en": "One who knows how to eat has no illness, one who knows how to speak has no quarrel",
+        "literal_meaning_kn": "ಡ್ರಾಫ್ಟ್: ಊಟ ಮಾಡುವುದು ಹೇಗೆಂದು ಬಲ್ಲವನಿಗೆ ರೋಗವಿಲ್ಲ; ಮಾತಾಡುವುದು ಹೇಗೆಂದು ಬಲ್ಲವನಿಗೆ ಜಗಳವಿಲ್ಲ.",
+        "contextual_meaning_kn": "ಮಾನವ ಪರಿಶೀಲನೆಗಾಗಿ ಡ್ರಾಫ್ಟ್: ತೊಂದರೆಯನ್ನು ತಪ್ಪಿಸಿಕೊಳ್ಳುವ ಮಾರ್ಗಗಳಾಗಿ ಊಟದಲ್ಲಿ ಮಿತತೆ ಮತ್ತು ಮಾತಿನಲ್ಲಿ ಚಾತುರ್ಯವನ್ನು ಇದು ಪ್ರಶಂಸಿಸುತ್ತದೆ; ಆರೋಗ್ಯದ ಹೇಳಿಕೆಯು ವೈದ್ಯಕೀಯ ಭರವಸೆಗಿಂತ ಹೆಚ್ಚಾಗಿ ನಾಣ್ಣುಡಿಯಾಗಿದೆ.",
+        "example_usage_kn": "ಡ್ರಾಫ್ಟ್: ಒಬ್ಬ ಮಧ್ಯಸ್ಥಗಾರನು ಎಚ್ಚರಿಕೆಯ ಮಾತುಗಳ ಮೂಲಕ ಭಿನ್ನಾಭಿಪ್ರಾಯವನ್ನು ಬೇರೆಸುತ್ತಾನೆ; ಯಾರೋ ಒಬ್ಬರು ಈ ನಾಣ್ಣುಡಿಯನ್ನು ನೆನಪಿಸಿಕೊಳ್ಳುತ್ತಾರೆ.",
+        "category_kn": "ಮಿತತೆ ಮತ್ತು ಸಂವಹನ",
+        "keywords_kn": "ಮಿತಾಹಾರ, ಮಾತು, ಜಗಳ, ಸಂಯಮ, ಚಾತುರ್ಯ, ಸಂಘರ್ಷ",
+        "keywords_en": "Moderation, Speech, Quarrel, Moderation, Tact, Conflict",
+        "region_kn": "",
+        "dialect_kn": ""
+      }
+    }
+  },
+  {
+    "record": {
+      "id": "ec21f524cafe42bc9e98da892d8d88be",
+      "proverb_kn": "ಹೆಂಡ ಕುಡಿದ ಕಪಿಗೆ ಚೇಳು ಕಡಿದ ಹಾಗೆ",
+      "transliteration": "",
+      "literal_meaning": "Draft: Like a scorpion stinging a monkey that has drunk liquor.",
+      "contextual_meaning": "Draft for human verification: An already restless or disorderly situation becomes still more agitated.",
+      "example_usage": "Draft: An unruly discussion becomes worse after a provocative announcement; someone uses this proverb.",
+      "category": "Escalation",
+      "keywords": "ಗೊಂದಲ, ಪ್ರಚೋದನೆ, ಅಶಾಂತಿ, disorder, provocation, escalation",
+      "region": "",
+      "dialect": "",
+      "source": "https://www.vishaya.in/gaade/kannada-proverb-collection/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T10:18:12.639724+00:00",
+      "reviewed_at": "2026-11-17T10:59:09.682518+00:00"
+    },
+    "translation": null
+  },
+  {
+    "record": {
+      "id": "f27f11ceff674bb8a5b47eaa23fe4118",
+      "proverb_kn": "ಉಗುರಿನಲ್ಲಿ ಮಾಡುವ ಕೆಲಸಕ್ಕೆ ಕೊಡಲಿ ತೆಗೆದುಕೊಂಡಂತೆ",
+      "transliteration": "",
+      "literal_meaning": "Draft: Like taking an axe for work that could be done with a fingernail.",
+      "contextual_meaning": "Draft for human verification: Criticises using excessive force or resources for a small problem.",
+      "example_usage": "Draft: A manager proposes replacing an entire system to fix one minor setting; a colleague uses this proverb.",
+      "category": "Proportionate action",
+      "keywords": "ಸಣ್ಣ ಸಮಸ್ಯೆ, ಅತಿರೇಕ, ಪರಿಹಾರ, minor problem, overreaction, resources",
+      "region": "",
+      "dialect": "",
+      "source": "https://yakshadeepa.com/2022/01/18/famous-proverbs-in-kannada/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T07:22:38.168041+00:00",
+      "reviewed_at": "2026-11-17T07:27:32.151971+00:00"
+    },
+    "translation": {
+      "status": "MACHINE_TRANSLATION_DRAFT",
+      "input_hash": "1355af12606b8b398b23bcf81bc7c0445ea8dbe6c6f8b4467395218d821f8ce0",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "translated_at": "2026-11-17T10:12:59.676615+00:00",
+      "fields": {
+        "proverb_en": "Like taking an axe for work that could be done with a fingernail.",
+        "literal_meaning_kn": "ಕರಡು: ಉಗುರಿನಲ್ಲಿ ಮಾಡಬಹುದಾದ ಕೆಲಸಕ್ಕೆ ಕೊಡಲಿಯನ್ನು ತೆಗೆದುಕೊಂಡಂತೆ.",
+        "contextual_meaning_kn": "ಕರಡು ಪರಿಶೀಲನೆಗಾಗಿ: ಸಣ್ಣ ಸಮಸ್ಯೆಗೆ ಅತಿಯಾದ ಬಲ ಅಥವಾ ಸಂಪನ್ಮೂಲಗಳನ್ನು ಬಳಸುείಯನ್ನು ಟೀಕಿಸುತ್ತದೆ.",
+        "example_usage_kn": "ಕರಡು: ಒಬ್ಬ ವ್ಯವಸ್ಥಾಪಕನು ಒಂದು ಸಣ್ಣ ಸೆಟ್ಟಿಂಗ್ ಅನ್ನು ಸರಿಪಡಿಸಲು ಇಡೀ ವ್ಯವಸ್ಥೆಯನ್ನು ಬದಲಾಯಿಸಲು ಪ್ರಸ್ತಾಪಿಸುತ್ತಾನೆ; ಸಹೋದ್ಯೋಗಿಯು ಈ ಗಾದೆಯನ್ನು ಬಳಸುತ್ತಾನೆ.",
+        "category_kn": "ಸೂಕ್ತ ಕ್ರಮ",
+        "keywords_kn": "ಸಣ್ಣ ಸಮಸ್ಯೆ, ಅತಿರೇಕ, ಪರಿಹಾರ, ಸಂಪನ್ಮೂಲಗಳು",
+        "keywords_en": "minor problem, overreaction, resources, solution",
+        "region_kn": "",
+        "dialect_kn": ""
+      }
+    }
+  },
+  {
+    "record": {
+      "id": "f46b0e48dbf44097bcf0e451ad64cb4c",
+      "proverb_kn": "ಆಳಾಗಬಲ್ಲವನು ಅರಸನಾಗಬಲ್ಲ",
+      "transliteration": "",
+      "literal_meaning": "Draft: One who can serve can become a king.",
+      "contextual_meaning": "Draft for human verification: Learning to work responsibly under others helps prepare a person to lead.",
+      "example_usage": "Draft: A supervisor praises a new manager who first learned every team task and uses this proverb.",
+      "category": "Service and leadership",
+      "keywords": "ಸೇವೆ, ನಾಯಕತ್ವ, ಅನುಭವ, service, leadership, experience",
+      "region": "",
+      "dialect": "",
+      "source": "https://yakshadeepa.com/2022/01/18/famous-proverbs-in-kannada/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T10:18:12.639765+00:00",
+      "reviewed_at": "2026-11-17T10:59:13.200938+00:00"
+    },
+    "translation": null
+  },
+  {
+    "record": {
+      "id": "f4c9cae5ac564ca9b813ceae5118d1f2",
+      "proverb_kn": "ಬೆಣ್ಣೇಲಿ ಕೂದಲು ತೆಗೆದ ಹಾಗೆ",
+      "transliteration": "",
+      "literal_meaning": "Draft: Like removing a hair from butter.",
+      "contextual_meaning": "Draft for human verification: Describes handling a delicate task smoothly and with little disturbance.",
+      "example_usage": "Draft: A mediator resolves a sensitive disagreement without embarrassing anyone; a colleague uses this expression.",
+      "category": "Tact and skill",
+      "keywords": "ಜಾಣ್ಮೆ, ಸೂಕ್ಷ್ಮತೆ, ಪರಿಹಾರ, tact, delicacy, resolution",
+      "region": "",
+      "dialect": "",
+      "source": "https://www.vishaya.in/gaade/kannada-proverb-collection/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T10:18:12.639734+00:00",
+      "reviewed_at": "2026-11-17T10:59:10.715489+00:00"
+    },
+    "translation": null
+  },
+  {
+    "record": {
+      "id": "f582d2bf616a42fc8743281972db1358",
+      "proverb_kn": "ಮನಸಿದ್ದರೆ ಮಾರ್ಗ",
+      "transliteration": "",
+      "literal_meaning": "Draft: If there is willingness, there is a way.",
+      "contextual_meaning": "Draft for human verification: Determination helps people find solutions to difficulties.",
+      "example_usage": "Draft: A working student arranges evening study hours; a friend uses this proverb about that determination.",
+      "category": "Determination",
+      "keywords": "ಸಂಕಲ್ಪ, ಪ್ರಯತ್ನ, ಪರಿಹಾರ, determination, effort, solutions",
+      "region": "",
+      "dialect": "",
+      "source": "https://yakshadeepa.com/2022/01/18/famous-proverbs-in-kannada/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T07:22:38.168003+00:00",
+      "reviewed_at": "2026-11-17T07:25:12.937154+00:00"
+    },
+    "translation": {
+      "status": "MACHINE_TRANSLATION_DRAFT",
+      "input_hash": "a13168abb13bba2febb1b038a36d7a24b0fe7afcd2f6b4995031d68ca4c9f761",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "translated_at": "2026-11-17T10:12:07.977858+00:00",
+      "fields": {
+        "proverb_en": "If there is a mind, there is a way",
+        "literal_meaning_kn": "ಕರಡು: ಮನಸ್ಸಿದ್ದರೆ, ಅದಕ್ಕೆ ತಕ್ಕ ಮಾರ್ಗವಿರುತ್ತದೆ.",
+        "contextual_meaning_kn": "ಕರಡು ಪರಿಶೀಲನೆಗಾಗಿ: ದೃಢಸಂಕಲ್ಪವು ಜನರಿಗೆ ಕಷ್ಟಗಳಿಗೆ ಪರಿಹಾರಗಳನ್ನು ಕಂಡುಕೊಳ್ಳಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ.",
+        "example_usage_kn": "ಕರಡು: ಕೆಲಸ ಮಾಡುವ ವಿದ್ಯಾರ್ಥಿಯೊಬ್ಬ ಸಾಯಂಕಾಲದ ಅಧ್ಯಯನ ಸಮಯವನ್ನು ವ್ಯವಸ್ಥೆ ಮಾಡಿಕೊಳ್ಳುತ್ತಾನೆ; ಆ ದೃಢನಿಶ್ಚಯದ ಬಗ್ಗೆ ಸ್ನೇಹಿತನೊಬ್ಬ ಈ ಗಾದೆಯನ್ನು ಬಳಸುತ್ತಾನೆ.",
+        "category_kn": "ದೃಢಸಂಕಲ್ಪ",
+        "keywords_kn": "ಸಂಕಲ್ಪ, ಪ್ರಯತ್ನ, ಪರಿಹಾರ",
+        "keywords_en": "determination, effort, solutions",
+        "region_kn": "",
+        "dialect_kn": ""
+      }
+    }
+  },
+  {
+    "record": {
+      "id": "fa006b47df4b4ad7a66f7bccc65d4925",
+      "proverb_kn": "ರಾತ್ರಿ ಎಲ್ಲ ರಾಮಾಯಣ ಕೇಳಿ, ಬೆಳಗಾಗೆದ್ದು ರಾಮಂಗೂ ಸೀತೆಗೂ ಏನು ಸಂಬಂಧ ಅಂದ್ರಂತೆ",
+      "transliteration": "",
+      "literal_meaning": "Draft: After hearing the Ramayana all night, they asked at dawn how Rama and Sita were related.",
+      "contextual_meaning": "Draft for human verification: Criticises missing the most basic point despite a lengthy explanation.",
+      "example_usage": "Draft: After a full training session, someone asks what the project is for; a colleague recalls this proverb.",
+      "category": "Attention and understanding",
+      "keywords": "ಗಮನ, ವಿವರಣೆ, ತಿಳುವಳಿಕೆ, attention, explanation, understanding",
+      "region": "",
+      "dialect": "",
+      "source": "https://yakshadeepa.com/2022/01/18/famous-proverbs-in-kannada/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T10:18:12.639771+00:00",
+      "reviewed_at": "2026-11-17T10:59:15.052418+00:00"
+    },
+    "translation": null
+  },
+  {
+    "record": {
+      "id": "fa3f75f75c854c799616b65bf8781789",
+      "proverb_kn": "ಅಹಂಕಾರಕ್ಕೆ ಉದಾಸೀನವೇ ಮದ್ದು",
+      "transliteration": "",
+      "literal_meaning": "Draft: Indifference is the medicine for arrogance.",
+      "contextual_meaning": "Draft for human verification: Withholding attention can discourage someone who seeks admiration through arrogance.",
+      "example_usage": "Draft: Instead of arguing with a boastful colleague, someone ignores the boasting and recalls this proverb.",
+      "category": "Pride and behaviour",
+      "keywords": "ಅಹಂಕಾರ, ನಿರ್ಲಕ್ಷ್ಯ, ಬಡಾಯಿ, arrogance, attention, boasting",
+      "region": "",
+      "dialect": "",
+      "source": "https://yakshadeepa.com/2022/01/18/famous-proverbs-in-kannada/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T07:22:38.168006+00:00",
+      "reviewed_at": "2026-11-17T07:25:17.367827+00:00"
+    },
+    "translation": {
+      "status": "MACHINE_TRANSLATION_DRAFT",
+      "input_hash": "f81c18c43a1832879d35800f7ac9a384c0c5ba3141250564f3813f72d887df19",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "translated_at": "2026-11-17T10:13:08.582387+00:00",
+      "fields": {
+        "proverb_en": "Indifference is the medicine for arrogance.",
+        "literal_meaning_kn": "ಕರಡು: ನಿರ್ಲಕ್ಷ್ಯವೇ ಅಹಂಕಾರಕ್ಕೆ ಮದ್ದು.",
+        "contextual_meaning_kn": "ಮಾನವ ಪರಿಶೀಲನೆಗಾಗಿ ಕರಡು: ಅಹಂಕಾರದ ಮೂಲಕ ಮೆಚ್ಚುಗೆಯನ್ನು ಬಯಸುವ ವ್ಯಕ್ತಿಗೆ ಗಮನ ನೀಡದಿರುವುದು ನಿರುತ್ಸಾಹಗೊಳಿಸಬಹುದು.",
+        "example_usage_kn": "ಕರಡು: ಹೆಮ್ಮೆಯ ಸಹೋದ್ಯೋಗಿಯೊಂದಿಗೆ ವಾದಿಸುವ ಬದಲು, ಒಬ್ಬ ವ್ಯಕ್ತಿಯು ಆ ಹೆಮ್ಮೆಯನ್ನು ನಿರ್ಲಕ್ಷಿಸಿ ಈ ಗಾದೆಯನ್ನು ನೆನಪಿಸಿಕೊಳ್ಳುತ್ತಾನೆ.",
+        "category_kn": "ಅಹಂಕಾರ ಮತ್ತು ವರ್ತನೆ",
+        "keywords_kn": "ಅಹಂಕಾರ, ನಿರ್ಲಕ್ಷ್ಯ, ಬಡಾಯಿ",
+        "keywords_en": "arrogance, attention, boasting",
+        "region_kn": "",
+        "dialect_kn": ""
+      }
+    }
+  },
+  {
+    "record": {
+      "id": "fe00cf184c034bb3ba6e5226e8cdcbaa",
+      "proverb_kn": "ಬರಗಾಲದಲ್ಲಿ ಅಧಿಕ ಮಾಸ.",
+      "transliteration": "",
+      "literal_meaning": "Draft: An extra month during a famine.",
+      "contextual_meaning": "Draft for human verification: An additional burden arrives when circumstances are already difficult.",
+      "example_usage": "Draft: A household already struggling with expenses receives another unexpected bill; someone uses this proverb.",
+      "category": "Compounding hardship",
+      "keywords": "ಕಷ್ಟ, ಹೆಚ್ಚುವರಿ ಖರ್ಚು, ಸಂಕಟ, hardship, extra expenses, burden",
+      "region": "",
+      "dialect": "",
+      "source": "https://www.kannadapedia.com/kannada-gadegalu-proverbs/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T10:18:12.639666+00:00",
+      "reviewed_at": "2026-11-17T10:59:01.554683+00:00"
+    },
+    "translation": null
+  },
+  {
+    "record": {
+      "id": "feabb769440c4a318c2878e0cf28f4cd",
+      "proverb_kn": "ಉಂಬಾಗ ಉಡುವಾಗ ಊರೆಲ್ಲ ನೆಂಟರು",
+      "transliteration": "",
+      "literal_meaning": "Draft: At times of eating and dressing, the whole village becomes relatives.",
+      "contextual_meaning": "Draft for human verification: People readily claim closeness when benefits or celebrations are available.",
+      "example_usage": "Draft: Many distant acquaintances appear when gifts are distributed; an organiser uses this proverb.",
+      "category": "Opportunism",
+      "keywords": "ನೆಂಟರು, ಲಾಭ, ಸ್ವಾರ್ಥ, relatives, benefits, opportunism",
+      "region": "",
+      "dialect": "",
+      "source": "https://yakshadeepa.com/2022/01/18/famous-proverbs-in-kannada/",
+      "contributor": "",
+      "verification_status": "APPROVED",
+      "created_at": "2026-11-17T07:22:38.168034+00:00",
+      "reviewed_at": "2026-11-17T07:27:26.470321+00:00"
+    },
+    "translation": {
+      "status": "MACHINE_TRANSLATION_DRAFT",
+      "input_hash": "805fe986b76bb833ea923736d96893f64427e03fc3d4e8a5a8f3ae94e710a088",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash-lite",
+      "translated_at": "2026-11-17T10:15:36.899092+00:00",
+      "fields": {
+        "proverb_en": "At the time of eating and wearing clothes, the whole village are relatives",
+        "literal_meaning_kn": "ಕರಡು: ಉಣ್ಣುವಾಗ ಮತ್ತು ಧರಿಸುವಾಗ, ಇಡೀ ಊರೇ ಸಂಬಂಧಿಕರಾಗುತ್ತಾರೆ.",
+        "contextual_meaning_kn": "ಮಾನವ ಪರಿಶೀಲನೆಗಾಗಿ ಕರಡು: ಲಾಭಗಳು ಅಥವಾ ಆಚರಣೆಗಳು ಲಭ್ಯವಿದ್ದಾಗ ಜನರು ಸುಲಭವಾಗಿ ಸಾಮೀಪ್ಯವನ್ನು ಹಕ್ಕು ಸಾಧಿಸುತ್ತಾರೆ.",
+        "example_usage_kn": "ಕರಡು: ಉಡುಗೊರೆಗಳನ್ನು ವಿತರಿಸುವಾಗ ಅನೇಕ ದೂರದ ಪರಿಚಯಸ್ಥರು ಕಾಣಿಸಿಕೊಳ್ಳುತ್ತಾರೆ; ಒಬ್ಬ ಸಂಘಟಕನು ಈ ಗಾದೆಯನ್ನು ಬಳಸುತ್ತಾನೆ.",
+        "category_kn": "ಅವಕಾಶವಾದ",
+        "keywords_kn": "ನೆಂಟರು, ಲಾಭ, ಸ್ವಾರ್ಥ",
+        "keywords_en": "relatives, benefits, opportunism",
+        "region_kn": "",
+        "dialect_kn": ""
+      }
+    }
+  }
+]

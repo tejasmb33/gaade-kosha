@@ -1,0 +1,15 @@
+.venv/
+node_modules/
+dist/
+__pycache__/
+.pytest_cache/
+.env
+.env.*
+!.env.example
+*.db*
+project/data/*
+!project/data/.gitkeep
+models/
+*.log
+playwright-report/
+test-results/

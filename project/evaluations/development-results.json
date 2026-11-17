@@ -1,0 +1,132 @@
+[
+  {
+    "query": "I spend more money than I earn",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಹಾಸಿಗೆ ಇದ್ದಷ್ಟು ಕಾಲು ಚಾಚು"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "A person blames someone else for their mistakes",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಆಟ ಕೆಟ್ಟರೆ ದೀವಟಿಗೆಯವನ ಸುತ್ತ"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "Working hard brings rewards",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಆಳಾಗಿ ದುಡಿ, ಅರಸನಾಗಿ ಉಣ್ಣು",
+      "ಕೈ ಕೆಸರಾದರೆ ಬಾಯಿ ಮೊಸರು"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "Small savings grow over time",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಹನಿ ಹನಿ ಕೂಡಿದರೆ ಹಳ್ಳ"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "My teammates pull in opposite directions",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಎತ್ತು ಏರಿಗೆಳೆಯಿತು, ಕೋಣ ನೀರಿಗೆಳೆಯಿತು"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "Someone makes a huge fuss about a tiny issue",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಕಡ್ಡಿಯನ್ನು ಗುಡ್ಡೆ ಮಾಡಿದಂತೆ"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "I should think before getting angry",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಕಡು ಕೋಪ ಬಂದಾಗ ತಡಕೊಂಡವನೇ ಜಾಣ",
+      "ಕಂಡದ್ದು ಕಂಡಂತೆ ನುಡಿದರೆ ಕೆಂಡದಂತಹಾ ಸಿಟ್ಟು"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ನನ್ನ ಆದಾಯಕ್ಕಿಂತ ಹೆಚ್ಚು ಖರ್ಚು ಮಾಡುತ್ತಿದ್ದೇನೆ",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಹಾಸಿಗೆ ಇದ್ದಷ್ಟು ಕಾಲು ಚಾಚು"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ಚಿಕ್ಕ ಚಿಕ್ಕ ಉಳಿತಾಯದಿಂದ ದೊಡ್ಡ ಮೊತ್ತವಾಗುತ್ತದೆ",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಹನಿ ಹನಿ ಕೂಡಿದರೆ ಹಳ್ಳ"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ನಾವು ಒಗ್ಗಟ್ಟಾಗಿ ಕೆಲಸ ಮಾಡುತ್ತಿಲ್ಲ",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಎತ್ತು ಏರಿಗೆಳೆಯಿತು, ಕೋಣ ನೀರಿಗೆಳೆಯಿತು"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ಶ್ರಮಕ್ಕೆ ತಕ್ಕ ಫಲ",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [
+      "ಕೈ ಕೆಸರಾದರೆ ಬಾಯಿ ಮೊಸರು",
+      "ಆಳಾಗಿ ದುಡಿ, ಅರಸನಾಗಿ ಉಣ್ಣು"
+    ],
+    "mode": "hybrid"
+  },
+  {
+    "query": "What is the weather in Bengaluru tomorrow",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [],
+    "mode": "hybrid"
+  },
+  {
+    "query": "How do I install Python",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [],
+    "mode": "hybrid"
+  },
+  {
+    "query": "manege ba",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [],
+    "mode": "hybrid"
+  },
+  {
+    "query": "ಮನೆಗೆ ಬಾ",
+    "passed": true,
+    "top1_passed": true,
+    "returned": [],
+    "mode": "hybrid"
+  }
+]

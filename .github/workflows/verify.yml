@@ -1,0 +1,38 @@
+name: Verify app
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:17
+        env:
+          POSTGRES_PASSWORD: synthetic-test-password
+          POSTGRES_DB: gaade_test
+        ports: ['5432:5432']
+        options: >-
+          --health-cmd "pg_isready -U postgres"
+          --health-interval 5s --health-timeout 5s --health-retries 10
+    env:
+      GAADE_TEST_POSTGRES_URL: postgresql+psycopg://postgres:synthetic-test-password@localhost:5432/gaade_test
+      GAADE_DATABASE_SSLMODE: disable
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: project/frontend/package-lock.json
+      - run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - run: pip install -r project/backend/requirements-cloud.txt
+      - run: npm ci --prefix project/frontend
+      - run: npm run build --prefix project/frontend
+      - run: python -m pytest project/backend/tests -q
+      - run: npx --prefix project/frontend playwright install --with-deps chromium
+      - run: node project/frontend/tests/dictionary.cjs
+      - run: node project/frontend/tests/recording.cjs

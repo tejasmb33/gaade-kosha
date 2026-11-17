@@ -1,0 +1,108 @@
+{"query": "Months of careful work were ruined by one careless act.", "expected_ids": ["b9da0b34d7a746b1ba833dae905307ef"]}
+{"query": "ತಿಂಗಳುಗಳ ಶ್ರಮವನ್ನು ಒಬ್ಬನ ಅಜಾಗರೂಕ ಕೆಲಸ ಕ್ಷಣದಲ್ಲೇ ಹಾಳುಮಾಡಿತು.", "expected_ids": ["b9da0b34d7a746b1ba833dae905307ef"]}
+{"query": "I need to stop depending on others and take responsibility for my own expenses.", "expected_ids": ["e36a3ff23c994b2e9345b52aee08f1da"]}
+{"query": "ಇತರರನ್ನು ಅವಲಂಬಿಸದೆ ನನ್ನ ಖರ್ಚಿನ ಜವಾಬ್ದಾರಿಯನ್ನು ನಾನೇ ತೆಗೆದುಕೊಳ್ಳಬೇಕು.", "expected_ids": ["e36a3ff23c994b2e9345b52aee08f1da"]}
+{"query": "Despite many obstacles she kept trying and found a way to finish her studies.", "expected_ids": ["f582d2bf616a42fc8743281972db1358"]}
+{"query": "ಹಲವು ಅಡೆತಡೆಗಳಿದ್ದರೂ ಪ್ರಯತ್ನ ಬಿಡದೆ ಅವಳು ಓದು ಮುಗಿಸಲು ದಾರಿ ಕಂಡುಕೊಂಡಳು.", "expected_ids": ["f582d2bf616a42fc8743281972db1358"]}
+{"query": "My colleague keeps boasting, so I stopped giving his boasts any attention.", "expected_ids": ["fa3f75f75c854c799616b65bf8781789"]}
+{"query": "ನನ್ನ ಸಹೋದ್ಯೋಗಿ ಸದಾ ಬಡಾಯಿ ಕೊಚ್ಚುತ್ತಾನೆ; ಅವನ ಮಾತಿಗೆ ಗಮನ ಕೊಡುವುದನ್ನು ನಿಲ್ಲಿಸಿದೆ.", "expected_ids": ["fa3f75f75c854c799616b65bf8781789"]}
+{"query": "He became the team leader only because all the other candidates withdrew.", "expected_ids": ["c1ff94475d1547bd83d9dc2c082213d1"]}
+{"query": "ಉಳಿದ ಅಭ್ಯರ್ಥಿಗಳೆಲ್ಲ ಹಿಂದೆ ಸರಿದದ್ದರಿಂದ ಮಾತ್ರ ಅವನು ತಂಡದ ನಾಯಕನಾದ.", "expected_ids": ["c1ff94475d1547bd83d9dc2c082213d1"]}
+{"query": "They renamed the extra charge, but we still have to pay the same amount.", "expected_ids": ["5b4f98ac4cfd4806b2d60957893cfe8a"]}
+{"query": "ಹೆಚ್ಚುವರಿ ಶುಲ್ಕಕ್ಕೆ ಹೊಸ ಹೆಸರು ಕೊಟ್ಟಿದ್ದಾರೆ, ಆದರೆ ನಾವು ಕೊಡುವ ಹಣ ಬದಲಾಗಿಲ್ಲ.", "expected_ids": ["5b4f98ac4cfd4806b2d60957893cfe8a"]}
+{"query": "People dismissed her plain appearance, but her work was excellent.", "expected_ids": ["cbbeac3735074374aca57e30b576e27f"]}
+{"query": "ಅವಳ ಸರಳ ಹೊರನೋಟ ನೋಡಿ ಜನ ಕಡಿಮೆ ಅಂದಾಜು ಮಾಡಿದರು, ಆದರೆ ಅವಳ ಕೆಲಸ ಅತ್ಯುತ್ತಮವಾಗಿತ್ತು.", "expected_ids": ["cbbeac3735074374aca57e30b576e27f"]}
+{"query": "Everyone can use this free resource, so there is no reason to fight over access.", "expected_ids": ["486cba9698c44c31ae354f943e0f734a"]}
+{"query": "ಈ ಉಚಿತ ಸೌಲಭ್ಯ ಎಲ್ಲರಿಗೂ ಸಿಗುತ್ತದೆ; ಅದಕ್ಕಾಗಿ ಜಗಳವಾಡುವ ಅಗತ್ಯವಿಲ್ಲ.", "expected_ids": ["486cba9698c44c31ae354f943e0f734a"]}
+{"query": "My friend missed an opportunity and needs reassurance that something better may follow.", "expected_ids": ["4878fdc07d4a4147b0bcd0e975538787"]}
+{"query": "ನನ್ನ ಗೆಳೆಯನಿಗೆ ಒಂದು ಅವಕಾಶ ತಪ್ಪಿದೆ; ಮುಂದೆ ಒಳ್ಳೆಯದಾಗಬಹುದು ಎಂದು ಅವನಿಗೆ ಸಮಾಧಾನ ಹೇಳಬೇಕು.", "expected_ids": ["4878fdc07d4a4147b0bcd0e975538787"]}
+{"query": "The speaker talked for an hour but offered almost no useful information.", "expected_ids": ["7c2cab7082c7489a8e94ddd48dee89ad"]}
+{"query": "ಭಾಷಣಕಾರ ಒಂದು ಗಂಟೆ ಮಾತನಾಡಿದರೂ ಉಪಯುಕ್ತ ಮಾಹಿತಿ ಬಹಳ ಕಡಿಮೆ ಇತ್ತು.", "expected_ids": ["7c2cab7082c7489a8e94ddd48dee89ad"]}
+{"query": "An unprepared presenter blamed the sound technician for his poor presentation.", "expected_ids": ["387f1cdb019444dfa3cd616c44d61774"]}
+{"query": "ತಯಾರಿ ಮಾಡದ ಭಾಷಣಕಾರ ತನ್ನ ಕೆಟ್ಟ ಭಾಷಣಕ್ಕೆ ಧ್ವನಿವ್ಯವಸ್ಥೆಯ ಸಿಬ್ಬಂದಿಯನ್ನು ದೂರಿದ.", "expected_ids": ["387f1cdb019444dfa3cd616c44d61774"]}
+{"query": "Our family has lost income, and we must face this difficult period with courage.", "expected_ids": ["5a84ad6aea384570aac5e18bd662259f"]}
+{"query": "ನಮ್ಮ ಕುಟುಂಬದ ಆದಾಯ ಕಡಿಮೆಯಾಗಿದೆ; ಈ ಕಷ್ಟದ ಸಮಯವನ್ನು ಧೈರ್ಯದಿಂದ ಎದುರಿಸಬೇಕು.", "expected_ids": ["5a84ad6aea384570aac5e18bd662259f"]}
+{"query": "An innocent meeting at a suspicious place caused people to spread rumours.", "expected_ids": ["ac4049319e604a3184765758591726c9"]}
+{"query": "ಅನುಮಾನ ಬರುವಂತಹ ಸ್ಥಳದಲ್ಲಿ ನಡೆದ ನಿರಪರಾಧ ಭೇಟಿಯ ಬಗ್ಗೆ ಜನ ವದಂತಿ ಹಬ್ಬಿಸಿದರು.", "expected_ids": ["ac4049319e604a3184765758591726c9"]}
+{"query": "A guest accepted our hospitality and then started prying into our private finances.", "expected_ids": ["5fbe721f6ea34d4f87e8f4e544895171"]}
+{"query": "ನಮ್ಮ ಆತಿಥ್ಯ ಸ್ವೀಕರಿಸಿದ ಅತಿಥಿ ನಂತರ ನಮ್ಮ ಮನೆಯ ಖಾಸಗಿ ಹಣಕಾಸಿನ ವಿಚಾರಗಳನ್ನು ಕೆದಕತೊಡಗಿದ.", "expected_ids": ["5fbe721f6ea34d4f87e8f4e544895171"]}
+{"query": "People who never visit suddenly claim to be close relatives when gifts are being distributed.", "expected_ids": ["feabb769440c4a318c2878e0cf28f4cd"]}
+{"query": "ಸಾಮಾನ್ಯವಾಗಿ ಬಾರದವರೆಲ್ಲ ಉಡುಗೊರೆ ಹಂಚುವಾಗ ನಾವು ಹತ್ತಿರದ ಸಂಬಂಧಿಗಳು ಎಂದು ಹೇಳುತ್ತಿದ್ದಾರೆ.", "expected_ids": ["feabb769440c4a318c2878e0cf28f4cd"]}
+{"query": "If I speak up I hurt my friend, but if I stay silent I will be blamed; both choices are painful.", "expected_ids": ["507590c57c38406fbb84967aa54fc539", "91bdfdb9dfa04838ab0973386a780efc"]}
+{"query": "ಸತ್ಯ ಹೇಳಿದರೆ ಗೆಳೆಯನಿಗೆ ನೋವಾಗುತ್ತದೆ; ಸುಮ್ಮನಿದ್ದರೆ ನನ್ನ ಮೇಲೆ ತಪ್ಪು ಬರುತ್ತದೆ; ಎರಡೂ ಆಯ್ಕೆಗಳು ಕಷ್ಟವಾಗಿವೆ.", "expected_ids": ["507590c57c38406fbb84967aa54fc539", "91bdfdb9dfa04838ab0973386a780efc"]}
+{"query": "I cannot comfortably accept this offer, but I also find it difficult to refuse openly.", "expected_ids": ["91bdfdb9dfa04838ab0973386a780efc", "507590c57c38406fbb84967aa54fc539"]}
+{"query": "ಈ ಅವಕಾಶವನ್ನು ಒಪ್ಪಿಕೊಳ್ಳಲೂ ಕಷ್ಟವಾಗುತ್ತಿದೆ, ಬಹಿರಂಗವಾಗಿ ನಿರಾಕರಿಸಲೂ ಆಗುತ್ತಿಲ್ಲ.", "expected_ids": ["91bdfdb9dfa04838ab0973386a780efc", "507590c57c38406fbb84967aa54fc539"]}
+{"query": "They want to replace the whole computer because of one easily fixed setting.", "expected_ids": ["f27f11ceff674bb8a5b47eaa23fe4118"]}
+{"query": "ಸುಲಭವಾಗಿ ಸರಿಪಡಿಸಬಹುದಾದ ಒಂದು ಸೆಟ್ಟಿಂಗ್ ಸಮಸ್ಯೆಗೆ ಇಡೀ ಕಂಪ್ಯೂಟರನ್ನೇ ಬದಲಾಯಿಸಲು ಹೊರಟಿದ್ದಾರೆ.", "expected_ids": ["f27f11ceff674bb8a5b47eaa23fe4118"]}
+{"query": "My child needs to focus on homework now and enjoy games during playtime.", "expected_ids": ["6580125ea3134825bdaef28ef4afaa48"]}
+{"query": "ನನ್ನ ಮಗು ಈಗ ಮನೆಪಾಠದ ಕಡೆ ಗಮನ ಕೊಡಬೇಕು; ಆಟದ ಸಮಯದಲ್ಲಿ ಆಟವಾಡಲಿ.", "expected_ids": ["6580125ea3134825bdaef28ef4afaa48"]}
+{"query": "He promised to donate money from our shared fund without asking any of us.", "expected_ids": ["a515d04ebede4c20a664abeabbaa910e"]}
+{"query": "ನಮ್ಮನ್ನು ಕೇಳದೆ ನಮ್ಮ ಜಂಟಿ ನಿಧಿಯಿಂದ ದಾನ ಕೊಡುವುದಾಗಿ ಅವನು ಭರವಸೆ ಕೊಟ್ಟನು.", "expected_ids": ["a515d04ebede4c20a664abeabbaa910e"]}
+{"query": "Two people with the same dishonest habits have become business partners.", "expected_ids": ["0fe177e6941449cca57c62901654df72"]}
+{"query": "ಒಂದೇ ರೀತಿಯ ಮೋಸದ ಸ್ವಭಾವದ ಇಬ್ಬರು ವ್ಯಾಪಾರದ ಪಾಲುದಾರರಾಗಿದ್ದಾರೆ.", "expected_ids": ["0fe177e6941449cca57c62901654df72"]}
+{"query": "I searched the whole room for my phone while it was already in my hand.", "expected_ids": ["a217f113a3ea42b691080254b014cb18"]}
+{"query": "ಕೈಯಲ್ಲೇ ಇದ್ದ ಮೊಬೈಲನ್ನು ಮರೆತು ಇಡೀ ಕೋಣೆಯಲ್ಲಿ ಹುಡುಕಾಡಿದೆ.", "expected_ids": ["a217f113a3ea42b691080254b014cb18"]}
+{"query": "My honest feedback about his mistakes made him furious.", "expected_ids": ["67ceccd62bba406e9186923268349aff"]}
+{"query": "ಅವನ ತಪ್ಪುಗಳನ್ನು ನೇರವಾಗಿ ಹೇಳಿದಾಗ ಅವನಿಗೆ ತುಂಬಾ ಕೋಪ ಬಂತು.", "expected_ids": ["67ceccd62bba406e9186923268349aff"]}
+{"query": "The quiet competitor made a decisive move without announcing any threats.", "expected_ids": ["3fefaf89b24a4b42a66857156abf02ff"]}
+{"query": "ಯಾವ ಬೆದರಿಕೆಯನ್ನೂ ಹಾಕದೆ ಮೌನವಾಗಿದ್ದ ಸ್ಪರ್ಧಿ ಏಕಾಏಕಿ ನಿರ್ಣಾಯಕ ಕ್ರಮ ತೆಗೆದುಕೊಂಡನು.", "expected_ids": ["3fefaf89b24a4b42a66857156abf02ff"]}
+{"query": "A person known for misusing money was put in charge of protecting the funds.", "expected_ids": ["c2d7dd7d4d1943a58a2ced7b30ca2516"]}
+{"query": "ಹಣ ದುರುಪಯೋಗ ಮಾಡುವವನಿಗೇ ಹಣವನ್ನು ಕಾಪಾಡುವ ಜವಾಬ್ದಾರಿ ಕೊಟ್ಟಿದ್ದಾರೆ.", "expected_ids": ["c2d7dd7d4d1943a58a2ced7b30ca2516"]}
+{"query": "Someone turned a tiny delay into a huge scandal.", "expected_ids": ["52e623dc698546fd9bb36e5f698713d2"]}
+{"query": "ಸ್ವಲ್ಪ ತಡವಾದ ವಿಷಯವನ್ನು ಒಬ್ಬರು ದೊಡ್ಡ ಹಗರಣವೆಂಬಂತೆ ಮಾಡಿದರು.", "expected_ids": ["52e623dc698546fd9bb36e5f698713d2"]}
+{"query": "I was furious but waited until I calmed down before replying.", "expected_ids": ["3670a504c8984cb0ac3d25deff8cf091"]}
+{"query": "ನನಗೆ ತುಂಬಾ ಕೋಪ ಬಂದಿತ್ತು, ಆದರೆ ಶಾಂತವಾದ ನಂತರವೇ ಉತ್ತರ ಕೊಟ್ಟೆ.", "expected_ids": ["3670a504c8984cb0ac3d25deff8cf091"]}
+{"query": "A short video looks convincing, but we should check the full context before blaming anyone.", "expected_ids": ["3dbdbb08cfff4f56bd671abf8aae0d58"]}
+{"query": "ಚಿಕ್ಕ ವಿಡಿಯೋ ನೋಡಿದ ತಕ್ಷಣ ಯಾರನ್ನೂ ದೂರಬಾರದು; ಪೂರ್ಣ ವಿಚಾರ ಪರಿಶೀಲಿಸಬೇಕು.", "expected_ids": ["3dbdbb08cfff4f56bd671abf8aae0d58"]}
+{"query": "He supported the candidate only after it was clear that the candidate would win.", "expected_ids": ["790ab65e46a6481c9832839b42b9c1a8"]}
+{"query": "ಅಭ್ಯರ್ಥಿ ಗೆಲ್ಲುವುದು ಖಚಿತವಾದ ನಂತರವೇ ಅವನು ಬೆಂಬಲ ನೀಡಲು ಬಂದನು.", "expected_ids": ["790ab65e46a6481c9832839b42b9c1a8"]}
+{"query": "Changing the company's logo does not erase the harm caused by its misconduct.", "expected_ids": ["9d210b84bb85441a88355d60e6b2762f"]}
+{"query": "ಕಂಪನಿಯ ಚಿಹ್ನೆ ಬದಲಾಯಿಸಿದ ಮಾತ್ರಕ್ಕೆ ಅದರ ತಪ್ಪುಗಳಿಂದಾದ ಹಾನಿ ಅಳಿದುಹೋಗುವುದಿಲ್ಲ.", "expected_ids": ["9d210b84bb85441a88355d60e6b2762f"]}
+{"query": "She visits every house collecting private stories and passes them on to everyone.", "expected_ids": ["19c99748fb0642daafc1b709b179cf33"]}
+{"query": "ಅವಳು ಮನೆಮನೆಗೆ ಹೋಗಿ ಖಾಸಗಿ ಸುದ್ದಿಗಳನ್ನು ಸಂಗ್ರಹಿಸಿ ಎಲ್ಲರಿಗೂ ಹೇಳುತ್ತಾಳೆ.", "expected_ids": ["19c99748fb0642daafc1b709b179cf33"]}
+{"query": "A huge company used its power to swallow a small struggling business.", "expected_ids": ["9f18a4a4f90940dc8fe57294ba00c749"]}
+{"query": "ಒಂದು ದೊಡ್ಡ ಕಂಪನಿ ತನ್ನ ಬಲದಿಂದ ಸಣ್ಣ ವ್ಯಾಪಾರವನ್ನು ತನ್ನೊಳಗೆ ಸೇರಿಸಿಕೊಂಡಿತು.", "expected_ids": ["9f18a4a4f90940dc8fe57294ba00c749"]}
+{"query": "The smallest player on the team showed extraordinary strength and skill.", "expected_ids": ["4a61efa0f0d94d399ce0002d56ee3924"]}
+{"query": "ತಂಡದ ಅತ್ಯಂತ ಸಣ್ಣ ಆಟಗಾರ ಅದ್ಭುತ ಶಕ್ತಿ ಮತ್ತು ಕೌಶಲ್ಯ ತೋರಿಸಿದ.", "expected_ids": ["4a61efa0f0d94d399ce0002d56ee3924"]}
+{"query": "The job has a prestigious title, but its harmful conditions make it unwise to accept.", "expected_ids": ["8464a2c9d5e04277bb149fd94c22c9be", "527c2deac51b4bdd8972cdb47a6a8e02"]}
+{"query": "ಹುದ್ದೆಯ ಹೆಸರು ಪ್ರತಿಷ್ಠಿತವಾಗಿದೆ, ಆದರೆ ಅದರ ಹಾನಿಕಾರಕ ಷರತ್ತುಗಳ ಕಾರಣ ಒಪ್ಪಿಕೊಳ್ಳುವುದು ಸರಿಯಲ್ಲ.", "expected_ids": ["8464a2c9d5e04277bb149fd94c22c9be", "527c2deac51b4bdd8972cdb47a6a8e02"]}
+{"query": "An expensive and attractive product is still a bad choice if using it will harm me.", "expected_ids": ["527c2deac51b4bdd8972cdb47a6a8e02", "8464a2c9d5e04277bb149fd94c22c9be"]}
+{"query": "ದುಬಾರಿ ಮತ್ತು ಆಕರ್ಷಕ ವಸ್ತುವಾದರೂ ಅದನ್ನು ಬಳಸುವುದರಿಂದ ನನಗೆ ಹಾನಿಯಾದರೆ ತೆಗೆದುಕೊಳ್ಳಬಾರದು.", "expected_ids": ["527c2deac51b4bdd8972cdb47a6a8e02", "8464a2c9d5e04277bb149fd94c22c9be"]}
+{"query": "He never uses his tools but refuses to let anyone else borrow them.", "expected_ids": ["9b84f3a860ff47e79c564cda5420b914"]}
+{"query": "ಅವನು ತನ್ನ ಉಪಕರಣಗಳನ್ನು ಬಳಸುವುದಿಲ್ಲ; ಇತರರಿಗೂ ಬಳಸಲು ಕೊಡುವುದಿಲ್ಲ.", "expected_ids": ["9b84f3a860ff47e79c564cda5420b914"]}
+{"query": "We planned an outdoor celebration carefully, but unexpected rain changed everything.", "expected_ids": ["440431ec61ab42699e7ff8d4c4eddf4c"]}
+{"query": "ಹೊರಾಂಗಣ ಕಾರ್ಯಕ್ರಮಕ್ಕೆ ಚೆನ್ನಾಗಿ ಯೋಜಿಸಿದ್ದೆವು, ಆದರೆ ಅನಿರೀಕ್ಷಿತ ಮಳೆ ಎಲ್ಲವನ್ನೂ ಬದಲಿಸಿತು.", "expected_ids": ["440431ec61ab42699e7ff8d4c4eddf4c"]}
+{"query": "A mediator chose his words carefully and prevented a quarrel.", "expected_ids": ["eb93aceee6114c74a8763c27539e3fa5"]}
+{"query": "ಮಧ್ಯಸ್ಥನು ಎಚ್ಚರಿಕೆಯಿಂದ ಮಾತಾಡಿ ಜಗಳವಾಗದಂತೆ ನೋಡಿಕೊಂಡನು.", "expected_ids": ["eb93aceee6114c74a8763c27539e3fa5"]}
+{"query": "Buying the crop took minutes, but the farmer had worked all year to grow it.", "expected_ids": ["78c2be9c5dbd45eeadcd0433b6c4c289"]}
+{"query": "ಬೆಳೆ ಖರೀದಿಸಲು ಕೆಲವೇ ನಿಮಿಷ ಹಿಡಿಯಿತು, ಆದರೆ ಅದನ್ನು ಬೆಳೆಸಲು ರೈತ ವರ್ಷವಿಡೀ ಶ್ರಮಿಸಿದ್ದ.", "expected_ids": ["78c2be9c5dbd45eeadcd0433b6c4c289"]}
+{"query": "A valuable instrument was given to someone who could neither appreciate it nor handle it properly.", "expected_ids": ["34e6af5f96a648b48bb5d1b442f239ce"]}
+{"query": "ಬೆಲೆಬಾಳುವ ವಾದ್ಯವನ್ನು ಅದರ ಬೆಲೆ ಅರಿಯದ, ಸರಿಯಾಗಿ ಬಳಸಲೂ ಬಾರದವನಿಗೆ ಕೊಟ್ಟರು.", "expected_ids": ["34e6af5f96a648b48bb5d1b442f239ce"]}
+{"query": "I need to put in real work if I want to earn my living.", "expected_ids": ["8c8110368b004e0aa40a18a538c83216", "68c8122529e24aca8092881e1d22c955"]}
+{"query": "ಜೀವನ ಸಾಗಿಸಲು ನಾನು ನಿಜವಾಗಿ ದುಡಿಯಬೇಕು.", "expected_ids": ["8c8110368b004e0aa40a18a538c83216", "68c8122529e24aca8092881e1d22c955"]}
+{"query": "My adviser cannot help properly if I hide important facts from them.", "expected_ids": ["751ac039e75f4e5786e0e47fa02a4457"]}
+{"query": "ಮುಖ್ಯ ವಿಚಾರಗಳನ್ನು ಮರೆಮಾಚಿದರೆ ಸಲಹೆಗಾರರು ನನಗೆ ಸರಿಯಾಗಿ ಸಹಾಯ ಮಾಡಲಾಗುವುದಿಲ್ಲ.", "expected_ids": ["751ac039e75f4e5786e0e47fa02a4457"]}
+{"query": "I chose silence rather than add unnecessary words to a pointless argument.", "expected_ids": ["c24366ba998c4232bf5c350377d4b0f2"]}
+{"query": "ಅರ್ಥವಿಲ್ಲದ ವಾದಕ್ಕೆ ಅನಗತ್ಯ ಮಾತು ಸೇರಿಸುವ ಬದಲು ಮೌನವಾಗಿರಲು ನಿರ್ಧರಿಸಿದೆ.", "expected_ids": ["c24366ba998c4232bf5c350377d4b0f2"]}
+{"query": "Two products look alike, but we should verify their contents instead of assuming they are the same.", "expected_ids": ["504afee0bf15456898b55d13430af565", "c4c10d3d890d4888afbfb712c7186fa1"]}
+{"query": "ಎರಡು ವಸ್ತುಗಳು ಒಂದೇ ರೀತಿ ಕಾಣುತ್ತವೆ; ಅವು ಒಂದೇ ಎಂದು ಊಹಿಸದೆ ಒಳಗಿನ ಅಂಶಗಳನ್ನು ಪರಿಶೀಲಿಸಬೇಕು.", "expected_ids": ["504afee0bf15456898b55d13430af565", "c4c10d3d890d4888afbfb712c7186fa1"]}
+{"query": "The flashy advertisement attracted me, but the product turned out to be poor quality.", "expected_ids": ["c4c10d3d890d4888afbfb712c7186fa1", "504afee0bf15456898b55d13430af565"]}
+{"query": "ಆಕರ್ಷಕ ಜಾಹೀರಾತಿಗೆ ಮರುಳಾದೆ, ಆದರೆ ವಸ್ತುವಿನ ಗುಣಮಟ್ಟ ಕಳಪೆಯಾಗಿತ್ತು.", "expected_ids": ["c4c10d3d890d4888afbfb712c7186fa1", "504afee0bf15456898b55d13430af565"]}
+{"query": "Saving a small amount every week eventually helped us build a substantial fund.", "expected_ids": ["7a3fe2f7d1334354bef71355b7f3d6ca"]}
+{"query": "ಪ್ರತಿ ವಾರ ಸ್ವಲ್ಪ ಸ್ವಲ್ಪ ಉಳಿಸಿದ ಹಣ ಕೊನೆಗೆ ದೊಡ್ಡ ಮೊತ್ತವಾಯಿತು.", "expected_ids": ["7a3fe2f7d1334354bef71355b7f3d6ca"]}
+{"query": "During illness I realised how irreplaceable my mother's affection and care are.", "expected_ids": ["e6b12a8d27a248edbf5e037537705f7c"]}
+{"query": "ಅನಾರೋಗ್ಯದ ಸಮಯದಲ್ಲಿ ತಾಯಿಯ ಪ್ರೀತಿ ಮತ್ತು ಆರೈಕೆಗೆ ಪರ್ಯಾಯವಿಲ್ಲ ಎಂದು ಅರಿವಾಯಿತು.", "expected_ids": ["e6b12a8d27a248edbf5e037537705f7c"]}
+{"query": "Our team is making no progress because each leader is pulling towards a different goal.", "expected_ids": ["166c7770c5854731aaa49b93c9fd1862"]}
+{"query": "ನಾಯಕರು ಬೇರೆ ಬೇರೆ ಗುರಿಗಳತ್ತ ಎಳೆಯುತ್ತಿರುವುದರಿಂದ ನಮ್ಮ ತಂಡದ ಕೆಲಸ ಮುಂದೆ ಸಾಗುತ್ತಿಲ್ಲ.", "expected_ids": ["166c7770c5854731aaa49b93c9fd1862"]}
+{"query": "After working very hard through the season, we enjoyed the comfort our earnings provided.", "expected_ids": ["68c8122529e24aca8092881e1d22c955", "8c8110368b004e0aa40a18a538c83216"]}
+{"query": "ಋತುವಿಡೀ ಕಷ್ಟಪಟ್ಟು ದುಡಿದ ನಂತರ ನಮ್ಮ ದುಡಿಮೆಯಿಂದ ಬಂದ ಸುಖವನ್ನು ಅನುಭವಿಸಿದೆವು.", "expected_ids": ["68c8122529e24aca8092881e1d22c955", "8c8110368b004e0aa40a18a538c83216"]}
+{"query": "We should choose a celebration we can afford instead of borrowing beyond our income.", "expected_ids": ["69216f8625b74cafaa80d76f28118eac"]}
+{"query": "ಆದಾಯ ಮೀರಿಸಿ ಸಾಲ ಮಾಡುವ ಬದಲು ನಮಗೆ ಕೈಗೆಟುಕುವಷ್ಟು ಖರ್ಚಿನಲ್ಲಿ ಸಮಾರಂಭ ಮಾಡಬೇಕು.", "expected_ids": ["69216f8625b74cafaa80d76f28118eac"]}
+{"query": "What is the temperature in Bengaluru right now?", "expected_ids": []}
+{"query": "ಈಗ ಬೆಂಗಳೂರಿನಲ್ಲಿ ತಾಪಮಾನ ಎಷ್ಟಿದೆ?", "expected_ids": []}
+{"query": "How do I install a Python package?", "expected_ids": []}
+{"query": "ಪೈಥಾನ್ ಪ್ಯಾಕೇಜನ್ನು ಹೇಗೆ ಸ್ಥಾಪಿಸಬೇಕು?", "expected_ids": []}
+{"query": "What is seven multiplied by eight?", "expected_ids": []}
+{"query": "ಏಳು ಗುಣಿಸು ಎಂಟು ಎಷ್ಟು?", "expected_ids": []}
+{"query": "Come home.", "expected_ids": []}
+{"query": "ಮನೆಗೆ ಬಾ.", "expected_ids": []}

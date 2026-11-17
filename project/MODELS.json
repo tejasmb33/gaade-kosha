@@ -1,0 +1,96 @@
+{
+  "e5": {
+    "repo": "intfloat/multilingual-e5-small",
+    "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+    "license": "mit",
+    "license_evidence": "https://huggingface.co/intfloat/multilingual-e5-small/blob/614241f622f53c4eeff9890bdc4f31cfecc418b3/README.md",
+    "files": [
+      {
+        "name": "model.safetensors",
+        "size": 470641600,
+        "sha256": "1a55775f53449dac10a2bcbc312469fac40b96d53198c407081a831f81c98477",
+        "git_oid": "fe4cbb2a14318b79019748874f6ca4a61a02c6f6"
+      },
+      {
+        "name": "config.json",
+        "size": 655,
+        "sha256": null,
+        "git_oid": "60a2a84020f1d74cc53ea9e8c4e91cf4af6c2b68"
+      },
+      {
+        "name": "tokenizer.json",
+        "size": 17082730,
+        "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
+        "git_oid": "c9b2fea3119ca8886380e5f47bffc5ea7a6e0ffa"
+      },
+      {
+        "name": "tokenizer_config.json",
+        "size": 443,
+        "sha256": null,
+        "git_oid": "059214673d9d6d2ee319411e2ffec8c024b816d5"
+      },
+      {
+        "name": "special_tokens_map.json",
+        "size": 167,
+        "sha256": null,
+        "git_oid": "e0b1d18ecd0ae4ff1d47bd297d910c0cf83e504b"
+      },
+      {
+        "name": "sentencepiece.bpe.model",
+        "size": 5069051,
+        "sha256": "cfc8146abe2a0488e9e2a0c56de7952f7c11ab059eca145a0a727afce0db2865",
+        "git_oid": "7a3f40a75f870bc1f21700cd414dc2acc431583c"
+      },
+      {
+        "name": "modules.json",
+        "size": 387,
+        "sha256": null,
+        "git_oid": "ac2039abdf6ff023b27c919bb9675cfe378cb10f"
+      },
+      {
+        "name": "1_Pooling/config.json",
+        "size": 200,
+        "sha256": null,
+        "git_oid": "acbd4014202bf4dbc6c03229bcbeef7c4feafb58"
+      },
+      {
+        "name": "sentence_bert_config.json",
+        "size": 57,
+        "sha256": null,
+        "git_oid": "4eca68d85ecd3034cf4174d8a4033a75344ea62d"
+      },
+      {
+        "name": "README.md",
+        "size": 497538,
+        "sha256": null,
+        "git_oid": "e56327af55e9742caf76bff9ba83b6904cd2003d"
+      }
+    ]
+  },
+  "whisper": {
+    "repo": "mlx-community/whisper-small-mlx",
+    "revision": "45f3915923c7a79a5a5b5a7d909d39aeb0e5630e",
+    "license": "mit",
+    "license_evidence": "https://raw.githubusercontent.com/openai/whisper/86098128c0b4f24f0e2aa2994de830614b474227/README.md",
+    "files": [
+      {
+        "name": "weights.npz",
+        "size": 481307592,
+        "sha256": "55b6674c9b339702d486e2b1573839a66f8ec8f821ed2886993ef717a86b09f5",
+        "git_oid": "c1f9e8aff52b130ba385bca87165a4948012648c"
+      },
+      {
+        "name": "config.json",
+        "size": 266,
+        "sha256": null,
+        "git_oid": "df4c65c442a30e50034ee63422b31bde60c3d407"
+      },
+      {
+        "name": "README.md",
+        "size": 343,
+        "sha256": null,
+        "git_oid": "8996da18aab170971998d5fe7548a2cc1c50eefd"
+      }
+    ]
+  }
+}
