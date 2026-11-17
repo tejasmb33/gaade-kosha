@@ -180,3 +180,10 @@ Final live generic test: ReadTimeout after a 90-second timeout. Inference remain
 - Extracted 31 district shapes from the attributed C1MM/Nayvik CC BY-SA 3.0 Wikimedia map, including Vijayanagara, and checked one-to-one district mapping. The supplied Bengaluru South label uses the Ramanagara shape; geometry is illustrative and not a certified boundary product.
 - Added full Kannada/English content switching, hover/focus names, keyboard activation, selected-state highlighting, bilingual district search, mobile selector, focus/scroll to details, close/reopen and image fallback.
 - Frontend build and isolated district, dictionary, recording/search/narration browser journeys passed. All 31 actual interior district clicks and image loads checked. Desktop/mobile screenshots inspected; no horizontal overflow or JavaScript errors.
+
+## Default illustrated map and district lift — 2026-11-17
+
+- Added the supplied PNG as the default artistic district-map view, with a bilingual toggle restoring the prior boundary map.
+- Preserved 31 district cards, selected district, Kannada/English language, search, mobile selector and keyboard interactions between views. Added an SVG clipped artwork hover/focus layer with slight enlargement/lift and pointer-event isolation. Reduced-motion preference disables animation.
+- The raster illustration is not georeferenced; transparent district hotspots are illustrative and may not follow decorative divisions. The original boundary view remains available, and the page labels the artwork accordingly.
+- Frontend build and isolated district browser journey pass, including default/toggle state, hover scale, all 31 interior clicks and images, reduced motion, bilingual cards, responsive layout and no JS errors.

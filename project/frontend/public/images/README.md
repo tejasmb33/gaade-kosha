@@ -15,3 +15,7 @@ Displayed locally at 12% opacity over warm cream using a fixed decorative CSS la
 ## Header logo
 
 `gaade-logo.jpeg` is the user-supplied WhatsApp image from 17 November 2026. The original file is preserved; CSS displays its central emblem in a circular header mark. It replaces the Kannada letter mark.
+
+## Illustrated Karnataka map
+
+`karnataka-art-map.png` is the original user-supplied PNG, copied from the Photos attachment on 17 November 2026. Displayed as the default artistic district-map background. Interactive SVG hotspots and clipped hover layers are code overlays; the raster file is unchanged. The earlier boundary map remains selectable.

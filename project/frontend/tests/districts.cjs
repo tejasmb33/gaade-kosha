@@ -26,6 +26,18 @@ const data=require('../src/data/karnataka-districts.json');
   await page.goto(base+'/#districts');await page.locator('.district-shape').first().waitFor();
   assert.equal(await page.locator('.district-shape').count(),31);
   assert.equal(await page.locator('.district-list button').count(),31);
+  const artworkToggle=page.getByRole('button',{name:'Show illustrated Karnataka map',exact:true});
+  const previousToggle=page.getByRole('button',{name:'Show previous district boundary map',exact:true});
+  assert.equal(await artworkToggle.getAttribute('aria-pressed'),'true');
+  await page.locator('.district-artwork-image').evaluate(async img=>{const image=new Image();image.src=img.getAttribute('href');await image.decode();});
+  const hoverTarget=page.locator('[data-district="vijayanagara"]');await hoverTarget.focus();
+  await page.locator('.district-artwork-lift').waitFor();await page.waitForTimeout(250);
+  assert(await page.locator('.district-artwork-lift').evaluate(el=>new DOMMatrix(getComputedStyle(el).transform).a>1),'Artwork district enlarges on focus/hover');
+  await previousToggle.click();assert.equal(await page.locator('.district-artwork-image').count(),0);
+  assert.equal(await page.locator('.district-shape').count(),31);
+  assert.equal(await page.locator('.district-info h2').textContent(),'ಮೈಸೂರು');
+  await artworkToggle.click();
+
   await page.locator('.district-info h2').filter({hasText:'ಮೈಸೂರು'}).waitFor();
   for(const district of data){
    const shape=page.locator('[data-district="'+district.id+'"]');
@@ -46,6 +58,8 @@ const data=require('../src/data/karnataka-districts.json');
   await page.getByRole('button',{name:'Show district information in English',exact:true}).click();
   assert.equal(await page.locator('.district-info h2').textContent(),'Yadgir');
   await page.getByRole('heading',{name:'Known for',exact:true}).waitFor();
+  await previousToggle.click();assert.equal(await page.locator('.district-info h2').textContent(),'Yadgir');await artworkToggle.click();
+
   assert((await page.locator('.district-info').innerText()).includes(data.at(-1).description.en));
   const mysuru=page.locator('[data-district="mysuru"]');await mysuru.focus();await page.keyboard.press('Enter');
   assert.equal(await page.locator('.district-info h2').textContent(),'Mysuru');
@@ -70,7 +84,10 @@ const data=require('../src/data/karnataka-districts.json');
   await page.screenshot({path:'/tmp/gaade-districts-mobile.png',fullPage:true});
   await page.setViewportSize({width:1440,height:1100});
   await page.screenshot({path:'/tmp/gaade-districts-desktop.png',fullPage:true});
+  await page.emulateMedia({reducedMotion:'reduce'});
+  await page.locator('[data-district="mysuru"]').focus();
+  assert.equal(await page.locator('.district-artwork-lift').evaluate(el=>getComputedStyle(el).animationName),'none');
   assert.deepEqual(errors,[]);
-  console.log('PASS: all 31 SVG districts and supplied images, Kannada/English card content, keyboard selection, bilingual search, empty state, close/reopen, mobile selection/focus and responsive layout; no JS errors');
+  console.log('PASS: default artwork, previous-map toggle, hover lift, reduced motion, all 31 SVG districts and supplied images, Kannada/English card content, keyboard selection, bilingual search, empty state, close/reopen, mobile selection/focus and responsive layout; no JS errors');
  }finally{if(browser)await browser.close();if(server&&server.exitCode===null){process.kill(-server.pid,'SIGTERM');await new Promise(r=>server.once('exit',r));}}
 })().catch(e=>{console.error(e);process.exitCode=1});
