@@ -7,12 +7,13 @@ const path=require('node:path');
 const assert=require('node:assert/strict');
 const root=path.resolve(__dirname,'../..');
 const temp=fs.mkdtempSync(path.join(os.tmpdir(),'gaade-recording-'));
+const python=process.env.GAADE_TEST_PYTHON||(fs.existsSync(path.join(root,'.venv/bin/python'))?path.join(root,'.venv/bin/python'):'python3');
 const base='http://127.0.0.1:15173';
 const delay=ms=>new Promise(r=>setTimeout(r,ms));
 let server,browser;
 async function main(){
  let log='';
- server=spawn(path.join(root,'.venv/bin/python'),['scripts/dev.py','--frontend-port','15173','--backend-port','18123','--data-dir',temp,'--config-file',path.join(temp,'absent.env')],{cwd:root,env:{...process.env,E5_MODEL_PATH:'',WHISPER_MODEL_PATH:'',ADMIN_TOKEN:''},stdio:['ignore','pipe','pipe']});
+ server=spawn(python,['scripts/dev.py','--frontend-port','15173','--backend-port','18123','--data-dir',temp,'--config-file',path.join(temp,'absent.env')],{cwd:root,env:{...process.env,E5_MODEL_PATH:'',WHISPER_MODEL_PATH:'',ADMIN_TOKEN:''},stdio:['ignore','pipe','pipe']});
  server.stdout.on('data',x=>log+=x);server.stderr.on('data',x=>log+=x);
  for(let i=0;i<100&&!log.includes('Ready:');i++){if(server.exitCode!==null)throw Error(log);await delay(200);}
  assert(log.includes('Ready:'),'Isolated launcher did not start: '+log);

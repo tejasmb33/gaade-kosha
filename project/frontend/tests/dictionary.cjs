@@ -2,9 +2,10 @@
 const {chromium}=require('playwright');const {spawn,spawnSync}=require('node:child_process');
 const fs=require('node:fs'),os=require('node:os'),path=require('node:path'),assert=require('node:assert/strict');
 const root=path.resolve(__dirname,'../..'),temp=fs.mkdtempSync(path.join(os.tmpdir(),'gaade-dictionary-'));
+const python=process.env.GAADE_TEST_PYTHON||(fs.existsSync(path.join(root,'.venv/bin/python'))?path.join(root,'.venv/bin/python'):'python3');
 const base='http://127.0.0.1:15174',wait=ms=>new Promise(r=>setTimeout(r,ms));let server,browser;
 async function main(){
- let log='';server=spawn(path.join(root,'.venv/bin/python'),['scripts/dev.py','--frontend-port','15174','--backend-port','18124','--data-dir',temp,'--config-file',path.join(temp,'absent.env')],{cwd:root,env:{...process.env,ADMIN_TOKEN:'',E5_MODEL_PATH:'',WHISPER_MODEL_PATH:'',GEMINI_API_KEY:'',GROQ_API_KEY:'',OPENAI_API_KEY:'',GAADE_AI_PROVIDER:''},stdio:['ignore','pipe','pipe']});
+ let log='';server=spawn(python,['scripts/dev.py','--frontend-port','15174','--backend-port','18124','--data-dir',temp,'--config-file',path.join(temp,'absent.env')],{cwd:root,env:{...process.env,ADMIN_TOKEN:'',E5_MODEL_PATH:'',WHISPER_MODEL_PATH:'',GEMINI_API_KEY:'',GROQ_API_KEY:'',OPENAI_API_KEY:'',GAADE_AI_PROVIDER:''},stdio:['ignore','pipe','pipe']});
  server.stdout.on('data',x=>log+=x);server.stderr.on('data',x=>log+=x);
  for(let i=0;i<100&&!log.includes('Ready:');i++){if(server.exitCode!==null)throw Error(log);await wait(200);}assert(log.includes('Ready:'),log);
  browser=await chromium.launch({headless:true,...(process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE?{executablePath:process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE}:{})});
@@ -18,7 +19,7 @@ async function main(){
   const row=await api('/contributions',body);await api('/admin/contributions/'+row.id+'/approve',body,'PATCH');entries.push({...body,id:row.id});
  }
  const pending=await api('/contributions',{proverb_kn:'ಗೋಪ್ಯ ಪರೀಕ್ಷೆ',literal_meaning:'Synthetic pending fixture',contextual_meaning:'Synthetic private fixture'});
- const cached=spawnSync(path.join(root,'.venv/bin/python'),['-c',`import sys,os,json
+ const cached=spawnSync(python,['-c',`import sys,os,json
 from pathlib import Path
 sys.path.insert(0,sys.argv[1]);os.environ['GAADE_DATA_DIR']=sys.argv[2]
 from backend.app import create_app,Proverb
