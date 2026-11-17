@@ -11,3 +11,7 @@ Displayed locally at 12% opacity over warm cream using a fixed decorative CSS la
 ## Home illustration
 
 `kannada-mother-child.jpg` replaces the leaf motif with the second image requested by the user. Matching higher resolution copy: https://i.pinimg.com/originals/16/57/e2/1657e228f563354fba35d3f0e592e5dc.jpg (reference https://in.pinterest.com/pin/karnataka--324259241941000945/). Stored locally; full artwork is shown without cropping. No authorship or licence ownership is asserted.
+
+## Header logo
+
+`gaade-logo.jpeg` is the user-supplied WhatsApp image from 17 November 2026. The original file is preserved; CSS displays its central emblem in a circular header mark. It replaces the Kannada letter mark.
