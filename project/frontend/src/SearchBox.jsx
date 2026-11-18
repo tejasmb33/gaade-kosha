@@ -58,6 +58,7 @@ export default function SearchBox({onSearch,initial='',initialCloud=null,initial
     <form className="search-box" onSubmit={e=>{e.preventDefault();if(!busy&&!recording&&text.trim())onSearch(text.trim(),{cloud,provider:selectedProvider});}}>
       <Search size={23}/>
       <input ref={input} aria-label="Describe your situation" placeholder="ನಿಮ್ಮ ಸಂದರ್ಭವನ್ನು ಇಲ್ಲಿ ಬರೆಯಿರಿ… / Describe your situation" value={text} maxLength={1000} required disabled={busy||recording} onChange={e=>setText(e.target.value)}/>
+      {text&&<button type="button" className="clear-search" aria-label="Clear situation" title="ತೆರವುಗೊಳಿಸಿ · Clear" disabled={busy||recording} onClick={()=>{setText('');setClip(null);setSourceText('');setWarning('');setError('');setMessage('');input.current?.focus();}}><X size={18}/></button>}
       <button type="button" className="voice-trigger" aria-label={recording?'Stop situation recording':'Record situation'} title={recording?'Stop recording':'Speak your situation'} disabled={busy||(!browserVoice&&recording&&capture.phase!=='recording')} onClick={browserVoice?(speech.listening?speech.stop:speech.start):(recording?capture.stop:capture.start)}>{recording?<Square size={18}/>:<Mic size={20}/>}</button>
       <button type="submit" aria-label="Find proverbs" disabled={busy||recording}><ArrowRight/></button>
     </form>

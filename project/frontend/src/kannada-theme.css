@@ -104,3 +104,10 @@ main :focus-visible{outline-color:#ffdf47}
 
 .brand-mark.brand-logo{border-radius:4px;background:#3a1000}
 .brand-logo img{object-fit:contain}
+
+main .search-box .clear-search,.hero .hero-copy .search-box .clear-search{background:transparent;color:#6b251c;width:32px;height:36px;flex-shrink:0;border:0;border-radius:4px;display:grid;place-items:center}
+main .search-box .clear-search:hover{background:#efe1cb}
+.clearable-filter-input{display:block;position:relative;min-width:0}
+main .clearable-filter-input input{width:100%;padding-right:40px}
+.clearable-filter-input .clear-filter-button{position:absolute;right:6px;top:50%;transform:translateY(-50%);width:30px;height:30px;padding:0;display:grid;place-items:center;color:#6b251c;background:transparent;border:0;border-radius:4px}
+.clearable-filter-input .clear-filter-button:hover{background:#efe1cb}

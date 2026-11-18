@@ -37,3 +37,4 @@ jobs:
       - run: node project/frontend/tests/dictionary.cjs
       - run: node project/frontend/tests/recording.cjs
       - run: node project/frontend/tests/districts.cjs
+      - run: node project/frontend/tests/clear-search.cjs

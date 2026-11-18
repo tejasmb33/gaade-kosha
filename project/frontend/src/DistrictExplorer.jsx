@@ -85,7 +85,7 @@ export default function DistrictExplorer({districts=districtData,geometry=bounda
           <div className="district-legend"><span><i/>{t.all}</span><span><i className="active"/>{t.selected}</span></div>
         </div>
         <div className="district-picker-panel">
-          <label className="district-search"><Search size={18}/><input aria-label={t.search} placeholder={t.search} value={query} onChange={e=>setQuery(e.target.value)}/>{query&&<button type="button" aria-label={language==='kn'?'ಹುಡುಕಾಟ ತೆರವುಗೊಳಿಸಿ':'Clear district search'} onClick={()=>setQuery('')}><X size={16}/></button>}</label>
+          <label className="district-search"><Search size={18}/><input aria-label={t.search} placeholder={t.search} value={query} onChange={e=>setQuery(e.target.value)}/>{query&&<button type="button" aria-label={language==='kn'?'ಹುಡುಕಾಟ ತೆರವುಗೊಳಿಸಿ':'Clear district search'} onClick={e=>{setQuery('');e.currentTarget.closest('label').querySelector('input')?.focus();}}><X size={16}/></button>}</label>
 
           <div className="district-list" aria-label={t.choose}>{visible.map((d,i)=><button type="button" key={d.id} aria-pressed={d.id===selectedId} onClick={()=>choose(d)}><span className="district-list-dot"/>{d.name[language]}{d.id===selectedId&&<ArrowRight size={14}/>}</button>)}</div>
           {!visible.length&&<p className="district-no-results" role="status">{t.noResults}</p>}
