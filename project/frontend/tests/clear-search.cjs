@@ -17,6 +17,17 @@ let browser,server;
   if(url.pathname==='/api/categories')return route.fulfill({json:[]});
   return route.fulfill({json:{items:[],total:0,page:1,page_size:12,mode:'keyword'}});
  });
+ await page.goto(base+'/#home');
+ await page.locator('.launch-screen').waitFor();
+ assert(await page.locator('.site-stage').evaluate(el=>el.inert));
+ await page.getByRole('button',{name:'ಮುಂದುವರಿಸಿ (Skip) →',exact:true}).click();
+ assert.equal(await page.locator('.launch-screen').count(),0);
+ assert(!(await page.locator('.site-stage').evaluate(el=>el.inert)));
+ await page.reload();assert.equal(await page.locator('.launch-screen').count(),0);
+ const automatic=await browser.newContext();const opening=await automatic.newPage();await opening.route('**/api/**',r=>r.fulfill({json:{items:[],total:0}}));await opening.goto(base+'/#home');await opening.locator('.launch-screen').waitFor({state:'detached',timeout:5000});assert(!(await opening.locator('.site-stage').evaluate(el=>el.inert)));await automatic.close();
+ const reduced=await browser.newContext({reducedMotion:'reduce'});const reducedPage=await reduced.newPage();
+ await reducedPage.route('**/api/**',r=>r.fulfill({json:{items:[],total:0}}));
+ await reducedPage.goto(base+'/#home');assert.equal(await reducedPage.locator('.launch-screen').count(),0);await reduced.close();
  for(const [route,input,clear] of [['home','Describe your situation','Clear situation'],['dictionary','Search dictionary','Clear dictionary search']]){
   await page.goto(base+'/#'+route);const field=page.getByRole('textbox',{name:input,exact:true});await field.fill('ಕನ್ನಡ situation');
   const before=posts;await page.getByRole('button',{name:clear,exact:true}).click();
