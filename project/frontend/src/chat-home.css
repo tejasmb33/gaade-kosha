@@ -26,3 +26,7 @@
 @keyframes chat-answer-in{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
 @keyframes chat-text-in{from{opacity:0}to{opacity:1}}
 @media(prefers-reduced-motion:reduce){.chat-results>.proverb-card,.chat-results>.proverb-card>*{animation:none!important}}
+/* Responses write progressively; no additional staged fade delays. */
+.chat-results .proverb-card,.chat-results .proverb-card>h3,.chat-results .proverb-card>dl,.chat-results .proverb-card>.why{animation:none}
+.chat-progressive[aria-busy=true] .proverb-card .text-button,.chat-progressive[aria-busy=true] .narration-player{visibility:hidden}
+.chat-progressive[aria-busy=true] .proverb-card dt:has(+dd:empty){visibility:hidden}

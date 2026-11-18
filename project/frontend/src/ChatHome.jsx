@@ -7,6 +7,24 @@ import './chat-home.css';
 function pause(ms,signal){return new Promise(resolve=>{const done=()=>{clearTimeout(timer);signal.removeEventListener('abort',done);resolve();};const timer=setTimeout(done,ms);signal.addEventListener('abort',done,{once:true});if(signal.aborted)done();});}
 
 
+function ProgressiveAnswer({row,renderCard}){
+ const [visible,setVisible]=useState(0);
+ const fields=['proverb_kn','literal_meaning','contextual_meaning','why'];
+ const translated=['proverb_en','literal_meaning_kn','contextual_meaning_kn'];
+ const entries=[['proverb_kn',row.proverb_kn],['proverb_en',row.translation?.fields?.proverb_en],['literal_meaning_kn',row.translation?.fields?.literal_meaning_kn],['literal_meaning',row.literal_meaning],['contextual_meaning_kn',row.translation?.fields?.contextual_meaning_kn],['contextual_meaning',row.contextual_meaning],['why',row.why]].filter(([,value])=>value);
+ const total=entries.reduce((n,[,value])=>n+value.split(/(\s+)/).length,0);
+ useEffect(()=>{
+  if(matchMedia('(prefers-reduced-motion: reduce)').matches){setVisible(total);return;}
+  const timer=setInterval(()=>setVisible(n=>{if(n+8>=total)clearInterval(timer);return Math.min(total,n+8);}),45);
+  return()=>clearInterval(timer);
+ },[row,total]);
+ let remaining=visible;const values={};
+ for(const [key,value] of entries){const words=value.split(/(\s+)/);values[key]=words.slice(0,Math.max(0,remaining)).join('');remaining-=words.length;}
+ const partial={...row};for(const key of fields)partial[key]=values[key]||'';
+ if(row.translation){partial.translation={...row.translation,fields:{...row.translation.fields}};for(const key of translated)partial.translation.fields[key]=values[key]||'';}
+ return <div className="chat-progressive" aria-busy={visible<total}>{renderCard(partial)}</div>;
+}
+
 export default function ChatHome({renderCard,navigate,errorText}){
  const [turns,setTurns]=useState([]),[pending,setPending]=useState(false),[draft,setDraft]=useState({text:'',revision:0}),[epoch,setEpoch]=useState(0);
  const request=useRef(null),thread=useRef(null),sequence=useRef(0),composer=useRef(null);
@@ -39,7 +57,7 @@ export default function ChatHome({renderCard,navigate,errorText}){
      <div className="chat-message chat-assistant"><span className="chat-avatar"><MessageCircle size={20}/></span><div className="chat-answer">
       {turn.error?<div className="chat-error"><p role="alert">{turn.error}</p>{turn.cloud&&<button className="secondary" disabled={pending} onClick={()=>send(turn.query,{cloud:false})}>ಸಾಮಾನ್ಯ ಹುಡುಕಾಟದಲ್ಲಿ ಪ್ರಯತ್ನಿಸಿ (Try local search)</button>}</div>:turn.result?<>
        {turn.result.interpretation&&<p className="chat-interpretation">{turn.result.interpretation}</p>}
-       {turn.result.items?.length?<div className="chat-results">{turn.result.items.map(row=>renderCard(row))}</div>:<p><strong>No reliable match yet.</strong> ಹೊಂದುವ ಗಾದೆ ಸಿಗಲಿಲ್ಲ. ಸಂದರ್ಭವನ್ನು ಸ್ವಲ್ಪ ವಿವರವಾಗಿ ಹೇಳಿ. (Try describing the situation in more detail.)</p>}
+       {turn.result.items?.length?<div className="chat-results">{turn.result.items.map(row=><ProgressiveAnswer key={row.id} row={row} renderCard={renderCard}/>)}</div>:<p><strong>No reliable match yet.</strong> ಹೊಂದುವ ಗಾದೆ ಸಿಗಲಿಲ್ಲ. ಸಂದರ್ಭವನ್ನು ಸ್ವಲ್ಪ ವಿವರವಾಗಿ ಹೇಳಿ. (Try describing the situation in more detail.)</p>}
        {!!turn.result.external_sources?.length&&<div className="chat-sources"><h3>ಬಾಹ್ಯ ಉಲ್ಲೇಖಗಳು (Unverified web references)</h3>{turn.result.external_sources.map(s=><a key={s.url} href={s.url} target="_blank" rel="noreferrer">{s.title}<ArrowRight size={14}/></a>)}</div>}
        {turn.result.web_notice&&<p>{turn.result.web_notice}</p>}
       </>:<div className="chat-thinking" role="status"><i/><i/><i/><span>ಗಾದೆ ಹುಡುಕುತ್ತಿದ್ದೇನೆ…</span></div>}
