@@ -187,3 +187,10 @@ Final live generic test: ReadTimeout after a 90-second timeout. Inference remain
 - Preserved 31 district cards, selected district, Kannada/English language, search, mobile selector and keyboard interactions between views. Added an SVG clipped artwork hover/focus layer with slight enlargement/lift and pointer-event isolation. Reduced-motion preference disables animation.
 - The raster illustration is not georeferenced; transparent district hotspots are illustrative and may not follow decorative divisions. The original boundary view remains available, and the page labels the artwork accordingly.
 - Frontend build and isolated district browser journey pass, including default/toggle state, hover scale, all 31 interior clicks and images, reduced motion, bilingual cards, responsive layout and no JS errors.
+
+## Artwork hover-outline alignment fix — 2026-11-18
+
+- Replaced the stretched geographic artwork hotspots with 31 contours traced from the uploaded PNG’s own white separators in native 1086×1448 image coordinates. Image, hit areas, clip paths and hover outlines now share one coordinate system; the geographic view remains separate.
+- Added a reproducible build-time tracing utility and generated artwork-boundary JSON. The original raster image is unchanged. Decorative region identities remain illustrative, with the previous map available for geographic selection.
+- Removed dashed selected outlines; retained pop-out motion, selected district, bilingual cards, both map modes and reduced-motion behavior.
+- Build and isolated browser checks pass for all 31 regions, image loading, keyboard/mobile controls, map/language state, and hover scaling. Border-pixel regression checks show at least 97% of every region’s vertices within 7 native pixels of the image separators (observed 99–100%). Corrected hover screenshot inspected.

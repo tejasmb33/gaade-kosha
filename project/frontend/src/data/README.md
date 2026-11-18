@@ -43,4 +43,18 @@ The supplied document's Bengaluru South label is used for the Ramanagara shape. 
 
 ## Illustrated map view
 
-The default illustrated view uses the user-supplied `public/images/karnataka-art-map.png`, preserved without raster edits. Its decorative borders are not administrative boundaries. Transparent SVG regions reuse the same 31 district identities and are placed over the image as illustrative hotspots with a scale/translation transform. The illustration is not georeferenced and hotspot outlines do not necessarily coincide with its decorative divisions; use the Previous map toggle to inspect the original district geometry. The card, language and selected district persist when changing map views. On hover/keyboard focus, a clipped copy of the supplied artwork lifts 8 SVG units and scales to 1.045, with a shadow and outline. The raised layer does not receive pointer events, preventing hover flicker/click interception. Reduced-motion users receive a static highlight.
+The default illustrated view uses the user-supplied `public/images/karnataka-art-map.png`, preserved without raster edits. Its decorative divisions are not administrative boundaries. `karnataka-artwork-boundaries.json` contains 31 independent contours traced from the white separators in this exact 1086×1448 PNG. The background image, hit paths, clip paths, selected outline and raised outline all use the same native image coordinate system, with **no geographic scaling/translation matrix**. The previous-map toggle still uses `karnataka-boundaries.json` and the original geographic shapes.
+
+The card, language and selected district persist when changing map views. On hover/keyboard focus, the corresponding clipped artwork region lifts 8 SVG units and scales to 1.045, with a shadow and outline. The raised layer does not receive pointer events, preventing flicker/click interception. Reduced-motion users receive a static highlight.
+
+Illustrated region identities use a one-to-one spatial association with the existing district list. This is an artistic interface, not a georeferenced or certified district map; the illustrated landmarks/divisions must not be treated as geographic evidence. Use the previous boundary map for geographic district selection.
+
+To regenerate contours after changing the artwork, run the authoring utility from the frontend directory (Playwright Chromium must already be installed):
+
+```
+node scripts/trace-artwork.cjs
+```
+
+The utility detects white separator pixels, closes small gaps, traces 31 connected region outlines, restores border thickness, simplifies the paths, and associates them with the district IDs. It does not alter the PNG or download models. Review the resulting associations and outlines when replacing the image. The production site uses the generated JSON directly; tracing is never run in a visitor's browser or during deployment.
+
+The browser test compares contour vertices to the actual PNG's separator pixels and exercises all 31 interior hit areas, alongside map switching, language, keyboard and mobile interactions.

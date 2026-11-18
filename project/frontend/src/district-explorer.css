@@ -14,7 +14,7 @@
 .district-artwork-stage{height:auto;padding:0;margin-top:15px;aspect-ratio:1086/1448;background:#fae6c6;overflow:visible}
 .district-artwork-stage .district-artwork-svg{width:100%;height:auto;aspect-ratio:1086/1448;filter:none;overflow:visible}
 .district-artwork-svg .district-artwork-region,.district-artwork-svg .district-artwork-region:nth-child(n){fill:transparent;stroke:transparent;stroke-width:3.5;pointer-events:all;transition:stroke .16s ease}
-.district-artwork-svg .district-artwork-region.is-selected{stroke:#fff4a0;stroke-width:4;stroke-dasharray:8 6}
+.district-artwork-svg .district-artwork-region.is-selected{stroke:#fff4a0;stroke-width:3;stroke-dasharray:none}
 .district-artwork-svg .district-artwork-region:hover,.district-artwork-svg .district-artwork-region:focus-visible{fill:transparent;stroke:transparent;outline:none}
 .district-artwork-lift{animation:district-artwork-pop .18s ease-out both;filter:drop-shadow(0 10px 8px #2e0c0980);pointer-events:none}
 .district-artwork-lift-outline{fill:none;stroke:#fff0a0;stroke-width:6;stroke-linejoin:round;paint-order:stroke}

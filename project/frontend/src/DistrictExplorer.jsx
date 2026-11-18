@@ -2,6 +2,7 @@ import React,{useId,useMemo,useRef,useState} from 'react';
 import {ArrowRight,Compass,MapPin,Search,X} from 'lucide-react';
 import districtData from './data/karnataka-districts.json';
 import boundaries from './data/karnataka-boundaries.json';
+import artworkBoundaries from './data/karnataka-artwork-boundaries.json';
 import './district-explorer.css';
 
 const text={
@@ -28,8 +29,8 @@ export default function DistrictExplorer({districts=districtData,geometry=bounda
   const selected=districts.find(d=>d.id===selectedId);
   const artwork=mapView==='artwork';
   const hoveredDistrict=districts.find(d=>d.id===hovered);
-  const hoveredShape=geometry.paths.find(p=>p.code===hoveredDistrict?.code);
-  const artworkTransform='matrix(1.02 0 0 1.06 -20 0)';
+  const activeGeometry=artwork?artworkBoundaries:geometry;
+  const hoveredShape=activeGeometry.paths.find(p=>p.code===hoveredDistrict?.code);
   const artworkImage='/images/karnataka-art-map.png';
   const visible=districts.filter(d=>[d.name.kn,d.name.en,...(d.aliases||[])].some(name=>name.toLocaleLowerCase().includes(query.trim().toLocaleLowerCase())));
   function choose(district){setSelectedId(district.id);if(matchMedia('(max-width: 900px)').matches)requestAnimationFrame(showDetails);}
@@ -52,19 +53,19 @@ export default function DistrictExplorer({districts=districtData,geometry=bounda
           </div>
           <label className="district-mobile-select">{t.choose}<select aria-label={t.choose} value={selectedId||''} onChange={e=>{const district=districts.find(d=>d.id===e.target.value);if(district)choose(district);else setSelectedId(null);}}><option value="">{t.choose}</option>{districts.map(d=><option key={d.id} value={d.id}>{d.name[language]}</option>)}</select></label>
           <div className={'district-map-stage'+(artwork?' district-artwork-stage':'')}>
-            <svg className={'district-map-svg'+(artwork?' district-artwork-svg':'')} viewBox={artwork?'0 0 1086 1448':geometry.viewBox} aria-label={t.map} role="group">
+            <svg className={'district-map-svg'+(artwork?' district-artwork-svg':'')} viewBox={activeGeometry.viewBox} aria-label={t.map} role="group">
               {artwork&&<>
-                <defs>{geometry.paths.map(shape=><clipPath key={shape.code} id={clipPrefix+'-'+shape.code} clipPathUnits="userSpaceOnUse"><path d={shape.d} transform={artworkTransform}/></clipPath>)}</defs>
-                <image className="district-artwork-image" href={artworkImage} x="0" y="0" width="1086" height="1448" preserveAspectRatio="xMidYMid meet" aria-hidden="true"/>
+                <defs>{artworkBoundaries.paths.map(shape=><clipPath key={shape.code} id={clipPrefix+'-'+shape.code} clipPathUnits="userSpaceOnUse"><path d={shape.d}/></clipPath>)}</defs>
+                <image className="district-artwork-image" href={artworkImage} x="0" y="0" width={artworkBoundaries.width} height={artworkBoundaries.height} preserveAspectRatio="xMidYMid meet" aria-hidden="true"/>
               </>}
-              {geometry.paths.map(shape=>{
+              {activeGeometry.paths.map(shape=>{
                 const district=byCode[shape.code];if(!district)return null;
                 const active=district.id===selectedId;
-                return <path key={shape.code} d={shape.d} transform={artwork?artworkTransform:undefined} data-district={district.id} role="button" tabIndex={0} aria-label={district.name[language]} aria-pressed={active} className={'district-shape'+(artwork?' district-artwork-region':'')+(active?' is-selected':'')} onClick={()=>choose(district)} onMouseEnter={()=>setHovered(district.id)} onMouseLeave={()=>setHovered(null)} onFocus={()=>setHovered(district.id)} onBlur={()=>setHovered(null)} onKeyDown={e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();choose(district);}}}><title>{district.name[language]}</title></path>;
+                return <path key={shape.code} d={shape.d} data-district={district.id} role="button" tabIndex={0} aria-label={district.name[language]} aria-pressed={active} className={'district-shape'+(artwork?' district-artwork-region':'')+(active?' is-selected':'')} onClick={()=>choose(district)} onMouseEnter={()=>setHovered(district.id)} onMouseLeave={()=>setHovered(null)} onFocus={()=>setHovered(district.id)} onBlur={()=>setHovered(null)} onKeyDown={e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();choose(district);}}}><title>{district.name[language]}</title></path>;
               })}
-              {artwork&&hoveredShape&&<g key={hoveredShape.code} className="district-artwork-lift" style={{transformOrigin:(hoveredShape.center?.[0]||500)*1.02-20+'px '+(hoveredShape.center?.[1]||700)*1.06+'px'}} aria-hidden="true" pointerEvents="none">
-                <g clipPath={'url(#'+clipPrefix+'-'+hoveredShape.code+')'}><image href={artworkImage} x="0" y="0" width="1086" height="1448" preserveAspectRatio="xMidYMid meet"/></g>
-                <path d={hoveredShape.d} transform={artworkTransform} className="district-artwork-lift-outline"/>
+              {artwork&&hoveredShape&&<g key={hoveredShape.code} className="district-artwork-lift" style={{transformOrigin:(hoveredShape.center?.[0]||500)+'px '+(hoveredShape.center?.[1]||700)+'px'}} aria-hidden="true" pointerEvents="none">
+                <g clipPath={'url(#'+clipPrefix+'-'+hoveredShape.code+')'}><image href={artworkImage} x="0" y="0" width={artworkBoundaries.width} height={artworkBoundaries.height} preserveAspectRatio="xMidYMid meet"/></g>
+                <path d={hoveredShape.d} className="district-artwork-lift-outline"/>
               </g>}
             </svg>
             {!artwork&&<><span className="district-north" aria-hidden="true">N<span>↑</span></span>

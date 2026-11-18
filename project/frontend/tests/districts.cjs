@@ -6,6 +6,7 @@ const {spawn}=require('node:child_process');
 const base=process.env.GAADE_DISTRICT_TEST_URL||'http://127.0.0.1:15175';
 let browser,server;
 const data=require('../src/data/karnataka-districts.json');
+const artworkGeometry=require('../src/data/karnataka-artwork-boundaries.json');
 (async()=>{
  try{
   if(!process.env.GAADE_DISTRICT_TEST_URL){
@@ -30,6 +31,31 @@ const data=require('../src/data/karnataka-districts.json');
   const previousToggle=page.getByRole('button',{name:'Show previous district boundary map',exact:true});
   assert.equal(await artworkToggle.getAttribute('aria-pressed'),'true');
   await page.locator('.district-artwork-image').evaluate(async img=>{const image=new Image();image.src=img.getAttribute('href');await image.decode();});
+  // Regression: artwork outlines must follow the uploaded PNG's white separators,
+  // not a geographic map stretched into the illustration's coordinate system.
+  const alignment=await page.evaluate(async geometry=>{
+   const image=new Image();image.src=geometry.sourceImage;await image.decode();
+   const canvas=document.createElement('canvas');canvas.width=image.width;canvas.height=image.height;
+   const context=canvas.getContext('2d');context.drawImage(image,0,0);
+   const pixels=context.getImageData(0,0,image.width,image.height).data;
+   return geometry.paths.map(shape=>{
+    const numbers=shape.d.match(/-?\d+(?:\.\d+)?/g).map(Number);let aligned=0,total=0;
+    for(let i=0;i<numbers.length;i+=2){
+     let found=false;const x=numbers[i],y=numbers[i+1];
+     for(let dy=-7;dy<=7&&!found;dy++)for(let dx=-7;dx<=7;dx++){
+      const xx=x+dx,yy=y+dy;if(xx<0||yy<0||xx>=image.width||yy>=image.height)continue;
+      const n=(yy*image.width+xx)*4,r=pixels[n],g=pixels[n+1],b=pixels[n+2];
+      if(r>230&&g>230&&b>210&&Math.max(r,g,b)-Math.min(r,g,b)<45){found=true;break;}
+     }
+     total++;if(found)aligned++;
+    }
+    return{code:shape.code,ratio:aligned/total};
+   });
+  },artworkGeometry);
+  assert.equal(alignment.length,31);
+  for(const region of alignment)assert(region.ratio>=.97,'Artwork border misalignment: '+region.code);
+  assert.equal(await page.locator('.district-artwork-region[transform]').count(),0);
+
   const hoverTarget=page.locator('[data-district="vijayanagara"]');await hoverTarget.focus();
   await page.locator('.district-artwork-lift').waitFor();await page.waitForTimeout(250);
   assert(await page.locator('.district-artwork-lift').evaluate(el=>new DOMMatrix(getComputedStyle(el).transform).a>1),'Artwork district enlarges on focus/hover');
@@ -88,6 +114,6 @@ const data=require('../src/data/karnataka-districts.json');
   await page.locator('[data-district="mysuru"]').focus();
   assert.equal(await page.locator('.district-artwork-lift').evaluate(el=>getComputedStyle(el).animationName),'none');
   assert.deepEqual(errors,[]);
-  console.log('PASS: default artwork, previous-map toggle, hover lift, reduced motion, all 31 SVG districts and supplied images, Kannada/English card content, keyboard selection, bilingual search, empty state, close/reopen, mobile selection/focus and responsive layout; no JS errors');
+  console.log('PASS: image-aligned artwork outlines, previous-map toggle, hover lift, reduced motion, all 31 SVG districts and supplied images, Kannada/English card content, keyboard selection, bilingual search, empty state, close/reopen, mobile selection/focus and responsive layout; no JS errors');
  }finally{if(browser)await browser.close();if(server&&server.exitCode===null){process.kill(-server.pid,'SIGTERM');await new Promise(r=>server.once('exit',r));}}
 })().catch(e=>{console.error(e);process.exitCode=1});
