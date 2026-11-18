@@ -9,6 +9,7 @@ import SearchBox from './SearchBox';
 import Dictionary from './Dictionary';
 import ChatHome from './ChatHome';
 import LaunchExperience from './LaunchExperience';
+import './heritage-theme.css';
 import Narration from './Narration';
 import {displayText} from './displayText';
 const DistrictExplorer=lazy(()=>import('./DistrictExplorer'));
