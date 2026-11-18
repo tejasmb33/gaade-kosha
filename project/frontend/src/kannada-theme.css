@@ -101,3 +101,6 @@ main :focus-visible{outline-color:#ffdf47}
 .hero-art .art-caption{line-height:1.9;text-wrap:balance}
 
 .hero-art .hero-cultural-image.hero-emblem{border-radius:4px;object-fit:contain;aspect-ratio:auto}
+
+.brand-mark.brand-logo{border-radius:4px;background:#3a1000}
+.brand-logo img{object-fit:contain}
