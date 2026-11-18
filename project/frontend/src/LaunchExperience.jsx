@@ -1,5 +1,5 @@
 import React,{useEffect,useState,useRef} from 'react';
-const key='gaadamruta:intro:v2';
+const key='gaadamruta:intro:v3';
 function shouldPlay(){
  if(window.matchMedia('(prefers-reduced-motion: reduce)').matches)return false;
  try{return !sessionStorage.getItem(key);}catch{return true;}
