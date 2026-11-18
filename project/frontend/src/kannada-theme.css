@@ -121,3 +121,20 @@ main .voice-options select:focus-visible{outline:3px solid #ffdf46;outline-offse
 main .voice-options select:disabled{cursor:wait;opacity:.65}
 main .situation-input .voice-message{display:block;color:#fff3d8;font-size:14px;line-height:1.8;margin-top:12px}
 @media(max-width:600px){main .voice-options{gap:8px}main .voice-options label{flex-basis:140px;padding:10px;max-width:none}main .voice-options select{font-size:12px}}
+
+/* Proverb details share the archive's maroon and gold palette. */
+dialog.proverb-detail{box-sizing:border-box;width:min(860px,calc(100vw - 32px));max-height:88dvh;padding:42px 36px 32px;background:linear-gradient(145deg,#51271f,#30150f);color:#fff2db;border:1px solid #bb9252;border-radius:18px;box-shadow:0 24px 90px #160b08aa}
+dialog.proverb-detail::backdrop{background:#1d0d0ac9;backdrop-filter:blur(5px)}
+dialog.proverb-detail .close{position:sticky;top:0;float:right;margin:-22px -16px 0 12px;width:40px;height:40px;display:grid;place-items:center;background:#ffdf46;color:#482116;border:1px solid #e0b62d;border-radius:50%;z-index:1}
+dialog.proverb-detail .eyebrow{color:#f6d783;font-size:12px;letter-spacing:.06em}
+dialog.proverb-detail h2{color:#ffe178;font-family:'Kannada Sangam MN',sans-serif;font-size:clamp(25px,3vw,38px);line-height:1.75;margin:18px 0 12px;overflow-wrap:anywhere;clear:both}
+dialog.proverb-detail .transliteration{color:#e5c9a9}
+dialog.proverb-detail dl{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:24px 0}
+dialog.proverb-detail .detail-field{padding:18px 20px;background:#fff0cc09;border:1px solid #c8a16045;border-radius:10px;min-width:0}
+dialog.proverb-detail .detail-field:nth-child(3),dialog.proverb-detail .detail-source{grid-column:1/-1}
+dialog.proverb-detail dt{color:#f3cf7c;font-size:12px;line-height:1.8;letter-spacing:.02em;margin:0 0 8px}
+dialog.proverb-detail dd{color:#fff1dc;font-size:15px;line-height:1.9;margin:0;overflow-wrap:anywhere}
+dialog.proverb-detail .text-button{display:inline-flex;align-items:center;gap:12px;background:#ffdf46;color:#412015;padding:12px 18px;border-radius:8px;text-decoration:none;font-size:14px;font-weight:600}
+dialog.proverb-detail h3{color:#ffdf87;font-size:17px;margin-top:28px}
+dialog.proverb-detail .related{color:#fff0d3;border-color:#b6955266}
+@media(max-width:600px){dialog.proverb-detail{padding:30px 20px 24px;border-radius:12px}dialog.proverb-detail dl{grid-template-columns:1fr}dialog.proverb-detail .close{margin:-14px -6px 0 8px}dialog.proverb-detail .detail-field{padding:15px}}
