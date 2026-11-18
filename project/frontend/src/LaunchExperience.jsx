@@ -10,10 +10,10 @@ export default function LaunchExperience({children}){
  useEffect(()=>{
   if(!active)return;
   const previous=document.body.style.overflow;document.body.style.overflow='hidden';
-  const timer=setTimeout(finish,1800);
+  const timer=setTimeout(finish,3000);
   const motion=window.matchMedia('(prefers-reduced-motion: reduce)');
   const changed=()=>{if(motion.matches)finish();};motion.addEventListener('change',changed);
   return()=>{clearTimeout(timer);document.body.style.overflow=previous;motion.removeEventListener('change',changed);};
  },[active]);
- return <><div className={reveal?'site-stage site-reveal':'site-stage'} inert={active?true:undefined} aria-hidden={active?true:undefined}>{children}</div>{active&&<div className="launch-screen" aria-label="ಗಾದಾಮೃತಕ್ಕೆ ಸ್ವಾಗತ" role="region"><div className="launch-map"><img src="/images/karnataka-intro.svg" alt="ಕರ್ನಾಟಕ"/><span lang="kn">ಗಾದಾಮೃತ</span></div><button className="launch-skip" onClick={finish}>ಮುಂದುವರಿಸಿ (Skip) →</button></div>}</>;
+ return <><div className={reveal?'site-stage site-reveal':'site-stage'} inert={active?true:undefined} aria-hidden={active?true:undefined}>{children}</div>{active&&<div className="launch-screen" aria-label="ಗಾದಾಮೃತಕ್ಕೆ ಸ್ವಾಗತ" role="region"><div className="launch-map"><img src="/images/karnataka-intro.svg" alt="ಕರ್ನಾಟಕ"/><div className="launch-outline" aria-hidden="true"/><span lang="kn">ಗಾದಾಮೃತ</span></div><button className="launch-skip" onClick={finish}>ಮುಂದುವರಿಸಿ (Skip) →</button></div>}</>;
 }

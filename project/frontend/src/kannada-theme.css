@@ -169,3 +169,14 @@ main .dictionary-filters>.text-button:hover{background:#ffdf46;color:#482116}
 @keyframes intro-away{to{opacity:0}}
 @keyframes block-arrive{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
 @media(prefers-reduced-motion:reduce){.launch-screen{display:none}.site-reveal *{animation:none!important}.launch-map{animation:none}}
+
+/* A three-second, centered outline ceremony before the page reveal. */
+@property --outline-angle{syntax:'<angle>';initial-value:0deg;inherits:false}
+.launch-screen{animation:intro-away .3s 2.7s both}
+.launch-map{position:relative;width:min(46vw,280px);animation:map-settle .5s ease-out both;will-change:opacity,transform}
+.launch-map img{opacity:.25;filter:drop-shadow(0 0 12px #e7a43b55)}
+.launch-map span{animation:map-settle .6s .25s both}
+.launch-outline{position:absolute;inset:0 0 auto;height:auto;aspect-ratio:1110/1360;mask:url('/images/karnataka-intro-outline.svg') center/100% 100% no-repeat;-webkit-mask:url('/images/karnataka-intro-outline.svg') center/100% 100% no-repeat;background:conic-gradient(from var(--outline-angle),#a8752e 0deg,#b18439 245deg,#e42d21 290deg,#ffb72e 325deg,#fff3a3 350deg,#a8752e 360deg);filter:drop-shadow(0 0 7px #ffbf33);animation:outline-travel 2.7s linear both}
+@keyframes outline-travel{from{--outline-angle:0deg}to{--outline-angle:360deg}}
+@keyframes map-settle{from{opacity:0;transform:scale(.96)}to{opacity:1;transform:scale(1)}}
+@media(prefers-reduced-motion:reduce){.launch-outline{animation:none}}
