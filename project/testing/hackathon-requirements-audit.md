@@ -1,26 +1,57 @@
-# Hackathon requirement audit — 18 November 2026
+# Gaadamrutha — audit against all five supplied slides
 
-Scope: supplied challenge screenshot, local SQLite database (read-only), deployment seed, dataset files, frontend/backend code and saved evaluation results. No production database query, live provider test or fresh cultural evaluation was performed. No records were changed.
+Updated 18 November 2026 after completing local Kannada translation drafts.
 
-| Requirement | Evidence | Status / gap |
+Scope: read-only inspection of local SQLite records, translation caches, narration files, labeled datasets, stored retrieval results, frontend code, and repository documentation. This is not a live production audit, a new matching benchmark, a listening assessment, or cultural approval. No public records or approval states were changed. The supplied slides are the requirement source.
+
+## Requirement comparison
+
+| Requirement | Current evidence | Gap |
 |---|---|---|
-| 200+ proverbs/idioms | 100 distinct Kannada records, all marked APPROVED; deployment seed also has 100 | 50% of minimum; need at least 100 more |
-| Collect from elders/neighbours | All 100 cite websites: Yaksha Deepa 55, Kannadapedia 20, Vishaya 20, LingoDesi 5. Contributor field empty for all | Oral collection not evidenced; existing web corpus cannot be claimed as elder-collected |
-| Meaning and example per entry | Literal/contextual meaning and example fields filled on 100/100, but all contextual meanings retain draft markers | Present as drafts; native-speaker correctness review still required. Database APPROVED status does not establish cultural validation |
-| English equivalent | 83 current, fingerprint-valid translation drafts have proverb_en | Partial. English renderings are not necessarily equivalent English idioms; clarify expected interpretation with organizers |
-| Region per entry | 0/100 populated; dialect also 0/100 | Missing; collect actual region, do not infer from district explorer |
-| Theme per entry | Category populated on 100/100 | Present, but category taxonomy/coverage needs review against money/work/study/family/friends/character |
-| 400+ situations; two per proverb | 100 positive labeled situations covering 50 records, two per record; 8 no-match cases. Another 10 Kannada test situations stored separately | Primary labeled set meets 25% of minimum. Need at least 300 further labeled positives to reach 400; review/de-duplicate separate test examples |
-| gaade_id situation links | JSONL uses primary_proverb_id and expected_ids; CSV available | Linked internally; submission schema should normalize to gaade_id and check IDs against final corpus |
-| 200+ readings, one per entry | recordings table has 0 rows; no linked approved human recordings. Five cached narration WAVs exist at 24 kHz | Missing oral dataset. Generated explanation audio is not a substitute for elder readings |
-| 16 kHz WAV submission audio | Decoder uses 16 kHz temporary processing; narration caches are 24 kHz | No compliant linked reading corpus/export verified; preserve originals and create 16 kHz WAV submission copies |
-| Typed situation → proverb → why | Local and optional Gemini/Groq selection, approved-record retrieval, reasons and details implemented | Implemented; correctness remains partially evaluated |
-| Voice input | Browser/recorded-audio workflows implemented; SearchBox currently fixes language to en | Partial: Kannada recognition is not established; add language-aware recognition or automatic detection and test actual speakers |
-| Voice output | Kannada narration endpoint/player/cache implemented; 83 valid Kannada explanation drafts | Partial coverage; 17 records lack valid translation drafts. Availability depends on configured provider/quota; pronunciation requires listening review |
-| Gaade CSV + situations CSV + audio folder | Situation CSV present; corpus packaged as JSON seed; runtime narration folder exists | Complete submission bundle with required fields and gaade_id-matched oral audio not found |
-| README with sources / collectors | README and source audit exist; web references present | Partial: collector/elder provenance not documented |
-| Consent form for every elder | No consent forms or consent workflow found | Missing; store signed forms privately and reference consent IDs in export |
+| 200+ proverbs/idioms | 100 approved database rows with 100 distinct exact Kannada texts | At least 100 more required; textual uniqueness does not establish unique traditional variants or correct meanings |
+| Collected from grandparents/neighbours | Sources: Yaksha Deepa 55, Kannadapedia 20, Vishaya 20, LingoDesi 5; contributors empty on all 100 | Existing website-sourced corpus does not establish oral collection; collect genuine speaker provenance |
+| Meaning, English equivalent, example | Stored literal/contextual meanings and examples on 100; 100 fingerprint-valid local bilingual draft caches | Draft translations are not independent native-speaker validation; English renderings are not necessarily equivalent English idioms |
+| Region and theme | Category on 100; region and dialect on zero | Record genuine region and review coverage against money/work/study/family/friends/character; district explorer is not proverb provenance |
+| 400+ situations, two per gaade | 100 positive labels, exactly two each for 50 primary IDs, plus 8 no-match cases | Need at least 300 more positive situations for a 200-entry corpus; existing 50 other proverbs have no primary labeled pair |
+| Reliable situation labels | All 108 labels marked DRAFT_EDITORIAL_REQUIRES_NATIVE_SPEAKER_REVIEW | Human review, acceptable alternative matches, and independent unseen cases needed |
+| 200+ recorded readings | Recordings table contains zero linked recordings | Need at least 200 human readings, linked one per entry; generated narration does not meet oral collection requirement |
+| Audio: 16 kHz mono WAV | Seven local generated narration WAVs found, 24 kHz mono; 100 scripts can be constructed | No compliant human-reading submission corpus established; preserve originals and export 16 kHz mono copies |
+| Chatbot: situation → gaade → explanation → speech | Typed search, approved-ID retrieval, optional Gemini/Groq, meanings, relevance, dictionary and narration implemented | Full real-input accuracy and pronunciation quality not established; availability depends on backend/provider |
+| Kannada speech input | SearchBox fixes language to en for browser and recorded speech requests | Kannada-first input is not established; language-aware recognition and actual Kannada speaker/browser tests needed |
+| Voice output for all entries | 100/100 local Kannada narration scripts valid; button requests and caches audio on demand | Does not mean 100 recordings exist or were listened to; translation, pronunciation, quota and generation failures remain possible |
+| Required deliverable: gaade CSV | Approved corpus available as runtime database and deployment JSON | Complete gaade CSV with required fields and stable gaade_id not found |
+| Required deliverable: situations CSV | situations-labeled.csv exists; primary_proverb_id and expected_ids used in JSONL | Normalize submission field names/linkage to gaade_id and validate final referential integrity |
+| One metadata CSV | No final team submission metadata manifest found | Prepare manifest linking text, audio, contributors, source, consent, region and synthetic status |
+| UTF-8 Unicode Kannada | Unicode text used by app and datasets; situation CSV includes UTF-8 BOM | Include final bundle validation; no need for legacy Nudi/Baraha encoding |
+| Signed consent from speakers/writers | No consent forms or per-speaker consent references found | Collect actual signed consent; form templates alone would not satisfy this |
+| Credit and privacy | Original recordings/admin credentials kept private by design | Contributor fields empty; no completed consent-based export, identity minimization, face/plate review evidenced |
+| Peer review by another team | Technical tests and historical automated source audit available | No other-team review or reviewer score evidence found; database APPROVED flag is not proof of independent review |
+| Transcript exactly matches audio | No linked human recordings | Need paired transcript/audio review, clipping and duplicate checks |
+| Images: JPEG, at least 1280 px | Website includes decorative and district images in varied formats/sizes | If submitted as dataset images, validate dimensions/format, privacy and reuse rights; website assets are not automatically the required dataset |
+| Planned CC-BY 4.0 release | No completed dataset release/rights documentation found | Document rights and contributor consent; website source links do not by themselves authorize relicensing |
+| Synthetic examples flagged | Situation labels described as authored draft examples in README | Add explicit synthetic/generated flags in final metadata, including generated speech and translation drafts |
+| GitHub repository submission | Repository exists | Verify organizer submission and reviewer access; private repository access cannot be assumed |
+| Demo video and dataset Google Drive links | No final links evidenced in inspected documentation | Produce video, dataset bundle, accessible links and add submission instructions |
+| Required folder team_XX/problem_YY/ | Current project/ layout | Prepare separate submission layout, using actual team/problem identifiers |
+| Team 2–4, registration and deadline | Slides specify registration 16 Nov 2026; submission 18 Nov 2026 | Team size, registration, exact cutoff time and submission receipt cannot be verified from repository; confirm directly |
 
-Saved local retrieval evaluation: 76/108 cases passed (~70.4%). This is an older development result, includes 8 no-match cases, uses draft labels covering 50 records, and does not establish current Gemini/Groq accuracy or independent held-out performance.
+## Technical and evaluation limits
 
-Priority: organize genuine oral collection and consent; reach 200 entries; capture 200 readings; complete two reviewed situations per entry; fill regions and English equivalents; export a validated bundle; test Kannada voice and unseen situations with native speakers. Animation and district explorer are additional features, not substitutes for the required corpus.
+- Saved local retrieval result: 76/108 draft cases passed, 32 failed, approximately 70.4%. All 76 also passed top-1 in that saved file. This is older local development evidence, not current Gemini/Groq accuracy or an independent benchmark.
+- No evidence of custom model fine-tuning. The system uses retrieval and configured pretrained/cloud models. Describe the corpus as retrieval/evaluation data rather than a training dataset; document model origins separately.
+- Narration scripts read stored Kannada metadata; they are not proof that the cultural interpretation or pronunciation is correct. Translation drafts remain drafts even if the parent proverb is database-approved.
+- Cloud features need network and valid provider configuration. Temporary translation failures occurred during preparation. Free hosting sleep and provider quotas can delay a demonstration; current latency was not benchmarked here.
+- Local models are optional; hosted architecture differs from the Mac. Do not claim identical offline capabilities on all devices.
+- Chat UI stores independent situation turns in component memory, not durable multi-turn reasoning or saved history.
+- Local data improvements do not automatically reach Supabase/Render: ignored translation caches are not Git files, and an already-populated cloud database is not reseeded on every deployment.
+- Most recent existing checks: backend 39 passed/1 skipped, frontend build passed, isolated dictionary journey passed. These test software behavior with synthetic fixtures, not real microphone accuracy or cultural quality.
+- Dataset README and earlier source audit still refer to an earlier 50-entry stage and need updating for final submission.
+
+## Priority by judging rubric
+
+1. Dataset quantity/quality (40%): genuine collection and signed consent; reach 200 entries, 400 reviewed positive situations and 200 linked human readings; complete regions and submission exports.
+2. Working prototype (30%): restore/test Kannada voice input, verify current hosted data, exercise unseen situations, unrelated inputs and complete narration on actual devices.
+3. Kannada/cultural relevance (20%): native-speaker meaning/usage/pronunciation review and genuine regional diversity. Kannada UI and district map help presentation but do not replace provenance.
+4. Documentation/demo (10%): final schema, rights/consent references, model/data provenance, peer-review evidence, correct team folder layout, demo video and accessible submission links.
+
+No predicted judge score is assigned: peer review, collection authenticity, speaker tests and final submission status are not established. The prototype has substantial implemented functionality, while the required original dataset and submission evidence remain incomplete.

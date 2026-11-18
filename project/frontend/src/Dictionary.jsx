@@ -1,6 +1,7 @@
 import React,{useEffect,useRef,useState} from 'react';
 import api from './api';
 import ClearableInput from './ClearableInput';
+import Narration from './Narration';
 import {displayText} from './displayText';
 import {ArrowLeft,ArrowRight,BookOpen,ChevronLeft,ChevronRight,Search,ShieldCheck,Tag} from 'lucide-react';
 const describe=e=>typeof e.response?.data?.detail==='string'?e.response.data.detail:'The dictionary could not load. Please try again.';
@@ -22,6 +23,7 @@ function Entry({id}){
   const tr=row.translation?.fields||{};
   return <article className="dictionary-article">
     <div className="dictionary-title"><span className="eyebrow">{row.category||'Kannada proverb'}{tr.category_kn&&<span lang="kn"> · {tr.category_kn}</span>}</span><h1 ref={title} tabIndex={-1} lang="kn">{row.proverb_kn}</h1><Pair en={tr.proverb_en} kn={row.proverb_kn} emptyEn="English rendering not available yet"/>{row.transliteration?<p className="transliteration"><FieldLabel en="Transliteration" kn="ಲಿಪ್ಯಂತರ"/>: {row.transliteration}</p>:<p className="muted">Transliteration not documented · ಲಿಪ್ಯಂತರ ದಾಖಲಾಗಿಲ್ಲ</p>}<span className="dictionary-reviewed"><ShieldCheck size={15}/> Reviewed source entry · ಪರಿಶೀಲಿತ ಮೂಲ ದಾಖಲಾತಿ</span></div>
+    <Narration key={row.id} row={row}/>
     {row.translation&&<span className="translation-status" lang="kn">ಅನುವಾದ: ಕರಡು</span>}
     <div className="dictionary-columns"><div>
       <section className="dictionary-section"><span className="eyebrow">01 · THE WORDS · ಪದಗಳು</span><Heading en="Literal meaning" kn="ಪದಶಃ ಅರ್ಥ"/><Pair en={row.literal_meaning} kn={tr.literal_meaning_kn}/></section>

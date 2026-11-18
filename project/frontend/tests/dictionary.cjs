@@ -35,6 +35,7 @@ fields={'proverb_en':'Synthetic English rendering','literal_meaning_kn':'ಪರ�
  await page.getByRole('button',{name:'Next dictionary page',exact:true}).click();await page.waitForFunction(()=>document.querySelectorAll('.dictionary-row').length===2);
  await page.getByRole('textbox',{name:'Search dictionary'}).fill('fixture3');await page.waitForFunction(()=>document.querySelectorAll('.dictionary-row').length===1);
  await page.locator('.dictionary-row').click();await page.getByRole('heading',{name:'Meaning & relevance'}).waitFor();
+ await page.getByRole('button',{name:'Listen to Kannada explanation',exact:true}).waitFor();
  assert(page.url().includes('#dictionary/'+entries[3].id));
  await page.getByText('ಪರೀಕ್ಷೆಯ ಪದಶಃ ಅರ್ಥ',{exact:true}).waitFor();
  await page.getByText('ಅನುವಾದ: ಕರಡು',{exact:true}).waitFor();
