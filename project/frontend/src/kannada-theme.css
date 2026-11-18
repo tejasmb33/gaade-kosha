@@ -111,3 +111,13 @@ main .search-box .clear-search:hover{background:#efe1cb}
 main .clearable-filter-input input{width:100%;padding-right:40px}
 .clearable-filter-input .clear-filter-button{position:absolute;right:6px;top:50%;transform:translateY(-50%);width:30px;height:30px;padding:0;display:grid;place-items:center;color:#6b251c;background:transparent;border:0;border-radius:4px}
 .clearable-filter-input .clear-filter-button:hover{background:#efe1cb}
+
+/* Search preferences: spacious, consistent controls across browsers. */
+main .voice-options{display:flex;flex-wrap:wrap;gap:12px;margin-top:18px;padding:0;align-items:stretch}
+main .voice-options label{position:relative;display:flex;flex:1 1 200px;max-width:320px;gap:8px;padding:12px 16px;background:rgba(255,246,225,.09);border:1px solid rgba(255,218,115,.35);border-radius:12px;color:#fff3d8;font-size:13px;line-height:1.5}
+main .voice-options label>span{font-size:12px;color:#ffe28a;letter-spacing:.02em}
+main .voice-options select{appearance:none;-webkit-appearance:none;box-sizing:border-box;width:100%;max-width:100%;min-height:42px;padding:8px 32px 8px 12px;background:#fff5e2;color:#482116;border:1px solid #e2c484;border-radius:8px;font-size:14px;line-height:1.5;cursor:pointer;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23702820' stroke-width='2'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 10px center}
+main .voice-options select:focus-visible{outline:3px solid #ffdf46;outline-offset:3px}
+main .voice-options select:disabled{cursor:wait;opacity:.65}
+main .situation-input .voice-message{display:block;color:#fff3d8;font-size:14px;line-height:1.8;margin-top:12px}
+@media(max-width:600px){main .voice-options{gap:8px}main .voice-options label{flex-basis:140px;padding:10px;max-width:none}main .voice-options select{font-size:12px}}
