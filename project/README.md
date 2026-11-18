@@ -235,3 +235,9 @@ See [deployment/README.md](deployment/README.md) for the prepared GitHub → Ver
 ## Karnataka district explorer
 
 Open `/#districts` from the **ಕರ್ನಾಟಕದ ಜಿಲ್ಲೆಗಳು / Districts** navigation item. The separate page includes 31 selectable SVG districts, the supplied photographs and bilingual reference descriptions, a Kannada/English toggle, searchable district list, keyboard access and responsive detail cards. It works without the backend. Edit [frontend/src/data/karnataka-districts.json](frontend/src/data/karnataka-districts.json); see [the content/schema and map attribution guide](frontend/src/data/README.md). Optional history, food, places and culture sections render when populated. Theme variables are scoped in `district-explorer.css`.
+
+### Conversational home
+
+The home page now presents independent situation searches as a chat thread. It reuses the same `/api/search` and `/api/search/ai` endpoints, provider choices, editable speech input, full dictionary details, and Kannada narration. Messages and the sidebar list are held only in component memory; reload/navigation starts a fresh conversation. No cross-turn backend memory or saved favourites are implied. New chat cancels pending search/recording and clears the thread. The original hash search URLs continue to work.
+
+`node frontend/tests/chat.cjs` verifies sequential Kannada/English queries, dynamic responses, provider routing, loading, error/fallback, reset and responsive layout using synthetic API fixtures only. Existing recording checks cover microphone capture/transcription and narration within the chat.

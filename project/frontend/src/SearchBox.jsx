@@ -4,7 +4,7 @@ import {Search,ArrowRight,Mic,Square,X} from 'lucide-react';
 import {useRecorder} from './useRecorder';
 import {useBrowserSpeech} from './useBrowserSpeech';
 
-export default function SearchBox({onSearch,initial='',initialCloud=null,initialProvider=null}) {
+export default function SearchBox({onSearch,initial='',initialCloud=null,initialProvider=null,submitting=false,clearOnSubmit=false,initialRevision=0}) {
   const [text,setText]=useState(initial);
   const [selectedProvider,setSelectedProvider]=useState(initialProvider);
   const [hasGroq,setHasGroq]=useState(false);
@@ -16,14 +16,15 @@ export default function SearchBox({onSearch,initial='',initialCloud=null,initial
   const [task,setTask]=useState('transcribe');
   const [clip,setClip]=useState(null);
   const [url,setUrl]=useState('');
-  const [busy,setBusy]=useState(false);
+  const [processing,setBusy]=useState(false);
+  const busy=processing||submitting;
   const [error,setError]=useState('');
   const [message,setMessage]=useState('');
   const [sourceText,setSourceText]=useState('');
   const [warning,setWarning]=useState('');
   const request=useRef(null);
   const input=useRef(null);
-  useEffect(()=>setText(initial),[initial]);
+  useEffect(()=>setText(initial),[initial,initialRevision]);
   useEffect(()=>{let active=true;api.get('/health').then(({data})=>{if(!active)return;setHostedSpeech(data.speech?.provider==='groq');const ai=data.cloud_ai;setHasGroq(Boolean(ai?.groq_configured));if(initialCloud===null&&!pickedEngine.current)setCloud(Boolean(ai?.configured));}).catch(()=>{});return()=>{active=false;};},[initialCloud]);
   useEffect(()=>()=>request.current?.abort(),[]);
   useEffect(()=>{
@@ -54,7 +55,7 @@ export default function SearchBox({onSearch,initial='',initialCloud=null,initial
   }
   function changeSettings(setter,value){setter(value);setMessage('');setError('');}
   return <div className="situation-input">
-    <form className="search-box" onSubmit={e=>{e.preventDefault();if(!busy&&!recording&&text.trim())onSearch(text.trim(),{cloud,provider:selectedProvider});}}>
+    <form className="search-box" onSubmit={e=>{e.preventDefault();if(!busy&&!recording&&text.trim()){onSearch(text.trim(),{cloud,provider:selectedProvider});if(clearOnSubmit){setText('');setClip(null);setSourceText('');setMessage('');}}}}>
       <Search size={23}/>
       <input ref={input} aria-label="Describe your situation" placeholder="ನಿಮ್ಮ ಸಂದರ್ಭವನ್ನು ಇಲ್ಲಿ ಬರೆಯಿರಿ… / Describe your situation" value={text} maxLength={1000} required disabled={busy||recording} onChange={e=>setText(e.target.value)}/>
       {text&&<button type="button" className="clear-search" aria-label="Clear situation" title="ತೆರವುಗೊಳಿಸಿ · Clear" disabled={busy||recording} onClick={()=>{setText('');setClip(null);setSourceText('');setWarning('');setError('');setMessage('');input.current?.focus();}}><X size={18}/></button>}

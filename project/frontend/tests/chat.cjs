@@ -1,0 +1,23 @@
+// Synthetic chat responses; never sends user data or calls external providers.
+const {chromium}=require('playwright'),{spawn}=require('node:child_process'),path=require('node:path'),assert=require('node:assert/strict');
+let browser,server;
+(async()=>{try{
+ const base='http://127.0.0.1:15178';server=spawn('npm',['run','dev','--','--host','127.0.0.1','--port','15178','--strictPort'],{cwd:path.resolve(__dirname,'..'),detached:true,stdio:'ignore'});
+ for(let i=0;i<80;i++){try{if((await fetch(base)).ok)break;}catch{}await new Promise(r=>setTimeout(r,200));}
+ browser=await chromium.launch({executablePath:process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE||undefined});const page=await browser.newPage({viewport:{width:1440,height:1000},reducedMotion:'reduce'});const errors=[],requests=[];page.on('pageerror',e=>errors.push(e.message));
+ await page.route('**/api/**',async route=>{const r=route.request(),url=new URL(r.url());
+ if(url.pathname.endsWith('/health'))return route.fulfill({json:{cloud_ai:{configured:true,provider:'gemini',groq_configured:true}}});
+ if(url.pathname.endsWith('/search/ai')||url.pathname.endsWith('/search')){const body=r.postDataJSON();requests.push({path:url.pathname,...body});await new Promise(r=>setTimeout(r,250));if(body.query==='Synthetic failure')return route.fulfill({status:503,json:{detail:'Synthetic service unavailable'}});return route.fulfill({json:{items:[{id:'synthetic-chat',proverb_kn:'ಕೃತಕ ಪರೀಕ್ಷಾ ಗಾದೆ',literal_meaning:'Synthetic literal meaning',contextual_meaning:'Synthetic contextual meaning',category:'Synthetic fixture',why:'Synthetic situation relevance',rank:1}],external_sources:[]}});}
+ return route.fulfill({json:{items:[]}});
+ });
+ await page.goto(base+'/#home');const field=page.getByRole('textbox',{name:'Describe your situation',exact:true});
+ await page.getByRole('button',{name:'ತಾಳ್ಮೆ ಬೇಕಾದಾಗ',exact:false}).click();await page.waitForFunction(()=>document.querySelector('input[aria-label="Describe your situation"]').value==='ತಾಳ್ಮೆ ಬೇಕಾದಾಗ');
+ await page.getByRole('combobox',{name:'Search engine',exact:true}).selectOption('groq');await field.fill('Synthetic first situation');await page.getByRole('button',{name:'Find proverbs',exact:true}).click();
+ await page.locator('.chat-thinking').waitFor();assert(await field.isDisabled());await page.locator('.chat-results .proverb-card').waitFor();assert.equal(await field.inputValue(),'');assert.equal(requests[0].provider,'groq');assert(page.url().endsWith('#home'));
+ await field.fill('ಕೃತಕ ಎರಡನೇ ಸಂದರ್ಭ');await field.press('Enter');await page.waitForFunction(()=>document.querySelectorAll('.chat-results .proverb-card').length===2);assert.equal(await page.locator('.chat-user-bubble').count(),2);assert.equal(await page.locator('.chat-history button').count(),2);assert.equal(requests[1].query,'ಕೃತಕ ಎರಡನೇ ಸಂದರ್ಭ');
+ await field.fill('Synthetic failure');await field.press('Enter');await page.getByRole('alert').waitFor();await page.getByRole('button',{name:'ಸಾಮಾನ್ಯ ಹುಡುಕಾಟದಲ್ಲಿ ಪ್ರಯತ್ನಿಸಿ (Try local search)',exact:true}).click();await page.waitForFunction(()=>document.querySelectorAll('.chat-user-bubble').length===4);await page.locator('.chat-thinking').waitFor({state:'detached'});assert.equal(requests.at(-1).path,'/api/search');
+ await page.getByRole('button',{name:'New chat',exact:true}).click();assert.equal(await page.locator('.chat-user-bubble').count(),0);assert.equal(await field.inputValue(),'');
+ for(const width of [1440,768,390]){await page.setViewportSize({width,height:900});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));assert(await field.isVisible());}
+ await page.screenshot({path:'/tmp/gaade-chat-mobile.png',fullPage:true});await page.setViewportSize({width:1440,height:1000});await page.screenshot({path:'/tmp/gaade-chat-desktop.png',fullPage:true});assert.deepEqual(errors,[]);
+ console.log('PASS: dynamic chat, example prompts, sequential Kannada/English queries, Groq selection, loading, error/fallback, reset, desktop/mobile layout, no JS errors');
+}finally{if(browser)await browser.close();if(server&&server.exitCode===null){process.kill(-server.pid,'SIGTERM');await new Promise(r=>server.once('exit',r));}}})().catch(e=>{console.error(e);process.exitCode=1});

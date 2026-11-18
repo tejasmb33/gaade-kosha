@@ -38,3 +38,4 @@ jobs:
       - run: node project/frontend/tests/recording.cjs
       - run: node project/frontend/tests/districts.cjs
       - run: node project/frontend/tests/clear-search.cjs
+      - run: node project/frontend/tests/chat.cjs
