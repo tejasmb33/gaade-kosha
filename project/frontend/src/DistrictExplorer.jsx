@@ -2,7 +2,6 @@ import React,{useId,useMemo,useRef,useState} from 'react';
 import {ArrowRight,Compass,MapPin,Search,X} from 'lucide-react';
 import districtData from './data/karnataka-districts.json';
 import boundaries from './data/karnataka-boundaries.json';
-import artworkBoundaries from './data/karnataka-artwork-boundaries.json';
 import './district-explorer.css';
 
 const text={
@@ -17,7 +16,6 @@ function ContentSection({title,value}){
 
 export default function DistrictExplorer({districts=districtData,geometry=boundaries}){
   const [language,setLanguage]=useState('kn');
-  const [mapView,setMapView]=useState('boundaries');
   const clipPrefix='district-art-'+useId().replace(/[^a-zA-Z0-9_-]/g,'');
   const [selectedId,setSelectedId]=useState(districts.find(d=>d.id==='mysuru')?.id||districts[0]?.id||null);
   const [query,setQuery]=useState('');
@@ -27,11 +25,6 @@ export default function DistrictExplorer({districts=districtData,geometry=bounda
   const t=text[language];
   const byCode=useMemo(()=>Object.fromEntries(districts.map(d=>[d.code,d])),[districts]);
   const selected=districts.find(d=>d.id===selectedId);
-  const artwork=mapView==='artwork';
-  const hoveredDistrict=districts.find(d=>d.id===hovered);
-  const activeGeometry=artwork?artworkBoundaries:geometry;
-  const hoveredShape=activeGeometry.paths.find(p=>p.code===hoveredDistrict?.code);
-  const artworkImage='/images/karnataka-art-map.png';
   const visible=districts.filter(d=>[d.name.kn,d.name.en,...(d.aliases||[])].some(name=>name.toLocaleLowerCase().includes(query.trim().toLocaleLowerCase())));
   function choose(district){setSelectedId(district.id);if(matchMedia('(max-width: 900px)').matches)requestAnimationFrame(showDetails);}
   function showDetails(){panel.current?.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'});panel.current?.focus({preventScroll:true});}
@@ -47,24 +40,16 @@ export default function DistrictExplorer({districts=districtData,geometry=bounda
       <div className="district-map-column">
         <div className="district-map-panel">
           <div className="district-map-top"><span><MapPin size={16}/>{t.map}</span><span className="district-count">{districts.length} {t.districts}</span></div>
-          <div className="district-map-switch" role="group" aria-label="Map view">
-            <button type="button" aria-label="Show illustrated Karnataka map" aria-pressed={artwork} onClick={()=>{setMapView('artwork');setHovered(null);}}>{language==='kn'?'ಚಿತ್ರ ನಕ್ಷೆ':'Illustrated map'}</button>
-            <button type="button" aria-label="Show previous district boundary map" aria-pressed={!artwork} onClick={()=>{setMapView('boundaries');setHovered(null);}}>{language==='kn'?'ಜಿಲ್ಲಾ ನಕ್ಷೆ':'District map'}</button>
-          </div>
           <label className="district-mobile-select">{t.choose}<select aria-label={t.choose} value={selectedId||''} onChange={e=>{const district=districts.find(d=>d.id===e.target.value);if(district)choose(district);else setSelectedId(null);}}><option value="">{t.choose}</option>{districts.map(d=><option key={d.id} value={d.id}>{d.name[language]}</option>)}</select></label>
-          <div className={'district-map-stage'+(artwork?' district-artwork-stage':'')}>
-            <svg className={'district-map-svg'+(artwork?' district-artwork-svg':'')} viewBox={activeGeometry.viewBox} aria-label={t.map} role="group">
-              {!artwork&&<defs><linearGradient id={clipPrefix+'-flag'} x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stopColor="#ffdf00"/><stop offset="50%" stopColor="#ffdf00"/><stop offset="50%" stopColor="#d71920"/><stop offset="100%" stopColor="#d71920"/></linearGradient></defs>}
-              {artwork&&<>
-                <defs>{artworkBoundaries.paths.map(shape=><clipPath key={shape.code} id={clipPrefix+'-'+shape.code} clipPathUnits="userSpaceOnUse"><path d={shape.d}/></clipPath>)}</defs>
-                <image className="district-artwork-image" href={artworkImage} x="0" y="0" width={artworkBoundaries.width} height={artworkBoundaries.height} preserveAspectRatio="xMidYMid meet" aria-hidden="true"/>
-              </>}
-              {activeGeometry.paths.map(shape=>{
+          <div className="district-map-stage">
+            <svg className="district-map-svg" viewBox={geometry.viewBox} aria-label={t.map} role="group">
+              {<defs><linearGradient id={clipPrefix+'-flag'} x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stopColor="#ffdf00"/><stop offset="50%" stopColor="#ffdf00"/><stop offset="50%" stopColor="#d71920"/><stop offset="100%" stopColor="#d71920"/></linearGradient></defs>}
+              {geometry.paths.map(shape=>{
                 const district=byCode[shape.code];if(!district)return null;
                 const active=district.id===selectedId;
-                return <path key={shape.code} d={shape.d} data-district={district.id} role="button" tabIndex={0} aria-label={district.name[language]} aria-pressed={active} className={'district-shape'+(artwork?' district-artwork-region':'')+(active?' is-selected':'')} style={!artwork&&hovered===district.id?{fill:'url(#'+clipPrefix+'-flag)'}:undefined} onClick={()=>choose(district)} onMouseEnter={()=>setHovered(district.id)} onMouseLeave={()=>setHovered(null)} onFocus={()=>setHovered(district.id)} onBlur={()=>setHovered(null)} onKeyDown={e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();choose(district);}}}><title>{district.name[language]}</title></path>;
+                return <path key={shape.code} d={shape.d} data-district={district.id} role="button" tabIndex={0} aria-label={district.name[language]} aria-pressed={active} className={'district-shape'+(active?' is-selected':'')} style={hovered===district.id?{fill:'url(#'+clipPrefix+'-flag)'}:undefined} onClick={()=>choose(district)} onMouseEnter={()=>setHovered(district.id)} onMouseLeave={()=>setHovered(null)} onFocus={()=>setHovered(district.id)} onBlur={()=>setHovered(null)} onKeyDown={e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();choose(district);}}}><title>{district.name[language]}</title></path>;
               })}
-              {!artwork&&<g className="district-labels" pointerEvents="none" aria-hidden="true" lang="kn">{geometry.paths.map(shape=>{
+              {<g className="district-labels" pointerEvents="none" aria-hidden="true" lang="kn">{geometry.paths.map(shape=>{
                 const district=byCode[shape.code],label=shape.label;if(!district||!label)return null;
                 const lines=label.lines||district.name.kn.split(' '),lineHeight=25;
                 return <g key={shape.code} className={'district-map-label'+(hovered===district.id?' is-hovered':'')} data-label-district={district.id}>
@@ -72,16 +57,12 @@ export default function DistrictExplorer({districts=districtData,geometry=bounda
                   <text x={label.x} y={label.y-(lines.length-1)*lineHeight/2} textAnchor="middle" dominantBaseline="middle">{lines.map((line,i)=><tspan x={label.x} dy={i?lineHeight:0} key={i}>{line}</tspan>)}</text>
                 </g>;
               })}</g>}
-              {artwork&&hoveredShape&&<g key={hoveredShape.code} className="district-artwork-lift" style={{transformOrigin:(hoveredShape.center?.[0]||500)+'px '+(hoveredShape.center?.[1]||700)+'px'}} aria-hidden="true" pointerEvents="none">
-                <g clipPath={'url(#'+clipPrefix+'-'+hoveredShape.code+')'}><image href={artworkImage} x="0" y="0" width={artworkBoundaries.width} height={artworkBoundaries.height} preserveAspectRatio="xMidYMid meet"/></g>
-                <path d={hoveredShape.d} className="district-artwork-lift-outline"/>
-              </g>}
             </svg>
-            {!artwork&&<><span className="district-north" aria-hidden="true">N<span>↑</span></span>
+            {<><span className="district-north" aria-hidden="true">N<span>↑</span></span>
             <span className="district-sea" aria-hidden="true">{language==='kn'?'ಅರಬ್ಬೀ ಸಮುದ್ರ':'ARABIAN SEA'}</span></>}
           </div>
           <div className="district-map-selection" role="status"><MapPin size={18}/><strong>{districts.find(d=>d.id===hovered)?.name[language]||selected?.name[language]||t.choose}</strong>{selected&&<button type="button" className="district-details-jump" aria-label={t.read} onClick={showDetails}><ArrowRight size={20}/></button>}</div>
-          <p className="district-map-hint">{t.hint}{artwork&&<span className="district-artwork-note">{language==='kn'?'ಕಲಾತ್ಮಕ ಚಿತ್ರ; ಜಿಲ್ಲೆಯ ಗಡಿಗಳಿಗೆ ಜಿಲ್ಲಾ ನಕ್ಷೆ ನೋಡಿ.':'Artistic illustration; use the district map to view district boundaries.'}</span>}</p>
+          <p className="district-map-hint">{t.hint}</p>
           <div className="district-legend"><span><i/>{t.all}</span><span><i className="active"/>{t.selected}</span></div>
         </div>
         <div className="district-picker-panel">
