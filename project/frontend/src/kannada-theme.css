@@ -1,5 +1,5 @@
 /* Kannada-first, saffron-yellow accents inspired by the hackathon reference. */
-:root{background:#260b08;--festival-yellow:#ffdf47;--festival-cream:#fff5e4;--festival-muted:#ead4b4}
+:root{background:#260b08;--festival-yellow:#ffdf47;--maroon-panel-opacity:.70;--festival-cream:#fff5e4;--festival-muted:#ead4b4}
 body{background:#260b08}
 main{color:var(--festival-cream)}
 body::before{opacity:.5}
@@ -14,21 +14,21 @@ header{background:rgba(255,248,235,.98);border-bottom:2px solid #ddb63d}
 .header-inner .menu{display:none}
 main h1[lang=kn],main h1 span[lang=kn]{font-family:'Kannada Sangam MN','Noto Sans Kannada',sans-serif;letter-spacing:0;line-height:1.55;font-weight:700}
 .hero{padding-top:65px;padding-bottom:65px;align-items:center;gap:35px;grid-template-columns:minmax(0,1.7fr) minmax(260px,1fr)}
-.hero-copy{background:linear-gradient(135deg,rgba(54,14,8,.70),rgba(70,23,10,.70));padding:37px 30px;border:1px solid #f7ce4b45;border-radius:5px;box-shadow:0 20px 60px #1f080825}
+.hero-copy{background:linear-gradient(135deg,rgba(54,14,8,var(--maroon-panel-opacity)),rgba(70,23,10,var(--maroon-panel-opacity)));padding:37px 30px;border:1px solid #f7ce4b45;border-radius:5px;box-shadow:0 20px 60px #1f080825}
 .hero-copy:before{content:'ಕನ್ನಡದ ನುಡಿಸಂಪತ್ತು · ನಮ್ಮ ಪರಂಪರೆ';font-family:'Kannada Sangam MN',sans-serif;font-size:14px;letter-spacing:.6px;color:#ffe587;line-height:1.8}
 .hero h1{font-size:clamp(35px,3.3vw,49px);margin:24px 0 7px;color:#fff6e8;letter-spacing:0;line-height:1.55}
 .hero h1 em{color:#ffdf47;font-style:normal}
 .english-subtitle{font:15px/1.8 Georgia,serif;color:#ead4b4;margin:0 0 22px;letter-spacing:.1px}
 .hero-copy .intro{font-family:'Kannada Sangam MN',Arial,sans-serif;font-size:16px;line-height:2;color:#f5e4cd}
-.hero-art{background:rgba(53,16,9,.70);border:1px solid #ffe06a40;padding:22px;border-radius:5px}
+.hero-art{background:rgba(53,16,9,var(--maroon-panel-opacity));border:1px solid #ffe06a40;padding:22px;border-radius:5px}
 .hero-art svg{max-height:290px}
 .hero-art .art-caption{color:#ffe587;font-family:'Kannada Sangam MN',sans-serif;font-size:17px;font-style:normal;margin:17px 0 5px}
 .hero .hero-copy .examples{font-family:'Kannada Sangam MN',Arial,sans-serif;color:#ead4b4;font-size:12px}
 .hero .hero-copy .examples span{font-size:0}
 .hero .hero-copy .examples span:after{content:'ಒಂದು ಸಂದರ್ಭ ಪ್ರಯತ್ನಿಸಿ';font-size:12px}
 .hero .hero-copy .examples button,.quiet{color:#ffe587}
-main>.page{background:rgba(49,13,8,.95);border:1px solid #f7ce4b3b}
-.hero~.section,.hero~section:last-child{background:rgba(49,13,8,.94);border:1px solid #f7ce4b3b}
+main>.page{background:rgba(49,13,8,var(--maroon-panel-opacity));border:1px solid #f7ce4b3b}
+.hero~.section,.hero~section:last-child{background:rgba(49,13,8,var(--maroon-panel-opacity));border:1px solid #f7ce4b3b}
 main h2,main h3,.page h1{color:var(--festival-yellow)}
 .page h1 em{color:#ffe77e;font-style:normal}
 main .eyebrow{color:#ffe587;letter-spacing:1.1px;line-height:1.8}
@@ -50,36 +50,36 @@ main label{color:#ffedcc}
 main input,main textarea,main select{background:#fff8eb;color:#422715;border-color:#cfad71}
 .voice-help,.hero .hero-copy .voice-help{color:#ead4b4;font-family:'Kannada Sangam MN',Arial,sans-serif;font-size:11px;line-height:1.9}
 main .voice-message{color:#fff0b2}
-.proverb-card,.review-card,.login,.audio-panel,.dictionary-notes,.dictionary-section.suitable,.voice-preview,.source-transcript,.recording-status,.voice-capture,.external-results{background:#481c13;border-color:#b68a4c66;color:#fff5e4}
-main .empty{background:#481c13;border-color:#b68a4c66;color:#fff5e4}
+.proverb-card,.review-card,.login,.audio-panel,.dictionary-notes,.dictionary-section.suitable,.voice-preview,.source-transcript,.recording-status,.voice-capture,.external-results{background:rgba(72,28,19,var(--maroon-panel-opacity));border-color:#b68a4c66;color:#fff5e4}
+main .empty{background:rgba(72,28,19,var(--maroon-panel-opacity));border-color:#b68a4c66;color:#fff5e4}
 main .empty p,main .empty h3,.audio-panel p{color:#f4dfbf}
 main .empty>svg{color:#ffdf47}
 .proverb-card h3{color:#ffdf47}
 main dt{color:#ffdf87;font-size:11px;line-height:1.8}
 .why,.proverb-card small{color:#ebd3ad;border-color:#a7784b66}
 .badge,.rank{background:#ffdf47;color:#48200e}
-.dictionary-row{background:rgba(75,29,18,.94);border-color:#b68a4c66}
-.dictionary-row:hover{background:#652a18}
+.dictionary-row{background:rgba(75,29,18,var(--maroon-panel-opacity));border-color:#b68a4c66}
+.dictionary-row:hover{background:rgba(101,42,24,var(--maroon-panel-opacity))}
 .dictionary-row p,.dictionary-row .entry-number{color:#ead4b4}
 .dictionary-notes .bilingual-pair p,.dictionary-section p,.bilingual-pair p{color:#fff0d5}
 .bilingual-heading{color:#ead4b4;font:12px/1.8 Georgia,serif;letter-spacing:0;margin-top:7px}
 .language-caption{color:#ffe17b}
 .dictionary-kannada-intro{color:#ffe587}
 .dictionary-english-title{display:block;font:17px/1.8 Georgia,serif;margin-top:14px;color:#ead4b4;letter-spacing:0}
-.dictionary-article,.about-copy{background:rgba(49,13,8,.82)}
+.dictionary-article,.about-copy{background:rgba(49,13,8,var(--maroon-panel-opacity))}
 .dictionary-title,.dictionary-section,.dictionary-source,.dictionary-related{border-color:#b68a4c66}
-.dictionary-related-grid a,.dictionary-tags span{background:#5c2518;border-color:#b68a4c66;color:#fff0c8}
+.dictionary-related-grid a,.dictionary-tags span{background:rgba(92,37,24,var(--maroon-panel-opacity));border-color:#b68a4c66;color:#fff0c8}
 .dictionary-related-grid small,.dictionary-source p,.dictionary-count{color:#ead4b4}
 .dictionary-reviewed{background:#ffe179;color:#462514}
 main .notice{background:#394427;color:#f3f0c9;border-color:#a3a25e}
-main .notice.error{background:#6c2426;color:#fff3e5;border-color:#d7906c}
+main .notice.error{background:rgba(108,36,38,var(--maroon-panel-opacity));color:#fff3e5;border-color:#d7906c}
 main .about-copy>p{color:#f0dabc}
-main .about-copy dl{background:#481c13;border-color:#b68a4c66}
+main .about-copy dl{background:rgba(72,28,19,var(--maroon-panel-opacity));border-color:#b68a4c66}
 main .pagination{color:#ffedcc}
 main .pagination button{background:#572719;border-color:#bd914f}
 .hero~section:last-child h3,.hero~section:last-child p{color:#f3deb9}
 .hero~section:last-child svg{color:#ffdf47}
-.contribute-banner{background:linear-gradient(125deg,#7a201c,#3f120e);border-top:2px solid #ffdf47;border-bottom:1px solid #ffdf4770;padding:50px;text-align:center;position:relative;overflow:hidden}
+.contribute-banner{background:linear-gradient(125deg,rgba(122,32,28,var(--maroon-panel-opacity)),rgba(63,18,14,var(--maroon-panel-opacity)));border-top:2px solid #ffdf47;border-bottom:1px solid #ffdf4770;padding:50px;text-align:center;position:relative;overflow:hidden}
 .contribute-banner p{color:#f2dcc0;font-family:'Kannada Sangam MN',sans-serif;line-height:2}
 .contribute-banner .banner-leaf{position:absolute;right:5%;bottom:-25px;font-size:160px;opacity:.1;color:#ffdf47;pointer-events:none}
 footer{background:rgba(255,248,235,.98);color:#644531;border-color:#d6ad4c}
