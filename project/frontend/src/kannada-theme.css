@@ -217,9 +217,3 @@ main .dictionary-filters>.text-button:hover{background:#ffdf46;color:#482116}
 @keyframes artwork-arrive{from{opacity:0;filter:blur(8px);transform:translateY(30px) scale(1.035)}to{opacity:1;filter:blur(0);transform:none}}
 @keyframes panel-arrive{from{opacity:0}to{opacity:1}}
 @media(prefers-reduced-motion:reduce){.site-reveal,.site-reveal *{animation:none!important;filter:none!important}}
-
-/* Natural photographic backdrop: retain stone detail and daylight colors. */
-body::before{background-image:url('/images/districts/vijayanagara-updated.jpg');background-position:center 68%;opacity:1;filter:none}
-.launch-hampi{background:linear-gradient(#00000012,#00000012),url('/images/districts/vijayanagara-updated.jpg') center 68%/cover no-repeat}
-@keyframes hampi-cinematic{0%,68%{opacity:0;filter:blur(5px);transform:scale(1.04);clip-path:circle(0% at 50% 50%)}82%{opacity:.55;filter:blur(1px);transform:scale(1.02);clip-path:circle(65% at 50% 50%)}100%{opacity:1;filter:blur(0);transform:scale(1);clip-path:circle(150% at 50% 50%)}}
-@media(max-width:640px){body::before,.launch-hampi{background-position:center 68%}}

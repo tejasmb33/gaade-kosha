@@ -12,8 +12,8 @@ function HampiParticles(){
   const width=innerWidth,height=innerHeight,ratio=Math.min(devicePixelRatio||1,2);
   canvas.width=width*ratio;canvas.height=height*ratio;ctx.scale(ratio,ratio);
   const particles=Array.from({length:Math.min(360,Math.round(width/3))},(_,i)=>({x:Math.random()*width,y:Math.random()*height,tx:Math.random()*width,ty:Math.random()*height,r:.6+Math.random()*1.3,phase:Math.random()*6.28,red:i%9===0}));
-  const photo=new Image();photo.src='/images/districts/vijayanagara-updated.jpg';
-  photo.onload=()=>{if(stopped)return;const sample=document.createElement('canvas');sample.width=width;sample.height=height;const c=sample.getContext('2d');if(!c)return;const scale=Math.max(width/photo.width,height/photo.height);c.drawImage(photo,(width-photo.width*scale)/2,(height-photo.height*scale)*.68,photo.width*scale,photo.height*scale);const data=c.getImageData(0,0,width,height).data;
+  const photo=new Image();photo.src='/images/hampi-chariot.jpg';
+  photo.onload=()=>{if(stopped)return;const sample=document.createElement('canvas');sample.width=width;sample.height=height;const c=sample.getContext('2d');if(!c)return;const scale=Math.max(width/photo.width,height/photo.height);c.drawImage(photo,(width-photo.width*scale)/2,(height-photo.height*scale)*.58,photo.width*scale,photo.height*scale);const data=c.getImageData(0,0,width,height).data;
    particles.forEach(p=>{for(let n=0;n<35;n++){const x=Math.floor(Math.random()*width),y=Math.floor(height*(.2+Math.random()*.75)),i=(y*width+x)*4;if(data[i]+data[i+1]+data[i+2]<330){p.tx=x;p.ty=y;break;}}});
   };
   function draw(now){if(stopped)return;const t=(now-start)/1000;ctx.clearRect(0,0,width,height);if(t>=3.5){const progress=Math.min(1,(t-3.5)/1.1),ease=1-Math.pow(1-progress,3);ctx.globalAlpha=Math.min(1,(t-3.5)*4)*Math.max(0,1-(t-4.6)/.4);
