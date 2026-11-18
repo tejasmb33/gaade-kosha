@@ -1,0 +1,145 @@
+{
+  "updates": [
+    {
+      "district": "chitradurga",
+      "supplied_file": "1_of_7_concentric_walled_layers_of_Chitradurga_fort.jpg",
+      "asset": "/images/districts/chitradurga-updated.jpg",
+      "subject": "Chitradurga Fort"
+    },
+    {
+      "district": "chikkaballapur",
+      "supplied_file": "1000_F_279797473_aZnYhvLU8jKXhBgoX3uVI6CvjQvEiMD9.webp",
+      "asset": "/images/districts/chikkaballapur-updated.webp",
+      "subject": "Nandi Hills"
+    },
+    {
+      "district": "vijayapura",
+      "supplied_file": "1000_F_644136381_yDVGnc1eRD7rZebht8kyyFT8cNUjzD6O.jpg",
+      "asset": "/images/districts/vijayapura-updated.jpg",
+      "subject": "Gol Gumbaz"
+    },
+    {
+      "district": "yadgir",
+      "supplied_file": "A15019-Forts-in-the-world-Yadgir-Fort-Karnataka-1.webp",
+      "asset": "/images/districts/yadgir-updated.webp",
+      "subject": "Yadgir Fort"
+    },
+    {
+      "district": "kodagu",
+      "supplied_file": "abbey-falls-coorg-region-abbey-falls-coorg-region-karnataka-india-86241853.jpg",
+      "asset": "/images/districts/kodagu-updated.jpg",
+      "subject": "Abbey Falls"
+    },
+    {
+      "district": "hassan",
+      "supplied_file": "An-entrance-into-the-Hoysaleshwara-temple-in-Halebidu.jpg",
+      "asset": "/images/districts/hassan-updated.jpg",
+      "subject": "Hoysaleshwara Temple, Halebidu"
+    },
+    {
+      "district": "davanagere",
+      "supplied_file": "caption.jpg",
+      "asset": "/images/districts/davanagere-updated.jpg",
+      "subject": "Davanagere benne dose"
+    },
+    {
+      "district": "bengaluru-rural",
+      "supplied_file": "devanahalli-fort-karnataka-india_img_1.jpg",
+      "asset": "/images/districts/bengaluru-rural-updated.jpg",
+      "subject": "Devanahalli Fort"
+    },
+    {
+      "district": "dharwad",
+      "supplied_file": "Dharwad-Peda.jpg",
+      "asset": "/images/districts/dharwad-updated.jpg",
+      "subject": "Dharwad peda"
+    },
+    {
+      "district": "uttara-kannada",
+      "supplied_file": "f259422a60f1e0e782e245ecf8ebee4a.jpg",
+      "asset": "/images/districts/uttara-kannada-updated.jpg",
+      "subject": "Om Beach, Gokarna"
+    },
+    {
+      "district": "kalaburagi",
+      "supplied_file": "gulbarga-fort-kalaburgai-karnataka-1-attr-hero.jpeg",
+      "asset": "/images/districts/kalaburagi-updated.jpeg",
+      "subject": "Kalaburagi Fort"
+    },
+    {
+      "district": "bidar",
+      "supplied_file": "Gumbaz_Darwaza_of_the_Bidar_fort_(cropped).jpg",
+      "asset": "/images/districts/bidar-updated.jpg",
+      "subject": "Gumbaz Darwaza, Bidar Fort"
+    },
+    {
+      "district": "haveri",
+      "supplied_file": "haveri_karnataka_india_haveri_karnataka_india.png",
+      "asset": "/images/districts/haveri-updated.png",
+      "subject": "Temple architecture in Haveri district"
+    },
+    {
+      "district": "mandya",
+      "supplied_file": "Krishna_raja_sagara_dam.JPG",
+      "asset": "/images/districts/mandya-updated.jpg",
+      "subject": "Krishna Raja Sagara Dam"
+    },
+    {
+      "district": "gadag",
+      "supplied_file": "Muskin_Bhanvi_in_Lakkundi_-_2.jpg",
+      "asset": "/images/districts/gadag-updated.jpg",
+      "subject": "Muskin Bhanvi stepwell, Lakkundi"
+    },
+    {
+      "district": "vijayanagara",
+      "supplied_file": "pexels-nikhil-kh-265556306-19029629 (1).jpg",
+      "asset": "/images/districts/vijayanagara-updated.jpg",
+      "subject": "Stone Chariot, Hampi"
+    },
+    {
+      "district": "shivamogga",
+      "supplied_file": "pexels-sharadbhat-3974375.jpg",
+      "asset": "/images/districts/shivamogga-updated.jpg",
+      "subject": "Jog Falls"
+    },
+    {
+      "district": "bengaluru-urban",
+      "supplied_file": "photo-1588416936097-41850ab3d86d.jpeg",
+      "asset": "/images/districts/bengaluru-urban-updated.jpeg",
+      "subject": "Vidhana Soudha, Bengaluru"
+    },
+    {
+      "district": "raichur",
+      "supplied_file": "Raichur_Fort_1.jpg",
+      "asset": "/images/districts/raichur-updated.jpg",
+      "subject": "Raichur Fort"
+    },
+    {
+      "district": "kolar",
+      "supplied_file": "TNIE_import_2022_5_3_original_KGF_can_be_mined_.jpg",
+      "asset": "/images/districts/kolar-updated.jpg",
+      "subject": "Kolar Gold Fields landscape"
+    },
+    {
+      "district": "udupi",
+      "supplied_file": "Udupi_Sri_Krishna_Matha_Temple.jpg",
+      "asset": "/images/districts/udupi-updated.jpg",
+      "subject": "Sri Krishna Matha, Udupi"
+    },
+    {
+      "district": "dakshina-kannada",
+      "supplied_file": "Yakshagana_art_form.jpg",
+      "asset": "/images/districts/dakshina-kannada-updated.jpg",
+      "subject": "Yakshagana, a coastal Karnataka art form"
+    }
+  ],
+  "duplicates": [
+    "Gumbaz_Darwaza_of_the_Bidar_fort_(cropped) (1).jpg",
+    "IMG_1340 (1).jpg"
+  ],
+  "pending_location_confirmation": [
+    "1000_F_497210687_VJhJ6heAlxX4r5kY5KvbCdBLzVIZpUtd.jpg",
+    "IMG_1340.jpg",
+    "Screenshot_20261118_114120_Chrome.jpg"
+  ]
+}
