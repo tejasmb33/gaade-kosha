@@ -15,3 +15,14 @@
 .chat-home .situation-input{max-width:none}
 .chat-sidebar{background:linear-gradient(#2b1d19e6,#2b1d1999),url('/images/hampi-chariot.jpg') center bottom/auto 100%}
 .chat-home .search-box:focus-within{outline:2px solid #c6a15b;outline-offset:3px}
+
+/* Let the answer settle into the conversation, preserving complete Kannada text. */
+.chat-results>.proverb-card{animation:chat-answer-in .65s ease-out both}
+.chat-results>.proverb-card:nth-child(2){animation-delay:.18s}
+.chat-results>.proverb-card:nth-child(3){animation-delay:.36s}
+.chat-results>.proverb-card>h3{animation:chat-text-in .65s .12s both}
+.chat-results>.proverb-card>dl{animation:chat-text-in .65s .28s both}
+.chat-results>.proverb-card>.why{animation:chat-text-in .65s .42s both}
+@keyframes chat-answer-in{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@keyframes chat-text-in{from{opacity:0}to{opacity:1}}
+@media(prefers-reduced-motion:reduce){.chat-results>.proverb-card,.chat-results>.proverb-card>*{animation:none!important}}

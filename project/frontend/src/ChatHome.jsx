@@ -4,6 +4,9 @@ import api from './api';
 import SearchBox from './SearchBox';
 import './chat-home.css';
 
+function pause(ms,signal){return new Promise(resolve=>{const done=()=>{clearTimeout(timer);signal.removeEventListener('abort',done);resolve();};const timer=setTimeout(done,ms);signal.addEventListener('abort',done,{once:true});if(signal.aborted)done();});}
+
+
 export default function ChatHome({renderCard,navigate,errorText}){
  const [turns,setTurns]=useState([]),[pending,setPending]=useState(false),[draft,setDraft]=useState({text:'',revision:0}),[epoch,setEpoch]=useState(0);
  const request=useRef(null),thread=useRef(null),sequence=useRef(0),composer=useRef(null);
@@ -11,9 +14,9 @@ export default function ChatHome({renderCard,navigate,errorText}){
  useEffect(()=>{if(thread.current)thread.current.scrollTop=thread.current.scrollHeight;},[turns,pending]);
  async function send(query,{cloud=false,provider=null}={}){
   if(!query.trim()||pending)return;
-  const id=++sequence.current,controller=new AbortController();request.current=controller;
+  const id=++sequence.current,controller=new AbortController();request.current=controller;const started=performance.now();
   setTurns(old=>[...old,{id,query,cloud,provider}]);setPending(true);
-  try{const {data}=await api.post(cloud?'/search/ai':'/search',cloud?{query,provider}:{query},{signal:controller.signal});if(!controller.signal.aborted)setTurns(old=>old.map(t=>t.id===id?{...t,result:data}:t));}
+  try{const {data}=await api.post(cloud?'/search/ai':'/search',cloud?{query,provider}:{query},{signal:controller.signal});await pause(Math.max(0,1000-(performance.now()-started)),controller.signal);if(!controller.signal.aborted)setTurns(old=>old.map(t=>t.id===id?{...t,result:data}:t));}
   catch(e){if(!controller.signal.aborted)setTurns(old=>old.map(t=>t.id===id?{...t,error:errorText(e)}:t));}
   finally{if(!controller.signal.aborted)setPending(false);}
  }
