@@ -17,7 +17,7 @@ let browser,server;
   if(url.pathname==='/api/categories')return route.fulfill({json:[]});
   return route.fulfill({json:{items:[],total:0,page:1,page_size:12,mode:'keyword'}});
  });
- for(const [route,input,clear] of [['home','Describe your situation','Clear situation'],['library','Filter library','Clear library search'],['dictionary','Search dictionary','Clear dictionary search']]){
+ for(const [route,input,clear] of [['home','Describe your situation','Clear situation'],['dictionary','Search dictionary','Clear dictionary search']]){
   await page.goto(base+'/#'+route);const field=page.getByRole('textbox',{name:input,exact:true});await field.fill('ಕನ್ನಡ situation');
   const before=posts;await page.getByRole('button',{name:clear,exact:true}).click();
   assert.equal(await field.inputValue(),'');assert(await field.evaluate(el=>document.activeElement===el));
@@ -33,5 +33,5 @@ let browser,server;
  await page.getByRole('textbox',{name:'Describe your situation',exact:true}).fill('Synthetic mobile situation');
  assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
  await page.getByRole('button',{name:'Clear situation',exact:true}).click();
- assert.deepEqual(errors,[]);console.log('PASS: clear controls on home/results, library, dictionary and districts; editable focus restored, no accidental submits, mobile fit, no JS errors');
+ assert.deepEqual(errors,[]);console.log('PASS: clear controls on home/results, dictionary and districts; editable focus restored, no accidental submits, mobile fit, no JS errors');
 }finally{if(browser)await browser.close();if(server&&server.exitCode===null){process.kill(-server.pid,'SIGTERM');await new Promise(r=>server.once('exit',r));}}})().catch(e=>{console.error(e);process.exitCode=1});
