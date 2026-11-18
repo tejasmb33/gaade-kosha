@@ -12,5 +12,5 @@ To remove the animation from source, revert the commit titled
 Do not reset main or force-push; a revert preserves later work and history.
 
 The intro plays once per browser tab session. To preview it again, open a new
-session or remove `gaadamruta:intro:v1` from session storage. Reduced-motion
+session or remove `gaadamruta:intro:v2` from session storage. Reduced-motion
 preferences bypass it entirely.
