@@ -194,3 +194,10 @@ Final live generic test: ReadTimeout after a 90-second timeout. Inference remain
 - Added a reproducible build-time tracing utility and generated artwork-boundary JSON. The original raster image is unchanged. Decorative region identities remain illustrative, with the previous map available for geographic selection.
 - Removed dashed selected outlines; retained pop-out motion, selected district, bilingual cards, both map modes and reduced-motion behavior.
 - Build and isolated browser checks pass for all 31 regions, image loading, keyboard/mobile controls, map/language state, and hover scaling. Border-pixel regression checks show at least 97% of every region’s vertices within 7 native pixels of the image separators (observed 99–100%). Corrected hover screenshot inspected.
+
+## Default labeled district map and flag hover — 2026-11-18
+
+- Made the geographic district-boundary view the default while retaining the illustrated map toggle.
+- Added all 31 Kannada district labels. Label positions are placed inside shapes, with leader-line callouts for the small Bengaluru districts; label layers ignore pointer events. The information-card language toggle remains independent.
+- Hover/keyboard focus fills the geographic district with a sharp yellow-over-red gradient. Existing selection, artwork lift, cards, photos, search and mobile controls remain available.
+- Frontend build and isolated district journey pass: default state, every Kannada label, flag colors, all 31 interior clicks in both map modes, artwork outline regression, keyboard, bilingual cards, mobile layout and no JS errors. Desktop screenshot inspected.

@@ -29,7 +29,18 @@ const artworkGeometry=require('../src/data/karnataka-artwork-boundaries.json');
   assert.equal(await page.locator('.district-list button').count(),31);
   const artworkToggle=page.getByRole('button',{name:'Show illustrated Karnataka map',exact:true});
   const previousToggle=page.getByRole('button',{name:'Show previous district boundary map',exact:true});
-  assert.equal(await artworkToggle.getAttribute('aria-pressed'),'true');
+  assert.equal(await previousToggle.getAttribute('aria-pressed'),'true');
+  assert.equal(await artworkToggle.getAttribute('aria-pressed'),'false');
+  assert.equal(await page.locator('.district-map-label').count(),31);
+  for(const district of data){
+   const label=await page.locator('[data-label-district="'+district.id+'"] text').textContent();
+   assert.equal(label.replace(/\s/g,''),district.name.kn.replace(/\s/g,''));
+  }
+  const flagTarget=page.locator('[data-district="vijayanagara"]');await flagTarget.focus();
+  assert((await flagTarget.evaluate(el=>getComputedStyle(el).fill)).includes('-flag'));
+  const colors=await page.locator('linearGradient stop').evaluateAll(stops=>stops.map(s=>s.getAttribute('stop-color')));
+  assert.deepEqual(colors,['#ffdf00','#ffdf00','#d71920','#d71920']);
+  await artworkToggle.click();
   await page.locator('.district-artwork-image').evaluate(async img=>{const image=new Image();image.src=img.getAttribute('href');await image.decode();});
   // Regression: artwork outlines must follow the uploaded PNG's white separators,
   // not a geographic map stretched into the illustration's coordinate system.
@@ -65,6 +76,8 @@ const artworkGeometry=require('../src/data/karnataka-artwork-boundaries.json');
   await artworkToggle.click();
 
   await page.locator('.district-info h2').filter({hasText:'ಮೈಸೂರು'}).waitFor();
+  for(const mode of ['artwork','boundaries']){
+   await (mode==='artwork'?artworkToggle:previousToggle).click();
   for(const district of data){
    const shape=page.locator('[data-district="'+district.id+'"]');
    await shape.scrollIntoViewIfNeeded();
@@ -81,10 +94,11 @@ const artworkGeometry=require('../src/data/karnataka-artwork-boundaries.json');
    await page.locator('.district-photo').evaluate(img=>img.decode());
    assert(await page.locator('.district-photo').evaluate(img=>img.naturalWidth>0));
   }
+  }
   await page.getByRole('button',{name:'Show district information in English',exact:true}).click();
   assert.equal(await page.locator('.district-info h2').textContent(),'Yadgir');
   await page.getByRole('heading',{name:'Known for',exact:true}).waitFor();
-  await previousToggle.click();assert.equal(await page.locator('.district-info h2').textContent(),'Yadgir');await artworkToggle.click();
+  await previousToggle.click();assert.equal(await page.locator('.district-info h2').textContent(),'Yadgir');assert.equal(await page.locator('[data-label-district="yadgir"] text').textContent(),'ಯಾದಗಿರಿ');await artworkToggle.click();
 
   assert((await page.locator('.district-info').innerText()).includes(data.at(-1).description.en));
   const mysuru=page.locator('[data-district="mysuru"]');await mysuru.focus();await page.keyboard.press('Enter');
@@ -114,6 +128,6 @@ const artworkGeometry=require('../src/data/karnataka-artwork-boundaries.json');
   await page.locator('[data-district="mysuru"]').focus();
   assert.equal(await page.locator('.district-artwork-lift').evaluate(el=>getComputedStyle(el).animationName),'none');
   assert.deepEqual(errors,[]);
-  console.log('PASS: image-aligned artwork outlines, previous-map toggle, hover lift, reduced motion, all 31 SVG districts and supplied images, Kannada/English card content, keyboard selection, bilingual search, empty state, close/reopen, mobile selection/focus and responsive layout; no JS errors');
+  console.log('PASS: default boundary map, 31 Kannada labels, yellow/red hover, image-aligned artwork outlines, previous-map toggle, hover lift, reduced motion, all 31 SVG districts and supplied images, Kannada/English card content, keyboard selection, bilingual search, empty state, close/reopen, mobile selection/focus and responsive layout; no JS errors');
  }finally{if(browser)await browser.close();if(server&&server.exitCode===null){process.kill(-server.pid,'SIGTERM');await new Promise(r=>server.once('exit',r));}}
 })().catch(e=>{console.error(e);process.exitCode=1});

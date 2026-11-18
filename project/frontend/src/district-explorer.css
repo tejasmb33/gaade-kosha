@@ -23,3 +23,9 @@
 @media(max-width:900px){.district-artwork-stage{height:auto}}
 @media(max-width:480px){.district-map-switch{margin:14px 14px 0}.district-map-switch button{font-size:11px}.district-artwork-stage{height:auto;padding:0}}
 @media(prefers-reduced-motion:reduce){.district-artwork-lift{animation:none;transform:none;filter:drop-shadow(0 3px 3px #2e0c0960)}.district-artwork-region{transition:none}}
+
+.district-labels{pointer-events:none}
+.district-map-label text{font-family:"Kannada Sangam MN","Noto Sans Kannada",sans-serif;font-size:24px;font-weight:700;fill:#4b291f;stroke:#fff8e8;stroke-width:4px;stroke-linejoin:round;paint-order:stroke fill;pointer-events:none}
+.district-map-label.is-hovered text{fill:#fffbed;stroke:#631b20;stroke-width:5px}
+.district-label-leader{stroke:#76503c;stroke-width:1.8;stroke-linecap:round;pointer-events:none}
+.district-map-svg:not(.district-artwork-svg) .district-shape:hover,.district-map-svg:not(.district-artwork-svg) .district-shape:focus-visible{stroke:#9b1421;stroke-width:5}
