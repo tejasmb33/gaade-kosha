@@ -131,15 +131,32 @@
       "supplied_file": "Yakshagana_art_form.jpg",
       "asset": "/images/districts/dakshina-kannada-updated.jpg",
       "subject": "Yakshagana, a coastal Karnataka art form"
+    },
+    {
+      "district": "chikkamagaluru",
+      "supplied_file": "1000_F_497210687_VJhJ6heAlxX4r5kY5KvbCdBLzVIZpUtd.jpg",
+      "asset": "/images/districts/chikkamagaluru-updated.jpg",
+      "subject": "Misty hills in Chikkamagaluru",
+      "location_confirmed_by": "user"
+    },
+    {
+      "district": "chamarajanagar",
+      "supplied_file": "IMG_1340.jpg",
+      "asset": "/images/districts/chamarajanagar-updated.jpg",
+      "subject": "Temple in Chamarajanagar district",
+      "location_confirmed_by": "user"
+    },
+    {
+      "district": "bengaluru-south",
+      "supplied_file": "Screenshot_20261118_114120_Chrome.jpg",
+      "asset": "/images/districts/bengaluru-south-updated.jpg",
+      "subject": "Rocky hills in Bengaluru South district",
+      "location_confirmed_by": "user"
     }
   ],
   "duplicates": [
     "Gumbaz_Darwaza_of_the_Bidar_fort_(cropped) (1).jpg",
     "IMG_1340 (1).jpg"
   ],
-  "pending_location_confirmation": [
-    "1000_F_497210687_VJhJ6heAlxX4r5kY5KvbCdBLzVIZpUtd.jpg",
-    "IMG_1340.jpg",
-    "Screenshot_20261118_114120_Chrome.jpg"
-  ]
+  "pending_location_confirmation": []
 }
