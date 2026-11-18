@@ -99,3 +99,5 @@ main :focus-visible{outline-color:#ffdf47}
 @media(max-width:700px){.brand-mark.brand-logo{width:46px;height:46px}}
 
 .hero-art .art-caption{line-height:1.9;text-wrap:balance}
+
+.hero-art .hero-cultural-image.hero-emblem{border-radius:4px;object-fit:contain;aspect-ratio:auto}

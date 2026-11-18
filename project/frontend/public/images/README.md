@@ -19,3 +19,7 @@ Displayed locally at 12% opacity over warm cream using a fixed decorative CSS la
 ## Illustrated Karnataka map
 
 `karnataka-art-map.png` is the original user-supplied PNG, copied from the Photos attachment on 17 November 2026. Displayed as the default artistic district-map background. Interactive SVG hotspots and clipped hover layers are code overlays; the raster file is unchanged. The earlier boundary map remains selectable.
+
+## Home Gaadamruta emblem
+
+`gaadamruta-emblem.jpeg` is the exact user-supplied image saved as WhatsApp Image 2026-11-18 at 11.00.10.jpeg. The home panel displays the complete image with no circular crop; its Kannada tagline is retained. The header logo remains separate.
