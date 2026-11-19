@@ -32,3 +32,30 @@ def test_manifest_cannot_escape_audio_directory(tmp_path,monkeypatch):
     (folder/'link.mp3').symlink_to(private)
     proverb_audio.MANIFEST['synthetic']['filename']='link.mp3'
     assert proverb_audio.audio_path(row) is None
+
+
+def test_audio_first_order_applies_before_pagination_and_with_filters(tmp_path,monkeypatch):
+    folder=tmp_path/'published';folder.mkdir();(folder/'synthetic.mp3').write_bytes(b'ID3 synthetic fixture')
+    # Synthetic corpus: 50 audio entries alphabetically after 150 entries without audio.
+    manifest={f'audio-{i}':{'filename':'synthetic.mp3','proverb_kn':f'ಕೃತಕ ಧ್ವನಿ {i:03}','duration_seconds':1} for i in range(50)}
+    monkeypatch.setattr(proverb_audio,'AUDIO_ROOT',folder);monkeypatch.setattr(proverb_audio,'MANIFEST',manifest)
+    app=create_app(tmp_path/'data','synthetic-token')
+    with app.state.Session.begin() as session:
+        for i in range(200):
+            id=f'audio-{i}' if i<50 else f'text-{i}'
+            word=manifest[id]['proverb_kn'] if i<50 else f'ಅ ಕೃತಕ ಪಠ್ಯ {i:03}'
+            session.add(Proverb(id=id,proverb_kn=word,literal_meaning='Synthetic',contextual_meaning='Synthetic',category='Synthetic audio' if i<50 else 'Synthetic text',verification_status=APPROVED))
+    client=TestClient(app)
+    rows=[]
+    for page in range(1,18):
+        result=client.get('/api/proverbs',params={'sort':'audio_first','page':page,'page_size':12}).json()
+        assert result['total']==200
+        rows.extend(result['items'])
+    assert len(rows)==len({row['id'] for row in rows})==200
+    assert {row['id'] for row in rows[:50]}==set(manifest)
+    assert all(row['reading_audio'] for row in rows[:50])
+    assert all(row['reading_audio'] is None for row in rows[50:])
+    assert [row['proverb_kn'] for row in rows[:50]]==sorted(row['proverb_kn'] for row in rows[:50])
+    filtered=client.get('/api/proverbs',params={'sort':'audio_first','category':'Synthetic text','page_size':50}).json()
+    assert filtered['total']==150 and all(row['reading_audio'] is None for row in filtered['items'])
+    assert client.get('/api/proverbs',params={'sort':'alphabetical'}).json()['items'][0]['reading_audio'] is None

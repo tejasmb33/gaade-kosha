@@ -205,10 +205,11 @@ def create_app(data_dir=None,admin_token=None,database_url=None):
                 if translated:names[row.category]=translated['fields'].get('category_kn','')
             return [{'value':value,'label_kn':names.get(value,'')} for value in values]
     @app.get('/api/proverbs')
-    def library(theme:Literal['','money','work','study','family','friends','character']=Query(''),q:str=Query('',max_length=1000),category:str=Query('',max_length=100),page:int=Query(1,ge=1),page_size:int=Query(12,ge=1,le=50),sort:Literal['recent','alphabetical']=Query('recent')):
+    def library(theme:Literal['','money','work','study','family','friends','character']=Query(''),q:str=Query('',max_length=1000),category:str=Query('',max_length=100),page:int=Query(1,ge=1),page_size:int=Query(12,ge=1,le=50),sort:Literal['recent','alphabetical','audio_first']=Query('recent')):
         with Session() as s:
             rows=list(s.scalars(select(Proverb).where(Proverb.verification_status==APPROVED).order_by(Proverb.created_at.desc())))
             if sort=='alphabetical': rows.sort(key=lambda r: (unicodedata.normalize('NFC',r.proverb_kn),r.id))
+            if sort=='audio_first': rows.sort(key=lambda r: (audio_path(r) is None,unicodedata.normalize('NFC',r.proverb_kn),r.id))
             if theme: rows=[r for r in rows if theme_for(r.category)==theme]
             if category: rows=[r for r in rows if r.category==category]
             if tokens(q): rows=[r for r in rows if set(tokens(q))<=set(tokens(searchable(r)+' '+json.dumps((load_translation(data,r) or {}).get('fields',{}),ensure_ascii=False)))]
