@@ -9,6 +9,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 from pydantic import BaseModel, Field, field_validator
 from .proverb_audio import audio_metadata,audio_path
+from .recommended_situations import find_example,matches_record
 from .bilingual_display import load_display
 from .dictionary_situations import situations_for
 from .dictionary_themes import theme_for
@@ -233,8 +234,20 @@ def create_app(data_dir=None,admin_token=None,database_url=None):
             row=get_record(s,id)
             with narration_lock:path=generate_narration(data,row)
             return FileResponse(path,media_type='audio/wav',filename='gaade-kannada.wav',headers={'Cache-Control':'no-store'})
+    def cached_recommendation(query):
+        example=find_example(query)
+        if not example:return None
+        with Session() as s:
+            row=s.get(Proverb,example['gaade_id'])
+            if not matches_record(example,row):return None
+            item={**dump(row),'translation':load_translation(data,row),'display':load_display(data,row),
+                'reading_audio':audio_metadata(row),'situations':situations_for(row),'rank':1,
+                'why':'Saved demonstration situation matched to this approved proverb.'}
+        return {'mode':'cached','cache_hit':True,'items':[item],'message':None,'interpretation':None,'external_sources':[]}
     @app.post('/api/search')
     def search(body:Search):
+        cached=cached_recommendation(body.query)
+        if cached is not None:return cached
         with Session() as s:
             terms=query_terms(body.query)
             if not terms:
@@ -267,6 +280,8 @@ def create_app(data_dir=None,admin_token=None,database_url=None):
             return {'mode':'hybrid' if scores else 'keyword','items':result,'message':None if result else 'No reliable match in the reviewed collection. Try other words or contribute a sourced proverb.','capability_notice':semantic.error}
     @app.post('/api/search/ai')
     def ai_search(body:CloudQuery):
+        cached=cached_recommendation(body.query)
+        if cached is not None:return cached
         try:
             cloud=CloudSearch(body.provider)
             with Session() as s:

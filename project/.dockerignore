@@ -13,6 +13,7 @@
 !deployment/dictionary-situations.json
 !deployment/bilingual-drafts.json
 !deployment/proverb-audio.json
+!deployment/recommended-situations.json
 !datasets/
 !datasets/submission/
 !datasets/submission/audio/

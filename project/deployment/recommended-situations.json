@@ -1,0 +1,35 @@
+[
+  {
+    "id": "determination",
+    "label_kn": "ಓದನ್ನು ಮುಂದುವರಿಸುವ ಹಠ",
+    "situation_kn": "ಹಣದ ತೊಂದರೆ ಇದ್ದರೂ ರಮ್ಯಾ ಕೆಲಸ ಮಾಡಿ, ವಿದ್ಯಾರ್ಥಿವೇತನ ಪಡೆದು ತನ್ನ ವಿದ್ಯಾಭ್ಯಾಸವನ್ನು ಪೂರ್ಣಗೊಳಿಸಿದಳು.",
+    "situation_en": "Despite financial difficulties, Ramya worked part-time, earned a scholarship, and completed her education.",
+    "gaade_id": "f582d2bf616a42fc8743281972db1358",
+    "proverb_kn": "ಮನಸಿದ್ದರೆ ಮಾರ್ಗ",
+    "contextual_meaning": "Draft for human verification: Determination helps people find solutions to difficulties.",
+    "synthetic": true,
+    "match_basis": "User-selected demonstration pairing"
+  },
+  {
+    "id": "budget",
+    "label_kn": "ಆದಾಯಕ್ಕೆ ತಕ್ಕ ಖರ್ಚು",
+    "situation_kn": "ಕಡಿಮೆ ಆದಾಯವಿದ್ದರೂ ರವಿ ಸಾಲ ಮಾಡಿ ದುಬಾರಿ ಮೊಬೈಲ್ ಖರೀದಿಸಲು ಹೊರಟಿದ್ದಾನೆ. ಅವನಿಗೆ ಯಾವ ಸಲಹೆ ಕೊಡಬಹುದು?",
+    "situation_en": "Ravi has a low income but plans to borrow money to buy an expensive phone. What advice would suit him?",
+    "gaade_id": "69216f8625b74cafaa80d76f28118eac",
+    "proverb_kn": "ಹಾಸಿಗೆ ಇದ್ದಷ್ಟು ಕಾಲು ಚಾಚು",
+    "contextual_meaning": "Draft for human verification: Keep spending and ambitions within available resources.",
+    "synthetic": true,
+    "match_basis": "User-selected demonstration pairing"
+  },
+  {
+    "id": "effort",
+    "label_kn": "ದುಡಿಮೆಯ ಫಲ",
+    "situation_kn": "ರೈತನು ಪ್ರತಿದಿನ ಹೊಲದಲ್ಲಿ ಕಷ್ಟಪಟ್ಟು ದುಡಿದು ಉತ್ತಮ ಬೆಳೆ ಬೆಳೆದು ತನ್ನ ಕುಟುಂಬಕ್ಕೆ ನೆಮ್ಮದಿಯ ಬದುಕು ಒದಗಿಸಿದನು.",
+    "situation_en": "A farmer worked hard in his fields every day, grew a good harvest, and provided a comfortable life for his family.",
+    "gaade_id": "8c8110368b004e0aa40a18a538c83216",
+    "proverb_kn": "ಕೈ ಕೆಸರಾದರೆ ಬಾಯಿ ಮೊಸರು",
+    "contextual_meaning": "Draft for human verification: Willingness to work brings sustenance and comfort.",
+    "synthetic": true,
+    "match_basis": "User-selected demonstration pairing"
+  }
+]

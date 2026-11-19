@@ -3,6 +3,7 @@ import {MessageCircle,Plus,ArrowRight,User,BookOpen} from 'lucide-react';
 import api from './api';
 import SearchBox from './SearchBox';
 import {displayText} from './displayText';
+import recommendations from '../../deployment/recommended-situations.json';
 import './chat-home.css';
 
 function pause(ms,signal){return new Promise(resolve=>{const done=()=>{clearTimeout(timer);signal.removeEventListener('abort',done);resolve();};const timer=setTimeout(done,ms);signal.addEventListener('abort',done,{once:true});if(signal.aborted)done();});}
@@ -56,7 +57,7 @@ export default function ChatHome({renderCard,navigate,errorText}){
    <div className="chat-topline"><span><MessageCircle size={17}/>ಗಾದಾಮೃತ · ಸಂಭಾಷಣೆ</span><button onClick={reset} aria-label="New chat"><Plus size={17}/></button></div>
    <div className="chat-thread" ref={thread} role="log" aria-label="Conversation" aria-live="polite" aria-relevant="additions text">
     <div className="chat-message chat-assistant"><span className="chat-avatar"><MessageCircle size={20}/></span><div className="chat-welcome"><h2>ನಮಸ್ಕಾರ!</h2><p>ನಿಮ್ಮ ಸಂದರ್ಭವನ್ನು ವಿವರಿಸಿ, ಅದಕ್ಕೆ ತಕ್ಕ ಕನ್ನಡ ಗಾದೆಯನ್ನು ಹುಡುಕುತ್ತೇನೆ.</p><p lang="en">Describe a situation, and I’ll find a Kannada proverb that resonates with it.</p></div></div>
-    {!turns.length&&<div className="chat-prompts">{['ತಾಳ್ಮೆ ಬೇಕಾದಾಗ','ಒಗ್ಗಟ್ಟಿನ ಬಲ','Hard work helped me overcome a difficult situation.'].map(q=><button key={q} disabled={pending} onClick={()=>{setDraft(old=>({text:q,revision:old.revision+1}));composer.current?.querySelector('input')?.focus();}}>{q}<ArrowRight size={15}/></button>)}</div>}
+    {!turns.length&&<div className="chat-prompts">{recommendations.map(example=><button key={example.id} disabled={pending} onClick={()=>{setDraft(old=>({text:example.situation_kn,revision:old.revision+1}));composer.current?.querySelector('input')?.focus();}}><span lang="kn"><strong>{example.label_kn}</strong><span>{example.situation_kn}</span></span><ArrowRight size={15}/></button>)}</div>}
     {turns.map(turn=><div className="chat-turn" id={'chat-turn-'+turn.id} key={turn.id}>
      <div className="chat-message chat-user"><div className="chat-user-bubble">{turn.query}</div><span className="chat-avatar"><User size={19}/></span></div>
      <div className="chat-message chat-assistant"><span className="chat-avatar"><MessageCircle size={20}/></span><div className="chat-answer">

@@ -11,7 +11,7 @@ let browser,server;
  return route.fulfill({json:{items:[]}});
  });
  await page.goto(base+'/#home');const field=page.getByRole('textbox',{name:'Describe your situation',exact:true});
- await page.getByRole('button',{name:'ತಾಳ್ಮೆ ಬೇಕಾದಾಗ',exact:false}).click();await page.waitForFunction(()=>document.querySelector('input[aria-label="Describe your situation"]').value==='ತಾಳ್ಮೆ ಬೇಕಾದಾಗ');
+ const recommendations=require('../../deployment/recommended-situations.json');assert.equal(await page.locator('.chat-prompts button').count(),3);for(const example of recommendations){await page.getByRole('button',{name:example.label_kn,exact:false}).click();await page.waitForFunction(expected=>document.querySelector('input[aria-label="Describe your situation"]').value===expected,example.situation_kn);}
  await page.getByRole('combobox',{name:'Search engine',exact:true}).selectOption('groq');await field.fill('Synthetic first situation');const sentAt=Date.now();await page.getByRole('button',{name:'Find proverbs',exact:true}).click();
  await page.locator('.chat-thinking').waitFor();assert(await field.isDisabled());await page.locator('.chat-results .proverb-card').waitFor();assert(Date.now()-sentAt>=950,'Loading lasts at least one second');assert.equal(await field.inputValue(),'');assert.equal(requests[0].provider,'groq');assert(page.url().endsWith('#home'));
  await field.fill('ಕೃತಕ ಎರಡನೇ ಸಂದರ್ಭ');await field.press('Enter');await page.waitForFunction(()=>document.querySelectorAll('.chat-results .proverb-card').length===2);assert.equal(await page.locator('.chat-user-bubble').count(),2);assert.equal(await page.locator('.chat-history button').count(),2);assert.equal(requests[1].query,'ಕೃತಕ ಎರಡನೇ ಸಂದರ್ಭ');

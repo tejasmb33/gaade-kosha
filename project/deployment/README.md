@@ -108,3 +108,7 @@ URL-encode special characters in the PostgreSQL password. Never place the connec
 ```sh
 node frontend/tests/proverb-audio.cjs
 ```
+
+## Saved home examples
+
+`deployment/recommended-situations.json` ships three owner-selected situation-to-proverb mappings in the Docker image. Both search endpoints check these exact Kannada/English examples before constructing a cloud provider, so missing keys, expired keys and quota do not affect them. Full details and audio links come from the current approved database record, with wording and meaning validation to reject stale mappings. Only these authored examples are cached; user queries are not persisted. Keep the JSON Docker allowlist entry when packaging.
