@@ -41,3 +41,6 @@
 .chat-results .proverb-card,.chat-results .proverb-card>h3,.chat-results .proverb-card>dl,.chat-results .proverb-card>.why{animation:none}
 .chat-progressive[aria-busy=true] .proverb-card .text-button,.chat-progressive[aria-busy=true] .narration-player{visibility:hidden}
 .chat-progressive[aria-busy=true] .proverb-card dt:has(+dd:empty){visibility:hidden}
+
+/* Answers grow below the question without moving the reading position. */
+.chat-thread{overflow-anchor:none}

@@ -8,6 +8,9 @@ from fastapi import FastAPI, HTTPException, Header, UploadFile, File, Query, For
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 from pydantic import BaseModel, Field, field_validator
+from .bilingual_display import load_display
+from .dictionary_situations import situations_for
+from .dictionary_themes import theme_for
 from .dictionary_translations import load_translation
 from .narration import generate as generate_narration
 from .object_store import ObjectStore
@@ -201,17 +204,18 @@ def create_app(data_dir=None,admin_token=None,database_url=None):
                 if translated:names[row.category]=translated['fields'].get('category_kn','')
             return [{'value':value,'label_kn':names.get(value,'')} for value in values]
     @app.get('/api/proverbs')
-    def library(q:str=Query('',max_length=1000),category:str=Query('',max_length=100),page:int=Query(1,ge=1),page_size:int=Query(12,ge=1,le=50),sort:Literal['recent','alphabetical']=Query('recent')):
+    def library(theme:Literal['','money','work','study','family','friends','character']=Query(''),q:str=Query('',max_length=1000),category:str=Query('',max_length=100),page:int=Query(1,ge=1),page_size:int=Query(12,ge=1,le=50),sort:Literal['recent','alphabetical']=Query('recent')):
         with Session() as s:
             rows=list(s.scalars(select(Proverb).where(Proverb.verification_status==APPROVED).order_by(Proverb.created_at.desc())))
             if sort=='alphabetical': rows.sort(key=lambda r: (unicodedata.normalize('NFC',r.proverb_kn),r.id))
+            if theme: rows=[r for r in rows if theme_for(r.category)==theme]
             if category: rows=[r for r in rows if r.category==category]
             if tokens(q): rows=[r for r in rows if set(tokens(q))<=set(tokens(searchable(r)+' '+json.dumps((load_translation(data,r) or {}).get('fields',{}),ensure_ascii=False)))]
             return {'items':[{**dump(r),'translation':load_translation(data,r)} for r in rows[(page-1)*page_size:page*page_size]],'total':len(rows),'page':page,'page_size':page_size}
     @app.get('/api/proverbs/{id}')
     def detail(id:str):
         with Session() as s:
-            row=get_record(s,id); result=dump(row);result['translation']=load_translation(data,row)
+            row=get_record(s,id); result=dump(row);result['translation']=load_translation(data,row);result['situations']=situations_for(row);result['display']=load_display(data,row)
             result['related']=[{**dump(r),'translation':load_translation(data,r)} for r in s.scalars(select(Proverb).where(Proverb.verification_status==APPROVED,Proverb.id!=id,Proverb.category==row.category).limit(3))]
             return result
     @app.post('/api/proverbs/{id}/narration')
@@ -250,7 +254,7 @@ def create_app(data_dir=None,admin_token=None,database_url=None):
             byid={r.id:r for r in rows}; result=[]
             for i,id in enumerate(ranked):
                 row=byid[id]; matched=sorted(terms & set(tokens(searchable(row))))
-                result.append({**dump(row),'translation':load_translation(data,row),'rank':i+1,'why':('Stored metadata matches: '+', '.join(matched)) if matched else 'Local E5 matched the situation to this stored meaning: '+re.sub(r'^Draft(?: for human verification)?:\s*','',row.contextual_meaning),'ranking_label':f'Rank {i+1} · relative order, not probability'})
+                result.append({**dump(row),'translation':load_translation(data,row),'display':load_display(data,row),'situations':situations_for(row),'rank':i+1,'why':('Stored metadata matches: '+', '.join(matched)) if matched else 'Local E5 matched the situation to this stored meaning: '+re.sub(r'^Draft(?: for human verification)?:\s*','',row.contextual_meaning),'ranking_label':f'Rank {i+1} · relative order, not probability'})
             return {'mode':'hybrid' if scores else 'keyword','items':result,'message':None if result else 'No reliable match in the reviewed collection. Try other words or contribute a sourced proverb.','capability_notice':semantic.error}
     @app.post('/api/search/ai')
     def ai_search(body:CloudQuery):
@@ -258,12 +262,10 @@ def create_app(data_dir=None,admin_token=None,database_url=None):
             cloud=CloudSearch(body.provider)
             with Session() as s:
                 rows=list(s.scalars(select(Proverb).where(Proverb.verification_status==APPROVED).order_by(Proverb.id)))
-                # A bounded catalog avoids unexpectedly huge requests. Use local search for larger collections until shortlist support is added.
-                if len(rows)>100:raise HTTPException(503,'Cloud catalog is limited to 100 reviewed records. Use local search for this collection.')
                 decision=cloud.select(body.query,rows)
                 by_id={r.id:r for r in rows};items=[]
                 for i,choice in enumerate(decision.matches,1):
-                    items.append({**dump(by_id[choice.id]),'translation':load_translation(data,by_id[choice.id]),'rank':i,'why':'AI interpretation (not cultural verification): '+choice.reason,'ranking_label':f'Rank {i} · not a probability'})
+                    items.append({**dump(by_id[choice.id]),'translation':load_translation(data,by_id[choice.id]),'display':load_display(data,by_id[choice.id]),'situations':situations_for(by_id[choice.id]),'rank':i,'why':'AI interpretation (not cultural verification): '+choice.reason,'ranking_label':f'Rank {i} · not a probability'})
             result={'mode':'cloud','provider':cloud.provider,'model':cloud.model,'items':items,'interpretation':decision.interpretation,'external_sources':[],'capability_notice':'Situation and approved metadata were sent to the configured cloud provider.','message':None if items else 'No suitable reviewed database match was selected.'}
             if not items and cloud_status(cloud.provider)['web_enabled']:
                 try:result.update(cloud.web(body.query))

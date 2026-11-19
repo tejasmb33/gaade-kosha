@@ -1,0 +1,25 @@
+{
+  "exported_at_utc": "2026-11-19T07:26:44.039683+00:00",
+  "approved_proverbs": 200,
+  "situations": 400,
+  "situations_per_proverb": 2,
+  "missing_documented_regions": 200,
+  "themes": {
+    "character": 92,
+    "study": 17,
+    "money": 19,
+    "work": 38,
+    "friends": 22,
+    "family": 12
+  },
+  "encoding": "UTF-8 with BOM",
+  "sha256": {
+    "gaade.csv": "ff920b4001d4d9040581916932a36b6416bbacec48d5aa75ae4fb83de93ac637",
+    "situations.csv": "0ad014c1d7e8fced8725ef57c45bd8904703616839f45fb9702ef5af2a5730b0",
+    "metadata.csv": "183d8a1b3daa3d0d05b96100ca348c101e1892e67ce478127ff7eecd353a47fb"
+  },
+  "source_database_changed": false,
+  "modified_at_utc": "2026-11-19T08:44:31.809838+00:00",
+  "synthetic_random_regions": 200,
+  "region_note": "Random demo assignments requested by project owner; not verified provenance. Database region fields unchanged."
+}

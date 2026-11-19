@@ -31,7 +31,9 @@ def test_cloud_selects_only_existing_approved_record(cloud,monkeypatch):
     def call(url,args):
         assert args['headers']['Authorization']=='Bearer synthetic-secret'
         assert args['json']['store'] is False
-        prompt=args['json']['input'];assert 'approved' in prompt and '"id": "pending"' not in prompt
+        prompt=args['json']['input'];assert 'example_usage' not in prompt and 'keywords' not in prompt
+        assert 'Determination overcomes obstacles' in prompt
+        assert 'approved' in prompt and '"id": "pending"' not in prompt
         return response(json.dumps({'interpretation':'Persistence despite financial obstacles','matches':[{'id':'approved','reason':'Her effort made education possible.'}]}))
     mock_post(monkeypatch,call)
     result=client.post('/api/search/ai',json={'query':'Financial difficulties nearly forced her to drop out. She worked and completed school.'})
@@ -87,7 +89,7 @@ def test_gemini_request_contract(cloud,monkeypatch):
     mock_post(monkeypatch,call)
     assert client.post('/api/search/ai',json={'query':'Kept studying despite obstacles'}).json()['items'][0]['id']=='approved'
 
-@pytest.mark.parametrize('code,expected',[(429,'quota'),(403,'authentication'),(404,'model'),(503,'temporarily busy')])
+@pytest.mark.parametrize('code,expected',[(413,'request limit'),(429,'quota'),(403,'authentication'),(404,'model'),(503,'temporarily busy')])
 def test_free_tier_errors_are_actionable(cloud,monkeypatch,code,expected):
     _,client=cloud;original=httpx.Client.post
     def post(self,url,**kwargs):
@@ -128,3 +130,19 @@ def test_groq_rejects_private_ids_and_no_web_calls(cloud,monkeypatch):
     assert len(calls)==1 and result.json()['external_sources']==[]
     mock_post(monkeypatch,lambda *a:{'choices':[{'message':{'content':json.dumps({'interpretation':'Bad ID','matches':[{'id':'pending','reason':'No'}]})}}]})
     assert client.post('/api/search/ai',json={'query':'An unknown situation','provider':'groq'}).status_code==503
+
+
+def test_large_catalog_uses_one_request_and_validates_short_ids(monkeypatch):
+    from types import SimpleNamespace
+    monkeypatch.setenv('GAADE_AI_PROVIDER','openai');monkeypatch.setenv('GAADE_AI_MODEL','test-model');monkeypatch.setenv('OPENAI_API_KEY','synthetic-secret')
+    rows=[SimpleNamespace(id='synthetic-record-'+str(i),contextual_meaning='Synthetic meaning '+str(i)) for i in range(200)]
+    calls=[]
+    def call(url,args):
+        calls.append(url);prompt=args['json']['input']
+        assert '"id": "p199"' in prompt and 'synthetic-record-199' not in prompt
+        return response(json.dumps({'interpretation':'Synthetic interpretation','matches':[{'id':'p199','reason':'Synthetic match'}]}))
+    mock_post(monkeypatch,call)
+    result=CloudSearch().select('Synthetic situation',rows)
+    assert len(calls)==1 and result.matches[0].id=='synthetic-record-199'
+    mock_post(monkeypatch,lambda *args:response(json.dumps({'interpretation':'Synthetic','matches':[{'id':'p999','reason':'Invalid'}]})))
+    with pytest.raises(CloudUnavailable):CloudSearch().select('Synthetic situation',rows)

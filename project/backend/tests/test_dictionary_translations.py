@@ -25,3 +25,34 @@ def test_bilingual_cache_search_and_invalidation(tmp_path):
     assert client.get('/api/proverbs/synthetic').json()['translation'] is None
     assert client.get('/api/proverbs',params={'q':'ವಿವರಣೆ'}).json()['total']==0
     assert client.get('/api/proverbs/synthetic').json()['literal_meaning']=='Synthetic literal'
+
+def test_dictionary_theme_filter_preserves_categories(tmp_path):
+    app=create_app(tmp_path,'synthetic-token')
+    with app.state.Session.begin() as session:
+        for id,category in [('money-a','Money and moderation'),('money-b','Greed'),('work-a','Work and agriculture'),('other','Synthetic')]:
+            session.add(Proverb(id=id,proverb_kn='ಪರೀಕ್ಷೆ '+id,category=category,literal_meaning='Synthetic literal',contextual_meaning='Synthetic context',verification_status=APPROVED))
+        session.add(Proverb(id='pending-money',proverb_kn='ಗೋಪ್ಯ ಪರೀಕ್ಷೆ',category='Greed',literal_meaning='Synthetic literal',contextual_meaning='Synthetic context',verification_status='PENDING_VERIFICATION'))
+    client=TestClient(app)
+    result=client.get('/api/proverbs',params={'theme':'money','page_size':1}).json()
+    assert result['total']==2 and len(result['items'])==1
+    narrowed=client.get('/api/proverbs',params={'theme':'money','category':'Greed'}).json()
+    assert [row['id'] for row in narrowed['items']]==['money-b']
+    assert narrowed['items'][0]['category']=='Greed'
+    assert client.get('/api/proverbs',params={'theme':'work','category':'Greed'}).json()['total']==0
+    assert client.get('/api/proverbs',params={'theme':'invalid'}).status_code==422
+    assert 'Greed' in client.get('/api/categories').json()
+
+def test_situation_pairs_only_for_unchanged_approved_records(tmp_path,monkeypatch):
+    from backend import dictionary_situations
+    app=create_app(tmp_path,'synthetic-token')
+    examples=[{'id':'synthetic-1','text':'Synthetic situation one','language':'en','status':'DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW'},{'id':'synthetic-2','text':'Synthetic situation two','language':'en','status':'DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW'}]
+    with app.state.Session.begin() as session:
+        for id,status in [('synthetic',APPROVED),('hidden','PENDING_VERIFICATION')]:
+            session.add(Proverb(id=id,proverb_kn='ಪರೀಕ್ಷೆ',literal_meaning='Synthetic literal',contextual_meaning='Synthetic context',example_usage='Synthetic example',verification_status=status))
+    record={'proverb_kn':'ಪರೀಕ್ಷೆ','contextual_meaning':'Synthetic context','example_usage':'Synthetic example','items':examples}
+    monkeypatch.setattr(dictionary_situations,'BUNDLE',{'synthetic':record,'hidden':record})
+    client=TestClient(app)
+    assert client.get('/api/proverbs/synthetic').json()['situations']==examples
+    assert client.get('/api/proverbs/hidden').status_code==404
+    with app.state.Session.begin() as session:session.get(Proverb,'synthetic').contextual_meaning='Changed synthetic meaning'
+    assert client.get('/api/proverbs/synthetic').json()['situations']==[]

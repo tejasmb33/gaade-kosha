@@ -1,30 +1,60 @@
-# Labeled situation examples
+# ಗಾದಾಮೃತ — ದತ್ತಾಂಶ ಕಡತಗಳ ವಿವರಣೆ
 
-108 draft evaluation examples: 100 positive situations covering all 50 currently approved proverbs (one English and one Kannada situation each), plus 8 unrelated/no-match examples. Language totals: 54 Kannada and 54 English.
+**ಸ್ಥಳೀಯ ಪ್ರಸ್ತುತ ಸ್ಥಿತಿ: 19 ನವೆಂಬರ್ 2026.** ದತ್ತಸಂಚಯದಲ್ಲಿ 200 ಬಳಕೆದಾರ-ಅನುಮೋದಿತ ಗಾದೆಗಳಿವೆ. ಪ್ರತಿ ಗಾದೆಗೆ ಎರಡು ಸಂದರ್ಭಗಳಂತೆ 400 ಸಂದರ್ಭಗಳನ್ನು ಸಿದ್ಧಪಡಿಸಲಾಗಿದೆ. ಅರ್ಥ/ಅನುವಾದ/ಸಂದರ್ಭಗಳಿಗೆ ಸ್ವತಂತ್ರ ಕನ್ನಡ ಪರಿಶೀಲನೆ ಇನ್ನೂ ಅಗತ್ಯ.
 
-- `situations-labeled.csv`: open in Excel, Numbers or VS Code to browse situations and answers. UTF-8 BOM preserves Kannada in spreadsheet applications.
-- `situations-labeled.jsonl`: full labels, database IDs, expected Kannada proverbs, source references and provenance.
-- `situations-evaluation.jsonl`: minimal `query` / `expected_ids` format accepted by the search evaluation runner.
+## ಈಗ ಬಳಸಬೇಕಾದ ಕಡತಗಳು
 
-These are authored illustrative situations, not historical usage quotations. Proverb text and IDs were copied unchanged from the existing approved local collection on 2026-11-17. Labels use its stored contextual meanings, which still contain draft markers. **A native Kannada speaker should review the situations, translations and expected matches. These are not independent verified cultural ground truth.** Source URLs refer to the proverb records, not to the newly written situations. No database statuses, meanings, or proverbs were changed.
+| ಕಡತ ಅಥವಾ directory | ಬಳಕೆ |
+|---|---|
+| `submission/gaade.csv` | ಸಲ್ಲಿಕೆಗಾಗಿ 200 ಗಾದೆಗಳ ಮುಖ್ಯ ಕ್ಷೇತ್ರಗಳು |
+| `submission/situations.csv` | `gaade_id` ಮೂಲಕ ಜೋಡಿಸಿದ 400 ದ್ವಿಭಾಷಾ ಸಂದರ್ಭಗಳು |
+| `submission/metadata.csv` | ಮೂಲ category, source, ಅನುವಾದ ಮತ್ತು ಪ್ರದೇಶದ ಸ್ಥಿತಿ |
+| `submission/validation.json` | ಎಣಿಕೆಗಳು ಮತ್ತು CSV hash ಮೌಲ್ಯಗಳು |
+| `situations-bilingual.jsonl` / `.csv` | 400 ಸಂದರ್ಭಗಳ ಕನ್ನಡ/ಇಂಗ್ಲಿಷ್ export |
+| `situations-complete.jsonl` / `.csv` | ಮೂಲ ಉದಾಹರಣೆ ಮತ್ತು ಹೆಚ್ಚುವರಿ ರಚಿಸಿದ ಸಂದರ್ಭದ ಜೋಡಿ; ಎಲ್ಲ ಪಠ್ಯಗಳು ದ್ವಿಭಾಷೆಯಾಗುವ ಮುಂಚಿನ ಮೂಲ ರೂಪ |
 
-For overlapping meanings, `expected_ids` lists the primary proverb and explicitly selected acceptable alternatives. The primary label is the intended best answer; the existing evaluator accepts any listed ID in the top three. Empty expected IDs mean the app should abstain. Multiple other interpretations may be valid; expand the labels after human review rather than assuming a single proverb is universally correct.
+ಪ್ರತಿ ಸಂದರ್ಭಕ್ಕೆ `gaade_id` ಮತ್ತು ಸ್ಥಿರ `situation_id` ಇವೆ. ದ್ವಿಭಾಷಾ CSVಯ ಒಂದೇ ಸಾಲಿನ Kannada/English ಪಠ್ಯಗಳು ಒಂದೇ ಸಂದರ್ಭ; ಎರಡು ಪ್ರತ್ಯೇಕ ಸಂದರ್ಭಗಳೆಂದು ಎಣಿಸಬೇಡಿ.
 
-Try examples in http://localhost:5173:
+[ಸಲ್ಲಿಕೆ README](submission/README.md)ಯಲ್ಲಿ ಕ್ಷೇತ್ರಗಳ ವಿವರ, ಪ್ರಸ್ತುತ ಎಣಿಕೆಗಳು ಮತ್ತು ಉಳಿದ ಕೊರತೆಗಳಿವೆ. Main submission CSVಯ 200 ಪ್ರದೇಶಗಳು random demo ಮೌಲ್ಯಗಳು; ಪ್ರತಿಯೊಂದಕ್ಕೂ synthetic ಗುರುತು ಇದೆ. Backendನಲ್ಲಿ ನಿಜವಾದ ಪ್ರದೇಶಗಳು ದಾಖಲಾಗಿಲ್ಲ.
 
-| Situation | Intended proverb |
-| --- | --- |
-| An unprepared presenter blamed the sound technician for his poor presentation. | ಆಟ ಕೆಟ್ಟರೆ ದೀವಟಿಗೆಯವನ ಸುತ್ತ |
-| ಕೈಯಲ್ಲೇ ಇದ್ದ ಮೊಬೈಲನ್ನು ಮರೆತು ಇಡೀ ಕೋಣೆಯಲ್ಲಿ ಹುಡುಕಾಡಿದೆ. | ಕಂಕುಳಲ್ಲಿ ಮಗು ಇಟ್ಟುಕೊಂಡು ಊರೆಲ್ಲ ಹುಡುಕಿದರಂತೆ |
-| Saving a small amount every week eventually helped us build a substantial fund. | ಹನಿ ಹನಿ ಕೂಡಿದರೆ ಹಳ್ಳ |
-| ಆದಾಯ ಮೀರಿಸಿ ಸಾಲ ಮಾಡುವ ಬದಲು ನಮಗೆ ಕೈಗೆಟುಕುವಷ್ಟು ಖರ್ಚಿನಲ್ಲಿ ಸಮಾರಂಭ ಮಾಡಬೇಕು. | ಹಾಸಿಗೆ ಇದ್ದಷ್ಟು ಕಾಲು ಚಾಚು |
+## ಹಳೆಯ evaluation ಕಡತಗಳು
 
-Run evaluation from project/ with the app running:
+`situations-labeled.csv`, `situations-labeled.jsonl` ಮತ್ತು `situations-evaluation.jsonl`ಗಳನ್ನು ಹಿಂದಿನ evaluationಗಾಗಿ ಹಾಗೆಯೇ ಉಳಿಸಲಾಗಿದೆ:
+
+- ಒಟ್ಟು 108 draft ಪ್ರಕರಣಗಳು: 50 ಗಾದೆಗಳಿಗೆ 100 positive ಉದಾಹರಣೆಗಳು ಮತ್ತು 8 no-match ಪ್ರಕರಣಗಳು.
+- ಭಾಷೆವಾರು 54 Kannada, 54 English.
+- Label ಸ್ಥಿತಿ: `DRAFT_EDITORIAL_REQUIRES_NATIVE_SPEAKER_REVIEW`.
+- ಹಳೆಯ local retrieval ಫಲಿತಾಂಶ: 76/108 pass; 32 fail. `retrieval-results.json`ನಲ್ಲಿ ವಿವರಗಳಿವೆ.
+
+ಇದು ಪ್ರಸ್ತುತ 200 ಗಾದೆಗಳು ಅಥವಾ cloud providerಗಳ ಸಾಮಾನ್ಯ accuracy ಅಳತೆಯಲ್ಲ. ಹಲವು ಭಾಷಾ ಜೋಡಿಗಳು ಒಂದೇ ಸಂದರ್ಭದ ರೂಪಾಂತರಗಳಾಗಿವೆ. ಹೊಸ 400 ಸಂದರ್ಭಗಳ ಸಂಗ್ರಹಕ್ಕೂ ಹಳೆಯ ಉದಾಹರಣೆಗಳಿಗೂ overlap ಇದೆ; ಇವುಗಳನ್ನು ಸ್ವತಂತ್ರ training/test splits ಎಂದು ಹೇಳಬೇಡಿ.
 
 ```sh
+# project/ directoryಯಿಂದ, ಸ್ಥಳೀಯ API ಚಾಲನೆಯಲ್ಲಿರುವಾಗ:
 .venv/bin/python scripts/evaluate_search.py datasets/situations-evaluation.jsonl
 ```
 
-Evaluation should reveal failures; labels were not changed to match current model predictions. Format, uniqueness, length limits and references to currently approved database IDs were checked. Subsequent local retrieval execution (2026-11-17) matched 76/108 draft labels; 32 failed. Results are recorded in `retrieval-results.json`. This is development feedback, not an independent cultural accuracy benchmark.
+ಈ ಕಡತಗಳು E5ಯನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ fine-tune ಮಾಡುವುದಿಲ್ಲ. ಸಂದರ್ಭ ಕಡತಗಳನ್ನು `import_proverbs.py`ಗೆ ಕೊಟ್ಟು ಗಾದೆಗಳಂತೆ import ಮಾಡಬೇಡಿ.
 
-These files are evaluation data, not inputs to `import_proverbs.py`. Importing them as proverbs would be incorrect. They do not fine-tune E5 automatically. IDs are tied to this database; when moving to a new database, remap them using the preserved Kannada proverb text. The earlier 15 tuning examples remain separately under `evaluations/` and overlap conceptually with this collection; do not claim an independent held-out benchmark.
+## 100 ಹೊಸ ಗಾದೆಗಳ import ಇತಿಹಾಸ
+
+`pending-proverbs-2026-11-18.jsonl`ನಲ್ಲಿ ಬಳಕೆದಾರರು ಕೊಟ್ಟ ಎರಡು ಕಡತಗಳ 100 ಮೂಲ ದಾಖಲೆಗಳಿವೆ. Schema ಮತ್ತು NFC/spacing/punctuation ಆಧಾರಿತ duplicate ಪರಿಶೀಲನೆಯ ನಂತರ ಮೊದಲು pending ಆಗಿ import ಮಾಡಲಾಯಿತು. ಬಳಿಕ ಬಳಕೆದಾರರ ಸ್ಪಷ್ಟ ಸೂಚನೆಯಂತೆ review API ಮೂಲಕ ಅನುಮೋದಿಸಲಾಯಿತು. ಈಗ ಸ್ಥಳೀಯವಾಗಿ 200 APPROVED, 0 pending.
+
+ಇದು ಮೂಲ ಪದಗಳು/ಅರ್ಥಗಳ ಸ್ವತಂತ್ರ ಸಾಂಸ್ಕೃತಿಕ ಪರಿಶೀಲನೆಗೆ ಸಾಕ್ಷಿಯಲ್ಲ. ಹೊಸ 100 ಗಾದೆಗಳಿಗೆ ಮಾನವ ಧ್ವನಿ ದಾಖಲೆಗಳನ್ನು import ಮಾಡಿಲ್ಲ. Private approval audit ಮತ್ತು database backupಗಳು `data/`ಯಲ್ಲಿ ಉಳಿದಿವೆ; Gitಗೆ ಸೇರಿಸುವುದಿಲ್ಲ.
+
+## ಮೂಲ, ಭಾಷೆ ಮತ್ತು synthetic ಗುರುತುಗಳು
+
+ಗಾದೆಗಳ website ಉಲ್ಲೇಖಗಳನ್ನು ಉಳಿಸಲಾಗಿದೆ. ಸಂದರ್ಭಗಳು ಲೇಖಕರಿಂದ ರಚಿಸಿದ ನೈಜ ಜೀವನದಂತಿರುವ ಕಲ್ಪಿತ ಉದಾಹರಣೆಗಳು; ಹಿರಿಯರ ಮಾತಿನ ನೇರ ದಾಖಲೆಗಳಲ್ಲ. ಗಾದೆಯ source URL ಅನ್ನು ಆ ಸಂದರ್ಭದ source ಎಂದು ಪರಿಗಣಿಸಬೇಡಿ. Region, dialect ಅಥವಾ collector ಮೂಲವನ್ನು ಊಹಿಸಬೇಡಿ.
+
+ಕನ್ನಡ Unicode ರೂಪದಲ್ಲಿದೆ; CSVಗಳು UTF-8 BOM ಬಳಸುತ್ತವೆ. ಮೂಲ Kannada combining marks ಉಳಿಸಲಾಗಿದೆ. CSVಯಲ್ಲಿನ ಪ್ರದರ್ಶನ ಮುನ್ನುಡಿ ತೆಗೆದುಹಾಕಿದ್ದರೂ draft/synthetic metadata ಹಾಗೆಯೇ ಉಳಿಯುತ್ತದೆ.
+
+## Export ಮತ್ತು hosted ಆವೃತ್ತಿ
+
+```sh
+# project/ directoryಯಿಂದ:
+.venv/bin/python scripts/export_bilingual_situations.py
+.venv/bin/python scripts/export_submission.py
+```
+
+ಇವು ಮೂಲ database approval ಅಥವಾ ಪಠ್ಯಗಳನ್ನು ಬದಲಾಯಿಸುವುದಿಲ್ಲ. Submission export ಅನ್ನು ಪುನಃ ನಡೆಸಿದರೆ ಕೈಯಾರೆ ಹಾಕಿದ random ಪ್ರದೇಶಗಳು ತೆಗೆದುಹೋಗುತ್ತವೆ. Translation/display cacheಗಳು ಸ್ಥಳೀಯ private ಕಡತಗಳು; Git push ಮಾಡಿದಷ್ಟರಿಂದ Supabaseಗೆ ನಕಲಾಗುವುದಿಲ್ಲ. Hosted data migration ಪ್ರತ್ಯೇಕ ಕೆಲಸ.
+
+`district-image-updates.json` ಜಿಲ್ಲೆಗಳ ಚಿತ್ರ ಬದಲಾವಣೆಯ mapping ಮಾತ್ರ; ಗಾದೆಯ region metadata ಅಲ್ಲ. Consent, human recordings, peer review ಮತ್ತು reuse rightsಗಳಿಗೆ ಪ್ರತ್ಯೇಕ ಸಾಕ್ಷಿ ಅಗತ್ಯ.

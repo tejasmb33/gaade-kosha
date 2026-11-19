@@ -1,0 +1,3802 @@
+{
+  "b9da0b34d7a746b1ba833dae905307ef": {
+    "proverb_kn": "ಕುಂಬಾರನಿಗೆ ವರುಷ, ದೊಣ್ಣೆಗೆ ನಿಮಿಷ",
+    "contextual_meaning": "Draft for human verification: Creating something takes time; destroying it can be quick.",
+    "example_usage": "Draft: After someone wrecks a carefully maintained garden, a neighbour uses this proverb.",
+    "items": [
+      {
+        "id": "b9da0b34d7a746b1ba833dae905307ef-1",
+        "text": "After someone wrecks a carefully maintained garden, a neighbour uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "b9da0b34d7a746b1ba833dae905307ef-2",
+        "text": "A child deletes the only copy of a school magazine that classmates spent months preparing.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "e36a3ff23c994b2e9345b52aee08f1da": {
+    "proverb_kn": "ಅವರವರ ತಲೆಗೆ ಅವರವರದೇ ಕೈ",
+    "contextual_meaning": "Draft for human verification: People ultimately have to take responsibility for their own needs.",
+    "example_usage": "Draft: A parent uses this proverb when encouraging an adult child to manage personal expenses.",
+    "items": [
+      {
+        "id": "e36a3ff23c994b2e9345b52aee08f1da-1",
+        "text": "A parent uses this proverb when encouraging an adult child to manage personal expenses.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "e36a3ff23c994b2e9345b52aee08f1da-2",
+        "text": "A young adult begins cooking and washing her own clothes instead of expecting relatives to handle everything.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "f582d2bf616a42fc8743281972db1358": {
+    "proverb_kn": "ಮನಸಿದ್ದರೆ ಮಾರ್ಗ",
+    "contextual_meaning": "Draft for human verification: Determination helps people find solutions to difficulties.",
+    "example_usage": "Draft: A working student arranges evening study hours; a friend uses this proverb about that determination.",
+    "items": [
+      {
+        "id": "f582d2bf616a42fc8743281972db1358-1",
+        "text": "A working student arranges evening study hours; a friend uses this proverb about that determination.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "f582d2bf616a42fc8743281972db1358-2",
+        "text": "A wheelchair user works with classmates to organise accessible transport and attend a course previously out of reach.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "fa3f75f75c854c799616b65bf8781789": {
+    "proverb_kn": "ಅಹಂಕಾರಕ್ಕೆ ಉದಾಸೀನವೇ ಮದ್ದು",
+    "contextual_meaning": "Draft for human verification: Withholding attention can discourage someone who seeks admiration through arrogance.",
+    "example_usage": "Draft: Instead of arguing with a boastful colleague, someone ignores the boasting and recalls this proverb.",
+    "items": [
+      {
+        "id": "fa3f75f75c854c799616b65bf8781789-1",
+        "text": "Instead of arguing with a boastful colleague, someone ignores the boasting and recalls this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "fa3f75f75c854c799616b65bf8781789-2",
+        "text": "When a show-off keeps interrupting a discussion for applause, the group calmly continues without rewarding the interruptions.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "c1ff94475d1547bd83d9dc2c082213d1": {
+    "proverb_kn": "ಅಳಿದೂರಿಗೆ ಉಳಿದವನೇ ಗೌಡ",
+    "contextual_meaning": "Draft for human verification: Someone may become prominent merely because other candidates are absent.",
+    "example_usage": "Draft: When the only remaining club member becomes president, someone uses this proverb humorously.",
+    "items": [
+      {
+        "id": "c1ff94475d1547bd83d9dc2c082213d1-1",
+        "text": "When the only remaining club member becomes president, someone uses this proverb humorously.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "c1ff94475d1547bd83d9dc2c082213d1-2",
+        "text": "The only person left at a poorly attended club meeting becomes chair because nobody else remains to stand.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "5b4f98ac4cfd4806b2d60957893cfe8a": {
+    "proverb_kn": "ಅಳಿಯ ಅಲ್ಲ, ಮಗಳ ಗಂಡ",
+    "contextual_meaning": "Draft for human verification: Changing the description does not change the underlying fact.",
+    "example_usage": "Draft: A company renames a fee without removing it; a customer responds with this proverb.",
+    "items": [
+      {
+        "id": "5b4f98ac4cfd4806b2d60957893cfe8a-1",
+        "text": "A company renames a fee without removing it; a customer responds with this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "5b4f98ac4cfd4806b2d60957893cfe8a-2",
+        "text": "An employer calls an unpaid extra shift a voluntary learning session, though employees are still required to work.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "cbbeac3735074374aca57e30b576e27f": {
+    "proverb_kn": "ಆಕಳು ಕಪ್ಪಾದರೂ ಹಾಲು ಕಪ್ಪೆ ?",
+    "contextual_meaning": "Draft for human verification: Outward appearance does not determine a person's worth or the quality of their work.",
+    "example_usage": "Draft: When a handmade product is dismissed because of plain packaging, its maker uses this proverb.",
+    "items": [
+      {
+        "id": "cbbeac3735074374aca57e30b576e27f-1",
+        "text": "When a handmade product is dismissed because of plain packaging, its maker uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "cbbeac3735074374aca57e30b576e27f-2",
+        "text": "A quiet applicant wearing simple clothes produces the strongest work sample in the interview group.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "486cba9698c44c31ae354f943e0f734a": {
+    "proverb_kn": "ಆಕಾಶ ನೋಡೋಕೆ ನೂಕಾಟವೇಕೆ?",
+    "contextual_meaning": "Draft for human verification: Competition is unnecessary when something is freely available to everyone.",
+    "example_usage": "Draft: People crowd around a freely accessible online resource; an organiser uses this proverb to discourage needless competition.",
+    "items": [
+      {
+        "id": "486cba9698c44c31ae354f943e0f734a-1",
+        "text": "People crowd around a freely accessible online resource; an organiser uses this proverb to discourage needless competition.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "486cba9698c44c31ae354f943e0f734a-2",
+        "text": "Visitors shove each other to view a freely visible rainbow although everyone could see it by standing apart.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "4878fdc07d4a4147b0bcd0e975538787": {
+    "proverb_kn": "ಆಗೋದೆಲ್ಲಾ ಒಳ್ಳೇದಕ್ಕೆ",
+    "contextual_meaning": "Draft for human verification: Used to express hope or offer consolation after an unwelcome event.",
+    "example_usage": "Draft: After missing a job opportunity, a friend uses this proverb to encourage continued effort.",
+    "items": [
+      {
+        "id": "4878fdc07d4a4147b0bcd0e975538787-1",
+        "text": "After missing a job opportunity, a friend uses this proverb to encourage continued effort.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "4878fdc07d4a4147b0bcd0e975538787-2",
+        "text": "After a cancelled journey, a family consoles one another and hopes to find another useful way to spend the holiday.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "7c2cab7082c7489a8e94ddd48dee89ad": {
+    "proverb_kn": "ಆಚಾರ್ಯರಿಗೆ ಮಂತ್ರಕ್ಕಿಂತ ಉಗುಳು ಜಾಸ್ತಿ",
+    "contextual_meaning": "Draft for human verification: Criticises activity or talk that contains more display than useful substance.",
+    "example_usage": "Draft: After a long presentation with little practical information, a listener uses this proverb.",
+    "items": [
+      {
+        "id": "7c2cab7082c7489a8e94ddd48dee89ad-1",
+        "text": "After a long presentation with little practical information, a listener uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "7c2cab7082c7489a8e94ddd48dee89ad-2",
+        "text": "A trainer uses grand slogans and lengthy introductions but teaches almost none of the promised practical material.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "387f1cdb019444dfa3cd616c44d61774": {
+    "proverb_kn": "ಆಟ ಕೆಟ್ಟರೆ ದೀವಟಿಗೆಯವನ ಸುತ್ತ",
+    "contextual_meaning": "Draft for human verification: People sometimes blame a supporting person for their own failure.",
+    "example_usage": "Draft: A speaker blames the technician for an unprepared talk; a colleague uses this proverb.",
+    "items": [
+      {
+        "id": "387f1cdb019444dfa3cd616c44d61774-1",
+        "text": "A speaker blames the technician for an unprepared talk; a colleague uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "387f1cdb019444dfa3cd616c44d61774-2",
+        "text": "A player who never practised blames the person who arranged the chairs for his poor performance.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "5a84ad6aea384570aac5e18bd662259f": {
+    "proverb_kn": "ಇಲ್ಲದ ಕಾಲಕ್ಕೆ ಕಲ್ಲೆದೆ ಬೇಕು",
+    "contextual_meaning": "Draft for human verification: Hard times require courage and emotional endurance.",
+    "example_usage": "Draft: A family facing a temporary loss of income uses this proverb to encourage resilience.",
+    "items": [
+      {
+        "id": "5a84ad6aea384570aac5e18bd662259f-1",
+        "text": "A family facing a temporary loss of income uses this proverb to encourage resilience.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "5a84ad6aea384570aac5e18bd662259f-2",
+        "text": "After losing a job, a parent stays determined while looking for temporary income and managing essential expenses.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "ac4049319e604a3184765758591726c9": {
+    "proverb_kn": "ಈಚಲ ಮರದ ಕೆಳಗೆ ಕುಳಿತು ಮಜ್ಜಿಗೆ ಕುಡಿದ ಹಾಗೆ.",
+    "contextual_meaning": "Draft for human verification: Even innocent behaviour may attract suspicion because of its setting.",
+    "example_usage": "Draft: An innocent meeting in a place associated with misconduct leads to gossip; someone uses this proverb.",
+    "items": [
+      {
+        "id": "ac4049319e604a3184765758591726c9-1",
+        "text": "An innocent meeting in a place associated with misconduct leads to gossip; someone uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "ac4049319e604a3184765758591726c9-2",
+        "text": "A student waits innocently outside a building associated with cheating and classmates assume she is involved.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "5fbe721f6ea34d4f87e8f4e544895171": {
+    "proverb_kn": "ಉಂಡ ಮನೆ ಜಂತೆ ಎಣಿಸಬಾರದು",
+    "contextual_meaning": "Draft for human verification: Do not exploit a host's hospitality or pry into their household affairs.",
+    "example_usage": "Draft: A guest starts investigating the host's property and finances; another guest uses this proverb.",
+    "items": [
+      {
+        "id": "5fbe721f6ea34d4f87e8f4e544895171-1",
+        "text": "A guest starts investigating the host's property and finances; another guest uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "5fbe721f6ea34d4f87e8f4e544895171-2",
+        "text": "A guest accepts a friend's hospitality and then questions the family intrusively about their savings and possessions.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "feabb769440c4a318c2878e0cf28f4cd": {
+    "proverb_kn": "ಉಂಬಾಗ ಉಡುವಾಗ ಊರೆಲ್ಲ ನೆಂಟರು",
+    "contextual_meaning": "Draft for human verification: People readily claim closeness when benefits or celebrations are available.",
+    "example_usage": "Draft: Many distant acquaintances appear when gifts are distributed; an organiser uses this proverb.",
+    "items": [
+      {
+        "id": "feabb769440c4a318c2878e0cf28f4cd-1",
+        "text": "Many distant acquaintances appear when gifts are distributed; an organiser uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "feabb769440c4a318c2878e0cf28f4cd-2",
+        "text": "People who rarely visit an elderly neighbour arrive eagerly when they hear that gifts are being distributed.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "507590c57c38406fbb84967aa54fc539": {
+    "proverb_kn": "ಉಗಿದರೆ ತುಪ್ಪ ಕೆಡುತ್ತದೆ, ನುಂಗಿದರೆ ಗಂಟಲು ಕೆಡುತ್ತದೆ",
+    "contextual_meaning": "Draft for human verification: Describes a dilemma in which either choice has an unpleasant consequence.",
+    "example_usage": "Draft: Someone must either reveal a friend's mistake or bear responsibility for it and uses this proverb.",
+    "items": [
+      {
+        "id": "507590c57c38406fbb84967aa54fc539-1",
+        "text": "Someone must either reveal a friend's mistake or bear responsibility for it and uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "507590c57c38406fbb84967aa54fc539-2",
+        "text": "An employee must choose between accepting an unwanted transfer and losing the role she has worked hard to keep.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "91bdfdb9dfa04838ab0973386a780efc": {
+    "proverb_kn": "ನುಂಗಲಾರದ ಬಿಸಿ ತುಪ್ಪ",
+    "contextual_meaning": "Draft for human verification: Describes a difficult situation that is hard to accept or openly reject.",
+    "example_usage": "Draft: An employee receives an unwanted promotion carrying unaffordable relocation costs and describes it with this expression.",
+    "items": [
+      {
+        "id": "91bdfdb9dfa04838ab0973386a780efc-1",
+        "text": "An employee receives an unwanted promotion carrying unaffordable relocation costs and describes it with this expression.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "91bdfdb9dfa04838ab0973386a780efc-2",
+        "text": "A relative receives an expensive but impractical gift and struggles to use it or explain why she cannot accept it.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "f27f11ceff674bb8a5b47eaa23fe4118": {
+    "proverb_kn": "ಉಗುರಿನಲ್ಲಿ ಮಾಡುವ ಕೆಲಸಕ್ಕೆ ಕೊಡಲಿ ತೆಗೆದುಕೊಂಡಂತೆ",
+    "contextual_meaning": "Draft for human verification: Criticises using excessive force or resources for a small problem.",
+    "example_usage": "Draft: A manager proposes replacing an entire system to fix one minor setting; a colleague uses this proverb.",
+    "items": [
+      {
+        "id": "f27f11ceff674bb8a5b47eaa23fe4118-1",
+        "text": "A manager proposes replacing an entire system to fix one minor setting; a colleague uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "f27f11ceff674bb8a5b47eaa23fe4118-2",
+        "text": "A committee hires an entire event crew merely to rearrange three chairs for a small meeting.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "6580125ea3134825bdaef28ef4afaa48": {
+    "proverb_kn": "ಓದುವಾಗ ಓದು, ಆಡುವಾಗ ಆಡು",
+    "contextual_meaning": "Draft for human verification: Give each activity its proper time and full attention.",
+    "example_usage": "Draft: A parent uses this proverb while helping a child balance homework and games.",
+    "items": [
+      {
+        "id": "6580125ea3134825bdaef28ef4afaa48-1",
+        "text": "A parent uses this proverb while helping a child balance homework and games.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "6580125ea3134825bdaef28ef4afaa48-2",
+        "text": "A student silences game notifications during homework and closes the textbook when it is time for a planned break.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "a515d04ebede4c20a664abeabbaa910e": {
+    "proverb_kn": "ಕಂಡವರ ಮನೆಯಲ್ಲಿ ದಾನ ಮಾಡಿದಂತೆ",
+    "contextual_meaning": "Draft for human verification: Criticises generosity exercised using another person's resources.",
+    "example_usage": "Draft: Someone promises a donation from a shared fund without consulting its owners; another member uses this proverb.",
+    "items": [
+      {
+        "id": "a515d04ebede4c20a664abeabbaa910e-1",
+        "text": "Someone promises a donation from a shared fund without consulting its owners; another member uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "a515d04ebede4c20a664abeabbaa910e-2",
+        "text": "A tenant promises to donate the landlord's furniture to a charity without obtaining the owner's permission.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "0fe177e6941449cca57c62901654df72": {
+    "proverb_kn": "ಕಂತೆಗೆ ತಕ್ಕ ಬೊಂತೆ",
+    "contextual_meaning": "Draft for human verification: Describes a fitting match, often between people with similar shortcomings.",
+    "example_usage": "Draft: Two habitual tricksters become partners; an observer uses this proverb.",
+    "items": [
+      {
+        "id": "0fe177e6941449cca57c62901654df72-1",
+        "text": "Two habitual tricksters become partners; an observer uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "0fe177e6941449cca57c62901654df72-2",
+        "text": "Two habitual rule-breakers form a partnership and readily support each other's excuses for avoiding responsibility.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "a217f113a3ea42b691080254b014cb18": {
+    "proverb_kn": "ಕಂಕುಳಲ್ಲಿ ಮಗು ಇಟ್ಟುಕೊಂಡು ಊರೆಲ್ಲ ಹುಡುಕಿದರಂತೆ",
+    "contextual_meaning": "Draft for human verification: People sometimes search far away for something already close at hand.",
+    "example_usage": "Draft: Someone searches every room for a phone already in their hand; a friend uses this proverb.",
+    "items": [
+      {
+        "id": "a217f113a3ea42b691080254b014cb18-1",
+        "text": "Someone searches every room for a phone already in their hand; a friend uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "a217f113a3ea42b691080254b014cb18-2",
+        "text": "A traveller searches several bags for a ticket that is already tucked into the book in her hand.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "67ceccd62bba406e9186923268349aff": {
+    "proverb_kn": "ಕಂಡದ್ದು ಕಂಡಂತೆ ನುಡಿದರೆ ಕೆಂಡದಂತಹಾ ಸಿಟ್ಟು",
+    "contextual_meaning": "Draft for human verification: Frankly stating an uncomfortable truth can provoke anger.",
+    "example_usage": "Draft: A reviewer honestly identifies a friend's mistakes and receives an angry response; someone uses this proverb.",
+    "items": [
+      {
+        "id": "67ceccd62bba406e9186923268349aff-1",
+        "text": "A reviewer honestly identifies a friend's mistakes and receives an angry response; someone uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "67ceccd62bba406e9186923268349aff-2",
+        "text": "A volunteer honestly identifies a flaw in the treasurer's calculation and the treasurer responds angrily instead of checking.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "3fefaf89b24a4b42a66857156abf02ff": {
+    "proverb_kn": "ಕಚ್ಚುವ ನಾಯಿ ಬೊಗಳುವುದಿಲ್ಲ",
+    "contextual_meaning": "Draft for human verification: A person who intends to act may give little warning.",
+    "example_usage": "Draft: A quiet competitor unexpectedly makes a decisive move; an observer uses this proverb.",
+    "items": [
+      {
+        "id": "3fefaf89b24a4b42a66857156abf02ff-1",
+        "text": "A quiet competitor unexpectedly makes a decisive move; an observer uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "3fefaf89b24a4b42a66857156abf02ff-2",
+        "text": "While others argue about filing a complaint, a quiet resident gathers evidence and submits one without making threats.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "c2d7dd7d4d1943a58a2ced7b30ca2516": {
+    "proverb_kn": "ಕಡಲೆ ಕಾಯೋಕೆ ಕಾಗೆ ಕಾವಲು ಹಾಕಿದಂತೆ",
+    "contextual_meaning": "Draft for human verification: Entrusting protection to someone likely to consume or misuse what they guard is unwise.",
+    "example_usage": "Draft: A person known for misusing funds is made treasurer; another member uses this proverb.",
+    "items": [
+      {
+        "id": "c2d7dd7d4d1943a58a2ced7b30ca2516-1",
+        "text": "A person known for misusing funds is made treasurer; another member uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "c2d7dd7d4d1943a58a2ced7b30ca2516-2",
+        "text": "A school asks a pupil who repeatedly takes sweets to guard an unattended box of sweets for everyone.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "52e623dc698546fd9bb36e5f698713d2": {
+    "proverb_kn": "ಕಡ್ಡಿಯನ್ನು ಗುಡ್ಡೆ ಮಾಡಿದಂತೆ",
+    "contextual_meaning": "Draft for human verification: Describes exaggerating a small matter into a major issue.",
+    "example_usage": "Draft: A minor delay becomes the subject of a dramatic complaint; someone uses this proverb.",
+    "items": [
+      {
+        "id": "52e623dc698546fd9bb36e5f698713d2-1",
+        "text": "A minor delay becomes the subject of a dramatic complaint; someone uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "52e623dc698546fd9bb36e5f698713d2-2",
+        "text": "A resident turns a single late delivery into a claim that the entire postal service never delivers anything.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "3670a504c8984cb0ac3d25deff8cf091": {
+    "proverb_kn": "ಕಡು ಕೋಪ ಬಂದಾಗ ತಡಕೊಂಡವನೇ ಜಾಣ",
+    "contextual_meaning": "Draft for human verification: Restraining an angry reaction shows good judgement.",
+    "example_usage": "Draft: Someone waits before replying to an insulting message; a friend uses this proverb approvingly.",
+    "items": [
+      {
+        "id": "3670a504c8984cb0ac3d25deff8cf091-1",
+        "text": "Someone waits before replying to an insulting message; a friend uses this proverb approvingly.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "3670a504c8984cb0ac3d25deff8cf091-2",
+        "text": "Before replying to an insulting message, an employee waits until she can respond calmly and discuss the actual problem.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "3dbdbb08cfff4f56bd671abf8aae0d58": {
+    "proverb_kn": "ಕಣ್ಣಾರೆ ಕಂಡರೂ ಪರಾಂಬರಿಸಿ ನೋಡು",
+    "contextual_meaning": "Draft for human verification: Verify the circumstances before drawing conclusions from appearances.",
+    "example_usage": "Draft: Before blaming someone based on a short video, a friend uses this proverb and asks for the full context.",
+    "items": [
+      {
+        "id": "3dbdbb08cfff4f56bd671abf8aae0d58-1",
+        "text": "Before blaming someone based on a short video, a friend uses this proverb and asks for the full context.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "3dbdbb08cfff4f56bd671abf8aae0d58-2",
+        "text": "A teacher checks the full context of a photograph before accusing a pupil of damaging school property.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "790ab65e46a6481c9832839b42b9c1a8": {
+    "proverb_kn": "ಗೆದ್ದೆತ್ತಿನ ಬಾಲ ಹಿಡಿದ ಹಾಗೆ",
+    "contextual_meaning": "Draft for human verification: Describes joining the successful side after its success becomes clear.",
+    "example_usage": "Draft: Someone supports a candidate only after the result is certain; an observer uses this proverb.",
+    "items": [
+      {
+        "id": "790ab65e46a6481c9832839b42b9c1a8-1",
+        "text": "Someone supports a candidate only after the result is certain; an observer uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "790ab65e46a6481c9832839b42b9c1a8-2",
+        "text": "After a little-known team wins the tournament, several spectators claim they had supported it from the beginning.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "9d210b84bb85441a88355d60e6b2762f": {
+    "proverb_kn": "ಚರ್ಮ ತೊಳೆದರೆ ಕರ್ಮ ಹೋದೀತೆ",
+    "contextual_meaning": "Draft for human verification: Outward cleansing or cosmetic changes cannot erase wrongdoing.",
+    "example_usage": "Draft: A business changes its branding without addressing past misconduct; a customer uses this proverb.",
+    "items": [
+      {
+        "id": "9d210b84bb85441a88355d60e6b2762f-1",
+        "text": "A business changes its branding without addressing past misconduct; a customer uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "9d210b84bb85441a88355d60e6b2762f-2",
+        "text": "A shop replaces its sign and paints the walls but refuses to address its practice of overcharging customers.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "19c99748fb0642daafc1b709b179cf33": {
+    "proverb_kn": "ಚಾಡಿಕೋರನಿಗೆ ಊರೆಲ್ಲ ನೆಂಟರು",
+    "contextual_meaning": "Draft for human verification: A person who spreads gossip cultivates contacts everywhere to gather and circulate stories.",
+    "example_usage": "Draft: Someone visits every household collecting private news; a neighbour uses this proverb.",
+    "items": [
+      {
+        "id": "19c99748fb0642daafc1b709b179cf33-1",
+        "text": "Someone visits every household collecting private news; a neighbour uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "19c99748fb0642daafc1b709b179cf33-2",
+        "text": "A commuter befriends people at every stop chiefly to collect private stories and pass them to other passengers.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "9f18a4a4f90940dc8fe57294ba00c749": {
+    "proverb_kn": "ಚಿಕ್ಕ ಮೀನನ್ನು ದೊಡ್ಡ ಮೀನು ನುಂಗಿತಂತೆ",
+    "contextual_meaning": "Draft for human verification: The powerful can overwhelm or absorb those with fewer resources.",
+    "example_usage": "Draft: A large company buys out a struggling small competitor; someone uses this proverb.",
+    "items": [
+      {
+        "id": "9f18a4a4f90940dc8fe57294ba00c749-1",
+        "text": "A large company buys out a struggling small competitor; someone uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "9f18a4a4f90940dc8fe57294ba00c749-2",
+        "text": "A large distributor pressures a small supplier into accepting terms it cannot realistically negotiate against.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "4a61efa0f0d94d399ce0002d56ee3924": {
+    "proverb_kn": "ಚಿಕ್ಕ ಮೆಣಸಿಗೆ ಕಾರ ಹೆಚ್ಚು",
+    "contextual_meaning": "Draft for human verification: Small size does not imply little strength, ability, or intensity.",
+    "example_usage": "Draft: The youngest player delivers an outstanding performance; a spectator uses this proverb.",
+    "items": [
+      {
+        "id": "4a61efa0f0d94d399ce0002d56ee3924-1",
+        "text": "The youngest player delivers an outstanding performance; a spectator uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "4a61efa0f0d94d399ce0002d56ee3924-2",
+        "text": "A younger team member solves the difficult coding task that several larger and older teammates could not finish.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "8464a2c9d5e04277bb149fd94c22c9be": {
+    "proverb_kn": "ಚಿನ್ನದ ಚೂರಿ ಎಂದು ಕುತ್ತಿಗೆ ಕುಯಿಸಿಕೊಳ್ಳಬಹುದೇ",
+    "contextual_meaning": "Draft for human verification: Prestige or attractiveness does not justify accepting something harmful.",
+    "example_usage": "Draft: Someone rejects a prestigious job with damaging conditions and uses this proverb.",
+    "items": [
+      {
+        "id": "8464a2c9d5e04277bb149fd94c22c9be-1",
+        "text": "Someone rejects a prestigious job with damaging conditions and uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "8464a2c9d5e04277bb149fd94c22c9be-2",
+        "text": "A worker declines a prestigious assignment because the conditions require him to risk serious harm without safeguards.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "527c2deac51b4bdd8972cdb47a6a8e02": {
+    "proverb_kn": "ಚಿನ್ನದ ಸೂಜಿ ಅಂತ ಕಣ್ಣು ಚುಚ್ಚಿಕೊಂಡಾರೆ?",
+    "contextual_meaning": "Draft for human verification: Something valuable or appealing should still be rejected if it causes harm.",
+    "example_usage": "Draft: A shopper declines an expensive product that is unsuitable for them and uses this proverb.",
+    "items": [
+      {
+        "id": "527c2deac51b4bdd8972cdb47a6a8e02-1",
+        "text": "A shopper declines an expensive product that is unsuitable for them and uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "527c2deac51b4bdd8972cdb47a6a8e02-2",
+        "text": "A buyer rejects a costly decorative device after discovering that it is unsafe to use at home.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "9b84f3a860ff47e79c564cda5420b914": {
+    "proverb_kn": "ತಾನೂ ತಿನ್ನ, ಪರರಿಗೂ ಕೊಡ",
+    "contextual_meaning": "Draft for human verification: Criticises hoarding something one does not use while preventing others from benefiting.",
+    "example_usage": "Draft: Someone keeps unused tools locked away and refuses to lend them; a neighbour uses this proverb.",
+    "items": [
+      {
+        "id": "9b84f3a860ff47e79c564cda5420b914-1",
+        "text": "Someone keeps unused tools locked away and refuses to lend them; a neighbour uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "9b84f3a860ff47e79c564cda5420b914-2",
+        "text": "An owner leaves a vacant reading room locked for years while refusing requests to let nearby children study there.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "440431ec61ab42699e7ff8d4c4eddf4c": {
+    "proverb_kn": "ತಾನೊಂದೆಣಿಸಿದರೆ ದೈವವೊಂದೆಣಿಸಿತು",
+    "contextual_meaning": "Draft for human verification: Events can overturn even carefully made plans.",
+    "example_usage": "Draft: Rain forces a planned outdoor celebration indoors; the organiser uses this proverb.",
+    "items": [
+      {
+        "id": "440431ec61ab42699e7ff8d4c4eddf4c-1",
+        "text": "Rain forces a planned outdoor celebration indoors; the organiser uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "440431ec61ab42699e7ff8d4c4eddf4c-2",
+        "text": "A family plans an outdoor celebration carefully, but an unexpected transport strike changes everyone's arrangements.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "eb93aceee6114c74a8763c27539e3fa5": {
+    "proverb_kn": "ಊಟ ಬಲ್ಲವನಿಗೆ ರೋಗವಿಲ್ಲ, ಮಾತು ಬಲ್ಲವನಿಗೆ ಜಗಳವಿಲ್ಲ",
+    "contextual_meaning": "Draft for human verification: Praises moderation in eating and tact in speech as ways to avoid trouble; the health wording is proverbial rather than a medical guarantee.",
+    "example_usage": "Draft: A mediator settles a disagreement through careful words; someone recalls the proverb.",
+    "items": [
+      {
+        "id": "eb93aceee6114c74a8763c27539e3fa5-1",
+        "text": "A mediator settles a disagreement through careful words; someone recalls the proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "eb93aceee6114c74a8763c27539e3fa5-2",
+        "text": "A host avoids a quarrel by choosing considerate words when discussing a disagreement over the shared meal.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "78c2be9c5dbd45eeadcd0433b6c4c289": {
+    "proverb_kn": "ವ್ಯಾಪಾರಕ್ಕೆ ನಿಮಿಷ ಬೇಸಾಯಕ್ಕೆ ವರುಷ",
+    "contextual_meaning": "Draft for human verification: Contrasts the speed of a transaction with the long effort needed to produce a crop.",
+    "example_usage": "Draft: During a discussion about crop prices, a farmer uses this proverb to emphasise the time invested in cultivation.",
+    "items": [
+      {
+        "id": "78c2be9c5dbd45eeadcd0433b6c4c289-1",
+        "text": "During a discussion about crop prices, a farmer uses this proverb to emphasise the time invested in cultivation.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "78c2be9c5dbd45eeadcd0433b6c4c289-2",
+        "text": "A grower spends months tending vegetables that a trader purchases and resells within a few minutes.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "34e6af5f96a648b48bb5d1b442f239ce": {
+    "proverb_kn": "ಮಂಗನ ಕೈಯಲ್ಲಿ ಮಾಣಿಕ್ಯ ಕೊಟ್ಟ ಹಾಗೆ",
+    "contextual_meaning": "Draft for human verification: Something valuable is wasted when entrusted to someone unable to appreciate or handle it.",
+    "example_usage": "Draft: An expensive instrument is given to someone who damages it through careless handling; a teacher uses this proverb.",
+    "items": [
+      {
+        "id": "34e6af5f96a648b48bb5d1b442f239ce-1",
+        "text": "An expensive instrument is given to someone who damages it through careless handling; a teacher uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "34e6af5f96a648b48bb5d1b442f239ce-2",
+        "text": "A club lends its delicate musical instrument to someone who neither values it nor knows how to care for it.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "8c8110368b004e0aa40a18a538c83216": {
+    "proverb_kn": "ಕೈ ಕೆಸರಾದರೆ ಬಾಯಿ ಮೊಸರು",
+    "contextual_meaning": "Draft for human verification: Willingness to work brings sustenance and comfort.",
+    "example_usage": "Draft: A parent uses this proverb while encouraging children to help cultivate the vegetable patch.",
+    "items": [
+      {
+        "id": "8c8110368b004e0aa40a18a538c83216-1",
+        "text": "A parent uses this proverb while encouraging children to help cultivate the vegetable patch.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "8c8110368b004e0aa40a18a538c83216-2",
+        "text": "A young gardener earns enough through steady work to pay household bills and enjoy a modest family outing.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "751ac039e75f4e5786e0e47fa02a4457": {
+    "proverb_kn": "ವೈದ್ಯರ ಹತ್ತಿರ, ವಕೀಲರ ಹತ್ತಿರ ಸುಳ್ಳು ಹೇಳಬೇಡ",
+    "contextual_meaning": "Draft for human verification: Professionals need accurate information to give appropriate help.",
+    "example_usage": "Draft: Someone hesitates to disclose relevant facts during a consultation; a relative uses this saying.",
+    "items": [
+      {
+        "id": "751ac039e75f4e5786e0e47fa02a4457-1",
+        "text": "Someone hesitates to disclose relevant facts during a consultation; a relative uses this saying.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "751ac039e75f4e5786e0e47fa02a4457-2",
+        "text": "A client gives a legal adviser the complete timeline and documents instead of hiding inconvenient facts needed to assess the case.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "c24366ba998c4232bf5c350377d4b0f2": {
+    "proverb_kn": "ಮಾತು ಬೆಳ್ಳಿ, ಮೌನ ಬಂಗಾರ",
+    "contextual_meaning": "Draft for human verification: Remaining silent can be wiser than speaking unnecessarily.",
+    "example_usage": "Draft: Someone avoids escalating a pointless argument and recalls this proverb.",
+    "items": [
+      {
+        "id": "c24366ba998c4232bf5c350377d4b0f2-1",
+        "text": "Someone avoids escalating a pointless argument and recalls this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "c24366ba998c4232bf5c350377d4b0f2-2",
+        "text": "During a sensitive discussion, a colleague chooses to listen rather than make an unnecessary remark that could embarrass someone.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "504afee0bf15456898b55d13430af565": {
+    "proverb_kn": "ಬೆಳ್ಳಗಿರೋದೆಲ್ಲ ಹಾಲಲ್ಲ",
+    "contextual_meaning": "Draft for human verification: Superficial resemblance does not establish a thing's identity or quality.",
+    "example_usage": "Draft: A buyer checks the contents of a product instead of trusting its familiar packaging and uses this proverb.",
+    "items": [
+      {
+        "id": "504afee0bf15456898b55d13430af565-1",
+        "text": "A buyer checks the contents of a product instead of trusting its familiar packaging and uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "504afee0bf15456898b55d13430af565-2",
+        "text": "A shopper checks a white powder's label instead of assuming from its appearance that it is flour.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "c4c10d3d890d4888afbfb712c7186fa1": {
+    "proverb_kn": "ಹೊಳೆಯೋದೆಲ್ಲಾ ಚಿನ್ನವಲ್ಲ",
+    "contextual_meaning": "Draft for human verification: Attractive appearances can conceal poor quality or other drawbacks.",
+    "example_usage": "Draft: A shopper discovers that a flashy product is poorly made and recalls this proverb.",
+    "items": [
+      {
+        "id": "c4c10d3d890d4888afbfb712c7186fa1-1",
+        "text": "A shopper discovers that a flashy product is poorly made and recalls this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "c4c10d3d890d4888afbfb712c7186fa1-2",
+        "text": "An attractive online listing conceals damaged goods, so a buyer checks condition rather than trusting polished photographs.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "7a3fe2f7d1334354bef71355b7f3d6ca": {
+    "proverb_kn": "ಹನಿ ಹನಿ ಕೂಡಿದರೆ ಹಳ್ಳ",
+    "contextual_meaning": "Draft for human verification: Small, repeated contributions can accumulate into a substantial result.",
+    "example_usage": "Draft: Someone saves a small amount each week and eventually buys a needed appliance; a friend uses this proverb.",
+    "items": [
+      {
+        "id": "7a3fe2f7d1334354bef71355b7f3d6ca-1",
+        "text": "Someone saves a small amount each week and eventually buys a needed appliance; a friend uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "7a3fe2f7d1334354bef71355b7f3d6ca-2",
+        "text": "A class adds a small number of books each month until its shared reading collection fills several shelves.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "e6b12a8d27a248edbf5e037537705f7c": {
+    "proverb_kn": "ತಾಯಿಗಿಂತ ಬಂಧು ಇಲ್ಲ, ಉಪ್ಪಿಗಿಂತ ರುಚಿಯಿಲ್ಲ",
+    "contextual_meaning": "Draft for human verification: Praises the special importance of maternal affection and of simple essentials.",
+    "example_usage": "Draft: Remembering a mother's dependable care during illness, someone uses this proverb affectionately.",
+    "items": [
+      {
+        "id": "e6b12a8d27a248edbf5e037537705f7c-1",
+        "text": "Remembering a mother's dependable care during illness, someone uses this proverb affectionately.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "e6b12a8d27a248edbf5e037537705f7c-2",
+        "text": "After a tiring journey, a child values a mother's reassurance and a simple meal more than costly decorations.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "166c7770c5854731aaa49b93c9fd1862": {
+    "proverb_kn": "ಎತ್ತು ಏರಿಗೆಳೆಯಿತು, ಕೋಣ ನೀರಿಗೆಳೆಯಿತು",
+    "contextual_meaning": "Draft for human verification: People working towards conflicting goals prevent joint progress.",
+    "example_usage": "Draft: Two project leaders issue contradictory instructions; a team member uses this proverb.",
+    "items": [
+      {
+        "id": "166c7770c5854731aaa49b93c9fd1862-1",
+        "text": "Two project leaders issue contradictory instructions; a team member uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "166c7770c5854731aaa49b93c9fd1862-2",
+        "text": "Two event organisers send conflicting instructions to volunteers, so preparations stop instead of moving forward.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "68c8122529e24aca8092881e1d22c955": {
+    "proverb_kn": "ಆಳಾಗಿ ದುಡಿ, ಅರಸನಾಗಿ ಉಣ್ಣು",
+    "contextual_meaning": "Draft for human verification: Work diligently and enjoy the rewards earned through that effort.",
+    "example_usage": "Draft: After a demanding harvest, a family celebrates with a generous meal and recalls this proverb.",
+    "items": [
+      {
+        "id": "68c8122529e24aca8092881e1d22c955-1",
+        "text": "After a demanding harvest, a family celebrates with a generous meal and recalls this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "68c8122529e24aca8092881e1d22c955-2",
+        "text": "After diligently completing the harvest work, a family takes time to rest and enjoy a meal paid for by its earnings.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "69216f8625b74cafaa80d76f28118eac": {
+    "proverb_kn": "ಹಾಸಿಗೆ ಇದ್ದಷ್ಟು ಕಾಲು ಚಾಚು",
+    "contextual_meaning": "Draft for human verification: Keep spending and ambitions within available resources.",
+    "example_usage": "Draft: A family chooses an affordable celebration instead of borrowing for an elaborate one and uses this proverb.",
+    "items": [
+      {
+        "id": "69216f8625b74cafaa80d76f28118eac-1",
+        "text": "A family chooses an affordable celebration instead of borrowing for an elaborate one and uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "69216f8625b74cafaa80d76f28118eac-2",
+        "text": "A household chooses a modest celebration it can afford rather than borrowing heavily to impress neighbours.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "fe00cf184c034bb3ba6e5226e8cdcbaa": {
+    "proverb_kn": "ಬರಗಾಲದಲ್ಲಿ ಅಧಿಕ ಮಾಸ.",
+    "contextual_meaning": "Draft for human verification: An additional burden arrives when circumstances are already difficult.",
+    "example_usage": "Draft: A household already struggling with expenses receives another unexpected bill; someone uses this proverb.",
+    "items": [
+      {
+        "id": "fe00cf184c034bb3ba6e5226e8cdcbaa-1",
+        "text": "A household already struggling with expenses receives another unexpected bill; someone uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "fe00cf184c034bb3ba6e5226e8cdcbaa-2",
+        "text": "A storm damages the family shop just as the household is repaying an urgent loan.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "422ad2f706f14a93b10c73b2716d42af": {
+    "proverb_kn": "ಹೊಟ್ಟೆ ತುಂಬಿದ ಮೇಲೆ ಹುಗ್ಗಿ ಮುಳ್ಳು ಮುಳ್ಳು",
+    "contextual_meaning": "Draft for human verification: Something welcome while needed can become unwelcome after the need is satisfied.",
+    "example_usage": "Draft: After eating a large meal, a guest complains about another serving of a favourite dish; the host recalls this proverb.",
+    "items": [
+      {
+        "id": "422ad2f706f14a93b10c73b2716d42af-1",
+        "text": "After eating a large meal, a guest complains about another serving of a favourite dish; the host recalls this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "422ad2f706f14a93b10c73b2716d42af-2",
+        "text": "After receiving enough donated clothes, a family rejects further bundles because there is no storage space.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "beb64cadf57e46bf945b2876f77423c7": {
+    "proverb_kn": "ಹೊಳೆ ದಾಟಿದ ಮೇಲೆ ಅಂಬಿಗನ ಹಂಗ್ಯಾಕೆ",
+    "contextual_meaning": "Draft for human verification: Criticises forgetting or dismissing a helper once their assistance is no longer needed.",
+    "example_usage": "Draft: Someone stops acknowledging the friend who helped them find work; another friend uses this proverb critically.",
+    "items": [
+      {
+        "id": "beb64cadf57e46bf945b2876f77423c7-1",
+        "text": "Someone stops acknowledging the friend who helped them find work; another friend uses this proverb critically.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "beb64cadf57e46bf945b2876f77423c7-2",
+        "text": "After passing her driving test, a learner refuses to acknowledge the instructor who coached her patiently.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "32945943104d45da940efa26be2b2cee": {
+    "proverb_kn": "ನಾಲಿಗೆ ಒಳ್ಳೆಯದಾದರೆ ನಾಡೆಲ್ಲಾ ಒಳ್ಳೆಯದು",
+    "contextual_meaning": "Draft for human verification: Courteous speech helps a person maintain good relationships wherever they go.",
+    "example_usage": "Draft: A newcomer wins neighbours over by speaking respectfully; an elder uses this proverb.",
+    "items": [
+      {
+        "id": "32945943104d45da940efa26be2b2cee-1",
+        "text": "A newcomer wins neighbours over by speaking respectfully; an elder uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "32945943104d45da940efa26be2b2cee-2",
+        "text": "A passenger resolves a booking mistake by speaking politely to the railway clerk instead of shouting.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "5ceefb84be9e48d28ae7cb7cd9fe7f82": {
+    "proverb_kn": "ಅಲ್ಪರ ಸಂಘ ಅಭಿಮಾನ ಭಂಗ",
+    "contextual_meaning": "Draft for human verification: Warns that keeping company with people who behave badly can damage self-respect or reputation.",
+    "example_usage": "Draft: A student distances herself from friends who repeatedly humiliate others and recalls this proverb.",
+    "items": [
+      {
+        "id": "5ceefb84be9e48d28ae7cb7cd9fe7f82-1",
+        "text": "A student distances herself from friends who repeatedly humiliate others and recalls this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "5ceefb84be9e48d28ae7cb7cd9fe7f82-2",
+        "text": "A young employee loses clients after joining colleagues who insult customers for amusement.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "a55af2b113604b4682e80920939895fb": {
+    "proverb_kn": "ಎಮ್ಮೆಗೆ ಎರಡು ಕೋಡು ,ಹೆಮ್ಮೆಗೆ ಎಂಟು ಕೋಡು",
+    "contextual_meaning": "Draft for human verification: Excessive pride makes people more difficult and confrontational.",
+    "example_usage": "Draft: A person becomes overbearing after a small success; a colleague uses this proverb.",
+    "items": [
+      {
+        "id": "a55af2b113604b4682e80920939895fb-1",
+        "text": "A person becomes overbearing after a small success; a colleague uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "a55af2b113604b4682e80920939895fb-2",
+        "text": "The newly elected club secretary refuses to listen to anyone and starts arguments over minor questions.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "6efe3287342046cab02878397a852414": {
+    "proverb_kn": "ಮನೆಗೆ ಮಾರಿ ಊರಿಗೆ ಉಪಕಾರಿ",
+    "contextual_meaning": "Draft for human verification: Criticises someone who helps outsiders while neglecting or mistreating their own household.",
+    "example_usage": "Draft: A person volunteers publicly but leaves every household responsibility to relatives; someone uses this proverb.",
+    "items": [
+      {
+        "id": "6efe3287342046cab02878397a852414-1",
+        "text": "A person volunteers publicly but leaves every household responsibility to relatives; someone uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "6efe3287342046cab02878397a852414-2",
+        "text": "A man pays for public celebrations but refuses to help his own parents buy groceries.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "158a990b026e43c9a2c7fab4e6c7b825": {
+    "proverb_kn": "ಗಾಳಿ ಬಂದಾಗ ತೂರಿಕೋ",
+    "contextual_meaning": "Draft for human verification: Make timely use of favourable circumstances.",
+    "example_usage": "Draft: A seller uses a brief period of strong demand to clear stock; a friend recalls this proverb.",
+    "items": [
+      {
+        "id": "158a990b026e43c9a2c7fab4e6c7b825-1",
+        "text": "A seller uses a brief period of strong demand to clear stock; a friend recalls this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "158a990b026e43c9a2c7fab4e6c7b825-2",
+        "text": "A student submits her application while a scholarship window is still open instead of waiting another year.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "3d4a4b9872fa426fad8b640c53d82a01": {
+    "proverb_kn": "ನಾಳೆ ಎಂದವನ ಮನೆ ಹಾಳು",
+    "contextual_meaning": "Draft for human verification: Repeated postponement can cause neglected work and serious losses.",
+    "example_usage": "Draft: A roof repair is delayed until rain causes damage; a neighbour uses this proverb.",
+    "items": [
+      {
+        "id": "3d4a4b9872fa426fad8b640c53d82a01-1",
+        "text": "A roof repair is delayed until rain causes damage; a neighbour uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "3d4a4b9872fa426fad8b640c53d82a01-2",
+        "text": "A farmer repeatedly postpones fixing an irrigation leak until much of the stored water is lost.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "aef42b3e3a434828a9ead43fa8791102": {
+    "proverb_kn": "ಮಂತ್ರಕ್ಕೆ ಮಾವಿನಕಾಯಿ ಉದುರೋದಿಲ್ಲ",
+    "contextual_meaning": "Draft for human verification: Words or wishes alone cannot replace practical effort.",
+    "example_usage": "Draft: A team keeps discussing a task without starting it; a member uses this proverb to urge action.",
+    "items": [
+      {
+        "id": "aef42b3e3a434828a9ead43fa8791102-1",
+        "text": "A team keeps discussing a task without starting it; a member uses this proverb to urge action.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "aef42b3e3a434828a9ead43fa8791102-2",
+        "text": "A learner watches motivational videos daily but never opens the practice exercises needed for the examination.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "1f121491bfd74a92b0999fda08185978": {
+    "proverb_kn": "ಮಾಡಿದ್ದುಣ್ಣೋ ಮಾರಾಯ",
+    "contextual_meaning": "Draft for human verification: People have to face the consequences of their own actions.",
+    "example_usage": "Draft: Someone ignores repeated maintenance reminders and then faces a breakdown; a friend uses this proverb.",
+    "items": [
+      {
+        "id": "1f121491bfd74a92b0999fda08185978-1",
+        "text": "Someone ignores repeated maintenance reminders and then faces a breakdown; a friend uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "1f121491bfd74a92b0999fda08185978-2",
+        "text": "A cyclist ignores a red signal, receives a fine, and must pay it from his savings.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "eb8c470ab0824993925ed058a8ae2039": {
+    "proverb_kn": "ದುಡ್ಡಿದ್ದವನೇ ದೊಡ್ಡಪ್ಪ",
+    "contextual_meaning": "Draft for human verification: Comments critically on the influence and respect that wealth can command.",
+    "example_usage": "Draft: A wealthy guest receives special treatment while others are ignored; an observer uses this proverb.",
+    "items": [
+      {
+        "id": "eb8c470ab0824993925ed058a8ae2039-1",
+        "text": "A wealthy guest receives special treatment while others are ignored; an observer uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "eb8c470ab0824993925ed058a8ae2039-2",
+        "text": "A donation committee lets its richest member interrupt everyone while ignoring volunteers with little money.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "35015035265b4ec8be91f862d904569d": {
+    "proverb_kn": "ಊರೇ ಕೊಳ್ಳೆ ಹೊಡೆದ ಮೇಲೆ ಕೋಟೆ ಬಾಗಿಲು ಮುಚ್ಚಿದಂತೆ",
+    "contextual_meaning": "Draft for human verification: Protective action is ineffective when taken only after the damage has occurred.",
+    "example_usage": "Draft: A shop improves security only after losing its stock to theft; someone uses this proverb.",
+    "items": [
+      {
+        "id": "35015035265b4ec8be91f862d904569d-1",
+        "text": "A shop improves security only after losing its stock to theft; someone uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "35015035265b4ec8be91f862d904569d-2",
+        "text": "A family starts making copies of important documents only after the originals are lost in a flood.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "ca1aa59884074006934f186e1a7c84f9": {
+    "proverb_kn": "ಹಿತ್ತಲ ಗಿಡ ಮದ್ದಲ್ಲ",
+    "contextual_meaning": "Draft for human verification: People often undervalue useful knowledge or talent that is familiar and close at hand.",
+    "example_usage": "Draft: A team ignores its experienced colleague but pays an outsider for the same advice; someone uses this proverb.",
+    "items": [
+      {
+        "id": "ca1aa59884074006934f186e1a7c84f9-1",
+        "text": "A team ignores its experienced colleague but pays an outsider for the same advice; someone uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "ca1aa59884074006934f186e1a7c84f9-2",
+        "text": "A village hires a distant trainer while overlooking a local craftswoman who already teaches the same skill.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "42c07be4a8894300b966bce17a162baf": {
+    "proverb_kn": "ಬೆಟ್ಟ ಅಗೆದು ಇಲಿ ಹಿಡಿದ",
+    "contextual_meaning": "Draft for human verification: A great deal of effort produces a disappointingly small result.",
+    "example_usage": "Draft: A lengthy investigation uncovers only a trivial issue; someone uses this proverb.",
+    "items": [
+      {
+        "id": "42c07be4a8894300b966bce17a162baf-1",
+        "text": "A lengthy investigation uncovers only a trivial issue; someone uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "42c07be4a8894300b966bce17a162baf-2",
+        "text": "A month of elaborate event planning results in a meeting that attracts only two participants.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "8288a48bd93c4920a5c2f273b9ce9021": {
+    "proverb_kn": "ಅತಿ ಆಸೆ ಗತಿ ಗೇಡು",
+    "contextual_meaning": "Draft for human verification: Greed can make someone risk and lose what they already possess.",
+    "example_usage": "Draft: Someone rejects a fair offer while chasing an unrealistic profit and loses the sale; a friend uses this proverb.",
+    "items": [
+      {
+        "id": "8288a48bd93c4920a5c2f273b9ce9021-1",
+        "text": "Someone rejects a fair offer while chasing an unrealistic profit and loses the sale; a friend uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "8288a48bd93c4920a5c2f273b9ce9021-2",
+        "text": "A saver risks her entire emergency fund in pursuit of an implausibly large return and loses it.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "1174156cd62246079992ada7e0f44b57": {
+    "proverb_kn": "ರಾವಣನ ಹೊಟ್ಟೆಗೆ ಅರೆಕಾಸಿನ ಮಜ್ಜಿಗೆ",
+    "contextual_meaning": "Draft for human verification: An extremely small provision is inadequate for a very large need.",
+    "example_usage": "Draft: A tiny budget is assigned to a major repair project; the organiser uses this proverb.",
+    "items": [
+      {
+        "id": "1174156cd62246079992ada7e0f44b57-1",
+        "text": "A tiny budget is assigned to a major repair project; the organiser uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "1174156cd62246079992ada7e0f44b57-2",
+        "text": "A school receives two notebooks for a class of sixty children who all need writing materials.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "eb18d0e5688f475e982ccea0b6143de3": {
+    "proverb_kn": "ಕುರುಡರ ರಾಜ್ಯದಲ್ಲಿ ಒಕ್ಕಣ್ಣನೇ ರಾಜ",
+    "contextual_meaning": "Draft for human verification: Even limited ability can confer an advantage where others lack the relevant skill; the metaphor reflects historical attitudes to disability.",
+    "example_usage": "Draft: The only person with basic spreadsheet skills becomes the office expert; a colleague recalls this proverb.",
+    "items": [
+      {
+        "id": "eb18d0e5688f475e982ccea0b6143de3-1",
+        "text": "The only person with basic spreadsheet skills becomes the office expert; a colleague recalls this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "eb18d0e5688f475e982ccea0b6143de3-2",
+        "text": "The only traveller who knows a few phrases of the local language becomes the group's interpreter.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "948ca50648194f40bab038244f5216e2": {
+    "proverb_kn": "ಕೊಚ್ಚೆ ಮೇಲೆ ಕಲ್ಲು ಹಾಕಿದ ಹಾಗೆ",
+    "contextual_meaning": "Draft for human verification: Interfering in a dirty quarrel can bring unpleasant consequences back on oneself.",
+    "example_usage": "Draft: Someone joins an abusive argument and becomes its next target; a friend uses this proverb.",
+    "items": [
+      {
+        "id": "948ca50648194f40bab038244f5216e2-1",
+        "text": "Someone joins an abusive argument and becomes its next target; a friend uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "948ca50648194f40bab038244f5216e2-2",
+        "text": "A resident joins an insulting online dispute between strangers and soon receives abusive messages herself.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "24c88296a9954915b367eb84037ac0f9": {
+    "proverb_kn": "ಕುಂತು ತಿಂದರೆ, ಕುಡಿಕೆ ಹೊನ್ನೂ ಸಾಲದು",
+    "contextual_meaning": "Draft for human verification: Savings can run out if a person keeps spending without earning.",
+    "example_usage": "Draft: Someone repeatedly draws on savings while refusing available work; a relative uses this proverb.",
+    "items": [
+      {
+        "id": "24c88296a9954915b367eb84037ac0f9-1",
+        "text": "Someone repeatedly draws on savings while refusing available work; a relative uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "24c88296a9954915b367eb84037ac0f9-2",
+        "text": "A graduate spends an inheritance on daily luxuries without seeking income and eventually cannot pay rent.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "b50810f204c94fcfb1facac8fb9fe9b4": {
+    "proverb_kn": "ಹೊಕ್ಕು ಬಳಸಿದರೆ ನಂಟು",
+    "contextual_meaning": "Draft for human verification: Relationships need continuing contact and mutual involvement.",
+    "example_usage": "Draft: Two cousins become close through regular visits; an elder uses this proverb.",
+    "items": [
+      {
+        "id": "b50810f204c94fcfb1facac8fb9fe9b4-1",
+        "text": "Two cousins become close through regular visits; an elder uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "b50810f204c94fcfb1facac8fb9fe9b4-2",
+        "text": "Two former classmates maintain their friendship by calling regularly and helping each other during difficult weeks.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "229018dc101e42129418041a0473a843": {
+    "proverb_kn": "ಹಾವೂ ಸಾಯಲಿಲ್ಲ ಕೋಲು ಮುರೀಲಿಲ್ಲ",
+    "contextual_meaning": "Draft for human verification: An attempt has neither resolved the problem nor produced a decisive outcome; this wording should not be confused with the different saying about killing the snake without breaking the stick.",
+    "example_usage": "Draft: A meeting ends without settling the dispute or changing either position; a participant uses this proverb.",
+    "items": [
+      {
+        "id": "229018dc101e42129418041a0473a843-1",
+        "text": "A meeting ends without settling the dispute or changing either position; a participant uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "229018dc101e42129418041a0473a843-2",
+        "text": "A repair attempt changes several settings but leaves both the original fault and the disagreement about it unresolved.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "8e7cfee06caf4033b1bdd03b7a3b9d41": {
+    "proverb_kn": "ಆಡಿ ತಪ್ಪ ಬೇಡ ಓಡಿ ಸಿಕ್ಕ ಬೇಡ",
+    "contextual_meaning": "Draft for human verification: Be careful about commitments and avoid conduct that leaves you unable to stand by your actions.",
+    "example_usage": "Draft: Before making an unrealistic promise, a colleague is reminded of this proverb.",
+    "items": [
+      {
+        "id": "8e7cfee06caf4033b1bdd03b7a3b9d41-1",
+        "text": "Before making an unrealistic promise, a colleague is reminded of this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "8e7cfee06caf4033b1bdd03b7a3b9d41-2",
+        "text": "An organiser checks volunteer availability before promising that a large event can be staffed overnight.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "94fdb7480caf4b7db7b321166b0a0a47": {
+    "proverb_kn": "ಜಟ್ಟಿ ಅಡಿಗೆ ಬಿದ್ದರೂ ಮೂಗು ಮೇಲಿದೆ ಅಂದ.",
+    "contextual_meaning": "Draft for human verification: Someone refuses to admit defeat and finds a flimsy reason to claim superiority.",
+    "example_usage": "Draft: A losing debater insists that speaking last proves victory; an observer uses this proverb.",
+    "items": [
+      {
+        "id": "94fdb7480caf4b7db7b321166b0a0a47-1",
+        "text": "A losing debater insists that speaking last proves victory; an observer uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "94fdb7480caf4b7db7b321166b0a0a47-2",
+        "text": "After losing a race, a runner claims he is still the best because his shoes look more professional.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "ec21f524cafe42bc9e98da892d8d88be": {
+    "proverb_kn": "ಹೆಂಡ ಕುಡಿದ ಕಪಿಗೆ ಚೇಳು ಕಡಿದ ಹಾಗೆ",
+    "contextual_meaning": "Draft for human verification: An already restless or disorderly situation becomes still more agitated.",
+    "example_usage": "Draft: An unruly discussion becomes worse after a provocative announcement; someone uses this proverb.",
+    "items": [
+      {
+        "id": "ec21f524cafe42bc9e98da892d8d88be-1",
+        "text": "An unruly discussion becomes worse after a provocative announcement; someone uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "ec21f524cafe42bc9e98da892d8d88be-2",
+        "text": "A noisy queue becomes a shouting crowd when someone circulates a provocative but unverified rumour.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "e84a460570ec4f668035bac62a445db8": {
+    "proverb_kn": "ದೂರದ ಬೆಟ್ಟ ನುಣ್ಣಗೆ.",
+    "contextual_meaning": "Draft for human verification: Things can seem easier or more attractive from a distance because their difficulties are hidden.",
+    "example_usage": "Draft: Someone idealises a friend's job until learning about its long hours; the friend uses this proverb.",
+    "items": [
+      {
+        "id": "e84a460570ec4f668035bac62a445db8-1",
+        "text": "Someone idealises a friend's job until learning about its long hours; the friend uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "e84a460570ec4f668035bac62a445db8-2",
+        "text": "A family moves to a supposedly effortless business opportunity and discovers substantial daily work and expenses.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "dbf1efc8d6334e0eaa8d4723284de065": {
+    "proverb_kn": "ಧರ್ಮಕ್ಕೆ ಕೊಟ್ಟ ಆಕಳ ಹಲ್ಲು ಎಣಿಸಿದರು.",
+    "contextual_meaning": "Draft for human verification: Criticises finding faults in a gift instead of appreciating it.",
+    "example_usage": "Draft: A recipient complains about minor defects in a freely donated bicycle; someone uses this proverb.",
+    "items": [
+      {
+        "id": "dbf1efc8d6334e0eaa8d4723284de065-1",
+        "text": "A recipient complains about minor defects in a freely donated bicycle; someone uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "dbf1efc8d6334e0eaa8d4723284de065-2",
+        "text": "A student receives a working secondhand desk for free and complains that it is not the latest design.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "9ae99e471bf3462c95431af6f3d14d98": {
+    "proverb_kn": "ನಾಯಿ ಬಾಲ ಎ೦ದಿಗೂ ಡೊ೦ಕು.",
+    "contextual_meaning": "Draft for human verification: Comments on a deeply ingrained habit that repeatedly returns despite correction.",
+    "example_usage": "Draft: Someone resumes the same troublesome habit after repeated promises to stop; a friend uses this proverb.",
+    "items": [
+      {
+        "id": "9ae99e471bf3462c95431af6f3d14d98-1",
+        "text": "Someone resumes the same troublesome habit after repeated promises to stop; a friend uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "9ae99e471bf3462c95431af6f3d14d98-2",
+        "text": "A habitual queue-jumper starts cutting in again after repeatedly promising the residents' association to wait his turn.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "8ac794b727f04dab934dbc8239e16945": {
+    "proverb_kn": "ಕಲಿತವನಿಗಿಂತ ನುರಿತವನೇ ಮೇಲು.",
+    "contextual_meaning": "Draft for human verification: Practical experience can be more useful than theoretical learning alone.",
+    "example_usage": "Draft: An experienced mechanic solves a fault that a novice cannot diagnose from a manual; someone uses this proverb.",
+    "items": [
+      {
+        "id": "8ac794b727f04dab934dbc8239e16945-1",
+        "text": "An experienced mechanic solves a fault that a novice cannot diagnose from a manual; someone uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "8ac794b727f04dab934dbc8239e16945-2",
+        "text": "An experienced cook adjusts a recipe for a wood-fired stove while a beginner follows unsuitable instructions exactly.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "f4c9cae5ac564ca9b813ceae5118d1f2": {
+    "proverb_kn": "ಬೆಣ್ಣೇಲಿ ಕೂದಲು ತೆಗೆದ ಹಾಗೆ",
+    "contextual_meaning": "Draft for human verification: Describes handling a delicate task smoothly and with little disturbance.",
+    "example_usage": "Draft: A mediator resolves a sensitive disagreement without embarrassing anyone; a colleague uses this expression.",
+    "items": [
+      {
+        "id": "f4c9cae5ac564ca9b813ceae5118d1f2-1",
+        "text": "A mediator resolves a sensitive disagreement without embarrassing anyone; a colleague uses this expression.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "f4c9cae5ac564ca9b813ceae5118d1f2-2",
+        "text": "A librarian quietly settles a seating dispute by finding alternatives without publicly embarrassing either reader.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "42b68e0b00054a03ab39028fddc29492": {
+    "proverb_kn": "ಕಬ್ಬು ಡೊಂಕಾದ್ರೆ ಸವಿ ಡೊಂಕೇ",
+    "contextual_meaning": "Draft for human verification: An outward irregularity need not reduce inner worth or usefulness.",
+    "example_usage": "Draft: A buyer dismisses unusually shaped fruit despite its good taste; the seller uses this proverb.",
+    "items": [
+      {
+        "id": "42b68e0b00054a03ab39028fddc29492-1",
+        "text": "A buyer dismisses unusually shaped fruit despite its good taste; the seller uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "42b68e0b00054a03ab39028fddc29492-2",
+        "text": "A customer rejects a handmade bowl for its uneven rim even though it is sturdy and perfectly usable.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "247458bb00ca47d5ace97bc383771f7b": {
+    "proverb_kn": "ನೀರ ಕಡೆದರೆ ಬೆಣ್ಣೆ ಬಂದಾದೇನೆ",
+    "contextual_meaning": "Draft for human verification: No amount of effort can produce a result when the essential material or basis is missing.",
+    "example_usage": "Draft: A team expects reliable analysis from data it never collected; a member uses this proverb.",
+    "items": [
+      {
+        "id": "247458bb00ca47d5ace97bc383771f7b-1",
+        "text": "A team expects reliable analysis from data it never collected; a member uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "247458bb00ca47d5ace97bc383771f7b-2",
+        "text": "A gardener waters an empty planting tray for weeks while expecting seedlings without having sown any seeds.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "46b8d2df566d45229e402040c4464cd6": {
+    "proverb_kn": "ಕೊಡಲಿ ಕಾವು ಕುಲಕ್ಕೆ ಸಾವು",
+    "contextual_meaning": "Draft for human verification: Someone from within a group may enable harm to that group, as wood helps an axe cut trees.",
+    "example_usage": "Draft: An insider supplies information that helps outsiders exploit the organisation; someone uses this proverb.",
+    "items": [
+      {
+        "id": "46b8d2df566d45229e402040c4464cd6-1",
+        "text": "An insider supplies information that helps outsiders exploit the organisation; someone uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "46b8d2df566d45229e402040c4464cd6-2",
+        "text": "A team member shares private bid information with a competitor and causes the team's proposal to fail.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "31601b3cee5f415f9010b73bef78e8d3": {
+    "proverb_kn": "ಇಬ್ಬರ ಜಗಳ ಮೂರನೆಯವನಿಗೆ ಲಾಭ.",
+    "contextual_meaning": "Draft for human verification: A bystander or competitor can profit while others waste their resources fighting.",
+    "example_usage": "Draft: Two sellers undercut each other until a buyer secures a bargain; someone uses this proverb.",
+    "items": [
+      {
+        "id": "31601b3cee5f415f9010b73bef78e8d3-1",
+        "text": "Two sellers undercut each other until a buyer secures a bargain; someone uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "31601b3cee5f415f9010b73bef78e8d3-2",
+        "text": "Two local clubs quarrel over a venue while a third club books it and attracts the available audience.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "339aa550138d469ebff3bf655a9d981c": {
+    "proverb_kn": "ಕಾಲಕ್ಕೆ ತಕ್ಕಂತೆ ನಡೆಯಬೇಕು, ತಾಳಕ್ಕೆ ತಕ್ಕಂತೆ ಕುಣಿಯಬೇಕು",
+    "contextual_meaning": "Draft for human verification: Adjust methods and behaviour to changing circumstances.",
+    "example_usage": "Draft: A small business changes its services to match customers' new needs; an adviser uses this proverb.",
+    "items": [
+      {
+        "id": "339aa550138d469ebff3bf655a9d981c-1",
+        "text": "A small business changes its services to match customers' new needs; an adviser uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "339aa550138d469ebff3bf655a9d981c-2",
+        "text": "A teacher changes an outdoor lesson into an indoor activity when heavy rain makes the original plan impractical.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "42cd418cc25c4c7e994e3b5514287e02": {
+    "proverb_kn": "ಎರಡು ದಾಸರ ನಂಬಿ ಕುರುಡು ದಾಸ ಕೆಟ್ಟ",
+    "contextual_meaning": "Draft for human verification: Relying on two helpers without clear responsibility can leave a task unattended.",
+    "example_usage": "Draft: Two colleagues each assume the other has booked transport, leaving a traveller stranded; someone uses this proverb.",
+    "items": [
+      {
+        "id": "42cd418cc25c4c7e994e3b5514287e02-1",
+        "text": "Two colleagues each assume the other has booked transport, leaving a traveller stranded; someone uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "42cd418cc25c4c7e994e3b5514287e02-2",
+        "text": "Two relatives each assume the other will collect an elderly family member, so neither arrives at the station.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "9d86a342a7ed4d3e82fb4d916ae4d09a": {
+    "proverb_kn": "ಜನ ಮರುಳೋ ಜಾತ್ರೆ ಮರುಳೋ.",
+    "contextual_meaning": "Draft for human verification: Expresses puzzlement or criticism about collective excitement and unthinking participation.",
+    "example_usage": "Draft: A crowd rushes to buy an ordinary item merely because everyone else is buying it; an observer uses this proverb.",
+    "items": [
+      {
+        "id": "9d86a342a7ed4d3e82fb4d916ae4d09a-1",
+        "text": "A crowd rushes to buy an ordinary item merely because everyone else is buying it; an observer uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "9d86a342a7ed4d3e82fb4d916ae4d09a-2",
+        "text": "People queue for hours for an ordinary drink after seeing a crowd, without checking whether they want it.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "9c0c8bf1305a4d9e87bf273111d99028": {
+    "proverb_kn": "ಸಮಯಕ್ಕೆ ಬಾರದ ಬುದ್ಧಿ ಸಾವಿರ ಇದ್ದರೂ ಲದ್ಧಿ",
+    "contextual_meaning": "Draft for human verification: Advice or cleverness has little practical value when it arrives too late.",
+    "example_usage": "Draft: After a deadline passes, someone suggests the obvious solution; a colleague uses this proverb.",
+    "items": [
+      {
+        "id": "9c0c8bf1305a4d9e87bf273111d99028-1",
+        "text": "After a deadline passes, someone suggests the obvious solution; a colleague uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "9c0c8bf1305a4d9e87bf273111d99028-2",
+        "text": "A teammate remembers a useful shortcut only after everyone has missed the final submission deadline.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "d429f6e079534273ac30fab7c1854ff7": {
+    "proverb_kn": "ಹತ್ತು ಮಂದಿ ಹುಲ್ಲು ಕಡ್ಡಿ ಒಬ್ಬನ ತಲೆ ಭಾರ.",
+    "contextual_meaning": "Draft for human verification: Many individually small demands can become a heavy burden for the person receiving them all.",
+    "example_usage": "Draft: Every team member assigns one small task to the same assistant, overwhelming them; a manager uses this proverb.",
+    "items": [
+      {
+        "id": "d429f6e079534273ac30fab7c1854ff7-1",
+        "text": "Every team member assigns one small task to the same assistant, overwhelming them; a manager uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "d429f6e079534273ac30fab7c1854ff7-2",
+        "text": "Ten relatives each ask the same student to run one small errand, leaving her no time to study.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "951a9c0eccb54c11903f2938c4cb433c": {
+    "proverb_kn": "ಆನೆಯಂಥದೂ ಮುಗ್ಗರಿಸ್ತದೆ",
+    "contextual_meaning": "Draft for human verification: Capable and experienced people can also make mistakes.",
+    "example_usage": "Draft: An expert makes an unusual error; a colleague uses this proverb to encourage understanding.",
+    "items": [
+      {
+        "id": "951a9c0eccb54c11903f2938c4cb433c-1",
+        "text": "An expert makes an unusual error; a colleague uses this proverb to encourage understanding.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "951a9c0eccb54c11903f2938c4cb433c-2",
+        "text": "A highly experienced accountant enters a wrong digit, notices it, and corrects the report after a colleague checks it.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "2073f30bcc1c4f6ca46456bfa1e7a4db": {
+    "proverb_kn": "ಗಿಡವಾಗಿ ಬಗ್ಗದ್ದು ಮರವಾಗಿ ಬಗ್ಗೀತೇ ?",
+    "contextual_meaning": "Draft for human verification: Habits and behaviour are generally easier to shape early than after they become established.",
+    "example_usage": "Draft: A parent uses this proverb when explaining why children should learn consideration early.",
+    "items": [
+      {
+        "id": "2073f30bcc1c4f6ca46456bfa1e7a4db-1",
+        "text": "A parent uses this proverb when explaining why children should learn consideration early.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "2073f30bcc1c4f6ca46456bfa1e7a4db-2",
+        "text": "A school encourages children to practise sharing early rather than waiting until selfish habits become established.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "f46b0e48dbf44097bcf0e451ad64cb4c": {
+    "proverb_kn": "ಆಳಾಗಬಲ್ಲವನು ಅರಸನಾಗಬಲ್ಲ",
+    "contextual_meaning": "Draft for human verification: Learning to work responsibly under others helps prepare a person to lead.",
+    "example_usage": "Draft: A supervisor praises a new manager who first learned every team task and uses this proverb.",
+    "items": [
+      {
+        "id": "f46b0e48dbf44097bcf0e451ad64cb4c-1",
+        "text": "A supervisor praises a new manager who first learned every team task and uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "f46b0e48dbf44097bcf0e451ad64cb4c-2",
+        "text": "A restaurant owner first learns cleaning, purchasing, and serving before taking responsibility for supervising the staff.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "7df2ffe4769d4f7188435b8edc23a410": {
+    "proverb_kn": "ತಾಳಿದವನು ಬಾಳಿಯಾನು",
+    "contextual_meaning": "Draft for human verification: Patience and perseverance help a person get through difficult periods.",
+    "example_usage": "Draft: A learner continues practising after several setbacks; a teacher uses this proverb encouragingly.",
+    "items": [
+      {
+        "id": "7df2ffe4769d4f7188435b8edc23a410-1",
+        "text": "A learner continues practising after several setbacks; a teacher uses this proverb encouragingly.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "7df2ffe4769d4f7188435b8edc23a410-2",
+        "text": "A farmer patiently rebuilds damaged irrigation channels over several weeks rather than abandoning the field after one setback.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "8c9f34efd943444eb710985ba9707e78": {
+    "proverb_kn": "ರಾತ್ರಿ ಕಂಡ ಬಾವಿಗೆ ಹಗಲು ಬಿದ್ದ ಹಾಗೆ",
+    "contextual_meaning": "Draft for human verification: Describes suffering a mishap from a danger one already knew about.",
+    "example_usage": "Draft: Someone ignores a previously identified fault and loses work because of it; a colleague uses this proverb.",
+    "items": [
+      {
+        "id": "8c9f34efd943444eb710985ba9707e78-1",
+        "text": "Someone ignores a previously identified fault and loses work because of it; a colleague uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "8c9f34efd943444eb710985ba9707e78-2",
+        "text": "A driver uses a road he already knows is blocked and becomes stranded despite earlier warnings.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "fa006b47df4b4ad7a66f7bccc65d4925": {
+    "proverb_kn": "ರಾತ್ರಿ ಎಲ್ಲ ರಾಮಾಯಣ ಕೇಳಿ, ಬೆಳಗಾಗೆದ್ದು ರಾಮಂಗೂ ಸೀತೆಗೂ ಏನು ಸಂಬಂಧ ಅಂದ್ರಂತೆ",
+    "contextual_meaning": "Draft for human verification: Criticises missing the most basic point despite a lengthy explanation.",
+    "example_usage": "Draft: After a full training session, someone asks what the project is for; a colleague recalls this proverb.",
+    "items": [
+      {
+        "id": "fa006b47df4b4ad7a66f7bccc65d4925-1",
+        "text": "After a full training session, someone asks what the project is for; a colleague recalls this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "fa006b47df4b4ad7a66f7bccc65d4925-2",
+        "text": "After a long explanation of a recipe, a learner still asks which dish the class has been preparing.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "d783236bf0644d0a84b0da995109d592": {
+    "proverb_kn": "ರಾಗ ನೆನೆಪಾದಾಗ ತಾಳ ಮರೆತು ಹೋಯಿತಂತೆ",
+    "contextual_meaning": "Draft for human verification: While concentrating on one part of a task, someone overlooks another necessary part.",
+    "example_usage": "Draft: A presenter fixes the slides but forgets to bring the presentation file; a friend uses this proverb.",
+    "items": [
+      {
+        "id": "d783236bf0644d0a84b0da995109d592-1",
+        "text": "A presenter fixes the slides but forgets to bring the presentation file; a friend uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "d783236bf0644d0a84b0da995109d592-2",
+        "text": "A student remembers her identification card but forgets the admission ticket needed to enter the examination hall.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "636d889a1d924e7486642405b9cfa3ed": {
+    "proverb_kn": "ಆರುವ ದೀಪಕ್ಕೆ ಕಾಂತಿ ಹೆಚ್ಚು",
+    "contextual_meaning": "Draft for human verification: An apparent final surge of activity can occur before decline or an ending.",
+    "example_usage": "Draft: A failing group briefly becomes unusually active before closing; an observer uses this proverb.",
+    "items": [
+      {
+        "id": "636d889a1d924e7486642405b9cfa3ed-1",
+        "text": "A failing group briefly becomes unusually active before closing; an observer uses this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "636d889a1d924e7486642405b9cfa3ed-2",
+        "text": "A shop about to close briefly runs unusually frequent promotions before ending its operations.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "9c02431f8f1d434297cbdf0756476086": {
+    "proverb_kn": "ರವಿ ಕಾಣದ್ದನ್ನು ಕವಿ ಕಂಡ",
+    "contextual_meaning": "Draft for human verification: Imagination and poetic insight can reveal meanings beyond ordinary observation.",
+    "example_usage": "Draft: A poem brings attention to an unnoticed experience; a reader uses this saying appreciatively.",
+    "items": [
+      {
+        "id": "9c02431f8f1d434297cbdf0756476086-1",
+        "text": "A poem brings attention to an unnoticed experience; a reader uses this saying appreciatively.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "9c02431f8f1d434297cbdf0756476086-2",
+        "text": "A writer notices loneliness behind a busy street scene that other passers-by describe only as crowded.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "86bbf866223442d18853d5b10a4f4163": {
+    "proverb_kn": "ಆರೋಗ್ಯವೇ ಭಾಗ್ಯ",
+    "contextual_meaning": "Draft for human verification: Good health is a central form of well-being and deserves priority.",
+    "example_usage": "Draft: Someone chooses rest and recovery over extra earnings and recalls this saying.",
+    "items": [
+      {
+        "id": "86bbf866223442d18853d5b10a4f4163-1",
+        "text": "Someone chooses rest and recovery over extra earnings and recalls this saying.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "86bbf866223442d18853d5b10a4f4163-2",
+        "text": "An employee declines another late shift to protect the rest needed for recovery after illness.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "443d50ed4ae547458a408567010ef678": {
+    "proverb_kn": "ಅಳಿಯುವುದು ಕಾಯ ಉಳಿಯುವುದು ಕೀರ್ತಿ",
+    "contextual_meaning": "Draft for human verification: A person's deeds and reputation can outlast their lifetime.",
+    "example_usage": "Draft: At a remembrance gathering, people recall a teacher's lasting contributions and use this proverb.",
+    "items": [
+      {
+        "id": "443d50ed4ae547458a408567010ef678-1",
+        "text": "At a remembrance gathering, people recall a teacher's lasting contributions and use this proverb.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "443d50ed4ae547458a408567010ef678-2",
+        "text": "Former pupils continue using the library established by a teacher long after the teacher's death.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "19e56bab88da484799c4618865cbfd15": {
+    "proverb_kn": "ಬೇಲಿಯೇ ಎದ್ದು ಹೊಲ ಮೇಯ್ದಂತೆ",
+    "contextual_meaning": "Draft for human verification: The person or system meant to protect something instead damages or exploits it.",
+    "example_usage": "Draft for human verification: ಅಂಗಡಿಯ ಸರಕುಗಳನ್ನು ಕಾಯಬೇಕಿದ್ದ ಸಿಬ್ಬಂದಿಯೇ ಅವನ್ನು ಕದ್ದನು.",
+    "items": [
+      {
+        "id": "19e56bab88da484799c4618865cbfd15-1",
+        "text": "ಅಂಗಡಿಯ ಸರಕುಗಳನ್ನು ಕಾಯಬೇಕಿದ್ದ ಸಿಬ್ಬಂದಿಯೇ ಅವನ್ನು ಕದ್ದನು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "19e56bab88da484799c4618865cbfd15-2",
+        "text": "An apartment association treasurer appointed to safeguard maintenance funds secretly spends them on personal purchases.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "cc562d2648124d02a878d2a0f46d57b5": {
+    "proverb_kn": "ಎತ್ತಿಗೆ ಜ್ವರ ಬಂದರೆ ಎಮ್ಮೆಗೆ ಬರೆ ಹಾಕಿದರು",
+    "contextual_meaning": "Draft for human verification: An unrelated person receives the punishment, or action is aimed at the wrong target.",
+    "example_usage": "Draft for human verification: ವರದಿ ಕಳುಹಿಸದವನು ಒಬ್ಬನಾದರೂ ವ್ಯವಸ್ಥಾಪಕರು ಮತ್ತೊಬ್ಬ ಉದ್ಯೋಗಿಯನ್ನು ಬೈದರು.",
+    "items": [
+      {
+        "id": "cc562d2648124d02a878d2a0f46d57b5-1",
+        "text": "ವರದಿ ಕಳುಹಿಸದವನು ಒಬ್ಬನಾದರೂ ವ್ಯವಸ್ಥಾಪಕರು ಮತ್ತೊಬ್ಬ ಉದ್ಯೋಗಿಯನ್ನು ಬೈದರು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "cc562d2648124d02a878d2a0f46d57b5-2",
+        "text": "A parent scolds the younger child for a broken cup without checking that the older child dropped it.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "4f6b780d323149cd88963b6f22806cd0": {
+    "proverb_kn": "ಕೋತಿ ಮೊಸರು ಕುಡಿದು ಮೇಕೆ ಬಾಯಿಗೆ ಒರೆಸಿತಂತೆ",
+    "contextual_meaning": "Draft for human verification: A wrongdoer shifts blame to an innocent person by making that person appear responsible.",
+    "example_usage": "Draft for human verification: ಕಡತ ಅಳಿಸಿದವನು ಸಹೋದ್ಯೋಗಿಯ ಹೆಸರನ್ನು ದಾಖಲೆಯಲ್ಲಿ ಬರೆದು ಅವನ ಮೇಲೆಯೇ ಅನುಮಾನ ಬರುವಂತೆ ಮಾಡಿದನು.",
+    "items": [
+      {
+        "id": "4f6b780d323149cd88963b6f22806cd0-1",
+        "text": "ಕಡತ ಅಳಿಸಿದವನು ಸಹೋದ್ಯೋಗಿಯ ಹೆಸರನ್ನು ದಾಖಲೆಯಲ್ಲಿ ಬರೆದು ಅವನ ಮೇಲೆಯೇ ಅನುಮಾನ ಬರುವಂತೆ ಮಾಡಿದನು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "4f6b780d323149cd88963b6f22806cd0-2",
+        "text": "A pupil spills paint and deliberately leaves the stained brush in another child's bag to shift suspicion.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "60044e0e643d484a94d8cce5f3041f29": {
+    "proverb_kn": "ಅಡ್ಡಗೋಡೆ ಮೇಲೆ ದೀಪ ಇಟ್ಟ ಹಾಗೆ.",
+    "contextual_meaning": "Draft for human verification: A statement or position can favour either side because the speaker avoids taking a clear stand.",
+    "example_usage": "Draft for human verification: ಚರ್ಚೆಯಲ್ಲಿ ತನ್ನ ನಿಲುವನ್ನು ಹೇಳದೆ ಅವನು ಎರಡೂ ತಂಡಗಳು ಸರಿಯೆಂದನು.",
+    "items": [
+      {
+        "id": "60044e0e643d484a94d8cce5f3041f29-1",
+        "text": "ಚರ್ಚೆಯಲ್ಲಿ ತನ್ನ ನಿಲುವನ್ನು ಹೇಳದೆ ಅವನು ಎರಡೂ ತಂಡಗಳು ಸರಿಯೆಂದನು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "60044e0e643d484a94d8cce5f3041f29-2",
+        "text": "Asked to choose between two event dates, the coordinator gives an answer that both groups interpret as support.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "8c6b82eb683f4162ba6d04884276390e": {
+    "proverb_kn": "ಐದು ಕುರುಡರು ಆನೆಯನ್ನು ಬಣ್ಣಿಸಿದ ಹಾಗೆ.",
+    "contextual_meaning": "Draft for human verification: People mistake their limited perspective for a complete account of a larger matter; the image is a traditional disability metaphor.",
+    "example_usage": "Draft for human verification: ಒಂದೊಂದು ವಿಭಾಗದ ಅಂಕಿಅಂಶವನ್ನಷ್ಟೇ ನೋಡಿದ ಅಧಿಕಾರಿಗಳು ಸಂಸ್ಥೆಯ ಸ್ಥಿತಿಯ ಬಗ್ಗೆ ಭಿನ್ನ ತೀರ್ಮಾನಗಳನ್ನು ನೀಡಿದರು.",
+    "items": [
+      {
+        "id": "8c6b82eb683f4162ba6d04884276390e-1",
+        "text": "ಒಂದೊಂದು ವಿಭಾಗದ ಅಂಕಿಅಂಶವನ್ನಷ್ಟೇ ನೋಡಿದ ಅಧಿಕಾರಿಗಳು ಸಂಸ್ಥೆಯ ಸ್ಥಿತಿಯ ಬಗ್ಗೆ ಭಿನ್ನ ತೀರ್ಮಾನಗಳನ್ನು ನೀಡಿದರು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "8c6b82eb683f4162ba6d04884276390e-2",
+        "text": "Residents judge a large water project only from their own street's experience and reach incompatible conclusions.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "8c8ea484a0f340b6a6ab1fe6ba15c953": {
+    "proverb_kn": "ಅರ್ಧ ಕಲಿತವನ ಆಬ್ಬರ ಹೆಚ್ಚು.",
+    "contextual_meaning": "Draft for human verification: Someone with incomplete knowledge may display exaggerated confidence or boastfulness.",
+    "example_usage": "Draft for human verification: ಒಂದೇ ಪಾಠ ಓದಿದ ವಿದ್ಯಾರ್ಥಿ ವಿಷಯದ ಪರಿಣತನಂತೆ ಎಲ್ಲರನ್ನೂ ತಿದ್ದತೊಡಗಿದನು.",
+    "items": [
+      {
+        "id": "8c8ea484a0f340b6a6ab1fe6ba15c953-1",
+        "text": "ಒಂದೇ ಪಾಠ ಓದಿದ ವಿದ್ಯಾರ್ಥಿ ವಿಷಯದ ಪರಿಣತನಂತೆ ಎಲ್ಲರನ್ನೂ ತಿದ್ದತೊಡಗಿದನು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "8c8ea484a0f340b6a6ab1fe6ba15c953-2",
+        "text": "After watching one repair tutorial, a beginner dismisses an experienced technician's advice with great confidence.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "a8067a1c35fb472c984d8647f60f2a3e": {
+    "proverb_kn": "ಬೆರಳು ತೋರಿಸಿದರೆ ಹಸ್ತ ನುಂಗಿದರಂತೆ",
+    "contextual_meaning": "Draft for human verification: A small concession is exploited to demand or take much more.",
+    "example_usage": "Draft for human verification: ಒಂದು ದಿನ ಬೈಕು ಕೊಟ್ಟಾಗ ಸ್ನೇಹಿತ ಅದನ್ನು ವಾರವಿಡೀ ತನ್ನಲ್ಲೇ ಇಟ್ಟುಕೊಂಡನು.",
+    "items": [
+      {
+        "id": "a8067a1c35fb472c984d8647f60f2a3e-1",
+        "text": "ಒಂದು ದಿನ ಬೈಕು ಕೊಟ್ಟಾಗ ಸ್ನೇಹಿತ ಅದನ್ನು ವಾರವಿಡೀ ತನ್ನಲ್ಲೇ ಇಟ್ಟುಕೊಂಡನು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "a8067a1c35fb472c984d8647f60f2a3e-2",
+        "text": "A neighbour allowed to borrow one garden tool takes several more without asking and keeps them for months.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "db899faee7904074b7f6e945fa1eb728": {
+    "proverb_kn": "ಹುತ್ತ ಬಡಿದರೆ ಹಾವು ಸಾಯುವುದೇ",
+    "contextual_meaning": "Draft for human verification: Attacking the surroundings or symptoms does not necessarily remove the real cause.",
+    "example_usage": "Draft for human verification: ನೀರು ಸೋರುವ ಕೊಳವೆಯನ್ನು ಸರಿಪಡಿಸದೆ ಗೋಡೆಯ ಬಣ್ಣವನ್ನಷ್ಟೇ ಬದಲಿಸಿದರು.",
+    "items": [
+      {
+        "id": "db899faee7904074b7f6e945fa1eb728-1",
+        "text": "ನೀರು ಸೋರುವ ಕೊಳವೆಯನ್ನು ಸರಿಪಡಿಸದೆ ಗೋಡೆಯ ಬಣ್ಣವನ್ನಷ್ಟೇ ಬದಲಿಸಿದರು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "db899faee7904074b7f6e945fa1eb728-2",
+        "text": "A business deletes angry customer comments instead of fixing the faulty deliveries causing those complaints.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "f8971ee76fd046088af8ea94576559a2": {
+    "proverb_kn": "ಕನ್ನಡಿ ಒಳಗಿನ ಗಂಟು ಕೈಗೆ ದಕ್ಕೀತೆ ?",
+    "contextual_meaning": "Draft for human verification: An appearance or imagined possession is not the same as something actually obtainable.",
+    "example_usage": "Draft for human verification: ಕೇವಲ ಜಾಹೀರಾತಿನಲ್ಲಿರುವ ಸೌಲಭ್ಯಗಳನ್ನು ನೋಡಿ ಖರೀದಿದಾರ ತನ್ನದಾಗಿಯೇ ಸಿಕ್ಕಂತಾಗಿ ಸಂತೋಷಪಟ್ಟನು.",
+    "items": [
+      {
+        "id": "f8971ee76fd046088af8ea94576559a2-1",
+        "text": "ಕೇವಲ ಜಾಹೀರಾತಿನಲ್ಲಿರುವ ಸೌಲಭ್ಯಗಳನ್ನು ನೋಡಿ ಖರೀದಿದಾರ ತನ್ನದಾಗಿಯೇ ಸಿಕ್ಕಂತಾಗಿ ಸಂತೋಷಪಟ್ಟನು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "f8971ee76fd046088af8ea94576559a2-2",
+        "text": "A job seeker treats an unconfirmed recruitment advertisement as if an appointment letter has already arrived.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "380937ae248644e888953faad17e678d": {
+    "proverb_kn": "ಕೊಂಕಣ ಸುತ್ತಿ ಮೈಲಾರಕ್ಕೆ ಬಂದ ಹಾಗೆ",
+    "contextual_meaning": "Draft for human verification: Someone takes a long, roundabout route to a point that could have been reached directly; the place names do not establish regional origin.",
+    "example_usage": "Draft for human verification: ಸರಳ ಉತ್ತರ ಹೇಳುವ ಬದಲು ಅವನು ಹಲವು ಸಂಬಂಧವಿಲ್ಲದ ಕಥೆಗಳನ್ನು ಹೇಳಿ ಅದೇ ವಿಷಯಕ್ಕೆ ಬಂದನು.",
+    "items": [
+      {
+        "id": "380937ae248644e888953faad17e678d-1",
+        "text": "ಸರಳ ಉತ್ತರ ಹೇಳುವ ಬದಲು ಅವನು ಹಲವು ಸಂಬಂಧವಿಲ್ಲದ ಕಥೆಗಳನ್ನು ಹೇಳಿ ಅದೇ ವಿಷಯಕ್ಕೆ ಬಂದನು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "380937ae248644e888953faad17e678d-2",
+        "text": "A speaker spends ten minutes describing unrelated holidays before finally answering a simple question about the meeting time.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "92fbee86eb03454a8cd86958db861fca": {
+    "proverb_kn": "ಉಪ್ಪ ತಿಂದ ಮೇಲೆ ನೀರು ಕುಡಿಯಲೇ ಬೆಕು",
+    "contextual_meaning": "Draft for human verification: Accepting an action or choice entails facing its associated consequences or obligations.",
+    "example_usage": "Draft for human verification: ಸಾಲ ಪಡೆದಿದ್ದರಿಂದ ತಿಂಗಳ ಕಂತನ್ನು ಕಟ್ಟಬೇಕೆಂದು ಅವನು ತನ್ನ ಖರ್ಚನ್ನು ಕಡಿಮೆ ಮಾಡಿದನು.",
+    "items": [
+      {
+        "id": "92fbee86eb03454a8cd86958db861fca-1",
+        "text": "ಸಾಲ ಪಡೆದಿದ್ದರಿಂದ ತಿಂಗಳ ಕಂತನ್ನು ಕಟ್ಟಬೇಕೆಂದು ಅವನು ತನ್ನ ಖರ್ಚನ್ನು ಕಡಿಮೆ ಮಾಡಿದನು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "92fbee86eb03454a8cd86958db861fca-2",
+        "text": "A person agrees to organise a trip and then must handle bookings and cancellations instead of avoiding the responsibility.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "c0be7adfa5fc4ac99190519f05b9b08d": {
+    "proverb_kn": "ಕೊಟ್ಟಿದ್ದು ತನಗೆ ಬಚ್ಚಿಟ್ಟದ್ದು ಪರರಿಗೆ",
+    "contextual_meaning": "Draft for human verification: Generosity yields lasting benefit or goodwill, while hoarded possessions may ultimately pass to someone else.",
+    "example_usage": "Draft for human verification: ಬಳಸದ ಪುಸ್ತಕಗಳನ್ನು ಪೆಟ್ಟಿಗೆಯಲ್ಲಿ ಇಡುವ ಬದಲು ವಿದ್ಯಾರ್ಥಿ ಗ್ರಂಥಾಲಯಕ್ಕೆ ಕೊಟ್ಟನು.",
+    "items": [
+      {
+        "id": "c0be7adfa5fc4ac99190519f05b9b08d-1",
+        "text": "ಬಳಸದ ಪುಸ್ತಕಗಳನ್ನು ಪೆಟ್ಟಿಗೆಯಲ್ಲಿ ಇಡುವ ಬದಲು ವಿದ್ಯಾರ್ಥಿ ಗ್ರಂಥಾಲಯಕ್ಕೆ ಕೊಟ್ಟನು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "c0be7adfa5fc4ac99190519f05b9b08d-2",
+        "text": "A retired player donates unused sports equipment to children, creating goodwill while stored equipment would help nobody.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "86bbe78308e4493381e3202bf3ac11b3": {
+    "proverb_kn": "ಒಗ್ಗಟ್ಟಿಲ್ಲದ ಊರಲ್ಲಿ ಒಪ್ಪತ್ತೂ ಇರಬೇಡ.",
+    "contextual_meaning": "Draft for human verification: Persistent disunity makes a group or place difficult to live or work in.",
+    "example_usage": "Draft for human verification: ಚಿಕ್ಕ ನಿರ್ಧಾರಕ್ಕೂ ಜಗಳವಾಗುತ್ತಿದ್ದ ತಂಡದಲ್ಲಿ ಹೊಸ ಕೆಲಸ ಸ್ವೀಕರಿಸಲು ಅವಳು ಹಿಂಜರಿದಳು.",
+    "items": [
+      {
+        "id": "86bbe78308e4493381e3202bf3ac11b3-1",
+        "text": "ಚಿಕ್ಕ ನಿರ್ಧಾರಕ್ಕೂ ಜಗಳವಾಗುತ್ತಿದ್ದ ತಂಡದಲ್ಲಿ ಹೊಸ ಕೆಲಸ ಸ್ವೀಕರಿಸಲು ಅವಳು ಹಿಂಜರಿದಳು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "86bbe78308e4493381e3202bf3ac11b3-2",
+        "text": "A volunteer leaves a group where members argue over every shared decision and cannot complete basic tasks together.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "9e8c7706f8c8468dbd758ab1145a41d9": {
+    "proverb_kn": "ಸಜ್ಜನರ ಸಂಗ ಹೆಜ್ಜೇನು ಸವಿದಂತೆ",
+    "contextual_meaning": "Draft for human verification: Companionship with kind and principled people is pleasant and beneficial.",
+    "example_usage": "Draft for human verification: ಸ್ನೇಹಿತರು ತಪ್ಪು ಮಾಡಿದಾಗ ಹೀಯಾಳಿಸದೆ ಸರಿಯಾದ ದಾರಿ ತೋರಿಸಿದರು.",
+    "items": [
+      {
+        "id": "9e8c7706f8c8468dbd758ab1145a41d9-1",
+        "text": "ಸ್ನೇಹಿತರು ತಪ್ಪು ಮಾಡಿದಾಗ ಹೀಯಾಳಿಸದೆ ಸರಿಯಾದ ದಾರಿ ತೋರಿಸಿದರು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "9e8c7706f8c8468dbd758ab1145a41d9-2",
+        "text": "A learner improves steadily because her friends offer honest feedback and celebrate progress without belittling mistakes.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "ac0451cd6ceb46e79b9758ffb40d14c9": {
+    "proverb_kn": "ಮುತ್ತು ಒಡೆದರೆ ಹೋಯ್ತು, ಮಾತು ಆಡಿದರೆ ಹೋಯ್ತು",
+    "contextual_meaning": "Draft for human verification: Words cannot be fully taken back once spoken, so speak thoughtfully.",
+    "example_usage": "Draft for human verification: ಕೋಪದಲ್ಲಿ ನೋಯಿಸುವ ಮಾತು ಹೇಳುವ ಮುನ್ನ ಅವನು ಕ್ಷಣಕಾಲ ಮೌನವಾಗಿದ್ದನು.",
+    "items": [
+      {
+        "id": "ac0451cd6ceb46e79b9758ffb40d14c9-1",
+        "text": "ಕೋಪದಲ್ಲಿ ನೋಯಿಸುವ ಮಾತು ಹೇಳುವ ಮುನ್ನ ಅವನು ಕ್ಷಣಕಾಲ ಮೌನವಾಗಿದ್ದನು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "ac0451cd6ceb46e79b9758ffb40d14c9-2",
+        "text": "Before making a cruel joke at a family gathering, a teenager considers that an apology cannot erase its hurt.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "e1a161e52280445f88fc395521be5c52": {
+    "proverb_kn": "ಬೆಕ್ಕು ಕಣ್ಣು ಮುಚ್ಚಿಕೊಂಡು ಹಾಲು ಕುಡಿದಂತೆ",
+    "contextual_meaning": "Draft for human verification: A person wrongly assumes that ignoring discovery makes their misconduct invisible to others.",
+    "example_usage": "Draft for human verification: ಸಾರ್ವಜನಿಕ ದಾಖಲೆಯಲ್ಲೇ ಹಣದ ದುರುಪಯೋಗ ಕಾಣುತ್ತಿದ್ದರೂ ಯಾರಿಗೂ ತಿಳಿಯುವುದಿಲ್ಲವೆಂದು ಅವನು ನಂಬಿದನು.",
+    "items": [
+      {
+        "id": "e1a161e52280445f88fc395521be5c52-1",
+        "text": "ಸಾರ್ವಜನಿಕ ದಾಖಲೆಯಲ್ಲೇ ಹಣದ ದುರುಪಯೋಗ ಕಾಣುತ್ತಿದ್ದರೂ ಯಾರಿಗೂ ತಿಳಿಯುವುದಿಲ್ಲವೆಂದು ಅವನು ನಂಬಿದನು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "e1a161e52280445f88fc395521be5c52-2",
+        "text": "An employee alters a shared spreadsheet while assuming nobody can see the version history that records each change.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "e5816bff96e44fffb540cae88182b499": {
+    "proverb_kn": "ಹೌದಪ್ಪನ ಚಾವಡಿಯಲ್ಲಿ ಅಲ್ಲಪ್ಪನನ್ನು ಕೇಳುವವರಾರು.",
+    "contextual_meaning": "Draft for human verification: A group that rewards agreement may refuse to hear criticism or dissent.",
+    "example_usage": "Draft for human verification: ಯೋಜನೆಯ ದೋಷಗಳನ್ನು ಹೇಳಿದ ಸದಸ್ಯನ ಮಾತನ್ನು ಉಳಿದವರು ಕೇಳದೆ ನಾಯಕನನ್ನೇ ಹೊಗಳಿದರು.",
+    "items": [
+      {
+        "id": "e5816bff96e44fffb540cae88182b499-1",
+        "text": "ಯೋಜನೆಯ ದೋಷಗಳನ್ನು ಹೇಳಿದ ಸದಸ್ಯನ ಮಾತನ್ನು ಉಳಿದವರು ಕೇಳದೆ ನಾಯಕನನ್ನೇ ಹೊಗಳಿದರು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "e5816bff96e44fffb540cae88182b499-2",
+        "text": "A committee praises its chair constantly and dismisses a member who points out a serious budgeting error.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "a9113644e1c04110b442ee0bf45dd779": {
+    "proverb_kn": "ಒ೦ದು ಕಣ್ಣಿಗೆ ಬೆಣ್ಣೆ, ಇನ್ನೊ೦ದು ಕಣ್ಣಿಗೆ ಸುಣ್ಣ.",
+    "contextual_meaning": "Draft for human verification: Comparable people are treated unequally through favouritism or double standards.",
+    "example_usage": "Draft for human verification: ಒಂದೇ ತಪ್ಪಿಗೆ ಒಬ್ಬ ಉದ್ಯೋಗಿಗೆ ಎಚ್ಚರಿಕೆ ನೀಡಿದರೆ ಮತ್ತೊಬ್ಬನಿಗೆ ಕಠಿಣ ಶಿಕ್ಷೆ ವಿಧಿಸಿದರು.",
+    "items": [
+      {
+        "id": "a9113644e1c04110b442ee0bf45dd779-1",
+        "text": "ಒಂದೇ ತಪ್ಪಿಗೆ ಒಬ್ಬ ಉದ್ಯೋಗಿಗೆ ಎಚ್ಚರಿಕೆ ನೀಡಿದರೆ ಮತ್ತೊಬ್ಬನಿಗೆ ಕಠಿಣ ಶಿಕ್ಷೆ ವಿಧಿಸಿದರು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "a9113644e1c04110b442ee0bf45dd779-2",
+        "text": "A teacher excuses a favourite pupil for lateness but punishes another pupil for arriving at exactly the same time.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "cfff682088b44d799d842d683211b49d": {
+    "proverb_kn": "ಕೀಲು ಸಣ್ಣದಾದರೂ ಗಾಲಿ ನಡೆಸುತ್ತದೆ",
+    "contextual_meaning": "Draft for human verification: A small component or modest role can be essential to a much larger system.",
+    "example_usage": "Draft for human verification: ಚಿಕ್ಕ ಜೋಡಣೆಯ ಭಾಗ ಮುರಿದಿದ್ದರಿಂದ ದೊಡ್ಡ ಯಂತ್ರವೇ ನಿಂತಿತು.",
+    "items": [
+      {
+        "id": "cfff682088b44d799d842d683211b49d-1",
+        "text": "ಚಿಕ್ಕ ಜೋಡಣೆಯ ಭಾಗ ಮುರಿದಿದ್ದರಿಂದ ದೊಡ್ಡ ಯಂತ್ರವೇ ನಿಂತಿತು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "cfff682088b44d799d842d683211b49d-2",
+        "text": "A school bus cannot start because one inexpensive electrical connector has failed, despite the rest of the vehicle working.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "41c5b9d87def43779f7a78d083df8a27": {
+    "proverb_kn": "ಹೆಸರಿಗೆ ಹೊನ್ನ ಹೆಗ್ಗಡೆ, ಎಸರಿಗೆ ಅಕ್ಕಿ ಇಲ್ಲ",
+    "contextual_meaning": "Draft for human verification: An impressive title or public image conceals a lack of basic resources.",
+    "example_usage": "Draft for human verification: ಐಷಾರಾಮಿ ಸಂಸ್ಥೆ ಎಂದು ಹೆಸರು ಮಾಡಿಕೊಂಡ ಕಚೇರಿಯಲ್ಲಿ ಸಿಬ್ಬಂದಿಗೆ ಸಂಬಳ ನೀಡಲು ಹಣವಿರಲಿಲ್ಲ.",
+    "items": [
+      {
+        "id": "41c5b9d87def43779f7a78d083df8a27-1",
+        "text": "ಐಷಾರಾಮಿ ಸಂಸ್ಥೆ ಎಂದು ಹೆಸರು ಮಾಡಿಕೊಂಡ ಕಚೇರಿಯಲ್ಲಿ ಸಿಬ್ಬಂದಿಗೆ ಸಂಬಳ ನೀಡಲು ಹಣವಿರಲಿಲ್ಲ.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "41c5b9d87def43779f7a78d083df8a27-2",
+        "text": "A club announces a grand international festival but cannot afford the basic sound system needed for the event.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "c9addac67f53400fb5e560454cc2a9c4": {
+    "proverb_kn": "ಹೂವಿನ ಜೊತೆ ದಾರ ಮುಡಿಯೇರಿತು",
+    "contextual_meaning": "Draft for human verification: Association with something or someone valued can bring recognition to an otherwise unnoticed person.",
+    "example_usage": "Draft for human verification: ಪ್ರಸಿದ್ಧ ಕಲಾವಿದರ ತಂಡದೊಂದಿಗೆ ಕೆಲಸ ಮಾಡಿದ ಹೊಸ ಸಹಾಯಕನಿಗೂ ಉತ್ತಮ ಅವಕಾಶಗಳು ಬಂದವು.",
+    "items": [
+      {
+        "id": "c9addac67f53400fb5e560454cc2a9c4-1",
+        "text": "ಪ್ರಸಿದ್ಧ ಕಲಾವಿದರ ತಂಡದೊಂದಿಗೆ ಕೆಲಸ ಮಾಡಿದ ಹೊಸ ಸಹಾಯಕನಿಗೂ ಉತ್ತಮ ಅವಕಾಶಗಳು ಬಂದವು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "c9addac67f53400fb5e560454cc2a9c4-2",
+        "text": "An unknown photographer gains new assignments after assisting a respected documentary team and receiving credit for the work.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "915fae3f87f3442ab9344799c945ef52": {
+    "proverb_kn": "ಒಲ್ಲದ ಗಂಡನಿಗೆ ಮೊಸರಲ್ಲಿ ಕಲ್ಲು",
+    "contextual_meaning": "Draft for human verification: Someone who is unwilling or prejudiced finds excuses to reject an otherwise acceptable thing.",
+    "example_usage": "Draft for human verification: ಪ್ರಯಾಣಕ್ಕೆ ಬರಲು ಇಷ್ಟವಿಲ್ಲದ ಸ್ನೇಹಿತ ಪ್ರತಿಯೊಂದು ವ್ಯವಸ್ಥೆಯಲ್ಲೂ ತಪ್ಪು ಹುಡುಕಿದನು.",
+    "items": [
+      {
+        "id": "915fae3f87f3442ab9344799c945ef52-1",
+        "text": "ಪ್ರಯಾಣಕ್ಕೆ ಬರಲು ಇಷ್ಟವಿಲ್ಲದ ಸ್ನೇಹಿತ ಪ್ರತಿಯೊಂದು ವ್ಯವಸ್ಥೆಯಲ್ಲೂ ತಪ್ಪು ಹುಡುಕಿದನು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "915fae3f87f3442ab9344799c945ef52-2",
+        "text": "A reluctant buyer rejects every suitable rental room by inventing a new minor objection at each viewing.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "d8bd00af2d0b4d9ea8dbf9a216e937ec": {
+    "proverb_kn": "ಅಕ್ಕ ಸತ್ತರೆ ಅಮಾವಾಸ್ಯೆ ನಿಲ್ಲುತ್ತದೆಯೇ ?",
+    "contextual_meaning": "Draft for human verification: Natural cycles and the wider world continue despite an individual's loss or absence.",
+    "example_usage": "Draft for human verification: ಮುಖ್ಯ ಆಟಗಾರ ತಂಡ ತೊರೆದರೂ ಉಳಿದವರು ಮುಂದಿನ ಪಂದ್ಯಕ್ಕೆ ಸಿದ್ಧತೆ ಮುಂದುವರಿಸಿದರು.",
+    "items": [
+      {
+        "id": "d8bd00af2d0b4d9ea8dbf9a216e937ec-1",
+        "text": "ಮುಖ್ಯ ಆಟಗಾರ ತಂಡ ತೊರೆದರೂ ಉಳಿದವರು ಮುಂದಿನ ಪಂದ್ಯಕ್ಕೆ ಸಿದ್ಧತೆ ಮುಂದುವರಿಸಿದರು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "d8bd00af2d0b4d9ea8dbf9a216e937ec-2",
+        "text": "After its founding captain retires, a neighbourhood sports club continues training and welcomes new players.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "2ef86e01f1634b2691aa82c622708bea": {
+    "proverb_kn": "ದೊಡ್ಡವರು ಹೇಳಿದ ಹಾಗೆ ಮಾಡು; ಮಾಡಿದ ಹಾಗೆ ಮಾಡಬೇಡ",
+    "contextual_meaning": "Draft for human verification: Sound advice and the adviser's own imperfect behaviour can differ; it can also be used ironically about hypocrisy.",
+    "example_usage": "Draft for human verification: ಸಮಯ ಪಾಲನೆ ಹೇಳುವ ಹಿರಿಯರೇ ತಡವಾಗಿ ಬಂದಾಗ ಮಕ್ಕಳು ಈ ಮಾತನ್ನು ವ್ಯಂಗ್ಯವಾಗಿ ನೆನಪಿಸಿಕೊಂಡರು.",
+    "items": [
+      {
+        "id": "2ef86e01f1634b2691aa82c622708bea-1",
+        "text": "ಸಮಯ ಪಾಲನೆ ಹೇಳುವ ಹಿರಿಯರೇ ತಡವಾಗಿ ಬಂದಾಗ ಮಕ್ಕಳು ಈ ಮಾತನ್ನು ವ್ಯಂಗ್ಯವಾಗಿ ನೆನಪಿಸಿಕೊಂಡರು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "2ef86e01f1634b2691aa82c622708bea-2",
+        "text": "A parent advises children to keep their promises but repeatedly cancels commitments made to those same children.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "0b83ab2abe314e6fb8ee561a956be8f6": {
+    "proverb_kn": "ಕೋಣನ ಮು೦ದೆ ಕಿನ್ನರಿ ಬಾರಿಸಿದ ಹಾಗೆ.",
+    "contextual_meaning": "Draft for human verification: An explanation or performance is wasted on an audience unwilling or unable to appreciate it.",
+    "example_usage": "Draft for human verification: ಯಾರೂ ಕೇಳಲು ಸಿದ್ಧರಿಲ್ಲದ ಸಭೆಯಲ್ಲಿ ಅವಳು ತನ್ನ ವಿವರವಾದ ಸಲಹೆಯನ್ನು ಹೇಳಿ ನಿರಾಶಳಾದಳು.",
+    "items": [
+      {
+        "id": "0b83ab2abe314e6fb8ee561a956be8f6-1",
+        "text": "ಯಾರೂ ಕೇಳಲು ಸಿದ್ಧರಿಲ್ಲದ ಸಭೆಯಲ್ಲಿ ಅವಳು ತನ್ನ ವಿವರವಾದ ಸಲಹೆಯನ್ನು ಹೇಳಿ ನಿರಾಶಳಾದಳು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "0b83ab2abe314e6fb8ee561a956be8f6-2",
+        "text": "A musician gives a carefully prepared performance while the audience talks continuously and pays no attention.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "53aa5793e2d347adbba2f90066cb3e0c": {
+    "proverb_kn": "ಹುಟ್ಟಿದವಗೆ ಸಾವು ತಪ್ಪದು",
+    "contextual_meaning": "Draft for human verification: Death is an unavoidable part of life; the saying reflects on impermanence.",
+    "example_usage": "Draft for human verification: ಜೀವನದ ಅನಿಶ್ಚಿತತೆಯ ಬಗ್ಗೆ ಮಾತನಾಡುವಾಗ ಹಿರಿಯರು ಅರ್ಥಪೂರ್ಣವಾಗಿ ಬದುಕಬೇಕೆಂದು ಹೇಳಿದರು.",
+    "items": [
+      {
+        "id": "53aa5793e2d347adbba2f90066cb3e0c-1",
+        "text": "ಜೀವನದ ಅನಿಶ್ಚಿತತೆಯ ಬಗ್ಗೆ ಮಾತನಾಡುವಾಗ ಹಿರಿಯರು ಅರ್ಥಪೂರ್ಣವಾಗಿ ಬದುಕಬೇಕೆಂದು ಹೇಳಿದರು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "53aa5793e2d347adbba2f90066cb3e0c-2",
+        "text": "Following a funeral, relatives reflect on life's impermanence and decide to spend more meaningful time together.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "6edc8aac456649ffab6cd87a2bace985": {
+    "proverb_kn": "ಆಗುವ ವರೆಗಿದ್ದು ಆರುವ ವರೆಗೆ ಇರಲಾರರೇ",
+    "contextual_meaning": "Draft for human verification: After enduring the main delay, be patient for the short remaining wait.",
+    "example_usage": "Draft for human verification: ತಿಂಗಳುಗಳ ಶ್ರಮದ ನಂತರ ವರದಿ ಸಲ್ಲಿಸಲು ಉಳಿದ ಒಂದು ದಿನಕ್ಕಾಗಿ ವಿದ್ಯಾರ್ಥಿ ಅಸಹನೆ ತೋರಿದನು.",
+    "items": [
+      {
+        "id": "6edc8aac456649ffab6cd87a2bace985-1",
+        "text": "ತಿಂಗಳುಗಳ ಶ್ರಮದ ನಂತರ ವರದಿ ಸಲ್ಲಿಸಲು ಉಳಿದ ಒಂದು ದಿನಕ್ಕಾಗಿ ವಿದ್ಯಾರ್ಥಿ ಅಸಹನೆ ತೋರಿದನು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "6edc8aac456649ffab6cd87a2bace985-2",
+        "text": "After waiting months for a house renovation, the owner becomes impatient over the final afternoon of cleaning.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "32583465f02943e09bd6a8e64a5ccd20": {
+    "proverb_kn": "ಕರುಬಿದವರ ಮನೆ ಬರಿಮನೆ",
+    "contextual_meaning": "Draft for human verification: Dwelling on envy can consume attention without improving one's own life.",
+    "example_usage": "Draft for human verification: ಪಕ್ಕದ ಅಂಗಡಿಯ ಲಾಭದ ಬಗ್ಗೆ ದಿನವೂ ಕರುಬುತ್ತಿದ್ದ ವ್ಯಾಪಾರಿ ತನ್ನ ಅಂಗಡಿಯ ಗ್ರಾಹಕರನ್ನೇ ಗಮನಿಸಲಿಲ್ಲ.",
+    "items": [
+      {
+        "id": "32583465f02943e09bd6a8e64a5ccd20-1",
+        "text": "ಪಕ್ಕದ ಅಂಗಡಿಯ ಲಾಭದ ಬಗ್ಗೆ ದಿನವೂ ಕರುಬುತ್ತಿದ್ದ ವ್ಯಾಪಾರಿ ತನ್ನ ಅಂಗಡಿಯ ಗ್ರಾಹಕರನ್ನೇ ಗಮನಿಸಲಿಲ್ಲ.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "32583465f02943e09bd6a8e64a5ccd20-2",
+        "text": "A student spends evenings resenting a classmate's achievements instead of working on her own unfinished assignments.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "625514b809ef4bf0b99ad989412a0024": {
+    "proverb_kn": "ಹೊಳೆಯಲ್ಲಿ ಹುಣಿಸೇ ಹಣ್ಣು ಕಿವಿಚಿದಂತೆ",
+    "contextual_meaning": "Draft for human verification: An effort or contribution disperses without producing a noticeable effect.",
+    "example_usage": "Draft for human verification: ಎಲ್ಲರಿಗೂ ಬೇರೆ ಬೇರೆ ನಿರ್ದೇಶನ ನೀಡುತ್ತಿದ್ದಾಗ ಅವಳ ಒಂದು ಸಲಹೆ ಯಾರ ಗಮನಕ್ಕೂ ಬಾರದೆ ಹೋಯಿತು.",
+    "items": [
+      {
+        "id": "625514b809ef4bf0b99ad989412a0024-1",
+        "text": "ಎಲ್ಲರಿಗೂ ಬೇರೆ ಬೇರೆ ನಿರ್ದೇಶನ ನೀಡುತ್ತಿದ್ದಾಗ ಅವಳ ಒಂದು ಸಲಹೆ ಯಾರ ಗಮನಕ್ಕೂ ಬಾರದೆ ಹೋಯಿತು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "625514b809ef4bf0b99ad989412a0024-2",
+        "text": "A single small cleaning effort makes no visible difference when a whole neighbourhood keeps dumping rubbish at the same spot.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "4b53f6c1269d4552a490628a1b0970fc": {
+    "proverb_kn": "ಇದ್ದೂ ಉಣ್ಣದವನ ಬಾಯಲ್ಲಿ ಕಡೆಗೆ ಮಣ್ಣು ಬಿತ್ತು",
+    "contextual_meaning": "Draft for human verification: Someone who never uses available wealth or comforts may lose the chance to benefit from them.",
+    "example_usage": "Draft for human verification: ಸಾಕಷ್ಟು ಹಣ ಇದ್ದರೂ ಅಗತ್ಯವಾದ ವಿಶ್ರಾಂತಿಗೂ ಖರ್ಚು ಮಾಡದೆ ಅವನು ಸದಾ ಕಷ್ಟಪಟ್ಟನು.",
+    "items": [
+      {
+        "id": "4b53f6c1269d4552a490628a1b0970fc-1",
+        "text": "ಸಾಕಷ್ಟು ಹಣ ಇದ್ದರೂ ಅಗತ್ಯವಾದ ವಿಶ್ರಾಂತಿಗೂ ಖರ್ಚು ಮಾಡದೆ ಅವನು ಸದಾ ಕಷ್ಟಪಟ್ಟನು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "4b53f6c1269d4552a490628a1b0970fc-2",
+        "text": "A person keeps valuable tools locked away for years, never using them until rust makes them unusable.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "2630db7cdb5c4021befdf079e0ff320b": {
+    "proverb_kn": "ದೀಪದ ಕೆಳಗೆ ಯಾವತ್ತೂ ಕತ್ತಲೇ",
+    "contextual_meaning": "Draft for human verification: Someone who provides insight or help widely may overlook what is nearest to them.",
+    "example_usage": "Draft for human verification: ಎಲ್ಲರ ಖಾತೆ ಸರಿಪಡಿಸುವ ಲೆಕ್ಕಿಗ ತನ್ನ ಮನೆಯ ಖರ್ಚಿನ ದಾಖಲೆಯನ್ನು ಇಟ್ಟಿರಲಿಲ್ಲ.",
+    "items": [
+      {
+        "id": "2630db7cdb5c4021befdf079e0ff320b-1",
+        "text": "ಎಲ್ಲರ ಖಾತೆ ಸರಿಪಡಿಸುವ ಲೆಕ್ಕಿಗ ತನ್ನ ಮನೆಯ ಖರ್ಚಿನ ದಾಖಲೆಯನ್ನು ಇಟ್ಟಿರಲಿಲ್ಲ.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "2630db7cdb5c4021befdf079e0ff320b-2",
+        "text": "A counsellor helps many students organise their schedules but repeatedly overlooks important commitments within his own family.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "d03949fa1fea42419d5b90679fd8d829": {
+    "proverb_kn": "ಬೆಕ್ಕಿನ ಕನಸಿನಲ್ಲಿ ಬರೀ ಇಲಿಗಳೇ",
+    "contextual_meaning": "Draft for human verification: A person's desires or preoccupations strongly shape what they think about.",
+    "example_usage": "Draft for human verification: ರಜೆ ಬಗ್ಗೆ ಮಾತನಾಡುತ್ತಿದ್ದಾಗಲೂ ವ್ಯಾಪಾರಿ ಹೊಸ ಅಂಗಡಿ ತೆರೆಯುವ ವಿಷಯವನ್ನೇ ಹೇಳುತ್ತಿದ್ದನು.",
+    "items": [
+      {
+        "id": "d03949fa1fea42419d5b90679fd8d829-1",
+        "text": "ರಜೆ ಬಗ್ಗೆ ಮಾತನಾಡುತ್ತಿದ್ದಾಗಲೂ ವ್ಯಾಪಾರಿ ಹೊಸ ಅಂಗಡಿ ತೆರೆಯುವ ವಿಷಯವನ್ನೇ ಹೇಳುತ್ತಿದ್ದನು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "d03949fa1fea42419d5b90679fd8d829-2",
+        "text": "Even during a friend's wedding, an aspiring baker keeps thinking about new recipes and future cake orders.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "92861acac41a4046a545c3377ba092aa": {
+    "proverb_kn": "ಬಾವಿಯ ಬಾಯನ್ನು ಮುಚ್ಚಬಹುದು, ಜನಗಳ ಬಾಯನ್ನಲ್ಲ.",
+    "contextual_meaning": "Draft for human verification: It is difficult to prevent everyone from talking or spreading opinions.",
+    "example_usage": "Draft for human verification: ಯಾವುದೇ ಆಧಾರವಿಲ್ಲದ ಮಾತಿಗೆ ಪ್ರತಿಕ್ರಿಯಿಸುತ್ತಾ ಆಯಾಸಗೊಂಡ ಸ್ನೇಹಿತನಿಗೆ ಮತ್ತೊಬ್ಬನು ತನ್ನ ಕೆಲಸದತ್ತ ಗಮನಹರಿಸಲು ಹೇಳಿದನು.",
+    "items": [
+      {
+        "id": "92861acac41a4046a545c3377ba092aa-1",
+        "text": "ಯಾವುದೇ ಆಧಾರವಿಲ್ಲದ ಮಾತಿಗೆ ಪ್ರತಿಕ್ರಿಯಿಸುತ್ತಾ ಆಯಾಸಗೊಂಡ ಸ್ನೇಹಿತನಿಗೆ ಮತ್ತೊಬ್ಬನು ತನ್ನ ಕೆಲಸದತ್ತ ಗಮನಹರಿಸಲು ಹೇಳಿದನು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "92861acac41a4046a545c3377ba092aa-2",
+        "text": "A shopkeeper stops trying to answer every neighbourhood rumour and concentrates on serving customers fairly.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "98b2f80fa7a346eda930cc6522f8aa41": {
+    "proverb_kn": "ಜನಕ್ಕಂಜದಿದ್ದರೂ ಮನಕ್ಕಂಜಬೇಕು",
+    "contextual_meaning": "Draft for human verification: Personal conscience should restrain wrongdoing even when no one else is watching.",
+    "example_usage": "Draft for human verification: ಪರೀಕ್ಷೆಯಲ್ಲಿ ನಕಲು ಮಾಡಲು ಅವಕಾಶವಿದ್ದರೂ ವಿದ್ಯಾರ್ಥಿ ಪ್ರಾಮಾಣಿಕವಾಗಿ ಬರೆದನು.",
+    "items": [
+      {
+        "id": "98b2f80fa7a346eda930cc6522f8aa41-1",
+        "text": "ಪರೀಕ್ಷೆಯಲ್ಲಿ ನಕಲು ಮಾಡಲು ಅವಕಾಶವಿದ್ದರೂ ವಿದ್ಯಾರ್ಥಿ ಪ್ರಾಮಾಣಿಕವಾಗಿ ಬರೆದನು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "98b2f80fa7a346eda930cc6522f8aa41-2",
+        "text": "A passenger finds an unattended purse and hands it to the conductor even though nobody saw her pick it up.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "b7609188c0a84ab484a8be1b055f2be7": {
+    "proverb_kn": "ಮುಳುಗುತ್ತಿರುವವನಿಗೆ ಹುಲ್ಲು ಕಡ್ಡಿಯೂ ಆಸರೆ",
+    "contextual_meaning": "Draft for human verification: A desperate person values even very small help or a slight hope.",
+    "example_usage": "Draft for human verification: ಉದ್ಯೋಗವಿಲ್ಲದೆ ಕಷ್ಟದಲ್ಲಿದ್ದ ಯುವಕನಿಗೆ ದೊರೆತ ಒಂದು ದಿನದ ಕೆಲಸವೂ ಬಹಳ ನೆರವಾಯಿತು.",
+    "items": [
+      {
+        "id": "b7609188c0a84ab484a8be1b055f2be7-1",
+        "text": "ಉದ್ಯೋಗವಿಲ್ಲದೆ ಕಷ್ಟದಲ್ಲಿದ್ದ ಯುವಕನಿಗೆ ದೊರೆತ ಒಂದು ದಿನದ ಕೆಲಸವೂ ಬಹಳ ನೆರವಾಯಿತು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "b7609188c0a84ab484a8be1b055f2be7-2",
+        "text": "After several days without earnings, a street vendor welcomes even a small order that pays for the evening meal.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "e2aa532a29d447698a413d56487e07e3": {
+    "proverb_kn": "ಗಂಟೂ ಹೋಯ್ತು;ನಂಟೂ ಹೋಯ್ತು",
+    "contextual_meaning": "Draft for human verification: A transaction or dispute can cost both money and a personal relationship.",
+    "example_usage": "Draft for human verification: ಹಿಂತಿರುಗಿಸದ ಸಾಲದ ಬಗ್ಗೆ ಜಗಳವಾದ ನಂತರ ಹಣವೂ ಸಿಗಲಿಲ್ಲ ಸ್ನೇಹವೂ ಉಳಿಯಲಿಲ್ಲ.",
+    "items": [
+      {
+        "id": "e2aa532a29d447698a413d56487e07e3-1",
+        "text": "ಹಿಂತಿರುಗಿಸದ ಸಾಲದ ಬಗ್ಗೆ ಜಗಳವಾದ ನಂತರ ಹಣವೂ ಸಿಗಲಿಲ್ಲ ಸ್ನೇಹವೂ ಉಳಿಯಲಿಲ್ಲ.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "e2aa532a29d447698a413d56487e07e3-2",
+        "text": "A disagreement over an unpaid group holiday bill leaves one traveller out of pocket and ends a friendship.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "dfba065036964165ae4f3f9596e428bc": {
+    "proverb_kn": "ಇಲಿಯ ವ್ಯಾಜ್ಯಕ್ಕೆ ಬೆಕ್ಕು ಸಾಕ್ಷಿ",
+    "contextual_meaning": "Draft for human verification: A witness with hostile or conflicting interests cannot be expected to be impartial.",
+    "example_usage": "Draft for human verification: ಎರಡು ಅಂಗಡಿಗಳ ವಿವಾದಕ್ಕೆ ಅವರಿಬ್ಬರ ಗ್ರಾಹಕರನ್ನೂ ಕಸಿದುಕೊಳ್ಳಲು ಬಯಸಿದ ಮೂರನೆಯ ವ್ಯಾಪಾರಿಯೇ ಸಾಕ್ಷಿಯಾದನು.",
+    "items": [
+      {
+        "id": "dfba065036964165ae4f3f9596e428bc-1",
+        "text": "ಎರಡು ಅಂಗಡಿಗಳ ವಿವಾದಕ್ಕೆ ಅವರಿಬ್ಬರ ಗ್ರಾಹಕರನ್ನೂ ಕಸಿದುಕೊಳ್ಳಲು ಬಯಸಿದ ಮೂರನೆಯ ವ್ಯಾಪಾರಿಯೇ ಸಾಕ್ಷಿಯಾದನು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "dfba065036964165ae4f3f9596e428bc-2",
+        "text": "A dispute between two teams is judged by a rival captain who benefits if both teams are disqualified.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "eddc30c6820f46b7862162a6ac37596c": {
+    "proverb_kn": "ರಾಮಾಯ ಸ್ವಸ್ತಿ, ರಾವಣಾಯ ಸ್ವಸ್ತಿ .",
+    "contextual_meaning": "Draft for human verification: Someone seeks favour with opposing sides rather than taking a principled position.",
+    "example_usage": "Draft for human verification: ಎರಡು ಸ್ಪರ್ಧಿ ಅಭ್ಯರ್ಥಿಗಳಿಗೂ ತಾನೇ ಅವರ ಖಚಿತ ಬೆಂಬಲಿಗನೆಂದು ಅವನು ಪ್ರತ್ಯೇಕವಾಗಿ ಹೇಳಿದನು.",
+    "items": [
+      {
+        "id": "eddc30c6820f46b7862162a6ac37596c-1",
+        "text": "ಎರಡು ಸ್ಪರ್ಧಿ ಅಭ್ಯರ್ಥಿಗಳಿಗೂ ತಾನೇ ಅವರ ಖಚಿತ ಬೆಂಬಲಿಗನೆಂದು ಅವನು ಪ್ರತ್ಯೇಕವಾಗಿ ಹೇಳಿದನು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "eddc30c6820f46b7862162a6ac37596c-2",
+        "text": "A committee member privately promises both opposing candidates that he is campaigning only for them.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "e04b7e1e167b47329a32099e5d3c1d56": {
+    "proverb_kn": "ಹೊಟ್ಟೆಗೆ ಹಿಟ್ಟಿಲ್ಲದಿದ್ದರೂ ಜುಟ್ಟಿಗೆ ಮಲ್ಲಿಗೆ ಹೂವು",
+    "contextual_meaning": "Draft for human verification: Spending on outward display while basic needs remain unmet shows misplaced priorities.",
+    "example_usage": "Draft for human verification: ಮನೆಯ ಬಾಡಿಗೆ ಬಾಕಿಯಿದ್ದರೂ ದುಬಾರಿ ಅಲಂಕಾರಿಕ ವಸ್ತುಗಳನ್ನು ಖರೀದಿಸಿದರು.",
+    "items": [
+      {
+        "id": "e04b7e1e167b47329a32099e5d3c1d56-1",
+        "text": "ಮನೆಯ ಬಾಡಿಗೆ ಬಾಕಿಯಿದ್ದರೂ ದುಬಾರಿ ಅಲಂಕಾರಿಕ ವಸ್ತುಗಳನ್ನು ಖರೀದಿಸಿದರು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "e04b7e1e167b47329a32099e5d3c1d56-2",
+        "text": "A student buys expensive decorations for a room while leaving the electricity bill unpaid and losing power.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "417f7ff3c22c40eea59098d45694fd84": {
+    "proverb_kn": "ಉದ್ದುದ್ದ ಮಾತಿನವರ ಮೊಳಕೈ ಮೊಂಡ.",
+    "contextual_meaning": "Draft for human verification: Grand talk can conceal a lack of practical work or follow-through.",
+    "example_usage": "Draft for human verification: ಯೋಜನೆ ಬಗ್ಗೆ ದಿನವೂ ಭಾಷಣ ಮಾಡಿದವನು ತನ್ನ ಪಾಲಿನ ಚಿಕ್ಕ ಕೆಲಸವನ್ನೂ ಮುಗಿಸಲಿಲ್ಲ.",
+    "items": [
+      {
+        "id": "417f7ff3c22c40eea59098d45694fd84-1",
+        "text": "ಯೋಜನೆ ಬಗ್ಗೆ ದಿನವೂ ಭಾಷಣ ಮಾಡಿದವನು ತನ್ನ ಪಾಲಿನ ಚಿಕ್ಕ ಕೆಲಸವನ್ನೂ ಮುಗಿಸಲಿಲ್ಲ.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "417f7ff3c22c40eea59098d45694fd84-2",
+        "text": "A neighbourhood organiser repeatedly announces a cleanup drive but never arranges bins, gloves, or volunteers.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "29e7fc08ef174ffdbb6398dd7661f974": {
+    "proverb_kn": "ಹೊಸದರಲ್ಲಿ ಅಗಸ ಗೋಣಿಯನ್ನು ಎತ್ತಿ ಎತ್ತಿ ಒಗೆದನಂತೆ",
+    "contextual_meaning": "Draft for human verification: New enthusiasm can lead to excessive or indiscriminate effort.",
+    "example_usage": "Draft for human verification: ಹೊಸ ಕೆಲಸಕ್ಕೆ ಸೇರಿದವನು ಪ್ರತಿಯೊಂದು ಸಣ್ಣ ಸಂದೇಶಕ್ಕೂ ದೊಡ್ಡ ವರದಿ ಬರೆಯತೊಡಗಿದನು.",
+    "items": [
+      {
+        "id": "29e7fc08ef174ffdbb6398dd7661f974-1",
+        "text": "ಹೊಸ ಕೆಲಸಕ್ಕೆ ಸೇರಿದವನು ಪ್ರತಿಯೊಂದು ಸಣ್ಣ ಸಂದೇಶಕ್ಕೂ ದೊಡ್ಡ ವರದಿ ಬರೆಯತೊಡಗಿದನು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "29e7fc08ef174ffdbb6398dd7661f974-2",
+        "text": "A new gardener waters every plant repeatedly throughout the day without checking whether the soil needs water.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "68d9edc649b1433888a2b93772bdc621": {
+    "proverb_kn": "ಹಿಟ್ಟು ಹಳಸಿತ್ತು ನಾಯೂ ಹಸಿದಿತ್ತು",
+    "contextual_meaning": "Draft for human verification: Two circumstances coincide so that one party's unwanted thing meets another's need.",
+    "example_usage": "Draft for human verification: ಒಬ್ಬರಿಗೆ ಬೇಡವಾಗಿದ್ದ ಹಳೆಯ ಮೇಜು ಮತ್ತೊಬ್ಬರ ಹೊಸ ಕೆಲಸದ ಕೋಣೆಗೆ ಸರಿಯಾಗಿ ಬೇಕಾಯಿತು.",
+    "items": [
+      {
+        "id": "68d9edc649b1433888a2b93772bdc621-1",
+        "text": "ಒಬ್ಬರಿಗೆ ಬೇಡವಾಗಿದ್ದ ಹಳೆಯ ಮೇಜು ಮತ್ತೊಬ್ಬರ ಹೊಸ ಕೆಲಸದ ಕೋಣೆಗೆ ಸರಿಯಾಗಿ ಬೇಕಾಯಿತು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "68d9edc649b1433888a2b93772bdc621-2",
+        "text": "A family wants to give away spare shelves just as a nearby student needs shelves for a new room.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "654d768356144535ace5447de95d0cbf": {
+    "proverb_kn": "ತವಕ ಪಟ್ಟವ ತಬ್ಬರಿಸಿ ಬಿದ್ದ",
+    "contextual_meaning": "Draft for human verification: Haste can produce avoidable mistakes and setbacks.",
+    "example_usage": "Draft for human verification: ಕಳುಹಿಸುವ ಮೊದಲು ಪರಿಶೀಲಿಸದೆ ಆತುರದಲ್ಲಿ ವಿದ್ಯಾರ್ಥಿ ತಪ್ಪು ಕಡತವನ್ನು ಸಲ್ಲಿಸಿದನು.",
+    "items": [
+      {
+        "id": "654d768356144535ace5447de95d0cbf-1",
+        "text": "ಕಳುಹಿಸುವ ಮೊದಲು ಪರಿಶೀಲಿಸದೆ ಆತುರದಲ್ಲಿ ವಿದ್ಯಾರ್ಥಿ ತಪ್ಪು ಕಡತವನ್ನು ಸಲ್ಲಿಸಿದನು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "654d768356144535ace5447de95d0cbf-2",
+        "text": "A traveller books tickets in a hurry and chooses the wrong date despite having enough time to check.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "635e91fd1879467d91393581ab893e87": {
+    "proverb_kn": "ಹಿರಿಯಕ್ಕನ ಚಾಳಿ ಮನೆಮಕ್ಕಳಿಗೆಲ್ಲ",
+    "contextual_meaning": "Draft for human verification: Younger members imitate the example set by an influential elder.",
+    "example_usage": "Draft for human verification: ದೊಡ್ಡ ಮಗಳು ಪ್ರತಿದಿನ ಪುಸ್ತಕ ಓದುತ್ತಿದ್ದುದನ್ನು ನೋಡಿ ತಮ್ಮತಂಗಿಯರೂ ಓದಲು ಆರಂಭಿಸಿದರು.",
+    "items": [
+      {
+        "id": "635e91fd1879467d91393581ab893e87-1",
+        "text": "ದೊಡ್ಡ ಮಗಳು ಪ್ರತಿದಿನ ಪುಸ್ತಕ ಓದುತ್ತಿದ್ದುದನ್ನು ನೋಡಿ ತಮ್ಮತಂಗಿಯರೂ ಓದಲು ಆರಂಭಿಸಿದರು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "635e91fd1879467d91393581ab893e87-2",
+        "text": "When an older brother begins greeting neighbours respectfully, the younger children start copying his behaviour.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "44156df3553b4038ade7050e42db2b1f": {
+    "proverb_kn": "ತಲೆ ಚೆನ್ನಾಗಿದ್ದರೆ ಮುಂಡಾಸು ನೂರು ಕಟ್ಟಬಹುದು",
+    "contextual_meaning": "Draft for human verification: Protect the essential foundation; replaceable possessions or opportunities can be regained.",
+    "example_usage": "Draft for human verification: ಸಣ್ಣ ಆಸ್ತಿನಷ್ಟಕ್ಕಿಂತ ಎಲ್ಲರೂ ಸುರಕ್ಷಿತವಾಗಿರುವುದೇ ಮುಖ್ಯವೆಂದು ಕುಟುಂಬ ಸಮಾಧಾನಪಟ್ಟಿತು.",
+    "items": [
+      {
+        "id": "44156df3553b4038ade7050e42db2b1f-1",
+        "text": "ಸಣ್ಣ ಆಸ್ತಿನಷ್ಟಕ್ಕಿಂತ ಎಲ್ಲರೂ ಸುರಕ್ಷಿತವಾಗಿರುವುದೇ ಮುಖ್ಯವೆಂದು ಕುಟುಂಬ ಸಮಾಧಾನಪಟ್ಟಿತು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "44156df3553b4038ade7050e42db2b1f-2",
+        "text": "After a flood damages furniture, a family prioritises everyone's safety and plans to replace the possessions gradually.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "c10801246d1345589e26b81c12a89e1a": {
+    "proverb_kn": "ಮುಳ್ಳನ್ನು ಮುಳ್ಳಿನಿಂದಲೇ ತೆಗೆಯಬೇಕು.",
+    "contextual_meaning": "Draft for human verification: A difficulty may be tackled using a similar instrument, tactic, or force, with appropriate judgement.",
+    "example_usage": "Draft for human verification: ಬೀಗದ ಒಳಗೆ ಸಿಕ್ಕಿದ ಸಣ್ಣ ತುಂಡನ್ನು ತೆಗೆಯಲು ತಂತ್ರಜ್ಞ ಮತ್ತೊಂದು ಸೂಕ್ಷ್ಮ ಸಾಧನ ಬಳಸಿದನು.",
+    "items": [
+      {
+        "id": "c10801246d1345589e26b81c12a89e1a-1",
+        "text": "ಬೀಗದ ಒಳಗೆ ಸಿಕ್ಕಿದ ಸಣ್ಣ ತುಂಡನ್ನು ತೆಗೆಯಲು ತಂತ್ರಜ್ಞ ಮತ್ತೊಂದು ಸೂಕ್ಷ್ಮ ಸಾಧನ ಬಳಸಿದನು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "c10801246d1345589e26b81c12a89e1a-2",
+        "text": "A carpenter removes a tightly wedged wooden piece by carefully tapping it with another suitably shaped piece.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "174fbe4c0fb3477c88af632b37192884": {
+    "proverb_kn": "ನಾಯಿಯು ನಮ್ಮನ್ನು ಕಚ್ಚಿದರೆ ನಾಯಿಯನ್ನು ಕಚ್ಚಲು ನಮ್ಮಿಂದ ಆಗುವುದೇ?",
+    "contextual_meaning": "Draft for human verification: Another person's bad conduct does not justify copying that conduct in retaliation.",
+    "example_usage": "Draft for human verification: ಸಾಮಾಜಿಕ ಜಾಲತಾಣದಲ್ಲಿ ನಿಂದಿಸಿದವನಿಗೆ ತಾನೂ ನಿಂದಿಸದೆ ವಿಷಯವನ್ನು ಮುಚ್ಚಲು ಅವಳು ನಿರ್ಧರಿಸಿದಳು.",
+    "items": [
+      {
+        "id": "174fbe4c0fb3477c88af632b37192884-1",
+        "text": "ಸಾಮಾಜಿಕ ಜಾಲತಾಣದಲ್ಲಿ ನಿಂದಿಸಿದವನಿಗೆ ತಾನೂ ನಿಂದಿಸದೆ ವಿಷಯವನ್ನು ಮುಚ್ಚಲು ಅವಳು ನಿರ್ಧರಿಸಿದಳು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "174fbe4c0fb3477c88af632b37192884-2",
+        "text": "A player refuses to cheat in return after noticing an opponent break the rules and instead reports the incident.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "d1a86ba5642742039d2cb2bf3e39b122": {
+    "proverb_kn": "ಅರಮನೆಯ ಮುಂದಿರಬೇಡ, ಕುದರೆಯ ಹಿಂದಿರಬೇಡ",
+    "contextual_meaning": "Draft for human verification: Avoid positions where power or foreseeable danger can expose you to harm.",
+    "example_usage": "Draft for human verification: ಅಗತ್ಯವಿಲ್ಲದೆ ಪ್ರಭಾವಶಾಲಿಗಳ ವೈಯಕ್ತಿಕ ಜಗಳದಲ್ಲಿ ತಲೆಹಾಕಬೇಡವೆಂದು ಹಿರಿಯರು ಸಲಹೆ ನೀಡಿದರು.",
+    "items": [
+      {
+        "id": "d1a86ba5642742039d2cb2bf3e39b122-1",
+        "text": "ಅಗತ್ಯವಿಲ್ಲದೆ ಪ್ರಭಾವಶಾಲಿಗಳ ವೈಯಕ್ತಿಕ ಜಗಳದಲ್ಲಿ ತಲೆಹಾಕಬೇಡವೆಂದು ಹಿರಿಯರು ಸಲಹೆ ನೀಡಿದರು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "d1a86ba5642742039d2cb2bf3e39b122-2",
+        "text": "A junior employee avoids becoming a messenger in a powerful manager's personal feud with another executive.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "aa8c43f350ad491ea25c9d1a0e8e8cad": {
+    "proverb_kn": "ಹೋದ್ರೆ ಒಂದು ಕಲ್ಲು, ಬಂದ್ರೆ ಒಂದು ಹಣ್ಣು",
+    "contextual_meaning": "Draft for human verification: A modest, low-cost attempt can be worthwhile when the possible benefit exceeds the limited loss.",
+    "example_usage": "Draft for human verification: ಅರ್ಜಿ ಸಲ್ಲಿಸಲು ಹಣ ಬೇಕಿರಲಿಲ್ಲವಾದ್ದರಿಂದ ಅವಕಾಶ ಸಿಗುತ್ತದೆಯೇ ಎಂದು ವಿದ್ಯಾರ್ಥಿ ಅರ್ಜಿ ಹಾಕಿದನು.",
+    "items": [
+      {
+        "id": "aa8c43f350ad491ea25c9d1a0e8e8cad-1",
+        "text": "ಅರ್ಜಿ ಸಲ್ಲಿಸಲು ಹಣ ಬೇಕಿರಲಿಲ್ಲವಾದ್ದರಿಂದ ಅವಕಾಶ ಸಿಗುತ್ತದೆಯೇ ಎಂದು ವಿದ್ಯಾರ್ಥಿ ಅರ್ಜಿ ಹಾಕಿದನು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "aa8c43f350ad491ea25c9d1a0e8e8cad-2",
+        "text": "An artist submits a free local exhibition application because a rejection would cost little and acceptance could help.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "bcffe29e56ea4342893a23cd1c19fe5e": {
+    "proverb_kn": "ಇಲಿ ಬೇಟೆಗೆ ತಮಟೆ ಬಡಿದಂಗೆ.",
+    "contextual_meaning": "Draft for human verification: A trivial undertaking is accompanied by disproportionate publicity or fanfare.",
+    "example_usage": "Draft for human verification: ಒಂದು ಸಣ್ಣ ಕಚೇರಿ ಬದಲಾವಣೆಗೆ ಹಲವು ದೊಡ್ಡ ಘೋಷಣೆಗಳನ್ನು ಮಾಡಿದರು.",
+    "items": [
+      {
+        "id": "bcffe29e56ea4342893a23cd1c19fe5e-1",
+        "text": "ಒಂದು ಸಣ್ಣ ಕಚೇರಿ ಬದಲಾವಣೆಗೆ ಹಲವು ದೊಡ್ಡ ಘೋಷಣೆಗಳನ್ನು ಮಾಡಿದರು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "bcffe29e56ea4342893a23cd1c19fe5e-2",
+        "text": "A club arranges a large publicity campaign and ceremonial launch simply to move a cupboard into another room.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "bd05ed4732184b98a02c26fab99b4b14": {
+    "proverb_kn": "ಅಡಿಕೆಗೆ ಹೋದ ಮಾನ ಆನೆ ಕೊಟ್ಟರೂ ಬಾರದು.",
+    "contextual_meaning": "Draft for human verification: A small dishonest or disgraceful act can cause lasting damage to reputation that a much larger payment cannot repair.",
+    "example_usage": "Draft for human verification: ಸಣ್ಣ ಮೊತ್ತದ ಹಣ ಕದ್ದ ಉದ್ಯೋಗಿ ಅದಕ್ಕಿಂತ ಹೆಚ್ಚು ಹಣ ಹಿಂದಿರುಗಿಸಿದರೂ ಸಹೋದ್ಯೋಗಿಗಳ ನಂಬಿಕೆ ತಕ್ಷಣ ಮರಳಲಿಲ್ಲ.",
+    "items": [
+      {
+        "id": "bd05ed4732184b98a02c26fab99b4b14-1",
+        "text": "ಸಣ್ಣ ಮೊತ್ತದ ಹಣ ಕದ್ದ ಉದ್ಯೋಗಿ ಅದಕ್ಕಿಂತ ಹೆಚ್ಚು ಹಣ ಹಿಂದಿರುಗಿಸಿದರೂ ಸಹೋದ್ಯೋಗಿಗಳ ನಂಬಿಕೆ ತಕ್ಷಣ ಮರಳಲಿಲ್ಲ.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "bd05ed4732184b98a02c26fab99b4b14-2",
+        "text": "A pupil's reputation suffers after cheating on a small quiz, even after offering an expensive gift as an apology.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "a40039234b13456e9ec46449951fa760": {
+    "proverb_kn": "ಅತಿಯಾದರೆ ಅಮೃತವೂ ವಿಷ",
+    "contextual_meaning": "Draft for human verification: Excess can make even something normally beneficial harmful.",
+    "example_usage": "Draft for human verification: ವ್ಯಾಯಾಮ ಒಳ್ಳೆಯದೆಂದು ವಿಶ್ರಾಂತಿಯಿಲ್ಲದೆ ಅತಿಯಾಗಿ ಅಭ್ಯಾಸ ಮಾಡಿದವನು ಆಯಾಸಗೊಂಡನು.",
+    "items": [
+      {
+        "id": "a40039234b13456e9ec46449951fa760-1",
+        "text": "ವ್ಯಾಯಾಮ ಒಳ್ಳೆಯದೆಂದು ವಿಶ್ರಾಂತಿಯಿಲ್ಲದೆ ಅತಿಯಾಗಿ ಅಭ್ಯಾಸ ಮಾಡಿದವನು ಆಯಾಸಗೊಂಡನು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "a40039234b13456e9ec46449951fa760-2",
+        "text": "A student drinks so much coffee to study that restlessness prevents her from concentrating on the lesson.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "af366050eaa3485bb09156095a0fb948": {
+    "proverb_kn": "ಕೈಗೆಟುಕದ ದ್ರಾಕ್ಷಿ ಹುಳಿ.",
+    "contextual_meaning": "Draft for human verification: Someone dismisses a desirable thing as worthless after failing to obtain it.",
+    "example_usage": "Draft for human verification: ಆಯ್ಕೆಯಾಗದ ಕೆಲಸವನ್ನು ಮೊದಲು ಬಯಸಿದ್ದವನು ನಂತರ ಅದು ಒಳ್ಳೆಯ ಕೆಲಸವೇ ಅಲ್ಲ ಎಂದನು.",
+    "items": [
+      {
+        "id": "af366050eaa3485bb09156095a0fb948-1",
+        "text": "ಆಯ್ಕೆಯಾಗದ ಕೆಲಸವನ್ನು ಮೊದಲು ಬಯಸಿದ್ದವನು ನಂತರ ಅದು ಒಳ್ಳೆಯ ಕೆಲಸವೇ ಅಲ್ಲ ಎಂದನು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "af366050eaa3485bb09156095a0fb948-2",
+        "text": "After failing to win a coveted competition, a contestant suddenly claims the award was meaningless all along.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "5af561568fba46d19541d086f6d9aa1d": {
+    "proverb_kn": "ಕಳ್ಳನ ಹೆಜ್ಜೆ ಕಳ್ಳನೇ ಬಲ್ಲ",
+    "contextual_meaning": "Draft for human verification: Someone familiar with a method can recognise its hidden signs, including deceptive methods.",
+    "example_usage": "Draft for human verification: ಹಿಂದೆ ಕಂಡಿದ್ದ ಮೋಸದ ವಿಧಾನವನ್ನು ನೆನಪಿಸಿಕೊಂಡ ವ್ಯಾಪಾರಿ ಹೊಸ ಸುಳ್ಳು ಕೊಡುಗೆಯನ್ನು ಗುರುತಿಸಿದನು.",
+    "items": [
+      {
+        "id": "5af561568fba46d19541d086f6d9aa1d-1",
+        "text": "ಹಿಂದೆ ಕಂಡಿದ್ದ ಮೋಸದ ವಿಧಾನವನ್ನು ನೆನಪಿಸಿಕೊಂಡ ವ್ಯಾಪಾರಿ ಹೊಸ ಸುಳ್ಳು ಕೊಡುಗೆಯನ್ನು ಗುರುತಿಸಿದನು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "5af561568fba46d19541d086f6d9aa1d-2",
+        "text": "An experienced bookkeeper spots a familiar pattern of altered receipts that a newcomer mistakes for an innocent error.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "18e582ec4f0b4fa8a8717af0033f402b": {
+    "proverb_kn": "ಕುಂಬಳಕಾಯಿ ಕಳ್ಳ ಅಂದ್ರೆ ಹೆಗಲು ಮುಟ್ಟಿ ನೋಡಿಕೊಂಡ",
+    "contextual_meaning": "Draft for human verification: An unsolicited defensive reaction can reveal a person's guilty conscience; the reaction alone is not proof of guilt.",
+    "example_usage": "Draft for human verification: ಕಳೆದುಹೋದ ವಸ್ತುವಿನ ಬಗ್ಗೆ ಎಲ್ಲರಿಗೂ ಕೇಳಿದಾಗ ಒಬ್ಬನೇ ಯಾರೂ ಕೇಳದ ವಿವರಗಳನ್ನು ಹೇಳಿ ತನ್ನನ್ನು ಸಮರ್ಥಿಸತೊಡಗಿದನು.",
+    "items": [
+      {
+        "id": "18e582ec4f0b4fa8a8717af0033f402b-1",
+        "text": "ಕಳೆದುಹೋದ ವಸ್ತುವಿನ ಬಗ್ಗೆ ಎಲ್ಲರಿಗೂ ಕೇಳಿದಾಗ ಒಬ್ಬನೇ ಯಾರೂ ಕೇಳದ ವಿವರಗಳನ್ನು ಹೇಳಿ ತನ್ನನ್ನು ಸಮರ್ಥಿಸತೊಡಗಿದನು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "18e582ec4f0b4fa8a8717af0033f402b-2",
+        "text": "When a teacher mentions missing stationery without naming anyone, one pupil immediately gives a defensive explanation nobody requested.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "23ad0e7c5ecc42088ef1a487c085dd5e": {
+    "proverb_kn": "ರಾಮ ರಾಜ್ಯ ಬಂದರೂ ರಾಗಿ ಬೀಸೋದು ತಪ್ಪಲಿಲ್ಲ",
+    "contextual_meaning": "Draft for human verification: Improved public conditions do not remove every ordinary responsibility or need for daily work.",
+    "example_usage": "Draft for human verification: ಕಚೇರಿಯಲ್ಲಿ ಉತ್ತಮ ವ್ಯವಸ್ಥೆ ಬಂದರೂ ಪ್ರತಿಯೊಬ್ಬರೂ ತಮ್ಮ ಕೆಲಸವನ್ನು ಸಮಯಕ್ಕೆ ಮುಗಿಸಬೇಕಿತ್ತು.",
+    "items": [
+      {
+        "id": "23ad0e7c5ecc42088ef1a487c085dd5e-1",
+        "text": "ಕಚೇರಿಯಲ್ಲಿ ಉತ್ತಮ ವ್ಯವಸ್ಥೆ ಬಂದರೂ ಪ್ರತಿಯೊಬ್ಬರೂ ತಮ್ಮ ಕೆಲಸವನ್ನು ಸಮಯಕ್ಕೆ ಮುಗಿಸಬೇಕಿತ್ತು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "23ad0e7c5ecc42088ef1a487c085dd5e-2",
+        "text": "A village gains better roads and services, but farmers still have to sow, weed, and harvest their fields.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "1875afed55a94819b4c779dc25e5a373": {
+    "proverb_kn": "ಶಿವ ಪೂಜೇಲಿ ಕರಡಿ ಬಿಟ್ಟಂಗೆ",
+    "contextual_meaning": "Draft for human verification: An intrusive disturbance disrupts a focused or orderly activity.",
+    "example_usage": "Draft for human verification: ಗಂಭೀರ ಸಭೆಯ ಮಧ್ಯೆ ಸಂಬಂಧವಿಲ್ಲದ ದೊಡ್ಡ ಜಗಳ ಶುರುವಾಯಿತು.",
+    "items": [
+      {
+        "id": "1875afed55a94819b4c779dc25e5a373-1",
+        "text": "ಗಂಭೀರ ಸಭೆಯ ಮಧ್ಯೆ ಸಂಬಂಧವಿಲ್ಲದ ದೊಡ್ಡ ಜಗಳ ಶುರುವಾಯಿತು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "1875afed55a94819b4c779dc25e5a373-2",
+        "text": "Loud unrelated announcements interrupt a quiet reading session just as students begin concentrating.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "31b158133a18430cb7436f75b27e7840": {
+    "proverb_kn": "ಹುಲ್ಲಿನ ಬಣವೇಲಿ ಸೂಜಿ ಹುಡುಕಿದ ಹಾಗೆ",
+    "contextual_meaning": "Draft for human verification: Finding a tiny specific item among a huge mass is very difficult.",
+    "example_usage": "Draft for human verification: ಹೆಸರಿಲ್ಲದ ಸಾವಿರಾರು ಚಿತ್ರಗಳಲ್ಲಿ ಒಂದೇ ಚಿತ್ರವನ್ನು ಹುಡುಕಬೇಕಾಯಿತು.",
+    "items": [
+      {
+        "id": "31b158133a18430cb7436f75b27e7840-1",
+        "text": "ಹೆಸರಿಲ್ಲದ ಸಾವಿರಾರು ಚಿತ್ರಗಳಲ್ಲಿ ಒಂದೇ ಚಿತ್ರವನ್ನು ಹುಡುಕಬೇಕಾಯಿತು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "31b158133a18430cb7436f75b27e7840-2",
+        "text": "A clerk must locate one unsigned form among thousands of unsorted papers with no names or dates indexed.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "c7d513af64ea47ff878c9de52c68098f": {
+    "proverb_kn": "ಕಲ್ಲು ಇದ್ದಾಗ ನಾಯಿ ಇಲ್ಲ ನಾಯಿ ಇದ್ದಾಗ ಕಲ್ಲು ಇಲ್ಲ",
+    "contextual_meaning": "Draft for human verification: The needed resource and the occasion to use it fail to coincide.",
+    "example_usage": "Draft for human verification: ಕ್ಯಾಮೆರಾ ಕೈಯಲ್ಲಿದ್ದಾಗ ವಿಶೇಷ ದೃಶ್ಯ ಕಾಣಲಿಲ್ಲ; ದೃಶ್ಯ ಕಂಡಾಗ ಕ್ಯಾಮೆರಾದಲ್ಲಿ ವಿದ್ಯುತ್ ಇರಲಿಲ್ಲ.",
+    "items": [
+      {
+        "id": "c7d513af64ea47ff878c9de52c68098f-1",
+        "text": "ಕ್ಯಾಮೆರಾ ಕೈಯಲ್ಲಿದ್ದಾಗ ವಿಶೇಷ ದೃಶ್ಯ ಕಾಣಲಿಲ್ಲ; ದೃಶ್ಯ ಕಂಡಾಗ ಕ್ಯಾಮೆರಾದಲ್ಲಿ ವಿದ್ಯುತ್ ಇರಲಿಲ್ಲ.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "c7d513af64ea47ff878c9de52c68098f-2",
+        "text": "A repairer has the needed spare part when no vehicle needs it, but runs out just when several customers arrive.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "da1f237710f348f49a08c4e5ea0a6bf6": {
+    "proverb_kn": "ಹಲ್ಲಿದ್ರೆ ಕಡಲೆ ಇಲ್ಲ;ಕಡಲೆ ಇದ್ರೆ ಹಲ್ಲಿಲ್ಲ",
+    "contextual_meaning": "Draft for human verification: Resources may arrive after the ability or opportunity to enjoy them has passed.",
+    "example_usage": "Draft for human verification: ಯೌವನದಲ್ಲಿ ಪ್ರವಾಸಕ್ಕೆ ಹಣವಿರಲಿಲ್ಲ; ಹಣ ಬಂದಾಗ ಪ್ರಯಾಣ ಮಾಡಲು ಆರೋಗ್ಯ ಸಹಕರಿಸಲಿಲ್ಲ.",
+    "items": [
+      {
+        "id": "da1f237710f348f49a08c4e5ea0a6bf6-1",
+        "text": "ಯೌವನದಲ್ಲಿ ಪ್ರವಾಸಕ್ಕೆ ಹಣವಿರಲಿಲ್ಲ; ಹಣ ಬಂದಾಗ ಪ್ರಯಾಣ ಮಾಡಲು ಆರೋಗ್ಯ ಸಹಕರಿಸಲಿಲ್ಲ.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "da1f237710f348f49a08c4e5ea0a6bf6-2",
+        "text": "A musician finally obtains an instrument she once wanted, but no longer has time to play because of changed responsibilities.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "13bd44fb97b14551a19c3eb925d3bd3e": {
+    "proverb_kn": "ಹಣ್ಣು ತಿಂದವನು ನುಣುಚಿಕೊಂಡ; ಸಿಪ್ಪೆ ತಿಂದವನು ಸಿಕ್ಕಿ ಹಾಕಿಕೊಂಡ",
+    "contextual_meaning": "Draft for human verification: The principal beneficiary of wrongdoing escapes while a lesser participant bears the penalty.",
+    "example_usage": "Draft for human verification: ಹಣದ ದುರುಪಯೋಗ ಮಾಡಿದ ಮುಖ್ಯಸ್ಥ ತಪ್ಪಿಸಿಕೊಂಡು ಸಣ್ಣ ಕೆಲಸ ಮಾಡಿದ ಸಹಾಯಕನೇ ವಿಚಾರಣೆಗೆ ಸಿಲುಕಿದನು.",
+    "items": [
+      {
+        "id": "13bd44fb97b14551a19c3eb925d3bd3e-1",
+        "text": "ಹಣದ ದುರುಪಯೋಗ ಮಾಡಿದ ಮುಖ್ಯಸ್ಥ ತಪ್ಪಿಸಿಕೊಂಡು ಸಣ್ಣ ಕೆಲಸ ಮಾಡಿದ ಸಹಾಯಕನೇ ವಿಚಾರಣೆಗೆ ಸಿಲುಕಿದನು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "13bd44fb97b14551a19c3eb925d3bd3e-2",
+        "text": "The organiser who took most of an event's missing funds disappears while the assistant who handled one payment faces questioning.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "3d7be23707e64035af10b07df35afaff": {
+    "proverb_kn": "ಹುಣಸೆ ಮರ ಮುಪ್ಪಾದರೂ ಹುಳಿ ಮುಪ್ಪಲ್ಲ",
+    "contextual_meaning": "Draft for human verification: A characteristic quality or temperament can remain strong despite advancing age.",
+    "example_usage": "Draft for human verification: ವಯಸ್ಸಾದ ಶಿಕ್ಷಕರು ಎಂದಿನಂತೆ ಚುರುಕಾಗಿ ಪ್ರಶ್ನೆಗಳಿಗೆ ಉತ್ತರಿಸಿದರು.",
+    "items": [
+      {
+        "id": "3d7be23707e64035af10b07df35afaff-1",
+        "text": "ವಯಸ್ಸಾದ ಶಿಕ್ಷಕರು ಎಂದಿನಂತೆ ಚುರುಕಾಗಿ ಪ್ರಶ್ನೆಗಳಿಗೆ ಉತ್ತರಿಸಿದರು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "3d7be23707e64035af10b07df35afaff-2",
+        "text": "An elderly tailor continues identifying tiny stitching faults as sharply as during his younger working years.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "96d2bac393ee462b813fa5b82d34ac5b": {
+    "proverb_kn": "ಕಾಮಾಲೆ ಕಣ್ಣವನಿಗೆ ಕಾಣುವುದೆಲ್ಲಾ ಹಳದಿ.",
+    "contextual_meaning": "Draft for human verification: A person's bias or state of mind can colour their judgement of everything.",
+    "example_usage": "Draft for human verification: ಮೊದಲಿನಿಂದಲೇ ಅನುಮಾನ ಹೊಂದಿದ್ದ ವ್ಯವಸ್ಥಾಪಕ ಪ್ರತಿಯೊಂದು ಸಣ್ಣ ತಪ್ಪನ್ನೂ ಉದ್ದೇಶಪೂರ್ವಕವೆಂದು ಭಾವಿಸಿದನು.",
+    "items": [
+      {
+        "id": "96d2bac393ee462b813fa5b82d34ac5b-1",
+        "text": "ಮೊದಲಿನಿಂದಲೇ ಅನುಮಾನ ಹೊಂದಿದ್ದ ವ್ಯವಸ್ಥಾಪಕ ಪ್ರತಿಯೊಂದು ಸಣ್ಣ ತಪ್ಪನ್ನೂ ಉದ್ದೇಶಪೂರ್ವಕವೆಂದು ಭಾವಿಸಿದನು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "96d2bac393ee462b813fa5b82d34ac5b-2",
+        "text": "A resident who distrusts newcomers interprets even their friendly greetings as attempts to gain an unfair advantage.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "058ecd0090f9439ba8cfedc3224b6d03": {
+    "proverb_kn": "ಕುದಿಯುವ ಎಣ್ಣೆಯಿಂದ ಕಾದ ತವದ ಮೇಲೆ ಬಿದ್ದ ಹಾಗೆ",
+    "contextual_meaning": "Draft for human verification: Escaping one difficult situation leads straight into another serious difficulty.",
+    "example_usage": "Draft for human verification: ಹಳೆಯ ಸಾಲ ತೀರಿಸಲು ಹೆಚ್ಚಿನ ಬಡ್ಡಿಯ ಹೊಸ ಸಾಲ ತೆಗೆದುಕೊಂಡು ಅವನು ಇನ್ನಷ್ಟು ಒತ್ತಡಕ್ಕೆ ಸಿಲುಕಿದನು.",
+    "items": [
+      {
+        "id": "058ecd0090f9439ba8cfedc3224b6d03-1",
+        "text": "ಹಳೆಯ ಸಾಲ ತೀರಿಸಲು ಹೆಚ್ಚಿನ ಬಡ್ಡಿಯ ಹೊಸ ಸಾಲ ತೆಗೆದುಕೊಂಡು ಅವನು ಇನ್ನಷ್ಟು ಒತ್ತಡಕ್ಕೆ ಸಿಲುಕಿದನು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "058ecd0090f9439ba8cfedc3224b6d03-2",
+        "text": "A worker leaves one exploitative arrangement only to accept another with even worse working conditions.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "351722ef3a124377994eb735df70b976": {
+    "proverb_kn": "ಗಂಡ ಹೆಂಡಿರ ಜಗಳದಲ್ಲಿ ಕೂಸು ಬಡವಾಯಿತು.",
+    "contextual_meaning": "Draft for human verification: Conflict between responsible adults can harm a dependent child who did not cause it.",
+    "example_usage": "Draft for human verification: ಪೋಷಕರು ಪರಸ್ಪರ ಮಾತನಾಡದ ಕಾರಣ ಮಗುವಿನ ಶಾಲೆಯ ಅಗತ್ಯವನ್ನು ಯಾರೂ ಗಮನಿಸಲಿಲ್ಲ.",
+    "items": [
+      {
+        "id": "351722ef3a124377994eb735df70b976-1",
+        "text": "ಪೋಷಕರು ಪರಸ್ಪರ ಮಾತನಾಡದ ಕಾರಣ ಮಗುವಿನ ಶಾಲೆಯ ಅಗತ್ಯವನ್ನು ಯಾರೂ ಗಮನಿಸಲಿಲ್ಲ.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "351722ef3a124377994eb735df70b976-2",
+        "text": "Separated parents argue over who should pay a school fee until the child misses the application deadline.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "1b0fabb4148540dd8dd45299a1eab0d5": {
+    "proverb_kn": "ಆಸೆಗೆ ಮಿತಿಯಿಲ್ಲ, ಆಕಾಶಕ್ಕೆ ಅಳತೆಯಿಲ್ಲ.",
+    "contextual_meaning": "Draft for human verification: Wants can keep expanding unless a person deliberately sets limits.",
+    "example_usage": "Draft for human verification: ಒಂದು ವಸ್ತು ಖರೀದಿಸಿದ ತಕ್ಷಣ ಇನ್ನೂ ದುಬಾರಿ ಮಾದರಿ ಬೇಕೆಂದು ಅವನು ಬಯಸಿದನು.",
+    "items": [
+      {
+        "id": "1b0fabb4148540dd8dd45299a1eab0d5-1",
+        "text": "ಒಂದು ವಸ್ತು ಖರೀದಿಸಿದ ತಕ್ಷಣ ಇನ್ನೂ ದುಬಾರಿ ಮಾದರಿ ಬೇಕೆಂದು ಅವನು ಬಯಸಿದನು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "1b0fabb4148540dd8dd45299a1eab0d5-2",
+        "text": "After reaching one savings target, a person immediately wants a larger house, a newer car, and still more possessions.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "53479af74f02448894a852858f9eef72": {
+    "proverb_kn": "ನಾವೂ ನೀವೂ ನೆಂಟರು , ಗಂತಿಗೆ ಮಾತ್ರ ಕೈ ಹಚ್ಚಬೇಡಿ.",
+    "contextual_meaning": "Draft for human verification: Warm relationships can coexist with firm financial boundaries.",
+    "example_usage": "Draft for human verification: ಸ್ನೇಹಿತನೊಂದಿಗೆ ಪ್ರೀತಿಯಿಂದ ಇದ್ದರೂ ತನ್ನ ಉಳಿತಾಯವನ್ನು ಅನುಮತಿಯಿಲ್ಲದೆ ಬಳಸಬಾರದೆಂದು ಅವನು ತಿಳಿಸಿದನು.",
+    "items": [
+      {
+        "id": "53479af74f02448894a852858f9eef72-1",
+        "text": "ಸ್ನೇಹಿತನೊಂದಿಗೆ ಪ್ರೀತಿಯಿಂದ ಇದ್ದರೂ ತನ್ನ ಉಳಿತಾಯವನ್ನು ಅನುಮತಿಯಿಲ್ಲದೆ ಬಳಸಬಾರದೆಂದು ಅವನು ತಿಳಿಸಿದನು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "53479af74f02448894a852858f9eef72-2",
+        "text": "Two siblings stay affectionate but agree that neither will withdraw money from the other's account without permission.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "33428cab731842199339baa78abbf06a": {
+    "proverb_kn": "ಬಗ್ಗಿದವನಿಗೆ ಒಂದು ಗುದ್ದು ಹೆಚ್ಚು.",
+    "contextual_meaning": "Draft for human verification: An accommodating person can be burdened or bullied further if others exploit their patience.",
+    "example_usage": "Draft for human verification: ಎಲ್ಲ ಹೆಚ್ಚುವರಿ ಕೆಲಸಕ್ಕೂ ಒಪ್ಪುತ್ತಿದ್ದ ಉದ್ಯೋಗಿಗೇ ಮತ್ತೆ ಮತ್ತೆ ಹೊಸ ಹೊರೆ ನೀಡಿದರು.",
+    "items": [
+      {
+        "id": "33428cab731842199339baa78abbf06a-1",
+        "text": "ಎಲ್ಲ ಹೆಚ್ಚುವರಿ ಕೆಲಸಕ್ಕೂ ಒಪ್ಪುತ್ತಿದ್ದ ಉದ್ಯೋಗಿಗೇ ಮತ್ತೆ ಮತ್ತೆ ಹೊಸ ಹೊರೆ ನೀಡಿದರು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "33428cab731842199339baa78abbf06a-2",
+        "text": "Because one volunteer never objects to extra duties, the group repeatedly gives her everyone else's unfinished tasks.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "fd3647c095994bf7adaa63d9f832740d": {
+    "proverb_kn": "ಕಂಕುಳಲ್ಲಿ ದೊಣ್ಣೆ; ಕೈಯಲ್ಲಿ ಶರಣಾರ್ಥಿ",
+    "contextual_meaning": "Draft for human verification: An outward show of humility or peace conceals an intention to threaten or harm.",
+    "example_usage": "Draft for human verification: ಸಮಾಧಾನಕ್ಕೆ ಬಂದೆನೆಂದವನು ಮಾತುಕತೆಯ ನಡುವೆ ಗುಪ್ತವಾಗಿ ಬೆದರಿಕೆಯ ಸಂದೇಶ ಕಳುಹಿಸಿದನು.",
+    "items": [
+      {
+        "id": "fd3647c095994bf7adaa63d9f832740d-1",
+        "text": "ಸಮಾಧಾನಕ್ಕೆ ಬಂದೆನೆಂದವನು ಮಾತುಕತೆಯ ನಡುವೆ ಗುಪ್ತವಾಗಿ ಬೆದರಿಕೆಯ ಸಂದೇಶ ಕಳುಹಿಸಿದನು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "fd3647c095994bf7adaa63d9f832740d-2",
+        "text": "A negotiator speaks warmly about peace while secretly arranging pressure against the other party.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "5a5c450201a2449e93ba3dd2952f6581": {
+    "proverb_kn": "ಆಡಿಕೊಳ್ಳೋರ ಮುಂದೆ ಎಡವಿ ಬಿದ್ದ ಹಾಗೆ",
+    "contextual_meaning": "Draft for human verification: A mistake gives hostile onlookers an additional opportunity to ridicule someone.",
+    "example_usage": "Draft for human verification: ತನ್ನನ್ನು ಕೆಣಕುತ್ತಿದ್ದವರ ಎದುರೇ ವೇದಿಕೆಯಲ್ಲಿ ಒಂದು ಪದ ತಪ್ಪಿ ಅವನು ಇನ್ನಷ್ಟು ಮುಜುಗರಗೊಂಡನು.",
+    "items": [
+      {
+        "id": "5a5c450201a2449e93ba3dd2952f6581-1",
+        "text": "ತನ್ನನ್ನು ಕೆಣಕುತ್ತಿದ್ದವರ ಎದುರೇ ವೇದಿಕೆಯಲ್ಲಿ ಒಂದು ಪದ ತಪ್ಪಿ ಅವನು ಇನ್ನಷ್ಟು ಮುಜುಗರಗೊಂಡನು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "5a5c450201a2449e93ba3dd2952f6581-2",
+        "text": "A new singer forgets a line in front of classmates who had already been looking for reasons to mock her.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "4213d2b7299447a3b361a0fbbbfabddb": {
+    "proverb_kn": "ಬೆಲ್ಲ ಇದ್ದಲ್ಲಿ ನೊಣ ತಿರುಗಾಡಿದಂತೆ.",
+    "contextual_meaning": "Draft for human verification: People gather where they expect benefits or gain.",
+    "example_usage": "Draft for human verification: ಬಹುಮಾನ ಘೋಷಿಸಿದ ನಂತರ ಕಾರ್ಯಕ್ರಮದ ಬಗ್ಗೆ ಹಠಾತ್ ಎಲ್ಲರಿಗೂ ಆಸಕ್ತಿ ಮೂಡಿತು.",
+    "items": [
+      {
+        "id": "4213d2b7299447a3b361a0fbbbfabddb-1",
+        "text": "ಬಹುಮಾನ ಘೋಷಿಸಿದ ನಂತರ ಕಾರ್ಯಕ್ರಮದ ಬಗ್ಗೆ ಹಠಾತ್ ಎಲ್ಲರಿಗೂ ಆಸಕ್ತಿ ಮೂಡಿತು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "4213d2b7299447a3b361a0fbbbfabddb-2",
+        "text": "When a new business starts giving free samples, many previously uninterested visitors suddenly claim to be regular supporters.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "092e18fc47214832907ec9a58a2d29b9": {
+    "proverb_kn": "ತಾನು ಜಾರಿಬಿದ್ದು ಉಣ್ಣೆಯಂತ ನೆಲ ಅಂದ",
+    "contextual_meaning": "Draft for human verification: A person blames external circumstances instead of acknowledging their own mistake.",
+    "example_usage": "Draft for human verification: ಸಿದ್ಧತೆ ಮಾಡದ ವಿದ್ಯಾರ್ಥಿ ಕಡಿಮೆ ಅಂಕಕ್ಕೆ ಪ್ರಶ್ನೆಪತ್ರಿಕೆಯ ವಿನ್ಯಾಸವನ್ನೇ ದೂರಿದನು.",
+    "items": [
+      {
+        "id": "092e18fc47214832907ec9a58a2d29b9-1",
+        "text": "ಸಿದ್ಧತೆ ಮಾಡದ ವಿದ್ಯಾರ್ಥಿ ಕಡಿಮೆ ಅಂಕಕ್ಕೆ ಪ್ರಶ್ನೆಪತ್ರಿಕೆಯ ವಿನ್ಯಾಸವನ್ನೇ ದೂರಿದನು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "092e18fc47214832907ec9a58a2d29b9-2",
+        "text": "A cook ignores the recipe, burns the food, and insists the saucepan alone caused the failure.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "10e988ee9af844409e5bf083ab7342b7": {
+    "proverb_kn": "ಅಟ್ಟ ಮೇಲೆ ಒಲೆ ಉರಿಯಿತು, ಕೆಟ್ಟ ಮೇಲೆ ಬುದ್ಧಿ ಬಂತು",
+    "contextual_meaning": "Draft for human verification: Understanding arrives only after preventable damage has occurred.",
+    "example_usage": "Draft for human verification: ದತ್ತಾಂಶ ಕಳೆದುಹೋದ ನಂತರವೇ ಬ್ಯಾಕಪ್ ಇಡುವ ಅಗತ್ಯ ಅವನಿಗೆ ತಿಳಿಯಿತು.",
+    "items": [
+      {
+        "id": "10e988ee9af844409e5bf083ab7342b7-1",
+        "text": "ದತ್ತಾಂಶ ಕಳೆದುಹೋದ ನಂತರವೇ ಬ್ಯಾಕಪ್ ಇಡುವ ಅಗತ್ಯ ಅವನಿಗೆ ತಿಳಿಯಿತು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "10e988ee9af844409e5bf083ab7342b7-2",
+        "text": "After missing an important appointment, a traveller finally realises she should have checked the timetable earlier.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "c1d670fd42f44697944732d73b3fabaf": {
+    "proverb_kn": "ಬೈದು ಹೇಳಿದವರು ಬದುಕಕ್ಕೆ ಹೇಳಿದರು",
+    "contextual_meaning": "Draft for human verification: A well-intentioned correction may be meant to help even when it sounds unpleasant.",
+    "example_usage": "Draft for human verification: ಪ್ರಬಂಧದ ದೋಷಗಳನ್ನು ನೇರವಾಗಿ ತಿಳಿಸಿದ ಶಿಕ್ಷಕರ ಸಲಹೆಯಿಂದ ವಿದ್ಯಾರ್ಥಿ ಬರವಣಿಗೆಯನ್ನು ಸುಧಾರಿಸಿದನು.",
+    "items": [
+      {
+        "id": "c1d670fd42f44697944732d73b3fabaf-1",
+        "text": "ಪ್ರಬಂಧದ ದೋಷಗಳನ್ನು ನೇರವಾಗಿ ತಿಳಿಸಿದ ಶಿಕ್ಷಕರ ಸಲಹೆಯಿಂದ ವಿದ್ಯಾರ್ಥಿ ಬರವಣಿಗೆಯನ್ನು ಸುಧಾರಿಸಿದನು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "c1d670fd42f44697944732d73b3fabaf-2",
+        "text": "A coach firmly corrects unsafe technique so that a young athlete can practise more effectively and avoid preventable mistakes.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "c83975ba2cc04581976536b12f817ac3": {
+    "proverb_kn": "ಮನೆಯ ಕಷ್ಟಕ್ಕೆ ನೆರೆಮನೆಯವರು ಹೊಣೆ ಏನು?",
+    "contextual_meaning": "Draft for human verification: Do not assign responsibility for a private problem to unrelated people without reason.",
+    "example_usage": "Draft for human verification: ತನ್ನ ಖರ್ಚಿನ ಯೋಜನೆ ತಪ್ಪಿದ್ದಕ್ಕೆ ಪಕ್ಕದ ಮನೆಯವರ ಸಂಭ್ರಮವನ್ನೇ ಅವನು ಕಾರಣವೆಂದನು.",
+    "items": [
+      {
+        "id": "c83975ba2cc04581976536b12f817ac3-1",
+        "text": "ತನ್ನ ಖರ್ಚಿನ ಯೋಜನೆ ತಪ್ಪಿದ್ದಕ್ಕೆ ಪಕ್ಕದ ಮನೆಯವರ ಸಂಭ್ರಮವನ್ನೇ ಅವನು ಕಾರಣವೆಂದನು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "c83975ba2cc04581976536b12f817ac3-2",
+        "text": "A shopkeeper blames a neighbouring household for his debt even though his own poor bookkeeping caused the shortfall.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "209cc7b20e7b499dbd3d60e87308617b": {
+    "proverb_kn": "ನಿಷ್ಠೆ ಇಲ್ಲದೆ ಎಷ್ಟು ಪೂಜೆ ಮಾಡಿದರೂ ನಷ್ಟ",
+    "contextual_meaning": "Draft for human verification: Formal acts have little value when genuine commitment is absent.",
+    "example_usage": "Draft for human verification: ಕಲಿಯುವ ಆಸಕ್ತಿ ಇಲ್ಲದೆ ಹಾಜರಾತಿಗಾಗಿ ಮಾತ್ರ ಬಂದ ವಿದ್ಯಾರ್ಥಿಗೆ ತರಬೇತಿಯಿಂದ ಪ್ರಯೋಜನವಾಗಲಿಲ್ಲ.",
+    "items": [
+      {
+        "id": "209cc7b20e7b499dbd3d60e87308617b-1",
+        "text": "ಕಲಿಯುವ ಆಸಕ್ತಿ ಇಲ್ಲದೆ ಹಾಜರಾತಿಗಾಗಿ ಮಾತ್ರ ಬಂದ ವಿದ್ಯಾರ್ಥಿಗೆ ತರಬೇತಿಯಿಂದ ಪ್ರಯೋಜನವಾಗಲಿಲ್ಲ.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "209cc7b20e7b499dbd3d60e87308617b-2",
+        "text": "A volunteer signs every attendance sheet but makes no effort to perform the work or learn the required skills.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "fb7c126bbd8f43e19ec2d32b880980ee": {
+    "proverb_kn": "ಕುದುರೆ ಕಂಡರೆ ಕಾಲುನೋವು",
+    "contextual_meaning": "Draft for human verification: Someone suddenly produces an excuse to obtain an available convenience.",
+    "example_usage": "Draft for human verification: ಸ್ನೇಹಿತನ ವಾಹನ ಕಂಡ ತಕ್ಷಣ ನಡೆಯಲು ಆಗುವುದಿಲ್ಲವೆಂದು ಅವನು ಹೇಳತೊಡಗಿದನು.",
+    "items": [
+      {
+        "id": "fb7c126bbd8f43e19ec2d32b880980ee-1",
+        "text": "ಸ್ನೇಹಿತನ ವಾಹನ ಕಂಡ ತಕ್ಷಣ ನಡೆಯಲು ಆಗುವುದಿಲ್ಲವೆಂದು ಅವನು ಹೇಳತೊಡಗಿದನು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "fb7c126bbd8f43e19ec2d32b880980ee-2",
+        "text": "On seeing a relative with a taxi, a person who was walking comfortably suddenly claims he cannot walk any farther.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "5850f1421876461c85c80793d70657fe": {
+    "proverb_kn": "ಕಲಹವೇ ಕೇಡಿಗೆ ಮೂಲ.",
+    "contextual_meaning": "Draft for human verification: Persistent conflict can undermine shared well-being and progress.",
+    "example_usage": "Draft for human verification: ಜಗಳದಲ್ಲೇ ಸಮಯ ಕಳೆದ ತಂಡ ಕೊನೆಗೆ ಯೋಜನೆಯ ಗಡುವು ತಪ್ಪಿಸಿತು.",
+    "items": [
+      {
+        "id": "5850f1421876461c85c80793d70657fe-1",
+        "text": "ಜಗಳದಲ್ಲೇ ಸಮಯ ಕಳೆದ ತಂಡ ಕೊನೆಗೆ ಯೋಜನೆಯ ಗಡುವು ತಪ್ಪಿಸಿತು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "5850f1421876461c85c80793d70657fe-2",
+        "text": "Two partners spend so much time arguing about credit that customers leave and their joint business deteriorates.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "8746e5029c974836a85a186b763bdb72": {
+    "proverb_kn": "ತಕ್ಕುದನ್ನು ಅರಿಯದ ಓದು ಲಕ್ಷ ಓದಿದರೇನು",
+    "contextual_meaning": "Draft for human verification: Accumulating knowledge is insufficient without judgement about its proper use.",
+    "example_usage": "Draft for human verification: ನಿಯಮಗಳನ್ನು ಕಂಠಪಾಠ ಮಾಡಿದ ಉದ್ಯೋಗಿ ಸರಳ ಸಮಸ್ಯೆಗೆ ಸೂಕ್ತ ಪರಿಹಾರ ಆಯ್ಕೆ ಮಾಡಲಿಲ್ಲ.",
+    "items": [
+      {
+        "id": "8746e5029c974836a85a186b763bdb72-1",
+        "text": "ನಿಯಮಗಳನ್ನು ಕಂಠಪಾಠ ಮಾಡಿದ ಉದ್ಯೋಗಿ ಸರಳ ಸಮಸ್ಯೆಗೆ ಸೂಕ್ತ ಪರಿಹಾರ ಆಯ್ಕೆ ಮಾಡಲಿಲ್ಲ.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "8746e5029c974836a85a186b763bdb72-2",
+        "text": "A student memorises many formulas but cannot decide which one is appropriate for a simple practical problem.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "c07e29cc35c24ee9bd830f08b6693da8": {
+    "proverb_kn": "ಅರಿತರೆ ಮಾತನಾಡು, ಮರೆತರೆ ಕೂತು ನೋಡು.",
+    "contextual_meaning": "Draft for human verification: Speak from knowledge and listen when uncertain instead of pretending expertise.",
+    "example_usage": "Draft for human verification: ಮಾಹಿತಿ ಖಚಿತವಿಲ್ಲದ ಕಾರಣ ಅವಳು ಊಹೆಯಿಂದ ಉತ್ತರಿಸದೆ ದಾಖಲೆ ಪರಿಶೀಲಿಸಿದಳು.",
+    "items": [
+      {
+        "id": "c07e29cc35c24ee9bd830f08b6693da8-1",
+        "text": "ಮಾಹಿತಿ ಖಚಿತವಿಲ್ಲದ ಕಾರಣ ಅವಳು ಊಹೆಯಿಂದ ಉತ್ತರಿಸದೆ ದಾಖಲೆ ಪರಿಶೀಲಿಸಿದಳು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "c07e29cc35c24ee9bd830f08b6693da8-2",
+        "text": "At a meeting, a resident listens to an engineer rather than pretending to understand a technical issue he has never studied.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "14143fd6291d4cebb1a859aa1f322702": {
+    "proverb_kn": "ಕೊಡದ ಲೋಭಿ ಮಾತು ಕೊಡಲಿ ಪೆಟ್ಟು",
+    "contextual_meaning": "Draft for human verification: A harsh refusal can add hurt to a person's unmet need.",
+    "example_usage": "Draft for human verification: ನೆರವು ನೀಡಲಾಗದಿದ್ದರೂ ಸೌಜನ್ಯದಿಂದ ಹೇಳುವ ಬದಲು ಅವನು ಕೇಳಿದವನನ್ನು ಅವಮಾನಿಸಿದನು.",
+    "items": [
+      {
+        "id": "14143fd6291d4cebb1a859aa1f322702-1",
+        "text": "ನೆರವು ನೀಡಲಾಗದಿದ್ದರೂ ಸೌಜನ್ಯದಿಂದ ಹೇಳುವ ಬದಲು ಅವನು ಕೇಳಿದವನನ್ನು ಅವಮಾನಿಸಿದನು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "14143fd6291d4cebb1a859aa1f322702-2",
+        "text": "A person refuses a small request for directions with humiliating insults instead of giving a courteous answer.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "b3e5272cd80a447ba5936ec01a1fe2cb": {
+    "proverb_kn": "ಆಡುತ್ತಾ ಆಡುತ್ತಾ ಭಾಷೆ, ಹಾಡುತ್ತಾ ಹಾಡುತ್ತಾ ರಾಗ",
+    "contextual_meaning": "Draft for human verification: Repeated practice develops fluency and skill.",
+    "example_usage": "Draft for human verification: ಪ್ರತಿದಿನ ಕನ್ನಡದಲ್ಲಿ ಮಾತನಾಡಿದ ಕಾರಣ ಹೊಸ ವಿದ್ಯಾರ್ಥಿಯ ಸಂಕೋಚ ಕಡಿಮೆಯಾಯಿತು.",
+    "items": [
+      {
+        "id": "b3e5272cd80a447ba5936ec01a1fe2cb-1",
+        "text": "ಪ್ರತಿದಿನ ಕನ್ನಡದಲ್ಲಿ ಮಾತನಾಡಿದ ಕಾರಣ ಹೊಸ ವಿದ್ಯಾರ್ಥಿಯ ಸಂಕೋಚ ಕಡಿಮೆಯಾಯಿತು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "b3e5272cd80a447ba5936ec01a1fe2cb-2",
+        "text": "A beginner becomes a confident public speaker by practising short talks regularly rather than waiting for confidence to arrive.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "8bfaf88fc0cb4afcad21242e6a7c6942": {
+    "proverb_kn": "ಅರಸನ ಕುದರೆ ಲಾಯದಲ್ಲೆ ಮುಪ್ಪಾಯಿತು",
+    "contextual_meaning": "Draft for human verification: A capable resource or person can go to waste when never given a chance to be used.",
+    "example_usage": "Draft for human verification: ಉತ್ತಮ ತರಬೇತಿ ಪಡೆದ ಉದ್ಯೋಗಿಗೆ ವರ್ಷಗಳಾದರೂ ತನ್ನ ಕೌಶಲ್ಯ ಬಳಸುವ ಕೆಲಸ ನೀಡಲಿಲ್ಲ.",
+    "items": [
+      {
+        "id": "8bfaf88fc0cb4afcad21242e6a7c6942-1",
+        "text": "ಉತ್ತಮ ತರಬೇತಿ ಪಡೆದ ಉದ್ಯೋಗಿಗೆ ವರ್ಷಗಳಾದರೂ ತನ್ನ ಕೌಶಲ್ಯ ಬಳಸುವ ಕೆಲಸ ನೀಡಲಿಲ್ಲ.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "8bfaf88fc0cb4afcad21242e6a7c6942-2",
+        "text": "A library buys a useful projector but leaves it unopened for years while classes continue without visual materials.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "e94a608735e2425fbfc9569a20fc0577": {
+    "proverb_kn": "ತನ್ನ ಯಂತ್ರಕ್ಕೆ ಎಣ್ಣೆ ಹಾಕಲೂ ಆಗದವ ಇನ್ನೊಬ್ಬರಿಗೆ ಉಪದೇಶ ನೀಡಿದಂತೆ.",
+    "contextual_meaning": "Draft for human verification: A person's unsupported advice may lack credibility when they cannot manage the same matter themselves.",
+    "example_usage": "Draft for human verification: ತನ್ನ ಲೆಕ್ಕವನ್ನೇ ಇಡದ ವ್ಯಕ್ತಿ ಎಲ್ಲರಿಗೂ ಹಣಕಾಸಿನ ಶಿಸ್ತು ಬಗ್ಗೆ ಪಾಠ ಹೇಳುತ್ತಿದ್ದನು.",
+    "items": [
+      {
+        "id": "e94a608735e2425fbfc9569a20fc0577-1",
+        "text": "ತನ್ನ ಲೆಕ್ಕವನ್ನೇ ಇಡದ ವ್ಯಕ್ತಿ ಎಲ್ಲರಿಗೂ ಹಣಕಾಸಿನ ಶಿಸ್ತು ಬಗ್ಗೆ ಪಾಠ ಹೇಳುತ್ತಿದ್ದನು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "e94a608735e2425fbfc9569a20fc0577-2",
+        "text": "A person whose own garden is neglected lectures every neighbour on keeping plants healthy without offering useful experience.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "0831ba71d577414f89ef35bfa3dedc9e": {
+    "proverb_kn": "ಆರಕ್ಕೇರಲಿಲ್ಲ, ಮೂರಕ್ಕೀಳಿಯಲಿಲ್ಲ.",
+    "contextual_meaning": "Draft for human verification: A condition remains at the same middling level without notable improvement or decline.",
+    "example_usage": "Draft for human verification: ಹಲವು ತಿಂಗಳ ಪ್ರಯತ್ನದ ನಂತರವೂ ಮಾರಾಟದಲ್ಲಿ ಹೆಚ್ಚಳವೂ ಇಳಿಕೆಯೂ ಇರಲಿಲ್ಲ.",
+    "items": [
+      {
+        "id": "0831ba71d577414f89ef35bfa3dedc9e-1",
+        "text": "ಹಲವು ತಿಂಗಳ ಪ್ರಯತ್ನದ ನಂತರವೂ ಮಾರಾಟದಲ್ಲಿ ಹೆಚ್ಚಳವೂ ಇಳಿಕೆಯೂ ಇರಲಿಲ್ಲ.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "0831ba71d577414f89ef35bfa3dedc9e-2",
+        "text": "A local team's performance stays average throughout the season, showing neither a clear improvement nor a serious decline.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "d39b0feb14c14a4bad5914ea20fb9768": {
+    "proverb_kn": "ತೀರಕ್ಕೆ ಬಂದ ಮೇಲೆ ತೆರೆಯ ಭಯವೇ",
+    "contextual_meaning": "Draft for human verification: Fear can become unnecessary once the main danger has genuinely passed.",
+    "example_usage": "Draft for human verification: ಎಲ್ಲ ಅಗತ್ಯ ಪರಿಶೀಲನೆ ಮುಗಿದು ಫಲಿತಾಂಶ ಖಚಿತವಾದ ಮೇಲೂ ಅವನು ಹಳೆಯ ಆತಂಕದಲ್ಲೇ ಇದ್ದನು.",
+    "items": [
+      {
+        "id": "d39b0feb14c14a4bad5914ea20fb9768-1",
+        "text": "ಎಲ್ಲ ಅಗತ್ಯ ಪರಿಶೀಲನೆ ಮುಗಿದು ಫಲಿತಾಂಶ ಖಚಿತವಾದ ಮೇಲೂ ಅವನು ಹಳೆಯ ಆತಂಕದಲ್ಲೇ ಇದ್ದನು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "d39b0feb14c14a4bad5914ea20fb9768-2",
+        "text": "After a document is safely delivered and acknowledged, the sender keeps worrying about the journey that has already ended.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "5cfc9244f42e42c19e788926a92ce816": {
+    "proverb_kn": "ತನ್ನೂರಲಿ ರಂಗ, ಪರೂರಲಿ ಮಂಗ",
+    "contextual_meaning": "Draft for human verification: Status and familiarity in one's home setting do not automatically transfer elsewhere.",
+    "example_usage": "Draft for human verification: ತನ್ನ ಶಾಲೆಯಲ್ಲಿ ಎಲ್ಲರಿಗೂ ಪರಿಚಿತನಿದ್ದ ವಿದ್ಯಾರ್ಥಿ ಹೊಸ ಕಾಲೇಜಿನಲ್ಲಿ ಮತ್ತೆ ಪರಿಚಯ ಬೆಳೆಸಬೇಕಾಯಿತು.",
+    "items": [
+      {
+        "id": "5cfc9244f42e42c19e788926a92ce816-1",
+        "text": "ತನ್ನ ಶಾಲೆಯಲ್ಲಿ ಎಲ್ಲರಿಗೂ ಪರಿಚಿತನಿದ್ದ ವಿದ್ಯಾರ್ಥಿ ಹೊಸ ಕಾಲೇಜಿನಲ್ಲಿ ಮತ್ತೆ ಪರಿಚಯ ಬೆಳೆಸಬೇಕಾಯಿತು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "5cfc9244f42e42c19e788926a92ce816-2",
+        "text": "A popular village performer moves to a new city and discovers that recognition must be earned again among unfamiliar audiences.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "12bae87b3f3b421dbcd2f76512aefdfa": {
+    "proverb_kn": "ಬಂಗಾರಕ್ಕೆ ಕುಂದಣವಿಟ್ಟಂತೆ ವಜ್ರಕ್ಕೆ ಸಾಣಿ ಹಿಡಿದಂತೆ",
+    "contextual_meaning": "Draft for human verification: Careful finishing can enhance something already valuable.",
+    "example_usage": "Draft for human verification: ಒಳ್ಳೆಯ ಪ್ರಬಂಧಕ್ಕೆ ಶಿಕ್ಷಕರ ಸಣ್ಣ ತಿದ್ದುಪಡಿಗಳು ಇನ್ನಷ್ಟು ಸ್ಪಷ್ಟತೆ ತಂದವು.",
+    "items": [
+      {
+        "id": "12bae87b3f3b421dbcd2f76512aefdfa-1",
+        "text": "ಒಳ್ಳೆಯ ಪ್ರಬಂಧಕ್ಕೆ ಶಿಕ್ಷಕರ ಸಣ್ಣ ತಿದ್ದುಪಡಿಗಳು ಇನ್ನಷ್ಟು ಸ್ಪಷ್ಟತೆ ತಂದವು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "12bae87b3f3b421dbcd2f76512aefdfa-2",
+        "text": "Careful editing and a clear layout make an already strong student research report substantially easier to read.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "863084e8e9a74dc380fe37ccc999ee7a": {
+    "proverb_kn": "ಲೋಕ ತಿಳಿಯಬೇಕು ಲೆಕ್ಕ ಕಲಿಯಬೇಕು",
+    "contextual_meaning": "Draft for human verification: Practical awareness and basic financial understanding are both valuable life skills.",
+    "example_usage": "Draft for human verification: ಹೊಸ ವ್ಯಾಪಾರ ಆರಂಭಿಸುವ ಮೊದಲು ಅವಳು ಗ್ರಾಹಕರ ಅಗತ್ಯ ಮತ್ತು ಖರ್ಚಿನ ಲೆಕ್ಕ ಎರಡನ್ನೂ ಕಲಿತಳು.",
+    "items": [
+      {
+        "id": "863084e8e9a74dc380fe37ccc999ee7a-1",
+        "text": "ಹೊಸ ವ್ಯಾಪಾರ ಆರಂಭಿಸುವ ಮೊದಲು ಅವಳು ಗ್ರಾಹಕರ ಅಗತ್ಯ ಮತ್ತು ಖರ್ಚಿನ ಲೆಕ್ಕ ಎರಡನ್ನೂ ಕಲಿತಳು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "863084e8e9a74dc380fe37ccc999ee7a-2",
+        "text": "Before renting a stall, a young seller learns to compare prices, calculate costs, and understand customers' needs.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "ea07f01593864d20bcfb8948909d057f": {
+    "proverb_kn": "ಇಂಗು ತೆಂಗು ಇದ್ದರೆ ಮಂಗಮ್ಮನೂ ಅಡಿಗೆ ಮಾಡ್ತಾಳೆ.",
+    "contextual_meaning": "Draft for human verification: Good inputs and adequate resources can make successful work easier; the wording contains a traditional personal-name stereotype.",
+    "example_usage": "Draft for human verification: ಸರಿಯಾದ ಸಾಧನ ಮತ್ತು ಸೂಚನೆ ಸಿಕ್ಕ ನಂತರ ಹೊಸ ಸಿಬ್ಬಂದಿಯೂ ಕೆಲಸವನ್ನು ಉತ್ತಮವಾಗಿ ಮುಗಿಸಿದಳು.",
+    "items": [
+      {
+        "id": "ea07f01593864d20bcfb8948909d057f-1",
+        "text": "ಸರಿಯಾದ ಸಾಧನ ಮತ್ತು ಸೂಚನೆ ಸಿಕ್ಕ ನಂತರ ಹೊಸ ಸಿಬ್ಬಂದಿಯೂ ಕೆಲಸವನ್ನು ಉತ್ತಮವಾಗಿ ಮುಗಿಸಿದಳು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "ea07f01593864d20bcfb8948909d057f-2",
+        "text": "A beginner prepares a good school presentation once given working equipment, clear instructions, and suitable reference materials.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "05e8a067311445bb9f8663a1295527c5": {
+    "proverb_kn": "ಕಾರ್ಯಾವಾಸಿ ಕತ್ತೆಕಾಲು ಹಿಡಿ.",
+    "contextual_meaning": "Draft for human verification: Getting an important task done may require setting pride aside and seeking help from an unlikely source.",
+    "example_usage": "Draft for human verification: ಗಡುವಿನ ಕೆಲಸ ಮುಗಿಸಲು ಅವನು ಹಿಂದೆ ಕಡೆಗಣಿಸಿದ್ದ ಸಹೋದ್ಯೋಗಿಯ ಸಹಾಯ ಕೇಳಿದನು.",
+    "items": [
+      {
+        "id": "05e8a067311445bb9f8663a1295527c5-1",
+        "text": "ಗಡುವಿನ ಕೆಲಸ ಮುಗಿಸಲು ಅವನು ಹಿಂದೆ ಕಡೆಗಣಿಸಿದ್ದ ಸಹೋದ್ಯೋಗಿಯ ಸಹಾಯ ಕೇಳಿದನು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "05e8a067311445bb9f8663a1295527c5-2",
+        "text": "A teacher asks a quiet pupil with overlooked computer skills for help when a classroom device stops working.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "0feca13b20ac4470b95ab00046b6f85d": {
+    "proverb_kn": "ದಾರಿಯಲ್ಲಿ ಹೋಗುತ್ತಿದ್ದ ಮಾರಿಯನ್ನು ಕರೆದು ಮನೆಗೆ ಸೇರಿಸಿಕೊಂಡಂತೆ",
+    "contextual_meaning": "Draft for human verification: A person needlessly brings an avoidable problem upon themselves.",
+    "example_usage": "Draft for human verification: ಯಾವ ಪರಿಶೀಲನೆಯೂ ಮಾಡದೆ ಪರಿಚಯವಿಲ್ಲದವನ ಸಾಲಕ್ಕೆ ಅವನು ಜಾಮೀನಾದನು.",
+    "items": [
+      {
+        "id": "0feca13b20ac4470b95ab00046b6f85d-1",
+        "text": "ಯಾವ ಪರಿಶೀಲನೆಯೂ ಮಾಡದೆ ಪರಿಚಯವಿಲ್ಲದವನ ಸಾಲಕ್ಕೆ ಅವನು ಜಾಮೀನಾದನು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "0feca13b20ac4470b95ab00046b6f85d-2",
+        "text": "A resident agrees to store an unknown trader's disputed goods and becomes involved in a conflict she could have avoided.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "a1dc42421c6a4a4d95a69452194a41a6": {
+    "proverb_kn": "ರಾಮೇಶ್ವರಕ್ಕೆ ಹೋದರೂ ಶನೇಶ್ವರನ ಕಾಟ ತಪ್ಪಲಿಲ್ಲ",
+    "contextual_meaning": "Draft for human verification: Changing location or seeking relief does not always remove a persistent difficulty; the imagery is traditional rather than an astrological claim.",
+    "example_usage": "Draft for human verification: ಕೆಲಸದ ಕ್ರಮ ಬದಲಿಸದೆ ಕಚೇರಿ ಸ್ಥಳ ಬದಲಿಸಿದರೂ ಅದೇ ವಿಳಂಬ ಮುಂದುವರಿಯಿತು.",
+    "items": [
+      {
+        "id": "a1dc42421c6a4a4d95a69452194a41a6-1",
+        "text": "ಕೆಲಸದ ಕ್ರಮ ಬದಲಿಸದೆ ಕಚೇರಿ ಸ್ಥಳ ಬದಲಿಸಿದರೂ ಅದೇ ವಿಳಂಬ ಮುಂದುವರಿಯಿತು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "a1dc42421c6a4a4d95a69452194a41a6-2",
+        "text": "A student changes study rooms repeatedly, but unfinished assignments persist because the habit of postponing work has not changed.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "e763b9af7e374d4baf67dffbd2e57fbb": {
+    "proverb_kn": "ಸಾವಿರ ಚಿತ್ತಾರ ಮಸಿ ನುಂಗಿತು",
+    "contextual_meaning": "Draft for human verification: One damaging act or defect can spoil many fine achievements.",
+    "example_usage": "Draft for human verification: ಉತ್ತಮವಾಗಿ ತಯಾರಿಸಿದ ಪ್ರದರ್ಶನದ ಚಿತ್ರಗಳು ನಿರ್ಲಕ್ಷ್ಯದಿಂದ ಸುರಿದ ಮಸಿಯಿಂದ ಹಾಳಾದವು.",
+    "items": [
+      {
+        "id": "e763b9af7e374d4baf67dffbd2e57fbb-1",
+        "text": "ಉತ್ತಮವಾಗಿ ತಯಾರಿಸಿದ ಪ್ರದರ್ಶನದ ಚಿತ್ರಗಳು ನಿರ್ಲಕ್ಷ್ಯದಿಂದ ಸುರಿದ ಮಸಿಯಿಂದ ಹಾಳಾದವು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "e763b9af7e374d4baf67dffbd2e57fbb-2",
+        "text": "One reckless public insult damages the goodwill a club earned through many years of helpful community work.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "933ceb0585224d4394f214eeb34453ff": {
+    "proverb_kn": "ಸಾದೆತ್ತಿಗೆ ಎರಡು ಹೇರು",
+    "contextual_meaning": "Draft for human verification: The reliable and uncomplaining person may be assigned more than a fair share of work.",
+    "example_usage": "Draft for human verification: ಯಾವ ಕೆಲಸಕ್ಕೂ ವಿರೋಧಿಸದ ಸಿಬ್ಬಂದಿಗೇ ವ್ಯವಸ್ಥಾಪಕರು ಎರಡು ಜನರ ಕೆಲಸ ಕೊಟ್ಟರು.",
+    "items": [
+      {
+        "id": "933ceb0585224d4394f214eeb34453ff-1",
+        "text": "ಯಾವ ಕೆಲಸಕ್ಕೂ ವಿರೋಧಿಸದ ಸಿಬ್ಬಂದಿಗೇ ವ್ಯವಸ್ಥಾಪಕರು ಎರಡು ಜನರ ಕೆಲಸ ಕೊಟ್ಟರು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "933ceb0585224d4394f214eeb34453ff-2",
+        "text": "A dependable teacher is assigned several absent colleagues' duties because administrators know she rarely complains.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "c3e31766814f449d8348caea680c66a1": {
+    "proverb_kn": "ಗಂಡ ಹೆಂಡಿರ ಜಗಳ ಉಂಡು ಮಲಗುವ ತನಕ",
+    "contextual_meaning": "Draft for human verification: Some everyday domestic disagreements are short-lived and should not be treated as permanent estrangement; this does not describe abuse.",
+    "example_usage": "Draft for human verification: ಯಾವ ಊರಿಗೆ ಪ್ರವಾಸ ಹೋಗಬೇಕು ಎಂಬ ಸಣ್ಣ ಜಗಳ ಸಂಜೆ ಮಾತುಕತೆಯಿಂದ ಮುಗಿಯಿತು.",
+    "items": [
+      {
+        "id": "c3e31766814f449d8348caea680c66a1-1",
+        "text": "ಯಾವ ಊರಿಗೆ ಪ್ರವಾಸ ಹೋಗಬೇಕು ಎಂಬ ಸಣ್ಣ ಜಗಳ ಸಂಜೆ ಮಾತುಕತೆಯಿಂದ ಮುಗಿಯಿತು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "c3e31766814f449d8348caea680c66a1-2",
+        "text": "A couple disagree over which meal to cook, discuss it calmly, and are chatting happily again by dinner.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "7dc3656c650a4eada7aacd20bf6bb1a5": {
+    "proverb_kn": "ರಾಗಿ ಇದ್ರೆ ರಾಗ ರಾಗಿ ಇಲ್ದಿದ್ರೆ ರೋಗ",
+    "contextual_meaning": "Draft for human verification: Having basic sustenance supports well-being, while deprivation brings distress; the health image is proverbial, not a medical rule.",
+    "example_usage": "Draft for human verification: ಸ್ಥಿರ ಆದಾಯ ಸಿಕ್ಕ ನಂತರ ಕುಟುಂಬಕ್ಕೆ ದೈನಂದಿನ ಊಟದ ಚಿಂತೆ ಕಡಿಮೆಯಾಯಿತು.",
+    "items": [
+      {
+        "id": "7dc3656c650a4eada7aacd20bf6bb1a5-1",
+        "text": "ಸ್ಥಿರ ಆದಾಯ ಸಿಕ್ಕ ನಂತರ ಕುಟುಂಬಕ್ಕೆ ದೈನಂದಿನ ಊಟದ ಚಿಂತೆ ಕಡಿಮೆಯಾಯಿತು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "7dc3656c650a4eada7aacd20bf6bb1a5-2",
+        "text": "With dependable access to basic groceries, a household can focus on school and work instead of worrying about the next meal.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "edd8a02917a84fcd8c3c92976dee850c": {
+    "proverb_kn": "ಬಡವನಿಗೆ ಉಳಿದಷ್ಟೆ ಅಭಿಮಾನ",
+    "contextual_meaning": "Draft for human verification: A person with few possessions still has self-respect, which others should not dismiss.",
+    "example_usage": "Draft for human verification: ಸಹಾಯ ನೀಡುವಾಗ ಎಲ್ಲರ ಮುಂದೆ ಅವಮಾನಿಸದೆ ಖಾಸಗಿಯಾಗಿ ಸೌಜನ್ಯದಿಂದ ನೆರವಾದರು.",
+    "items": [
+      {
+        "id": "edd8a02917a84fcd8c3c92976dee850c-1",
+        "text": "ಸಹಾಯ ನೀಡುವಾಗ ಎಲ್ಲರ ಮುಂದೆ ಅವಮಾನಿಸದೆ ಖಾಸಗಿಯಾಗಿ ಸೌಜನ್ಯದಿಂದ ನೆರವಾದರು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "edd8a02917a84fcd8c3c92976dee850c-2",
+        "text": "A student with little money declines help offered through public ridicule and welcomes assistance given respectfully in private.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "039cc265eeb341a2aea2a7f2d64b65e9": {
+    "proverb_kn": "ನೋಡಿ ನಡೆದವರಿಗೆ ಕೇಡಿಲ್ಲ.",
+    "contextual_meaning": "Draft for human verification: Paying attention and acting carefully helps reduce avoidable trouble; it is not a guarantee against all harm.",
+    "example_usage": "Draft for human verification: ಒಪ್ಪಂದಕ್ಕೆ ಸಹಿ ಮಾಡುವ ಮೊದಲು ಷರತ್ತುಗಳನ್ನು ಓದಿ ಅವಳು ಅನಗತ್ಯ ಖರ್ಚು ತಪ್ಪಿಸಿಕೊಂಡಳು.",
+    "items": [
+      {
+        "id": "039cc265eeb341a2aea2a7f2d64b65e9-1",
+        "text": "ಒಪ್ಪಂದಕ್ಕೆ ಸಹಿ ಮಾಡುವ ಮೊದಲು ಷರತ್ತುಗಳನ್ನು ಓದಿ ಅವಳು ಅನಗತ್ಯ ಖರ್ಚು ತಪ್ಪಿಸಿಕೊಂಡಳು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "039cc265eeb341a2aea2a7f2d64b65e9-2",
+        "text": "A pedestrian checks both directions and the traffic signal before crossing instead of following a distracted crowd.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  },
+  "ac3b594abb1c4cdc90b5d9d2083520c7": {
+    "proverb_kn": "ಹುಲಿಯ ಬಣ್ಣವನ್ನು ಮೆಚ್ಚಿ, ನರಿ ತನ್ನ ಕೂದಲನ್ನು ಭಸ್ಮ ಮಾಡಿಕೊಂಡಂತೆ.",
+    "contextual_meaning": "Draft for human verification: Blind imitation of another's appearance or advantages can harm oneself.",
+    "example_usage": "Draft for human verification: ದೊಡ್ಡ ಕಂಪನಿಯ ದುಬಾರಿ ಪ್ರಚಾರವನ್ನು ತನ್ನ ಸಾಮರ್ಥ್ಯ ನೋಡದೆ ಅನುಕರಿಸಿದ ಸಣ್ಣ ಅಂಗಡಿ ನಷ್ಟಪಟ್ಟಿತು.",
+    "items": [
+      {
+        "id": "ac3b594abb1c4cdc90b5d9d2083520c7-1",
+        "text": "ದೊಡ್ಡ ಕಂಪನಿಯ ದುಬಾರಿ ಪ್ರಚಾರವನ್ನು ತನ್ನ ಸಾಮರ್ಥ್ಯ ನೋಡದೆ ಅನುಕರಿಸಿದ ಸಣ್ಣ ಅಂಗಡಿ ನಷ್ಟಪಟ್ಟಿತು.",
+        "language": "kn",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      },
+      {
+        "id": "ac3b594abb1c4cdc90b5d9d2083520c7-2",
+        "text": "A small caterer copies an expensive celebrity wedding menu without checking costs and suffers a financial loss.",
+        "language": "en",
+        "status": "DRAFT_REQUIRES_NATIVE_SPEAKER_REVIEW"
+      }
+    ]
+  }
+}

@@ -2,6 +2,7 @@ import React,{useEffect,useRef,useState} from 'react';
 import {MessageCircle,Plus,ArrowRight,User,BookOpen} from 'lucide-react';
 import api from './api';
 import SearchBox from './SearchBox';
+import {displayText} from './displayText';
 import './chat-home.css';
 
 function pause(ms,signal){return new Promise(resolve=>{const done=()=>{clearTimeout(timer);signal.removeEventListener('abort',done);resolve();};const timer=setTimeout(done,ms);signal.addEventListener('abort',done,{once:true});if(signal.aborted)done();});}
@@ -9,19 +10,18 @@ function pause(ms,signal){return new Promise(resolve=>{const done=()=>{clearTime
 
 function ProgressiveAnswer({row,renderCard}){
  const [visible,setVisible]=useState(0);
- const fields=['proverb_kn','literal_meaning','contextual_meaning','why'];
- const translated=['proverb_en','literal_meaning_kn','contextual_meaning_kn'];
- const entries=[['proverb_kn',row.proverb_kn],['proverb_en',row.translation?.fields?.proverb_en],['literal_meaning_kn',row.translation?.fields?.literal_meaning_kn],['literal_meaning',row.literal_meaning],['contextual_meaning_kn',row.translation?.fields?.contextual_meaning_kn],['contextual_meaning',row.contextual_meaning],['why',row.why]].filter(([,value])=>value);
+ const paths=[['proverb_kn']];
+ if(row.display){paths.push(['display','proverb_en'],['display','contextual_meaning_kn'],['contextual_meaning'],['display','example','kn'],['display','example','en']);for(let i=0;i<2;i++)paths.push(['display','situations',i,'kn'],['display','situations',i,'en']);}
+ else{paths.push(['translation','fields','proverb_en'],['translation','fields','contextual_meaning_kn'],['contextual_meaning'],['translation','fields','example_usage_kn'],['example_usage']);for(let i=0;i<(row.situations?.length||0);i++)paths.push(['situations',i,'text']);}
+ const entries=paths.map(path=>[path,path.reduce((value,key)=>value?.[key],row)]).filter(([,value])=>typeof value==='string'&&value).map(([path,value])=>[path,displayText(value)]);
  const total=entries.reduce((n,[,value])=>n+value.split(/(\s+)/).length,0);
  useEffect(()=>{
   if(matchMedia('(prefers-reduced-motion: reduce)').matches){setVisible(total);return;}
   const timer=setInterval(()=>setVisible(n=>{if(n+8>=total)clearInterval(timer);return Math.min(total,n+8);}),45);
   return()=>clearInterval(timer);
  },[row,total]);
- let remaining=visible;const values={};
- for(const [key,value] of entries){const words=value.split(/(\s+)/);values[key]=words.slice(0,Math.max(0,remaining)).join('');remaining-=words.length;}
- const partial={...row};for(const key of fields)partial[key]=values[key]||'';
- if(row.translation){partial.translation={...row.translation,fields:{...row.translation.fields}};for(const key of translated)partial.translation.fields[key]=values[key]||'';}
+ let remaining=visible;const partial=structuredClone(row);partial.__writing=visible<total;
+ for(const [path,value] of entries){const words=value.split(/(\s+)/);let target=partial;for(const key of path.slice(0,-1))target=target[key];target[path.at(-1)]=words.slice(0,Math.max(0,remaining)).join('');remaining-=words.length;}
  return <div className="chat-progressive" aria-busy={visible<total}>{renderCard(partial)}</div>;
 }
 
@@ -29,7 +29,12 @@ export default function ChatHome({renderCard,navigate,errorText}){
  const [turns,setTurns]=useState([]),[pending,setPending]=useState(false),[draft,setDraft]=useState({text:'',revision:0}),[epoch,setEpoch]=useState(0);
  const request=useRef(null),thread=useRef(null),sequence=useRef(0),composer=useRef(null);
  useEffect(()=>()=>request.current?.abort(),[]);
- useEffect(()=>{if(thread.current)thread.current.scrollTop=thread.current.scrollHeight;},[turns,pending]);
+ useEffect(()=>{
+  const container=thread.current,last=container?.querySelector('.chat-turn:last-child');
+  if(!container||!last)return;
+  last.style.minHeight=container.clientHeight+'px';
+  container.scrollTop+=last.getBoundingClientRect().top-container.getBoundingClientRect().top-16;
+ },[turns.length]);
  async function send(query,{cloud=false,provider=null}={}){
   if(!query.trim()||pending)return;
   const id=++sequence.current,controller=new AbortController();request.current=controller;const started=performance.now();

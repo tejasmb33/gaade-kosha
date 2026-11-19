@@ -17,3 +17,14 @@ main .page .notice{background:#c6a15b12;border-color:#c6a15b66;color:#f3ebdd}.pa
 dialog.proverb-detail{background:#211814;color:#f3ebdd;border-color:#c6a15b77}dialog.proverb-detail h2,dialog.proverb-detail h3,dialog.proverb-detail dt,dialog.proverb-detail .eyebrow{color:#e4c17a}dialog.proverb-detail dd{color:#f3ebdd}dialog.proverb-detail .detail-field{background:#2b1d19;border-color:#c6a15b44}dialog.proverb-detail .close,dialog.proverb-detail .text-button{background:#e4c17a;color:#2b1d19;border-color:#c6a15b}
 :focus-visible{outline-color:#e4c17a}
 @media(max-width:640px){.header-inner nav.open{background:#211814;border-color:#c6a15b55}main>.page{border-radius:12px;margin:12px 10px}footer{margin:12px 10px 0}}
+/* Give search, theme and subcategory their own bounded columns. */
+main .dictionary-filters{grid-template-columns:minmax(0,1.2fr) minmax(0,1fr) minmax(0,1.2fr) auto;column-gap:24px;row-gap:20px}
+main .dictionary-filters select{min-width:0;max-width:100%}
+@media(max-width:1000px){main .dictionary-filters{grid-template-columns:repeat(2,minmax(0,1fr))}main .dictionary-filters>.text-button{grid-column:auto;justify-self:stretch}}
+@media(max-width:550px){main .dictionary-filters{grid-template-columns:minmax(0,1fr);gap:18px}}
+
+/* Restore deep maroon with only a faint Hampi backdrop. */
+main>.page.dictionary-entry-page{background:rgba(23,20,17,.80)}
+.dictionary-entry-page .dictionary-article{background:rgba(49,13,8,.65)}
+main .dictionary-entry-page .dictionary-notes,main .dictionary-entry-page .dictionary-section.suitable{background:rgba(49,20,14,.78)}
+.dictionary-entry-page .dictionary-article :is(h1,h2,h3,p,dt,dd,.eyebrow){text-shadow:0 1px 3px rgba(20,10,5,.65)}

@@ -1,0 +1,7 @@
+.proverb-information>h1,.proverb-information>h3{color:#e4c17a;line-height:1.8;overflow-wrap:anywhere}
+.proverb-information dl{margin:0}
+.proverb-information dt{color:#e4c17a;font-family:inherit;font-size:12px;line-height:1.8;letter-spacing:.25px;margin-top:24px;text-transform:none}
+.proverb-information dd{margin:8px 0 24px;white-space:normal}
+.proverb-information dd p{font-family:inherit;font-size:15px;line-height:1.95;color:#f3ebdd;margin:8px 0;white-space:pre-wrap;overflow-wrap:anywhere}
+.dictionary-article .proverb-information{max-width:850px}
+@media(max-width:650px){.proverb-information dd p{font-size:14px}.proverb-information dt{font-size:11px}}
