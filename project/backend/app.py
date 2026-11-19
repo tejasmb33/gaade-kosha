@@ -280,7 +280,13 @@ def create_app(data_dir=None,admin_token=None,database_url=None):
                 try:result.update(cloud.web(body.query))
                 except CloudUnavailable:result['web_notice']='Web fallback is unavailable. No unverified result was added.'
             return result
-        except CloudUnavailable as exc:raise HTTPException(503,str(exc))
+        except CloudUnavailable as exc:
+            if not exc.temporary:raise HTTPException(503,str(exc))
+            # Reuse approved-only retrieval; never silently send the query to another provider.
+            result=search(Search(query=body.query))
+            result.update({'requested_provider':body.provider or cloud_status()['provider'],'interpretation':None,'external_sources':[],
+                'fallback_notice':'ಆಯ್ಕೆ ಮಾಡಿದ ಸೇವೆ ಈಗ ಲಭ್ಯವಿಲ್ಲ. ಸಾಮಾನ್ಯ ಹುಡುಕಾಟ ಬಳಸಲಾಗಿದೆ. (The selected service is unavailable; using standard search.)'})
+            return result
     @app.post('/api/contributions',status_code=201)
     def contribute(body:Contribution):
         with audio_lock, Session.begin() as s:

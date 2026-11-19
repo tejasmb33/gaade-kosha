@@ -1,5 +1,5 @@
 """Optional external reasoning. No cloud requests unless the dedicated endpoint is used."""
-import json,os,re
+import json,os,re,time,random
 from urllib.parse import urlparse
 import httpx
 from pydantic import BaseModel,Field,ConfigDict
@@ -12,7 +12,10 @@ class Decision(BaseModel):
     model_config=ConfigDict(extra='forbid')
     interpretation:str=Field(max_length=1000)
     matches:list[Choice]=Field(max_length=3)
-class CloudUnavailable(Exception):pass
+class CloudUnavailable(Exception):
+    def __init__(self,message,*,temporary=False):
+        super().__init__(message)
+        self.temporary=temporary
 
 def configuration(provider=None):
     provider=(provider or os.getenv('GAADE_AI_PROVIDER','')).strip().lower()
@@ -39,7 +42,7 @@ class CloudSearch:
         self.provider,self.model,self.key=configuration(provider)
         if not status(provider)['configured']:raise CloudUnavailable('Cloud AI is not configured. Set the provider, model and API key in local .env; local search remains available.')
         if not re.fullmatch(r'[A-Za-z0-9._-]+(?:/[A-Za-z0-9._-]+)?',self.model):raise CloudUnavailable('Invalid cloud model configuration')
-    def request(self,prompt,schema=None,web=False,max_output_tokens=None):
+    def request(self,prompt,schema=None,web=False,max_output_tokens=None,timeout_seconds=45):
         if self.provider=='openai':
             url='https://api.openai.com/v1/responses';headers={'Authorization':'Bearer '+self.key}
             body={'model':self.model,'input':prompt,'store':False,'max_output_tokens':3000}
@@ -60,8 +63,23 @@ class CloudSearch:
             elif self.provider=='groq':body['max_completion_tokens']=max_output_tokens
             else:body['max_output_tokens']=max_output_tokens
         try:
-            with httpx.Client(timeout=httpx.Timeout(45,connect=10),follow_redirects=False) as client:
-                response=client.post(url,headers=headers,json=body);response.raise_for_status();result=response.json()
+            deadline=time.monotonic()+timeout_seconds
+            with httpx.Client(timeout=httpx.Timeout(timeout_seconds,connect=min(10,timeout_seconds)),follow_redirects=False) as client:
+                for attempt in range(2):
+                    remaining=max(.1,deadline-time.monotonic())
+                    response=client.post(url,headers=headers,json=body,timeout=httpx.Timeout(remaining,connect=min(5,remaining)))
+                    # One bounded retry on this provider only; don't retry quota/auth errors.
+                    if attempt==0 and response.status_code in [500,502,503,504]:
+                        delay=random.uniform(.4,.7)
+                        retry_after=response.headers.get('Retry-After')
+                        if retry_after:
+                            try:delay=max(delay,float(retry_after))
+                            except ValueError:delay=float('inf')
+                        if delay<=1 and deadline-time.monotonic()>delay+1:
+                            time.sleep(delay)
+                            continue
+                    response.raise_for_status();result=response.json()
+                    break
             if self.provider=='groq':
                 return result['choices'][0]['message']['content'],[],None
             if self.provider=='openai':
@@ -78,15 +96,15 @@ class CloudSearch:
         except httpx.HTTPStatusError as exc:
             code=exc.response.status_code
             if code==413:raise CloudUnavailable('The proverb catalog exceeds this provider request limit. Use local search or reduce the catalog payload; no alternate provider was used.') from None
-            if code==429:raise CloudUnavailable('Cloud API quota or rate limit reached. Wait and retry, or use local search. No alternate paid provider was used.') from None
+            if code==429:raise CloudUnavailable('Cloud API quota or rate limit reached. Wait and retry, or use local search. No alternate paid provider was used.',temporary=True) from None
             if code in [401,403]:raise CloudUnavailable('API authentication or project access failed. Check your local API key and provider permissions.') from None
-            if code in [500,502,503,504]:raise CloudUnavailable('The cloud model is temporarily busy or unavailable. Retry later or choose local search.') from None
+            if code in [500,502,503,504]:raise CloudUnavailable('The cloud model is temporarily busy or unavailable. Retry later or choose local search.',temporary=True) from None
             if code==404:raise CloudUnavailable('Configured API model is unavailable for this project. Check the model name and access.') from None
             raise CloudUnavailable('Cloud provider rejected the request. Local search remains available.') from None
         except httpx.TimeoutException:
-            raise CloudUnavailable('Cloud AI timed out. Retry later or choose local search.') from None
+            raise CloudUnavailable('Cloud AI timed out. Retry later or choose local search.',temporary=True) from None
         except httpx.ConnectError:
-            raise CloudUnavailable('Cannot connect to the cloud provider. Check the backend internet connection, DNS and proxy settings; local search remains available.') from None
+            raise CloudUnavailable('Cannot connect to the cloud provider. Check the backend internet connection, DNS and proxy settings; local search remains available.',temporary=True) from None
         except (httpx.HTTPError,ValueError,KeyError,TypeError):
             raise CloudUnavailable('The cloud provider could not complete the request. Check the API key, model access and quota locally; local search remains available.') from None
     def select(self,query,rows):
@@ -102,7 +120,7 @@ class CloudSearch:
                 'Catalog descriptions may carry draft labels; do not claim independent cultural verification.\n'
                 +json.dumps({'situation':query,'approved_catalog':catalog},ensure_ascii=False))
         try:
-            raw,_,_=self.request(prompt,Decision.model_json_schema())
+            raw,_,_=self.request(prompt,Decision.model_json_schema(),timeout_seconds=12)
             result=Decision.model_validate_json(raw)
             allowed={r.id for r in rows};seen=set()
             for match in result.matches:

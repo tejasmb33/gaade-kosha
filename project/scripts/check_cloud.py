@@ -22,6 +22,9 @@ def main():
         result=handler(CloudQuery(provider=args.provider,query='Financial difficulties nearly forced her to drop out of school. But she worked part-time, earned a scholarship, and completed her education.'))
     except Exception as exc:
         print(getattr(exc,'detail','Cloud check failed. Review your API configuration.'));return 1
+    if result.get('fallback_notice'):
+        print('Cloud provider unavailable. Standard search fallback completed; this is not a successful cloud check.')
+        print('Approved fallback matches:',len(result['items']));return 1
     print('Provider:',status(args.provider)['provider'],'Model:',status(args.provider)['model'])
     print('Interpretation:',result['interpretation'])
     for row in result['items']:print('Matched database proverb:',row['proverb_kn'])

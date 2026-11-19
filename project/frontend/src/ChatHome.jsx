@@ -35,10 +35,10 @@ export default function ChatHome({renderCard,navigate,errorText}){
   last.style.minHeight=container.clientHeight+'px';
   container.scrollTop+=last.getBoundingClientRect().top-container.getBoundingClientRect().top-16;
  },[turns.length]);
- async function send(query,{cloud=false,provider=null}={}){
+ async function send(query,{cloud=false,provider=null,turnId=null}={}){
   if(!query.trim()||pending)return;
-  const id=++sequence.current,controller=new AbortController();request.current=controller;const started=performance.now();
-  setTurns(old=>[...old,{id,query,cloud,provider}]);setPending(true);
+  const id=turnId??++sequence.current,controller=new AbortController();request.current=controller;const started=performance.now();
+  setTurns(old=>turnId?old.map(t=>t.id===id?{id,query,cloud,provider}:t):[...old,{id,query,cloud,provider}]);setPending(true);
   try{const {data}=await api.post(cloud?'/search/ai':'/search',cloud?{query,provider}:{query},{signal:controller.signal});await pause(Math.max(0,1000-(performance.now()-started)),controller.signal);if(!controller.signal.aborted)setTurns(old=>old.map(t=>t.id===id?{...t,result:data}:t));}
   catch(e){if(!controller.signal.aborted)setTurns(old=>old.map(t=>t.id===id?{...t,error:errorText(e)}:t));}
   finally{if(!controller.signal.aborted)setPending(false);}
@@ -61,6 +61,7 @@ export default function ChatHome({renderCard,navigate,errorText}){
      <div className="chat-message chat-user"><div className="chat-user-bubble">{turn.query}</div><span className="chat-avatar"><User size={19}/></span></div>
      <div className="chat-message chat-assistant"><span className="chat-avatar"><MessageCircle size={20}/></span><div className="chat-answer">
       {turn.error?<div className="chat-error"><p role="alert">{turn.error}</p>{turn.cloud&&<button className="secondary" disabled={pending} onClick={()=>send(turn.query,{cloud:false})}>ಸಾಮಾನ್ಯ ಹುಡುಕಾಟದಲ್ಲಿ ಪ್ರಯತ್ನಿಸಿ (Try local search)</button>}</div>:turn.result?<>
+       {turn.result.fallback_notice&&<div className="chat-search-fallback"><p role="status">{turn.result.fallback_notice}</p><button className="secondary" disabled={pending} onClick={()=>send(turn.query,{cloud:true,provider:turn.provider,turnId:turn.id})}>ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ (Retry selected search)</button></div>}
        {turn.result.interpretation&&<p className="chat-interpretation">{turn.result.interpretation}</p>}
        {turn.result.items?.length?<div className="chat-results">{turn.result.items.map(row=><ProgressiveAnswer key={row.id} row={row} renderCard={renderCard}/>)}</div>:<p><strong>No reliable match yet.</strong> ಹೊಂದುವ ಗಾದೆ ಸಿಗಲಿಲ್ಲ. ಸಂದರ್ಭವನ್ನು ಸ್ವಲ್ಪ ವಿವರವಾಗಿ ಹೇಳಿ. (Try describing the situation in more detail.)</p>}
        {!!turn.result.external_sources?.length&&<div className="chat-sources"><h3>ಬಾಹ್ಯ ಉಲ್ಲೇಖಗಳು (Unverified web references)</h3>{turn.result.external_sources.map(s=><a key={s.url} href={s.url} target="_blank" rel="noreferrer">{s.title}<ArrowRight size={14}/></a>)}</div>}

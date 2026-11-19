@@ -76,8 +76,9 @@ def test_provider_errors_are_safe(cloud,monkeypatch,failure):
         if failure=='malformed':return httpx.Response(200,json=response('not json'),request=httpx.Request('POST',url))
         raise httpx.ConnectError('synthetic-secret provider failure')
     monkeypatch.setattr(httpx.Client,'post',fail)
-    result=client.post('/api/search/ai',json={'query':'A situation'})
-    assert result.status_code==503 and 'synthetic-secret' not in result.text
+    result=client.post('/api/search/ai',json={'query':'effort'})
+    assert result.status_code==(503 if failure=='malformed' else 200) and 'synthetic-secret' not in result.text
+    if failure=='http':assert result.json()['items'][0]['id']=='approved' and result.json()['fallback_notice']
 
 def test_gemini_request_contract(cloud,monkeypatch):
     _,client=cloud;monkeypatch.setenv('GAADE_AI_PROVIDER','gemini');monkeypatch.setenv('GEMINI_API_KEY','gemini-synthetic-secret')
@@ -89,7 +90,7 @@ def test_gemini_request_contract(cloud,monkeypatch):
     mock_post(monkeypatch,call)
     assert client.post('/api/search/ai',json={'query':'Kept studying despite obstacles'}).json()['items'][0]['id']=='approved'
 
-@pytest.mark.parametrize('code,expected',[(413,'request limit'),(429,'quota'),(403,'authentication'),(404,'model'),(503,'temporarily busy')])
+@pytest.mark.parametrize('code,expected',[(413,'request limit'),(403,'authentication'),(404,'model')])
 def test_free_tier_errors_are_actionable(cloud,monkeypatch,code,expected):
     _,client=cloud;original=httpx.Client.post
     def post(self,url,**kwargs):
@@ -146,3 +147,54 @@ def test_large_catalog_uses_one_request_and_validates_short_ids(monkeypatch):
     assert len(calls)==1 and result.matches[0].id=='synthetic-record-199'
     mock_post(monkeypatch,lambda *args:response(json.dumps({'interpretation':'Synthetic','matches':[{'id':'p999','reason':'Invalid'}]})))
     with pytest.raises(CloudUnavailable):CloudSearch().select('Synthetic situation',rows)
+
+
+@pytest.mark.parametrize('code',[429,500,502,503,504])
+def test_temporary_outage_returns_only_approved_local_matches(cloud,monkeypatch,code):
+    _,client=cloud;original=httpx.Client.post;calls=[]
+    monkeypatch.setattr('backend.cloud_search.random.uniform',lambda *args:0)
+    def post(self,url,**kwargs):
+        if not str(url).startswith('https://'):return original(self,url,**kwargs)
+        calls.append(str(url));assert kwargs['timeout'].read<=12
+        return httpx.Response(code,json={'error':'synthetic-secret'},request=httpx.Request('POST',url))
+    monkeypatch.setattr(httpx.Client,'post',post)
+    result=client.post('/api/search/ai',json={'query':'effort'})
+    assert result.status_code==200,result.text
+    payload=result.json()
+    assert payload['mode']=='keyword' and payload['fallback_notice']
+    assert payload['requested_provider']=='openai' and payload['interpretation'] is None
+    assert [row['id'] for row in payload['items']]==['approved']
+    assert payload['external_sources']==[] and 'synthetic-secret' not in result.text
+    assert len(calls)==(1 if code==429 else 2) and len(set(calls))==1
+
+
+def test_one_transient_retry_recovers_without_switching_provider(cloud,monkeypatch):
+    _,client=cloud;original=httpx.Client.post;calls=[]
+    monkeypatch.setattr('backend.cloud_search.random.uniform',lambda *args:0)
+    def post(self,url,**kwargs):
+        if not str(url).startswith('https://'):return original(self,url,**kwargs)
+        calls.append(str(url))
+        if len(calls)==1:return httpx.Response(503,json={'error':'busy'},request=httpx.Request('POST',url))
+        return httpx.Response(200,json=response(json.dumps({'interpretation':'Synthetic match','matches':[{'id':'approved','reason':'Effort'}]})),request=httpx.Request('POST',url))
+    monkeypatch.setattr(httpx.Client,'post',post)
+    result=client.post('/api/search/ai',json={'query':'effort'}).json()
+    assert result['mode']=='cloud' and 'fallback_notice' not in result
+    assert result['items'][0]['id']=='approved'
+    assert len(calls)==2 and len(set(calls))==1
+
+
+def test_timeout_and_long_retry_after_do_not_loop(cloud,monkeypatch):
+    _,client=cloud;original=httpx.Client.post;calls=[]
+    def timeout(self,url,**kwargs):
+        if not str(url).startswith('https://'):return original(self,url,**kwargs)
+        calls.append(str(url));raise httpx.ReadTimeout('synthetic-secret')
+    monkeypatch.setattr(httpx.Client,'post',timeout)
+    result=client.post('/api/search/ai',json={'query':'effort'}).json()
+    assert result['fallback_notice'] and len(calls)==1
+    calls.clear()
+    def rate_limited(self,url,**kwargs):
+        if not str(url).startswith('https://'):return original(self,url,**kwargs)
+        calls.append(str(url));return httpx.Response(503,headers={'Retry-After':'60'},json={},request=httpx.Request('POST',url))
+    monkeypatch.setattr(httpx.Client,'post',rate_limited)
+    result=client.post('/api/search/ai',json={'query':'unrelatedmissingword'}).json()
+    assert result['fallback_notice'] and result['items']==[] and len(calls)==1

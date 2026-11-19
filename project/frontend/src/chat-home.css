@@ -44,3 +44,5 @@
 
 /* Answers grow below the question without moving the reading position. */
 .chat-thread{overflow-anchor:none}
+
+.chat-search-fallback{padding:12px 16px;margin-bottom:16px;border:1px solid var(--chat-line);border-radius:10px;background:#c6a15b10;color:#e4c17a;font-size:13px;line-height:1.8}.chat-search-fallback p{margin:0 0 8px}.chat-search-fallback .secondary{font-size:12px;padding:8px 12px}
