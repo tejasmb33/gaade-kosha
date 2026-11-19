@@ -11,6 +11,7 @@ export default function SearchBox({onSearch,initial='',initialCloud=null,initial
   const [cloud,setCloud]=useState(initialCloud===true);
   const [hostedSpeech,setHostedSpeech]=useState(false);
   const pickedEngine=useRef(false);
+  const pickedVoice=useRef(false);
   const language='en';
   const [voiceMethod,setVoiceMethod]=useState(()=>(window.SpeechRecognition||window.webkitSpeechRecognition)?'browser':'local');
   const [task,setTask]=useState('transcribe');
@@ -25,7 +26,7 @@ export default function SearchBox({onSearch,initial='',initialCloud=null,initial
   const request=useRef(null);
   const input=useRef(null);
   useEffect(()=>setText(initial),[initial,initialRevision]);
-  useEffect(()=>{let active=true;api.get('/health').then(({data})=>{if(!active)return;setHostedSpeech(data.speech?.provider==='groq');const ai=data.cloud_ai;setHasGroq(Boolean(ai?.groq_configured));if(initialCloud===null&&!pickedEngine.current)setCloud(Boolean(ai?.configured));}).catch(()=>{});return()=>{active=false;};},[initialCloud]);
+  useEffect(()=>{let active=true;api.get('/health').then(({data})=>{if(!active)return;const hosted=data.speech?.provider==='groq'&&Boolean(data.speech?.configured);setHostedSpeech(hosted);if(hosted&&!pickedVoice.current)setVoiceMethod('local');const ai=data.cloud_ai;setHasGroq(Boolean(ai?.groq_configured));if(initialCloud===null&&!pickedEngine.current)setCloud(Boolean(ai?.configured));}).catch(()=>{});return()=>{active=false;};},[initialCloud]);
   useEffect(()=>()=>request.current?.abort(),[]);
   useEffect(()=>{
     if(!clip){setUrl('');return;}
@@ -35,16 +36,17 @@ export default function SearchBox({onSearch,initial='',initialCloud=null,initial
   const capture=useRecorder({
     onStart:()=>{setError('');setMessage('');setClip(null);setSourceText('');setWarning('');},
     onError:setError,
-    onReady:(blob,duration)=>{setClip(blob);setMessage(`Recorded ${duration.toFixed(1)} seconds. Convert it to editable text below.`);}
+    onReady:(blob,duration)=>{setClip(blob);if(hostedSpeech)convert(blob);else setMessage(`Recorded ${duration.toFixed(1)} seconds. Convert it to editable text below.`);}
   });
-  const speech=useBrowserSpeech({language,onText:setText,onError:setError,onStart:()=>{setError('');setMessage('');setClip(null);setSourceText('');setWarning('');}});
+  const speech=useBrowserSpeech({language,onText:setText,onError:setError,onUnavailable:()=>{pickedVoice.current=true;setVoiceMethod('local');setTask('transcribe');setError('');setMessage('ಧ್ವನಿ ದಾಖಲಿಸುವ ವಿಧಾನಕ್ಕೆ ಬದಲಾಯಿಸಲಾಗಿದೆ. ಮೈಕ್ ಒತ್ತಿ ಮತ್ತೆ ಮಾತನಾಡಿ. (Press the microphone and speak again.)');},onStart:()=>{setError('');setMessage('');setClip(null);setSourceText('');setWarning('');}});
   const recording=capture.phase!=='idle'||speech.listening;
   const browserVoice=voiceMethod==='browser';
-  async function convert(){
+  async function convert(audioBlob=clip){
+    if(!audioBlob)return;
     setBusy(true);setError('');setMessage('ಧ್ವನಿಯನ್ನು ಪಠ್ಯಕ್ಕೆ ಬದಲಾಯಿಸಲಾಗುತ್ತಿದೆ…');
     const controller=new AbortController();request.current=controller;
     try{
-      const form=new FormData();form.append('file',clip,'situation');form.append('language',language);form.append('task',task);
+      const form=new FormData();form.append('file',audioBlob,'situation');form.append('language',language);form.append('task',task);
       const {data}=await api.post('/search/voice',form,{signal:controller.signal});
       setText(data.text);setSourceText(data.task==='translate'?data.source_text||'':'');setWarning(data.warning||'');setMessage(data.task==='translate'?'English speech translation ready. Edit it if needed, then find proverbs.':'Transcript ready. Edit it if needed, then find proverbs.');
       input.current?.focus();
@@ -54,16 +56,17 @@ export default function SearchBox({onSearch,initial='',initialCloud=null,initial
     }finally{if(!controller.signal.aborted)setBusy(false);}
   }
   function changeSettings(setter,value){setter(value);setMessage('');setError('');}
+  function toggleVoice(){pickedVoice.current=true;if(browserVoice){speech.listening?speech.stop():speech.start();}else{recording?capture.stop():capture.start();}}
   return <div className="situation-input">
     <form className="search-box" onSubmit={e=>{e.preventDefault();if(!busy&&!recording&&text.trim()){onSearch(text.trim(),{cloud,provider:selectedProvider});if(clearOnSubmit){setText('');setClip(null);setSourceText('');setMessage('');}}}}>
       <Search size={23}/>
       <input ref={input} aria-label="Describe your situation" placeholder="ನಿಮ್ಮ ಸಂದರ್ಭವನ್ನು ಇಲ್ಲಿ ಬರೆಯಿರಿ… / Describe your situation" value={text} maxLength={1000} required disabled={busy||recording} onChange={e=>setText(e.target.value)}/>
       {text&&<button type="button" className="clear-search" aria-label="Clear situation" title="ತೆರವುಗೊಳಿಸಿ · Clear" disabled={busy||recording} onClick={()=>{setText('');setClip(null);setSourceText('');setWarning('');setError('');setMessage('');input.current?.focus();}}><X size={18}/></button>}
-      <button type="button" className="voice-trigger" aria-label={recording?'Stop situation recording':'Record situation'} title={recording?'Stop recording':'Speak your situation'} disabled={busy||(!browserVoice&&recording&&capture.phase!=='recording')} onClick={browserVoice?(speech.listening?speech.stop:speech.start):(recording?capture.stop:capture.start)}>{recording?<Square size={18}/>:<Mic size={20}/>}</button>
+      <button type="button" className="voice-trigger" aria-label={recording?'Stop situation recording':'Record situation'} title={recording?'Stop recording':'Speak your situation'} disabled={busy||(!browserVoice&&recording&&capture.phase!=='recording')} onClick={toggleVoice}>{recording?<Square size={18}/>:<Mic size={20}/>}</button>
       <button type="submit" aria-label="Find proverbs" disabled={busy||recording}><ArrowRight/></button>
     </form>
     <div className="voice-options">
-      <label><span lang="kn">ಧ್ವನಿ ವಿಧಾನ (Voice input)</span> <select aria-label="Voice input method" value={voiceMethod} disabled={busy||recording} onChange={e=>changeSettings(setVoiceMethod,e.target.value)}><option value="browser" disabled={!speech.supported}>ನೇರವಾಗಿ ಮಾತನಾಡಿ (Browser)</option><option value="local">ಧ್ವನಿ ದಾಖಲಿಸಿ (Record audio)</option></select></label>
+      <label><span lang="kn">ಧ್ವನಿ ವಿಧಾನ (Voice input)</span> <select aria-label="Voice input method" value={voiceMethod} disabled={busy||recording} onChange={e=>{pickedVoice.current=true;changeSettings(setVoiceMethod,e.target.value);}}><option value="browser" disabled={!speech.supported}>ನೇರವಾಗಿ ಮಾತನಾಡಿ (Browser)</option><option value="local">ಧ್ವನಿ ದಾಖಲಿಸಿ (Record audio)</option></select></label>
       {!browserVoice&&<label><span lang="kn">ಧ್ವನಿಯ ಫಲಿತಾಂಶ (Voice output)</span> <select aria-label="Voice output" value={task} disabled={busy||recording} onChange={e=>changeSettings(setTask,e.target.value)}><option value="transcribe">ಮೂಲ ಭಾಷೆಯಲ್ಲೇ ಉಳಿಸಿ (Original language)</option><option value="translate">ಇಂಗ್ಲಿಷ್ ಅನುವಾದ (Translate to English)</option></select></label>}
     <label><span lang="kn">ಹುಡುಕಾಟದ ವಿಧಾನ (Search method)</span> <select aria-label="Search engine" value={cloud?(selectedProvider==='groq'?'groq':'cloud'):'local'} disabled={busy||recording} onChange={e=>{pickedEngine.current=true;setCloud(e.target.value!=='local');setSelectedProvider(e.target.value==='groq'?'groq':null);}}><option value="local">ಸಾಮಾನ್ಯ ಹುಡುಕಾಟ (Standard)</option><option value="cloud">ಜೆಮಿನಿ (Gemini)</option>{(hasGroq||selectedProvider==='groq')&&<option value="groq">ಗ್ರೋಕ್ (Groq)</option>}</select></label>
     </div>
@@ -71,7 +74,7 @@ export default function SearchBox({onSearch,initial='',initialCloud=null,initial
 
     {speech.listening&&<div className="voice-capture" role="status" lang="kn">ಮಾತನಾಡಿ… ಮುಗಿದ ನಂತರ ಮೈಕ್ ಒತ್ತಿ.</div>}
     {!browserVoice&&recording&&<div className="voice-capture" role="status">{capture.phase==='requesting'?'Allow microphone access in your browser…':capture.phase==='finishing'?'Finishing recording…':<><strong>Recording · {capture.seconds}s / 89s</strong><meter min="0" max="100" value={capture.level} aria-label="Situation microphone input level"/><span>{capture.level>2?'Microphone input detected.':'Speak now; check your microphone if the meter stays empty.'}</span></>}</div>}
-    {url&&<div className="voice-preview"><audio controls preload="auto" src={url} aria-label="Situation recording playback" onLoadedMetadata={e=>{const audio=e.currentTarget;if(audio.duration===Infinity){audio.currentTime=1e10;audio.ontimeupdate=()=>{audio.ontimeupdate=null;audio.currentTime=0;};}}}/><div className="actions"><button type="button" className="secondary" disabled={busy||recording} onClick={convert}>{busy?'ಪಠ್ಯಕ್ಕೆ ಬದಲಾಯಿಸಲಾಗುತ್ತಿದೆ…':task==='translate'?'Translate speech to English':'Use voice as text'}</button><button type="button" className="text-button" disabled={busy||recording} onClick={()=>{setClip(null);setMessage('');setError('');setSourceText('');setWarning('');}}><X size={14}/> Discard recording</button></div></div>}
+    {url&&<div className="voice-preview"><audio controls preload="auto" src={url} aria-label="Situation recording playback" onLoadedMetadata={e=>{const audio=e.currentTarget;if(audio.duration===Infinity){audio.currentTime=1e10;audio.ontimeupdate=()=>{audio.ontimeupdate=null;audio.currentTime=0;};}}}/><div className="actions"><button type="button" className="secondary" disabled={busy||recording} onClick={()=>convert()}>{busy?'ಪಠ್ಯಕ್ಕೆ ಬದಲಾಯಿಸಲಾಗುತ್ತಿದೆ…':task==='translate'?'Translate speech to English':'Use voice as text'}</button><button type="button" className="text-button" disabled={busy||recording} onClick={()=>{setClip(null);setMessage('');setError('');setSourceText('');setWarning('');}}><X size={14}/> Discard recording</button></div></div>}
     {sourceText&&<div className="source-transcript"><label>ಮೂಲ ಧ್ವನಿ ಪಠ್ಯ ({language==='kn'?'Kannada':'English'})<textarea aria-label="Original speech transcript" lang={language} maxLength={1000} value={sourceText} disabled={busy||recording} onChange={e=>setSourceText(e.target.value)}/></label><button type="button" className="secondary" disabled={busy||recording} onClick={()=>{setText(sourceText);setMessage('Original transcript copied to search. Edits here are not translated; search this Kannada text directly.');input.current?.focus();}}>Use original transcript for search</button></div>}
     {warning&&<p role="status" className="notice">{warning}</p>}
     {error&&<p role="alert" className="notice error">{error}</p>}

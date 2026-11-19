@@ -2,10 +2,10 @@ import {useEffect, useRef, useState} from 'react';
 
 export function microphoneError(error) {
   if (error.name === 'NotAllowedError' || error.name === 'SecurityError') {
-    return 'Microphone access was blocked. Open this page in Chrome or Safari at http://localhost:5173, allow the microphone in site settings, and check macOS System Settings → Privacy & Security → Microphone for that browser.';
+    return 'Microphone access was blocked. Allow the microphone in this browser’s site settings and your device’s privacy settings, then press the microphone again.';
   }
   if (error.name === 'NotFoundError') return 'No microphone was found. Connect or enable a microphone, then try again.';
-  if (error.name === 'NotReadableError') return 'The microphone could not start. Check your input device in macOS Sound settings and close other apps using it.';
+  if (error.name === 'NotReadableError') return 'The microphone could not start. Check your device’s sound input settings and close other apps using it.';
   return error.message || 'Recording failed. Try again or choose an audio file.';
 }
 
@@ -54,7 +54,7 @@ export function useRecorder({onReady, onError, onStart}) {
     callbacks.current.onStart();
     try {
       if (!window.isSecureContext || !navigator.mediaDevices?.getUserMedia || !window.MediaRecorder) {
-        throw Error('This preview cannot record audio. Open http://localhost:5173 in Chrome or Safari (outside the VS Code preview), then allow microphone access. You can also choose an audio file.');
+        throw Error('Recording requires HTTPS or localhost and microphone access. Open this website in a browser tab, allow the microphone, and try again.');
       }
       const stream = await navigator.mediaDevices.getUserMedia({audio: true});
       session.stream = stream;

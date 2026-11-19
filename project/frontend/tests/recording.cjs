@@ -90,7 +90,10 @@ async function main(){
  await page.getByRole('alert').filter({hasText:'ಮೈಕ್ರೊಫೋನ್ ಅನುಮತಿ'}).waitFor();
  await page.getByRole('button',{name:'Record situation',exact:true}).click();
  await page.evaluate(()=>window.speechInstances.at(-1).onerror({error:'network'}));
- await page.getByRole('button',{name:'Retry with local voice input',exact:true}).click();
+ await page.waitForFunction(()=>document.querySelector('select[aria-label="Voice input method"]').value==='local');
+ await page.getByText('ಧ್ವನಿ ದಾಖಲಿಸುವ ವಿಧಾನಕ್ಕೆ ಬದಲಾಯಿಸಲಾಗಿದೆ.',{exact:false}).waitFor();
+ assert.equal(await page.getByRole('alert').count(),0);
+ await page.getByRole('button',{name:'Record situation',exact:true}).click();
  await page.getByRole('button',{name:'Stop situation recording',exact:true}).waitFor();await delay(700);
  await page.getByRole('button',{name:'Stop situation recording',exact:true}).click();
  await page.getByRole('button',{name:'Use voice as text',exact:true}).waitFor();
