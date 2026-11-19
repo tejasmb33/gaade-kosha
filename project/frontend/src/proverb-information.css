@@ -6,8 +6,8 @@
 .dictionary-article .proverb-information{max-width:850px}
 @media(max-width:650px){.proverb-information dd p{font-size:14px}.proverb-information dt{font-size:11px}}
 
-.proverb-title-audio{display:flex;align-items:center;flex-wrap:wrap;gap:14px 24px}
-.proverb-title-audio>h1,.proverb-title-audio>h2,.proverb-title-audio>h3{flex:1;min-width:180px;overflow-wrap:anywhere}
+.proverb-title-audio{display:flex;align-items:center;justify-content:flex-start;flex-wrap:wrap;gap:12px 18px}
+.proverb-title-audio>h1,.proverb-title-audio>h2,.proverb-title-audio>h3{flex:0 1 auto;min-width:0;max-width:100%;overflow-wrap:anywhere}
 .proverb-audio{max-width:320px;flex-shrink:0}
 .proverb-audio .secondary{display:inline-flex;align-items:center;gap:8px;white-space:nowrap}
 .proverb-audio audio:not([hidden]){display:block;width:100%;max-width:300px;height:38px;margin-top:10px}
