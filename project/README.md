@@ -106,7 +106,7 @@ Cloud ಹುಡುಕಾಟ ಆಯ್ಕೆ ಮಾಡಿದಾಗ ಸಂದರ�
 
 ## ಪರೀಕ್ಷೆಗಳು ಮತ್ತು ಫಲಿತಾಂಶಗಳ ಮಿತಿ
 
-ಇತ್ತೀಚಿನ backend ಪರೀಕ್ಷೆಗಳು: **44 passed, 1 skipped**. Frontend build ಮತ್ತು ಪ್ರತ್ಯೇಕ chat, dictionary, recording/narration browser journeys ಉತ್ತೀರ್ಣವಾಗಿವೆ. Browser ಪರೀಕ್ಷೆಗಳು synthetic fixtures ಮತ್ತು mock speech/provider responses ಬಳಸುತ್ತವೆ.
+ಇತ್ತೀಚಿನ backend ಪರೀಕ್ಷೆಗಳು: **45 passed, 1 skipped**. Frontend build ಮತ್ತು ಪ್ರತ್ಯೇಕ chat, dictionary, recording/narration browser journeys ಉತ್ತೀರ್ಣವಾಗಿವೆ. Browser ಪರೀಕ್ಷೆಗಳು synthetic fixtures ಮತ್ತು mock speech/provider responses ಬಳಸುತ್ತವೆ.
 
 ```sh
 .venv/bin/python -m pytest backend/tests -q
@@ -132,7 +132,7 @@ CSVಯ random ಪ್ರದೇಶಗಳು ಈ ಕೊರತೆಯನ್ನು ಪ
 
 ## Hosting ಮತ್ತು ಆವೃತ್ತಿಗಳು
 
-Frontendಗೆ Vercel, backendಗೆ Render ಮತ್ತು PostgreSQL/private storageಗೆ Supabase ಬಳಸುವ ಸಂರಚನೆ ಇದೆ. [Deployment ಸೂಚನೆಗಳು](deployment/README.md) ನೋಡಿ. ಖಾಸಗಿ local database, translation/display caches ಮತ್ತು audio Git push ಜೊತೆಗೆ hosted ವ್ಯವಸ್ಥೆಗೆ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಹೋಗುವುದಿಲ್ಲ. Local data migration ಮತ್ತು code deployment ಬೇರೆ ಕ್ರಮಗಳು.
+Frontendಗೆ Vercel, backendಗೆ Render ಮತ್ತು PostgreSQL/private storageಗೆ Supabase ಬಳಸುವ ಸಂರಚನೆ ಇದೆ. [Deployment ಸೂಚನೆಗಳು](deployment/README.md) ನೋಡಿ. ಖಾಸಗಿ local database ಮತ್ತು audio Git push ಜೊತೆಗೆ hosted ವ್ಯವಸ್ಥೆಗೆ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಹೋಗುವುದಿಲ್ಲ. ಅನುಮೋದಿತ ಗಾದೆಗಳ 200 bilingual draft ವಿವರಗಳು ಈಗ `deployment/bilingual-drafts.json`ನಲ್ಲಿ ಪ್ಯಾಕೇಜ್ ಆಗಿವೆ; runtime cache ಇಲ್ಲದ Renderದಲ್ಲೂ ಮೂಲ ದಾಖಲೆಯ fingerprint ಹೊಂದಿದಾಗ ಮಾತ್ರ ಅವು ಲಭ್ಯವಾಗುತ್ತವೆ. ಇದರಿಂದ ಮೂಲ ದಾಖಲೆಗಳ approval ಅಥವಾ ಅರ್ಥಗಳು ಬದಲಾಗುವುದಿಲ್ಲ. ಹೊಸ ಮೂಲ ದಾಖಲೆಗಳ data migration ಮತ್ತು code deployment ಬೇರೆ ಕ್ರಮಗಳು.
 
 ಈ README ನವೀಕರಣದಲ್ಲಿ Git push ಅಥವಾ cloud deployment ಮಾಡಿಲ್ಲ. ಹಿಂದೆ ರಚಿಸಿದ rollback tag `v1.0` ಇದೆ; ಬಳಸುವ ಮುನ್ನ ಅದರ commit ಮತ್ತು ಬೇಕಾದ ದತ್ತಾಂಶ backup ಪರಿಶೀಲಿಸಿ. [Rollback ಸೂಚನೆಗಳು](deployment/ROLLBACK.md).
 

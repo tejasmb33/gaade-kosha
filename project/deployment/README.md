@@ -67,3 +67,12 @@ Render Free can sleep after inactivity; expect a cold start on the first request
 The 470 MB local E5 semantic model is not loaded on the free Render service. Hosted search defaults to the configured Gemini/Groq catalog matching, while the ordinary search option remains database keyword search. Optional local E5 and Apple MLX speech still work in the Mac development configuration. Free cloud inference cannot be presented as numerically identical to the Mac's models.
 
 Official references: https://render.com/docs/free, https://render.com/docs/blueprint-spec, https://supabase.com/docs/guides/database/connecting-to-postgres, https://supabase.com/docs/guides/storage, https://vercel.com/docs/frameworks/frontend/vite, https://console.groq.com/docs/speech-to-text.
+
+
+## Portable bilingual drafts
+
+`deployment/bilingual-drafts.json` packages the validated bilingual display and standard translation drafts for the 200 locally approved proverbs. It contains no keys, private recordings or runtime configuration. The existing Dockerfile copies the deployment directory, so this file is available on Render even with an empty `/tmp/gaade` cache.
+
+The loaders prefer a valid runtime cache and fall back to the bundle only when its source fingerprint matches the current database record. Edited, missing, pending or rejected records are not silently exposed or approved. This fixes the case where frontend updates were deployed while Kannada meanings/examples and both situation translations existed only in ignored local files. Narration can also use the bundled standard translation fields.
+
+After approving source changes and preparing new translations, regenerate with `project/.venv/bin/python project/scripts/export_bilingual_bundle.py` from the repository root. Commit the resulting public draft bundle with its loader changes and deploy the Render backend. No Vercel secret or fresh translation request is required for this packaging fix. This does not import missing proverb records into an existing Supabase database; migration remains a separate explicit action.
