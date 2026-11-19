@@ -8,3 +8,7 @@
 !scripts/bootstrap_cloud.py
 !deployment/
 !deployment/approved-seed.json
+
+!deployment/dictionary-themes.json
+!deployment/dictionary-situations.json
+!deployment/bilingual-drafts.json
