@@ -76,3 +76,17 @@ Official references: https://render.com/docs/free, https://render.com/docs/bluep
 The loaders prefer a valid runtime cache and fall back to the bundle only when its source fingerprint matches the current database record. Edited, missing, pending or rejected records are not silently exposed or approved. This fixes the case where frontend updates were deployed while Kannada meanings/examples and both situation translations existed only in ignored local files. Narration can also use the bundled standard translation fields.
 
 After approving source changes and preparing new translations, regenerate with `project/.venv/bin/python project/scripts/export_bilingual_bundle.py` from the repository root. Commit the resulting public draft bundle with its loader changes and deploy the Render backend. No Vercel secret or fresh translation request is required for this packaging fix. This does not import missing proverb records into an existing Supabase database; migration remains a separate explicit action.
+
+## Incremental approved-record sync
+
+`scripts/sync_approved_cloud.py` copies only locally approved records and missing standard translation drafts to an existing PostgreSQL database. Inspection is the default. It checks for differing source fields, pending/rejected hosted records, and duplicate wording under different IDs before writing. Existing records and translations, including hosted review timestamps, are preserved. An apply transaction saves a private pre-sync backup under ignored `data/backups/` and uses the same advisory lock as initial seeding. No recordings, admin token or API key is uploaded.
+
+From the repository root, with valid private configuration:
+
+```sh
+project/.venv/bin/python project/scripts/sync_approved_cloud.py --config-file project/.env.render
+# Only when the sync is explicitly authorized and inspection has no conflicts:
+project/.venv/bin/python project/scripts/sync_approved_cloud.py --config-file project/.env.render --apply
+```
+
+URL-encode special characters in the PostgreSQL password. Never place the connection string in a README, issue or commit. `approved-seed.json` now contains 200 locally approved records for fresh databases; bootstrapping still leaves existing databases untouched.

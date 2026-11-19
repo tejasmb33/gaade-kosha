@@ -6,11 +6,12 @@
 
 ## ಪ್ರಸ್ತುತ ಸ್ಥಿತಿ — 19 ನವೆಂಬರ್ 2026
 
-ಈ ಎಣಿಕೆಗಳು **ಸ್ಥಳೀಯ ದತ್ತಸಂಚಯ ಮತ್ತು ಕಡತಗಳಿಗೆ** ಅನ್ವಯಿಸುತ್ತವೆ. ಈ README ಪರಿಷ್ಕರಣೆಯಲ್ಲಿ production ದತ್ತಸಂಚಯವನ್ನು ಪರಿಶೀಲಿಸಿಲ್ಲ.
+ಈ ಎಣಿಕೆಗಳು **ಸ್ಥಳೀಯ ದತ್ತಸಂಚಯ ಮತ್ತು ಕಡತಗಳಿಗೆ** ಅನ್ವಯಿಸುತ್ತವೆ. 19 ನವೆಂಬರ್ 2026ರ sync ನಂತರ hosted APIಯಲ್ಲೂ 200 ಅನುಮೋದಿತ ಗಾದೆಗಳಿರುವುದನ್ನು ಪರಿಶೀಲಿಸಲಾಗಿದೆ.
 
 | ಅಂಶ | ಸ್ಥಿತಿ |
 |---|---|
 | ಸ್ಥಳೀಯ ಗಾದೆಗಳು | 200; ಎಲ್ಲವೂ ಬಳಕೆದಾರರ ಸ್ಪಷ್ಟ ಅನುಮೋದನೆಯಿಂದ APPROVED |
+| Hosted ಅನುಮೋದಿತ ಗಾದೆಗಳು | 200; ಹಳೆಯ ದಾಖಲೆಗಳನ್ನು ಬದಲಾಯಿಸದೆ missing ದಾಖಲೆಗಳನ್ನು sync ಮಾಡಲಾಗಿದೆ |
 | ಅನುಮೋದನೆಗೆ ಬಾಕಿ | 0 |
 | ದ್ವಿಭಾಷಾ ಗಾದೆ ವಿವರಗಳು | 200/200 |
 | ಬಳಕೆಯ ಸಂದರ್ಭಗಳು | 400; ಪ್ರತಿ ಗಾದೆಗೆ ಎರಡು ವಿಭಿನ್ನ ಸಂದರ್ಭಗಳು, ಪ್ರತಿಯೊಂದೂ ಕನ್ನಡ ಮತ್ತು ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ |
@@ -106,7 +107,7 @@ Cloud ಹುಡುಕಾಟ ಆಯ್ಕೆ ಮಾಡಿದಾಗ ಸಂದರ�
 
 ## ಪರೀಕ್ಷೆಗಳು ಮತ್ತು ಫಲಿತಾಂಶಗಳ ಮಿತಿ
 
-ಇತ್ತೀಚಿನ backend ಪರೀಕ್ಷೆಗಳು: **45 passed, 1 skipped**. Frontend build ಮತ್ತು ಪ್ರತ್ಯೇಕ chat, dictionary, recording/narration browser journeys ಉತ್ತೀರ್ಣವಾಗಿವೆ. Browser ಪರೀಕ್ಷೆಗಳು synthetic fixtures ಮತ್ತು mock speech/provider responses ಬಳಸುತ್ತವೆ.
+ಇತ್ತೀಚಿನ backend ಪರೀಕ್ಷೆಗಳು: **47 passed, 1 skipped**. Frontend build ಮತ್ತು ಪ್ರತ್ಯೇಕ chat, dictionary, recording/narration browser journeys ಉತ್ತೀರ್ಣವಾಗಿವೆ. Browser ಪರೀಕ್ಷೆಗಳು synthetic fixtures ಮತ್ತು mock speech/provider responses ಬಳಸುತ್ತವೆ.
 
 ```sh
 .venv/bin/python -m pytest backend/tests -q
