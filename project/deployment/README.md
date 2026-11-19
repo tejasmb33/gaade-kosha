@@ -90,3 +90,21 @@ project/.venv/bin/python project/scripts/sync_approved_cloud.py --config-file pr
 ```
 
 URL-encode special characters in the PostgreSQL password. Never place the connection string in a README, issue or commit. `approved-seed.json` now contains 200 locally approved records for fresh databases; bootstrapping still leaves existing databases untouched.
+
+## ಪ್ರಕಟಿಸಲು ನೀಡಿರುವ ಗಾದೆ ಧ್ವನಿಗಳು
+
+ಬಳಕೆದಾರರು ನೀಡಿರುವ 50 MP3 ಕಡತಗಳು `datasets/submission/audio/`ಯಲ್ಲಿ ಉಳಿದಿವೆ. Docker imageಗೆ ಈ 50 ಕಡತಗಳು ಮತ್ತು `deployment/proverb-audio.json` ಮಾತ್ರ ಪ್ರಕಟಿತ audio ಆಗಿ ಸೇರುತ್ತವೆ; ಖಾಸಗಿ contribution recordings ಇರುವ `data/audio/` ಸೇರುವುದಿಲ್ಲ. Manifestನಲ್ಲಿ ಇರುವ ಗಾದೆಯ ID ಮತ್ತು ಮೂಲ ಪಠ್ಯ ಹೊಂದಿ, ದಾಖಲೆ APPROVED ಆಗಿದ್ದಾಗ ಮಾತ್ರ `GET /api/proverbs/{id}/audio` ಧ್ವನಿಯನ್ನು ನೀಡುತ್ತದೆ. Byte-range playback ಮತ್ತು seek ಲಭ್ಯ.
+
+ಹೊಸ ಕಡತಗಳನ್ನು ಜೋಡಿಸಲು, ಸ್ಥಳೀಯ approved database ಲಭ್ಯವಿದ್ದಾಗ:
+
+```sh
+.venv/bin/python scripts/build_audio_manifest.py
+```
+
+ಇದು filename ಹೊಂದಾಣಿಕೆ ಮತ್ತು media format ಪರಿಶೀಲನೆ ಮಾತ್ರ; transcript ಅಥವಾ ಮಾನವ ಓದು/consent ಪರಿಶೀಲನೆ ಅಲ್ಲ. ಮೂಲ MP3ಗಳನ್ನು ಬದಲಾಯಿಸುವುದಿಲ್ಲ. Frontendನಲ್ಲಿ “ಗಾದೆ ಕೇಳಿ” ನೀಡಿರುವ ಧ್ವನಿಗೆ, “ವಿವರಣೆ ಕೇಳಿ” generated ವಿವರಣೆಗೆ ಪ್ರತ್ಯೇಕ ಗುಂಡಿಗಳು.
+
+ಪ್ರತ್ಯೇಕ browser ಪರೀಕ್ಷೆ:
+
+```sh
+node frontend/tests/proverb-audio.cjs
+```

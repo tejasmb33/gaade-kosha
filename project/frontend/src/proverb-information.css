@@ -5,3 +5,12 @@
 .proverb-information dd p{font-family:inherit;font-size:15px;line-height:1.95;color:#f3ebdd;margin:8px 0;white-space:pre-wrap;overflow-wrap:anywhere}
 .dictionary-article .proverb-information{max-width:850px}
 @media(max-width:650px){.proverb-information dd p{font-size:14px}.proverb-information dt{font-size:11px}}
+
+.proverb-title-audio{display:flex;align-items:center;flex-wrap:wrap;gap:14px 24px}
+.proverb-title-audio>h1,.proverb-title-audio>h2,.proverb-title-audio>h3{flex:1;min-width:180px;overflow-wrap:anywhere}
+.proverb-audio{max-width:320px;flex-shrink:0}
+.proverb-audio .secondary{display:inline-flex;align-items:center;gap:8px;white-space:nowrap}
+.proverb-audio audio:not([hidden]){display:block;width:100%;max-width:300px;height:38px;margin-top:10px}
+.proverb-audio p{font-size:12px;line-height:1.7;color:#ffcebd}
+.dictionary-list-item.has-audio{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:20px}
+@media(max-width:650px){.dictionary-list-item.has-audio{display:block}.dictionary-list-item>.proverb-audio{margin:0 0 18px 38px}.proverb-title-audio{gap:8px}.proverb-audio{max-width:100%}}

@@ -17,7 +17,7 @@
 | ಬಳಕೆಯ ಸಂದರ್ಭಗಳು | 400; ಪ್ರತಿ ಗಾದೆಗೆ ಎರಡು ವಿಭಿನ್ನ ಸಂದರ್ಭಗಳು, ಪ್ರತಿಯೊಂದೂ ಕನ್ನಡ ಮತ್ತು ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ |
 | ಕನ್ನಡ ನಿರೂಪಣೆಯ ಪಠ್ಯ | 200 ಗಾದೆಗಳಿಗೆ ಲಭ್ಯ; ಕೇಳುವ ಗುಂಡಿ ಒತ್ತಿದಾಗ ಧ್ವನಿ ಸೃಷ್ಟಿಯಾಗಿ cache ಆಗುತ್ತದೆ |
 | ಸಂಗ್ರಹಿಸಿದ ಮಾನವ ಧ್ವನಿ ದಾಖಲೆಗಳು | 0 ಸಂಬಂಧಿತ ದಾಖಲೆಗಳು; ಸೃಷ್ಟಿಸಿದ ಧ್ವನಿ ಇದಕ್ಕೆ ಪರ್ಯಾಯವಲ್ಲ |
-| ಸಲ್ಲಿಕೆ audio directory | 24 MP3 ಕಡತಗಳು; 48 kHz stereo; speaker/consent/linkage ಪರಿಶೀಲನೆ ಸ್ಥಾಪಿತವಾಗಿಲ್ಲ |
+| ಸಲ್ಲಿಕೆ audio directory | 50 MP3 ಕಡತಗಳು; 50 ಗಾದೆಗಳಿಗೆ filename ಆಧಾರಿತ ಜೋಡಣೆ; 48 kHz stereo; speaker/consent/transcript ಪರಿಶೀಲನೆ ಸ್ಥಾಪಿತವಾಗಿಲ್ಲ |
 | ನಿಜವಾಗಿ ದಾಖಲಾದ ಪ್ರದೇಶಗಳು | 0; backend ಪ್ರದೇಶ ಕ್ಷೇತ್ರಗಳು ಖಾಲಿ |
 | ಸಲ್ಲಿಕೆ CSVಯ ಪ್ರದೇಶಗಳು | 200 ಯಾದೃಚ್ಛಿಕ ಕರ್ನಾಟಕ ಜಿಲ್ಲೆಗಳು; ಪ್ರತಿಯೊಂದಕ್ಕೂ synthetic ಗುರುತು ಇದೆ |
 
@@ -29,6 +29,7 @@ APPROVED ಎಂದರೆ ಯೋಜನೆಯ ಬಳಕೆದಾರರು ಪ್�
 - **ಹುಡುಕಾಟದ ಆಯ್ಕೆ:** ಸಾಮಾನ್ಯ ಸ್ಥಳೀಯ ಹುಡುಕಾಟ ಅಥವಾ ಆಯ್ದ Gemini/Groq ಸೇವೆ. ಪ್ರಸ್ತುತ ವಿಧಾನವು ಸಂದರ್ಭ ಮತ್ತು ಸಂಕ್ಷಿಪ್ತ ಅನುಮೋದಿತ ಸಂಗ್ರಹವನ್ನು ಒಂದೇ ಆಯ್ಕೆ ವಿನಂತಿಯಲ್ಲಿ ಕಳುಹಿಸುತ್ತದೆ. ನಿಧಾನವಾಗಿದ್ದ ಎರಡು ಹಂತದ combined workflow ತೆಗೆದುಹಾಕಲಾಗಿದೆ. ಸ್ಪಷ್ಟವಾಗಿ ಸಕ್ರಿಯಗೊಳಿಸಿದ web fallback ಇದ್ದರೆ ಹೊಂದಾಣಿಕೆ ಇಲ್ಲದಾಗ ಹೆಚ್ಚುವರಿ ವಿನಂತಿ ಹೋಗಬಹುದು.
 - **ಗಾದೆ ನಿಘಂಟು:** ಆರು ವಿಷಯಗಳು — ಹಣ (`money`), ಕೆಲಸ (`work`), ಅಧ್ಯಯನ (`study`), ಕುಟುಂಬ (`family`), ಸ್ನೇಹಿತರು (`friends`), ವ್ಯಕ್ತಿತ್ವ (`character`). ಮೂಲ backend category ಉಪವರ್ಗವಾಗಿ ಹಾಗೆಯೇ ಉಳಿದಿದೆ.
 - **ಎಲ್ಲೆಡೆ ಒಂದೇ ವಿವರ ಕ್ರಮ:** ಕನ್ನಡ ಗಾದೆ → ಇಂಗ್ಲಿಷ್ ಸಮಾನಾರ್ಥ/ರೂಪಾಂತರ → ಕನ್ನಡ ಅರ್ಥ → ಇಂಗ್ಲಿಷ್ ಅರ್ಥ → ಉದಾಹರಣೆ → ಪ್ರದೇಶ → ಸಂದರ್ಭ 1 ಮತ್ತು ಸಂದರ್ಭ 2, ಎರಡೂ ಭಾಷೆಗಳಲ್ಲಿ.
+- **ಗಾದೆಯ ಧ್ವನಿ:** ನೀಡಿರುವ 50 MP3 ಕಡತಗಳಿಗೆ chat ಫಲಿತಾಂಶ, dictionary ಪಟ್ಟಿ ಮತ್ತು ವಿವರದಲ್ಲಿ “ಗಾದೆ ಕೇಳಿ” ಗುಂಡಿಯಿದೆ. Play/pause ಮತ್ತು ಧ್ವನಿ ನಿಯಂತ್ರಣ ಲಭ್ಯ; ಇದಕ್ಕೆ Gemini ಕರೆ ಬೇಕಿಲ್ಲ. ಮೂಲ ಕಡತಗಳು ಬದಲಾಗಿಲ್ಲ.
 - **ಕನ್ನಡ ಧ್ವನಿ ವಿವರಣೆ:** chat ಮತ್ತು dictionaryಯಲ್ಲಿ “ವಿವರಣೆ ಕೇಳಿ”. ಧ್ವನಿ ಸೃಷ್ಟಿಗೆ provider ಸಂಪರ್ಕ, ಅನುಮತಿ ಮತ್ತು ಬಳಕೆಯ ಮಿತಿ ಅನ್ವಯಿಸುತ್ತವೆ. 200 ಪಠ್ಯಗಳು ಸಿದ್ಧವಿವೆ ಎಂದರೆ 200 ಧ್ವನಿಗಳನ್ನು ಕೇಳಿ ಪರಿಶೀಲಿಸಲಾಗಿದೆ ಎಂದಲ್ಲ.
 - **ಧ್ವನಿ ಇನ್‌ಪುಟ್:** browser speech ಹಾಗೂ ಧ್ವನಿ ದಾಖಲಿಸಿ ಪಠ್ಯಕ್ಕೆ ಬದಲಿಸುವ ವಿಧಾನಗಳಿವೆ. ಪ್ರಸ್ತುತ SearchBox ಭಾಷೆ Englishಗೆ ನಿಗದಿಯಾಗಿದೆ; ನೈಜ ಕನ್ನಡ ಧ್ವನಿ ನಿಖರತೆ ಇನ್ನೂ ಸ್ಥಾಪಿತವಾಗಿಲ್ಲ.
 - **ಕೊಡುಗೆ ಮತ್ತು ಪರಿಶೀಲನೆ:** ಹೊಸ ದಾಖಲೆಗಳು pending ಆಗುತ್ತವೆ. ಅನುಮೋದನೆಯ ಜೊತೆಗೆ search index ನವೀಕರಣ ಒಂದೇ transactionನಲ್ಲಿ ನಡೆಯುತ್ತದೆ. ಮೂಲ ಧ್ವನಿ ಮತ್ತು ಲಿಪ್ಯಂತರ ಪ್ರತ್ಯೇಕವಾಗಿ ಉಳಿಯುತ್ತವೆ.
@@ -107,7 +108,7 @@ Cloud ಹುಡುಕಾಟ ಆಯ್ಕೆ ಮಾಡಿದಾಗ ಸಂದರ�
 
 ## ಪರೀಕ್ಷೆಗಳು ಮತ್ತು ಫಲಿತಾಂಶಗಳ ಮಿತಿ
 
-ಇತ್ತೀಚಿನ backend ಪರೀಕ್ಷೆಗಳು: **47 passed, 1 skipped**. Frontend build ಮತ್ತು ಪ್ರತ್ಯೇಕ chat, dictionary, recording/narration browser journeys ಉತ್ತೀರ್ಣವಾಗಿವೆ. Browser ಪರೀಕ್ಷೆಗಳು synthetic fixtures ಮತ್ತು mock speech/provider responses ಬಳಸುತ್ತವೆ.
+ಇತ್ತೀಚಿನ backend ಪರೀಕ್ಷೆಗಳು: **49 passed, 1 skipped**. Frontend build ಮತ್ತು ಪ್ರತ್ಯೇಕ chat, dictionary, recording/narration browser journeys ಉತ್ತೀರ್ಣವಾಗಿವೆ. Supplied-audio browser ಪರೀಕ್ಷೆಯಲ್ಲಿ play/pause/resume, navigation cleanup, ಮೊಬೈಲ್ ವಿನ್ಯಾಸ ಮತ್ತು narration ಪ್ರತ್ಯೇಕವಾಗಿರುವುದನ್ನು ಪರಿಶೀಲಿಸಲಾಗಿದೆ. Browser ಪರೀಕ್ಷೆಗಳು synthetic fixtures ಮತ್ತು mock speech/provider responses ಬಳಸುತ್ತವೆ.
 
 ```sh
 .venv/bin/python -m pytest backend/tests -q
@@ -135,6 +136,6 @@ CSVಯ random ಪ್ರದೇಶಗಳು ಈ ಕೊರತೆಯನ್ನು ಪ
 
 Frontendಗೆ Vercel, backendಗೆ Render ಮತ್ತು PostgreSQL/private storageಗೆ Supabase ಬಳಸುವ ಸಂರಚನೆ ಇದೆ. [Deployment ಸೂಚನೆಗಳು](deployment/README.md) ನೋಡಿ. ಖಾಸಗಿ local database ಮತ್ತು audio Git push ಜೊತೆಗೆ hosted ವ್ಯವಸ್ಥೆಗೆ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಹೋಗುವುದಿಲ್ಲ. ಅನುಮೋದಿತ ಗಾದೆಗಳ 200 bilingual draft ವಿವರಗಳು ಈಗ `deployment/bilingual-drafts.json`ನಲ್ಲಿ ಪ್ಯಾಕೇಜ್ ಆಗಿವೆ; runtime cache ಇಲ್ಲದ Renderದಲ್ಲೂ ಮೂಲ ದಾಖಲೆಯ fingerprint ಹೊಂದಿದಾಗ ಮಾತ್ರ ಅವು ಲಭ್ಯವಾಗುತ್ತವೆ. ಇದರಿಂದ ಮೂಲ ದಾಖಲೆಗಳ approval ಅಥವಾ ಅರ್ಥಗಳು ಬದಲಾಗುವುದಿಲ್ಲ. ಹೊಸ ಮೂಲ ದಾಖಲೆಗಳ data migration ಮತ್ತು code deployment ಬೇರೆ ಕ್ರಮಗಳು.
 
-ಈ README ನವೀಕರಣದಲ್ಲಿ Git push ಅಥವಾ cloud deployment ಮಾಡಿಲ್ಲ. ಹಿಂದೆ ರಚಿಸಿದ rollback tag `v1.0` ಇದೆ; ಬಳಸುವ ಮುನ್ನ ಅದರ commit ಮತ್ತು ಬೇಕಾದ ದತ್ತಾಂಶ backup ಪರಿಶೀಲಿಸಿ. [Rollback ಸೂಚನೆಗಳು](deployment/ROLLBACK.md).
+ಹಿಂದೆ ರಚಿಸಿದ rollback tag `v1.0` ಇದೆ; ಬಳಸುವ ಮುನ್ನ ಅದರ commit ಮತ್ತು ಬೇಕಾದ ದತ್ತಾಂಶ backup ಪರಿಶೀಲಿಸಿ. [Rollback ಸೂಚನೆಗಳು](deployment/ROLLBACK.md).
 
 ಹಳೆಯ setup ವಿವರಗಳು ಮತ್ತು ದಿನಾಂಕವಾರು ಪರೀಕ್ಷಾ ಟಿಪ್ಪಣಿಗಳನ್ನು [ತಾಂತ್ರಿಕ ಇತಿಹಾಸ](docs/technical-history.md)ದಲ್ಲಿ ಉಳಿಸಲಾಗಿದೆ; ಅವು ಪ್ರಸ್ತುತ ಸ್ಥಿತಿಯ ವರದಿ ಅಲ್ಲ.

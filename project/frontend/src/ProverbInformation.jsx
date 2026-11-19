@@ -1,5 +1,6 @@
 import React from 'react';
 import {displayText} from './displayText';
+import ProverbAudio from './ProverbAudio';
 import './proverb-information.css';
 export default function ProverbInformation({row,titleLevel='h3',titleRef=null}){
  const tr=row.translation?.fields||{},d=row.display,Title=titleLevel;
@@ -9,7 +10,7 @@ export default function ProverbInformation({row,titleLevel='h3',titleRef=null}){
  const scenarios=d?.situations||row.situations?.map(s=>({[s.language]:s.text}))||[];
  const text=(value,lang)=>row.__writing&&!value?null:<p lang={lang}>{displayText(value||'')||(lang==='kn'?'ಮಾಹಿತಿ ಲಭ್ಯವಿಲ್ಲ':'Information unavailable')}</p>;
  return <div className="proverb-information">
-  <span className="eyebrow" lang="kn">ಕನ್ನಡ ಗಾದೆ · Kannada proverb</span><Title ref={titleRef} tabIndex={titleRef?-1:undefined} lang="kn">{row.proverb_kn}</Title>
+  <span className="eyebrow" lang="kn">ಕನ್ನಡ ಗಾದೆ · Kannada proverb</span><div className="proverb-title-audio"><Title ref={titleRef} tabIndex={titleRef?-1:undefined} lang="kn">{row.proverb_kn}</Title><ProverbAudio key={row.id} row={row}/></div>
   <dl>
    <dt>ಇಂಗ್ಲಿಷ್ ಸಮಾನಾರ್ಥ · English equivalent</dt><dd>{text(english,'en')}</dd>
    <dt>ಕನ್ನಡ ಅರ್ಥ · Kannada meaning</dt><dd>{text(meaningKn,'kn')}</dd>

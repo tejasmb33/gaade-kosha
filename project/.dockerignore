@@ -12,3 +12,9 @@
 !deployment/dictionary-themes.json
 !deployment/dictionary-situations.json
 !deployment/bilingual-drafts.json
+!deployment/proverb-audio.json
+!datasets/
+!datasets/submission/
+!datasets/submission/audio/
+!datasets/submission/audio/*.mp3
+**/.DS_Store

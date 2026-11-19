@@ -1,0 +1,502 @@
+{
+  "c1ff94475d1547bd83d9dc2c082213d1": {
+    "proverb_kn": "ಅಳಿದೂರಿಗೆ ಉಳಿದವನೇ ಗೌಡ",
+    "filename": "ಅಳಿದೂರಿಗೆ ಉಳಿದವನೇ ಗೌಡ.mp3",
+    "sha256": "8960a1a175d5b4eabdeddab43022a1ce906f272775935f722271e49d900ec537",
+    "duration_seconds": 4.556,
+    "sample_rate": 48000,
+    "channels": 2,
+    "match_basis": "NFC Kannada filename match ignoring spacing and punctuation",
+    "transcript_review": "not_established"
+  },
+  "5b4f98ac4cfd4806b2d60957893cfe8a": {
+    "proverb_kn": "ಅಳಿಯ ಅಲ್ಲ, ಮಗಳ ಗಂಡ",
+    "filename": "ಅಳಿಯ ಅಲ್ಲ, ಮಗಳ ಗಂಡ.mp3",
+    "sha256": "4f88583bbfccbae95fe35d8e1ba39dd52bfbd73fbd1f588e1c8baac94fb942ab",
+    "duration_seconds": 4.009,
+    "sample_rate": 48000,
+    "channels": 2,
+    "match_basis": "NFC Kannada filename match ignoring spacing and punctuation",
+    "transcript_review": "not_established"
+  },
+  "e36a3ff23c994b2e9345b52aee08f1da": {
+    "proverb_kn": "ಅವರವರ ತಲೆಗೆ ಅವರವರದೇ ಕೈ",
+    "filename": "ಅವರವರ ತಲೆಗೆ ಅವರವರದೇ ಕೈ.mp3",
+    "sha256": "81ca7e8e30a44c8a995f70889185627b28f2ad99d19c1e14b2f3412affab7dd7",
+    "duration_seconds": 3.644,
+    "sample_rate": 48000,
+    "channels": 2,
+    "match_basis": "NFC Kannada filename match ignoring spacing and punctuation",
+    "transcript_review": "not_established"
+  },
+  "fa3f75f75c854c799616b65bf8781789": {
+    "proverb_kn": "ಅಹಂಕಾರಕ್ಕೆ ಉದಾಸೀನವೇ ಮದ್ದು",
+    "filename": "ಅಹಂಕಾರಕ್ಕೆ ಉದಾಸೀನವೇ ಮದ್ದು.mp3",
+    "sha256": "d3ce86eb650c1830a87eb6d062537da239b25db38f1e171317865c61f2bb5f2f",
+    "duration_seconds": 4.533,
+    "sample_rate": 48000,
+    "channels": 2,
+    "match_basis": "NFC Kannada filename match ignoring spacing and punctuation",
+    "transcript_review": "not_established"
+  },
+  "cbbeac3735074374aca57e30b576e27f": {
+    "proverb_kn": "ಆಕಳು ಕಪ್ಪಾದರೂ ಹಾಲು ಕಪ್ಪೆ ?",
+    "filename": "ಆಕಳು ಕಪ್ಪಾದರೂ ಹಾಲು ಕಪ್ಪೆ .mp3",
+    "sha256": "16b393c1b79da59dfe6c30ed6028c5bc7d2dd075b214314defebae04ff986431",
+    "duration_seconds": 4.677,
+    "sample_rate": 48000,
+    "channels": 2,
+    "match_basis": "NFC Kannada filename match ignoring spacing and punctuation",
+    "transcript_review": "not_established"
+  },
+  "486cba9698c44c31ae354f943e0f734a": {
+    "proverb_kn": "ಆಕಾಶ ನೋಡೋಕೆ ನೂಕಾಟವೇಕೆ?",
+    "filename": "ಆಕಾಶ ನೋಡೋಕೆ ನೂಕಾಟವೇಕೆ.mp3",
+    "sha256": "21ed9086cf293b51c96ce8269a1071e05d152e68a59a054941c7f54c9a3f65aa",
+    "duration_seconds": 4.172,
+    "sample_rate": 48000,
+    "channels": 2,
+    "match_basis": "NFC Kannada filename match ignoring spacing and punctuation",
+    "transcript_review": "not_established"
+  },
+  "4878fdc07d4a4147b0bcd0e975538787": {
+    "proverb_kn": "ಆಗೋದೆಲ್ಲಾ ಒಳ್ಳೇದಕ್ಕೆ",
+    "filename": "ಆಗೋದೆಲ್ಲಾ ಒಳ್ಳೇದಕ್ಕೆ.mp3",
+    "sha256": "b66623258f6c21e5fa6118e5d840090ca5e140794cd05961b0bacf07f36e9381",
+    "duration_seconds": 4.002,
+    "sample_rate": 48000,
+    "channels": 2,
+    "match_basis": "NFC Kannada filename match ignoring spacing and punctuation",
+    "transcript_review": "not_established"
+  },
+  "7c2cab7082c7489a8e94ddd48dee89ad": {
+    "proverb_kn": "ಆಚಾರ್ಯರಿಗೆ ಮಂತ್ರಕ್ಕಿಂತ ಉಗುಳು ಜಾಸ್ತಿ",
+    "filename": "ಆಚಾರ್ಯರಿಗೆ ಮಂತ್ರಕ್ಕಿಂತ ಉಗುಳು ಜಾಸ್ತಿ.mp3",
+    "sha256": "6fe9f64671b7ee96f5ef2fb5b41199bc96512bc39cfdd54178f69e86ccbf82cc",
+    "duration_seconds": 5.735,
+    "sample_rate": 48000,
+    "channels": 2,
+    "match_basis": "NFC Kannada filename match ignoring spacing and punctuation",
+    "transcript_review": "not_established"
+  },
+  "387f1cdb019444dfa3cd616c44d61774": {
+    "proverb_kn": "ಆಟ ಕೆಟ್ಟರೆ ದೀವಟಿಗೆಯವನ ಸುತ್ತ",
+    "filename": "ಆಟ ಕೆಟ್ಟರೆ ದೀವಟಿಗೆಯವನ ಸುತ್ತ.mp3",
+    "sha256": "936336536822463ee5ac25260844784852416a2d71db03134bca5918c155693d",
+    "duration_seconds": 4.966,
+    "sample_rate": 48000,
+    "channels": 2,
+    "match_basis": "NFC Kannada filename match ignoring spacing and punctuation",
+    "transcript_review": "not_established"
+  },
+  "68c8122529e24aca8092881e1d22c955": {
+    "proverb_kn": "ಆಳಾಗಿ ದುಡಿ, ಅರಸನಾಗಿ ಉಣ್ಣು",
+    "filename": "ಆಳಾಗಿ ದುಡಿ, ಅರಸನಾಗಿ ಉಣ್ಣು.mp3",
+    "sha256": "e7bbb1e880d3708df3c153262559486eeb0881f2eace990518ad046d11df6719",
+    "duration_seconds": 3.19,
+    "sample_rate": 48000,
+    "channels": 2,
+    "match_basis": "NFC Kannada filename match ignoring spacing and punctuation",
+    "transcript_review": "not_established"
+  },
+  "5a84ad6aea384570aac5e18bd662259f": {
+    "proverb_kn": "ಇಲ್ಲದ ಕಾಲಕ್ಕೆ ಕಲ್ಲೆದೆ ಬೇಕು",
+    "filename": "ಇಲ್ಲದ ಕಾಲಕ್ಕೆ ಕಲ್ಲೆದೆ ಬೇಕು.mp3",
+    "sha256": "7a9599da449fd733c415092fb1555693f722579244351e69a4b75e4fbf341a0f",
+    "duration_seconds": 4.244,
+    "sample_rate": 48000,
+    "channels": 2,
+    "match_basis": "NFC Kannada filename match ignoring spacing and punctuation",
+    "transcript_review": "not_established"
+  },
+  "ac4049319e604a3184765758591726c9": {
+    "proverb_kn": "ಈಚಲ ಮರದ ಕೆಳಗೆ ಕುಳಿತು ಮಜ್ಜಿಗೆ ಕುಡಿದ ಹಾಗೆ.",
+    "filename": "ಈಚಲ ಮರದ ಕೆಳಗೆ ಕುಳಿತು ಮಜ್ಜಿಗೆ ಕುಡಿದ ಹಾಗೆ.mp3",
+    "sha256": "2e96c909ff86b2a5dbd7530075548ef4d6c1b5057c8f371a5279f268204ab1f0",
+    "duration_seconds": 4.799,
+    "sample_rate": 48000,
+    "channels": 2,
+    "match_basis": "NFC Kannada filename match ignoring spacing and punctuation",
+    "transcript_review": "not_established"
+  },
+  "5fbe721f6ea34d4f87e8f4e544895171": {
+    "proverb_kn": "ಉಂಡ ಮನೆ ಜಂತೆ ಎಣಿಸಬಾರದು",
+    "filename": "ಉಂಡ ಮನೆ ಜಂತೆ ಎಣಿಸಬಾರದು.mp3",
+    "sha256": "bcb31232718cc66519c54a9f6969b8c0e5865a2eb58db399d5622473f1fce8f3",
+    "duration_seconds": 4.243,
+    "sample_rate": 48000,
+    "channels": 2,
+    "match_basis": "NFC Kannada filename match ignoring spacing and punctuation",
+    "transcript_review": "not_established"
+  },
+  "feabb769440c4a318c2878e0cf28f4cd": {
+    "proverb_kn": "ಉಂಬಾಗ ಉಡುವಾಗ ಊರೆಲ್ಲ ನೆಂಟರು",
+    "filename": "ಉಂಬಾಗ ಉಡುವಾಗ ಊರೆಲ್ಲ ನೆಂಟರು.mp3",
+    "sha256": "c36bb5754c3436960b0283f74eb340411d4e750f4a12adf1842e3027b8e6a6c8",
+    "duration_seconds": 3.814,
+    "sample_rate": 48000,
+    "channels": 2,
+    "match_basis": "NFC Kannada filename match ignoring spacing and punctuation",
+    "transcript_review": "not_established"
+  },
+  "507590c57c38406fbb84967aa54fc539": {
+    "proverb_kn": "ಉಗಿದರೆ ತುಪ್ಪ ಕೆಡುತ್ತದೆ, ನುಂಗಿದರೆ ಗಂಟಲು ಕೆಡುತ್ತದೆ",
+    "filename": "ಉಗಿದರೆ ತುಪ್ಪ ಕೆಡುತ್ತದೆ, ನುಂಗಿದರೆ ಗಂಟಲು ಕೆಡುತ್ತದೆ.mp3",
+    "sha256": "6c52d00a7602466be2f0d173b1d282d66e7ea675d03b189eb192f26bcef99af7",
+    "duration_seconds": 4.967,
+    "sample_rate": 48000,
+    "channels": 2,
+    "match_basis": "NFC Kannada filename match ignoring spacing and punctuation",
+    "transcript_review": "not_established"
+  },
+  "f27f11ceff674bb8a5b47eaa23fe4118": {
+    "proverb_kn": "ಉಗುರಿನಲ್ಲಿ ಮಾಡುವ ಕೆಲಸಕ್ಕೆ ಕೊಡಲಿ ತೆಗೆದುಕೊಂಡಂತೆ",
+    "filename": "ಉಗುರಿನಲ್ಲಿ ಮಾಡುವ ಕೆಲಸಕ್ಕೆ ಕೊಡಲಿ ತೆಗೆದುಕೊಂಡಂತೆ.mp3",
+    "sha256": "c68bad66a1282b0fc1ea3c5356890b2d78fdb3d82969a918a89c3c1416432829",
+    "duration_seconds": 6.455,
+    "sample_rate": 48000,
+    "channels": 2,
+    "match_basis": "NFC Kannada filename match ignoring spacing and punctuation",
+    "transcript_review": "not_established"
+  },
+  "eb93aceee6114c74a8763c27539e3fa5": {
+    "proverb_kn": "ಊಟ ಬಲ್ಲವನಿಗೆ ರೋಗವಿಲ್ಲ, ಮಾತು ಬಲ್ಲವನಿಗೆ ಜಗಳವಿಲ್ಲ",
+    "filename": "ಊಟ ಬಲ್ಲವನಿಗೆ ರೋಗವಿಲ್ಲ, ಮಾತು ಬಲ್ಲವನಿಗೆ ಜಗಳವಿಲ್ಲ.mp3",
+    "sha256": "b2807f22cb19d5bc311db0d99de18b89ee84ca95602984e9f1e2650add1b13bd",
+    "duration_seconds": 4.955,
+    "sample_rate": 48000,
+    "channels": 2,
+    "match_basis": "NFC Kannada filename match ignoring spacing and punctuation",
+    "transcript_review": "not_established"
+  },
+  "166c7770c5854731aaa49b93c9fd1862": {
+    "proverb_kn": "ಎತ್ತು ಏರಿಗೆಳೆಯಿತು, ಕೋಣ ನೀರಿಗೆಳೆಯಿತು",
+    "filename": "ಎತ್ತು ಏರಿಗೆಳೆಯಿತು, ಕೋಣ ನೀರಿಗೆಳೆಯಿತು.mp3",
+    "sha256": "22f6e1f6fde903c8d0f94073e39858b6f4bd7da967ddeb06c143a95e426c72d1",
+    "duration_seconds": 4.055,
+    "sample_rate": 48000,
+    "channels": 2,
+    "match_basis": "NFC Kannada filename match ignoring spacing and punctuation",
+    "transcript_review": "not_established"
+  },
+  "6580125ea3134825bdaef28ef4afaa48": {
+    "proverb_kn": "ಓದುವಾಗ ಓದು, ಆಡುವಾಗ ಆಡು",
+    "filename": "ಓದುವಾಗ ಓದು, ಆಡುವಾಗ ಆಡು.mp3",
+    "sha256": "dffe30658ed8440955eb9285fc1b1702a6df294c102d1f376ee33533f5a8e8f9",
+    "duration_seconds": 3.955,
+    "sample_rate": 48000,
+    "channels": 2,
+    "match_basis": "NFC Kannada filename match ignoring spacing and punctuation",
+    "transcript_review": "not_established"
+  },
+  "a217f113a3ea42b691080254b014cb18": {
+    "proverb_kn": "ಕಂಕುಳಲ್ಲಿ ಮಗು ಇಟ್ಟುಕೊಂಡು ಊರೆಲ್ಲ ಹುಡುಕಿದರಂತೆ",
+    "filename": "ಕಂಕುಳಲ್ಲಿ ಮಗು ಇಟ್ಟುಕೊಂಡು ಊರೆಲ್ಲ ಹುಡುಕಿದರಂತೆ.mp3",
+    "sha256": "efe67ef21d7c0503caa078a1cf3b3b81167885ac5f2a4d63b7c40cebfbb4a54f",
+    "duration_seconds": 4.918,
+    "sample_rate": 48000,
+    "channels": 2,
+    "match_basis": "NFC Kannada filename match ignoring spacing and punctuation",
+    "transcript_review": "not_established"
+  },
+  "67ceccd62bba406e9186923268349aff": {
+    "proverb_kn": "ಕಂಡದ್ದು ಕಂಡಂತೆ ನುಡಿದರೆ ಕೆಂಡದಂತಹಾ ಸಿಟ್ಟು",
+    "filename": "ಕಂಡದ್ದು ಕಂಡಂತೆ ನುಡಿದರೆ ಕೆಂಡದಂತಹಾ ಸಿಟ್ಟು.mp3",
+    "sha256": "6bbb7a48b95ef0f5bc88125604d7141c6616c618841fd0f9abde2ab4671e3954",
+    "duration_seconds": 6.049,
+    "sample_rate": 48000,
+    "channels": 2,
+    "match_basis": "NFC Kannada filename match ignoring spacing and punctuation",
+    "transcript_review": "not_established"
+  },
+  "a515d04ebede4c20a664abeabbaa910e": {
+    "proverb_kn": "ಕಂಡವರ ಮನೆಯಲ್ಲಿ ದಾನ ಮಾಡಿದಂತೆ",
+    "filename": "ಕಂಡವರ ಮನೆಯಲ್ಲಿ ದಾನ ಮಾಡಿದಂತೆ.mp3",
+    "sha256": "411f198a4b80dd472ef84a963f3a2692d4030a11e0a52fc52243b272f497e6e7",
+    "duration_seconds": 4.772,
+    "sample_rate": 48000,
+    "channels": 2,
+    "match_basis": "NFC Kannada filename match ignoring spacing and punctuation",
+    "transcript_review": "not_established"
+  },
+  "0fe177e6941449cca57c62901654df72": {
+    "proverb_kn": "ಕಂತೆಗೆ ತಕ್ಕ ಬೊಂತೆ",
+    "filename": "ಕಂತೆಗೆ ತಕ್ಕ ಬೊಂತೆ.mp3",
+    "sha256": "9d842c1c9f7a8509f55efd7658f36312c41b67d1cce30ced2ced8cf43623c845",
+    "duration_seconds": 3.594,
+    "sample_rate": 48000,
+    "channels": 2,
+    "match_basis": "NFC Kannada filename match ignoring spacing and punctuation",
+    "transcript_review": "not_established"
+  },
+  "3fefaf89b24a4b42a66857156abf02ff": {
+    "proverb_kn": "ಕಚ್ಚುವ ನಾಯಿ ಬೊಗಳುವುದಿಲ್ಲ",
+    "filename": "ಕಚ್ಚುವ ನಾಯಿ ಬೊಗಳುವುದಿಲ್ಲ.mp3",
+    "sha256": "5958d0ca25a2d1b5aa352ba62b2327412aa2a2c370657cfca9afe2d988b9f708",
+    "duration_seconds": 3.594,
+    "sample_rate": 48000,
+    "channels": 2,
+    "match_basis": "NFC Kannada filename match ignoring spacing and punctuation",
+    "transcript_review": "not_established"
+  },
+  "c2d7dd7d4d1943a58a2ced7b30ca2516": {
+    "proverb_kn": "ಕಡಲೆ ಕಾಯೋಕೆ ಕಾಗೆ ಕಾವಲು ಹಾಕಿದಂತೆ",
+    "filename": "ಕಡಲೆ ಕಾಯೋಕೆ ಕಾಗೆ ಕಾವಲು ಹಾಕಿದಂತೆ.mp3",
+    "sha256": "ad07832c270acf130052e74be716ee6d5ae00f2ea52bc718d1d90cef0b4f3bfb",
+    "duration_seconds": 5.158,
+    "sample_rate": 48000,
+    "channels": 2,
+    "match_basis": "NFC Kannada filename match ignoring spacing and punctuation",
+    "transcript_review": "not_established"
+  },
+  "3670a504c8984cb0ac3d25deff8cf091": {
+    "proverb_kn": "ಕಡು ಕೋಪ ಬಂದಾಗ ತಡಕೊಂಡವನೇ ಜಾಣ",
+    "filename": "ಕಡು ಕೋಪ ಬಂದಾಗ ತಡಕೊಂಡವನೇ ಜಾಣ.mp3",
+    "sha256": "febfcd7604e59673b74971c40a45ef8556534c20f6f60b8852e504bd0cfab417",
+    "duration_seconds": 4.945,
+    "sample_rate": 48000,
+    "channels": 2,
+    "match_basis": "NFC Kannada filename match ignoring spacing and punctuation",
+    "transcript_review": "not_established"
+  },
+  "52e623dc698546fd9bb36e5f698713d2": {
+    "proverb_kn": "ಕಡ್ಡಿಯನ್ನು ಗುಡ್ಡೆ ಮಾಡಿದಂತೆ",
+    "filename": "ಕಡ್ಡಿಯನ್ನು ಗುಡ್ಡೆ ಮಾಡಿದಂತೆ.mp3",
+    "sha256": "817da971fdd1b1498df1f3179e48d7f256c5f7a147694ef28f273eaf1764d723",
+    "duration_seconds": 2.95,
+    "sample_rate": 48000,
+    "channels": 2,
+    "match_basis": "NFC Kannada filename match ignoring spacing and punctuation",
+    "transcript_review": "not_established"
+  },
+  "3dbdbb08cfff4f56bd671abf8aae0d58": {
+    "proverb_kn": "ಕಣ್ಣಾರೆ ಕಂಡರೂ ಪರಾಂಬರಿಸಿ ನೋಡು",
+    "filename": "ಕಣ್ಣಾರೆ ಕಂಡರೂ ಪರಾಂಬರಿಸಿ ನೋಡು.mp3",
+    "sha256": "1d2cabb9705ea57a8b31c321ca20fa2117f66316c28e8d7beef88bc51bcead70",
+    "duration_seconds": 4.104,
+    "sample_rate": 48000,
+    "channels": 2,
+    "match_basis": "NFC Kannada filename match ignoring spacing and punctuation",
+    "transcript_review": "not_established"
+  },
+  "b9da0b34d7a746b1ba833dae905307ef": {
+    "proverb_kn": "ಕುಂಬಾರನಿಗೆ ವರುಷ, ದೊಣ್ಣೆಗೆ ನಿಮಿಷ",
+    "filename": "ಕುಂಬಾರನಿಗೆ ವರುಷ, ದೊಣ್ಣೆಗೆ ನಿಮಿಷ.mp3",
+    "sha256": "6acd91179e5d5ba6ad01a7b3a39d43c4256e9efde1b24aa3b703d97243d8ad94",
+    "duration_seconds": 4.196,
+    "sample_rate": 48000,
+    "channels": 2,
+    "match_basis": "NFC Kannada filename match ignoring spacing and punctuation",
+    "transcript_review": "not_established"
+  },
+  "8c8110368b004e0aa40a18a538c83216": {
+    "proverb_kn": "ಕೈ ಕೆಸರಾದರೆ ಬಾಯಿ ಮೊಸರು",
+    "filename": "ಕೈ ಕೆಸರಾದರೆ ಬಾಯಿ ಮೊಸರು.mp3",
+    "sha256": "304ae97ea878c0f57207a74d10fc299fa49671e91459320e4d9975aba7d974b2",
+    "duration_seconds": 3.19,
+    "sample_rate": 48000,
+    "channels": 2,
+    "match_basis": "NFC Kannada filename match ignoring spacing and punctuation",
+    "transcript_review": "not_established"
+  },
+  "790ab65e46a6481c9832839b42b9c1a8": {
+    "proverb_kn": "ಗೆದ್ದೆತ್ತಿನ ಬಾಲ ಹಿಡಿದ ಹಾಗೆ",
+    "filename": "ಗೆದ್ದೆತ್ತಿನ ಬಾಲ ಹಿಡಿದ ಹಾಗೆ.mp3",
+    "sha256": "ab576b228ebf154edb77179a031896878cae82473a5b74c1512d1ce6e9b2e834",
+    "duration_seconds": 4.775,
+    "sample_rate": 48000,
+    "channels": 2,
+    "match_basis": "NFC Kannada filename match ignoring spacing and punctuation",
+    "transcript_review": "not_established"
+  },
+  "9d210b84bb85441a88355d60e6b2762f": {
+    "proverb_kn": "ಚರ್ಮ ತೊಳೆದರೆ ಕರ್ಮ ಹೋದೀತೆ",
+    "filename": "ಚರ್ಮ ತೊಳೆದರೆ ಕರ್ಮ ಹೋದೀತೆ.mp3",
+    "sha256": "79a690b61af1485837bb871ed2a8eee85debdf8989df37d80844c4da92f58180",
+    "duration_seconds": 4.055,
+    "sample_rate": 48000,
+    "channels": 2,
+    "match_basis": "NFC Kannada filename match ignoring spacing and punctuation",
+    "transcript_review": "not_established"
+  },
+  "19c99748fb0642daafc1b709b179cf33": {
+    "proverb_kn": "ಚಾಡಿಕೋರನಿಗೆ ಊರೆಲ್ಲ ನೆಂಟರು",
+    "filename": "ಚಾಡಿಕೋರನಿಗೆ ಊರೆಲ್ಲ ನೆಂಟರು.mp3",
+    "sha256": "594cb55ee8bd59fc52fa4bb459042215b4b99282430b972f1b7a8f6db659121f",
+    "duration_seconds": 4.345,
+    "sample_rate": 48000,
+    "channels": 2,
+    "match_basis": "NFC Kannada filename match ignoring spacing and punctuation",
+    "transcript_review": "not_established"
+  },
+  "9f18a4a4f90940dc8fe57294ba00c749": {
+    "proverb_kn": "ಚಿಕ್ಕ ಮೀನನ್ನು ದೊಡ್ಡ ಮೀನು ನುಂಗಿತಂತೆ",
+    "filename": "ಚಿಕ್ಕ ಮೀನನ್ನು ದೊಡ್ಡ ಮೀನು ನುಂಗಿತಂತೆ.mp3",
+    "sha256": "8ad2dce9ea0e6a4aa5f7b7452b33e26054e7a52c24f5e77684598ead9220069f",
+    "duration_seconds": 5.472,
+    "sample_rate": 48000,
+    "channels": 2,
+    "match_basis": "NFC Kannada filename match ignoring spacing and punctuation",
+    "transcript_review": "not_established"
+  },
+  "4a61efa0f0d94d399ce0002d56ee3924": {
+    "proverb_kn": "ಚಿಕ್ಕ ಮೆಣಸಿಗೆ ಕಾರ ಹೆಚ್ಚು",
+    "filename": "ಚಿಕ್ಕ ಮೆಣಸಿಗೆ ಕಾರ ಹೆಚ್ಚು.mp3",
+    "sha256": "c54a8a790a9817b3683c561435ef18e1e2ad1e2c1e1cd569bc0df3e9760fa3f5",
+    "duration_seconds": 4.056,
+    "sample_rate": 48000,
+    "channels": 2,
+    "match_basis": "NFC Kannada filename match ignoring spacing and punctuation",
+    "transcript_review": "not_established"
+  },
+  "8464a2c9d5e04277bb149fd94c22c9be": {
+    "proverb_kn": "ಚಿನ್ನದ ಚೂರಿ ಎಂದು ಕುತ್ತಿಗೆ ಕುಯಿಸಿಕೊಳ್ಳಬಹುದೇ",
+    "filename": "ಚಿನ್ನದ ಚೂರಿ ಎಂದು ಕುತ್ತಿಗೆ ಕುಯಿಸಿಕೊಳ್ಳಬಹುದೇ.mp3",
+    "sha256": "cc590a1324a960bf37aa1501659a528c0ace5ab20a582bfc84ce243067c906b8",
+    "duration_seconds": 5.737,
+    "sample_rate": 48000,
+    "channels": 2,
+    "match_basis": "NFC Kannada filename match ignoring spacing and punctuation",
+    "transcript_review": "not_established"
+  },
+  "527c2deac51b4bdd8972cdb47a6a8e02": {
+    "proverb_kn": "ಚಿನ್ನದ ಸೂಜಿ ಅಂತ ಕಣ್ಣು ಚುಚ್ಚಿಕೊಂಡಾರೆ?",
+    "filename": "ಚಿನ್ನದ ಸೂಜಿ ಅಂತ ಕಣ್ಣು ಚುಚ್ಚಿಕೊಂಡಾರೆ.mp3",
+    "sha256": "cae1a3a14103ac01bed111b9c0774693876e0af2729dd0fd2cc402989ec766dd",
+    "duration_seconds": 4.544,
+    "sample_rate": 48000,
+    "channels": 2,
+    "match_basis": "NFC Kannada filename match ignoring spacing and punctuation",
+    "transcript_review": "not_established"
+  },
+  "9b84f3a860ff47e79c564cda5420b914": {
+    "proverb_kn": "ತಾನೂ ತಿನ್ನ, ಪರರಿಗೂ ಕೊಡ",
+    "filename": "ತಾನೂ ತಿನ್ನ, ಪರರಿಗೂ ಕೊಡ.mp3",
+    "sha256": "11bbf5ba3dbcccd6d0a90f74a106ef1da3c121e106990ac56a1e0d6280962910",
+    "duration_seconds": 3.623,
+    "sample_rate": 48000,
+    "channels": 2,
+    "match_basis": "NFC Kannada filename match ignoring spacing and punctuation",
+    "transcript_review": "not_established"
+  },
+  "440431ec61ab42699e7ff8d4c4eddf4c": {
+    "proverb_kn": "ತಾನೊಂದೆಣಿಸಿದರೆ ದೈವವೊಂದೆಣಿಸಿತು",
+    "filename": "ತಾನೊಂದೆಣಿಸಿದರೆ ದೈವವೊಂದೆಣಿಸಿತು.mp3",
+    "sha256": "bbaa0d0241b7514dafd9123a97d0a8275a20f28751ce8ae1ef1be1c11a51695d",
+    "duration_seconds": 4.948,
+    "sample_rate": 48000,
+    "channels": 2,
+    "match_basis": "NFC Kannada filename match ignoring spacing and punctuation",
+    "transcript_review": "not_established"
+  },
+  "e6b12a8d27a248edbf5e037537705f7c": {
+    "proverb_kn": "ತಾಯಿಗಿಂತ ಬಂಧು ಇಲ್ಲ, ಉಪ್ಪಿಗಿಂತ ರುಚಿಯಿಲ್ಲ",
+    "filename": "ತಾಯಿಗಿಂತ ಬಂಧು ಇಲ್ಲ, ಉಪ್ಪಿಗಿಂತ ರುಚಿಯಿಲ್ಲ.mp3",
+    "sha256": "d82c900d70ab1069a2ee77a446b08ba227022b998ef5c0731227e28d16efa988",
+    "duration_seconds": 4.753,
+    "sample_rate": 48000,
+    "channels": 2,
+    "match_basis": "NFC Kannada filename match ignoring spacing and punctuation",
+    "transcript_review": "not_established"
+  },
+  "91bdfdb9dfa04838ab0973386a780efc": {
+    "proverb_kn": "ನುಂಗಲಾರದ ಬಿಸಿ ತುಪ್ಪ",
+    "filename": "ನುಂಗಲಾರದ ಬಿಸಿ ತುಪ್ಪ.mp3",
+    "sha256": "6471fd931adc3ea274ca34f8b2334645d1353f666990b31927ede988e07093a1",
+    "duration_seconds": 4.362,
+    "sample_rate": 48000,
+    "channels": 2,
+    "match_basis": "NFC Kannada filename match ignoring spacing and punctuation",
+    "transcript_review": "not_established"
+  },
+  "504afee0bf15456898b55d13430af565": {
+    "proverb_kn": "ಬೆಳ್ಳಗಿರೋದೆಲ್ಲ ಹಾಲಲ್ಲ",
+    "filename": "ಬೆಳ್ಳಗಿರೋದೆಲ್ಲ ಹಾಲಲ್ಲ.mp3",
+    "sha256": "769b69cf3aeec534c9114e15e0544a106dc2389701d64b3e3fe410961f6e2b60",
+    "duration_seconds": 2.476,
+    "sample_rate": 48000,
+    "channels": 2,
+    "match_basis": "NFC Kannada filename match ignoring spacing and punctuation",
+    "transcript_review": "not_established"
+  },
+  "34e6af5f96a648b48bb5d1b442f239ce": {
+    "proverb_kn": "ಮಂಗನ ಕೈಯಲ್ಲಿ ಮಾಣಿಕ್ಯ ಕೊಟ್ಟ ಹಾಗೆ",
+    "filename": "ಮಂಗನ ಕೈಯಲ್ಲಿ ಮಾಣಿಕ್ಯ ಕೊಟ್ಟ ಹಾಗೆ.mp3",
+    "sha256": "737945bcdbc4afe39bd6fd225b463539f4f737969cd0cb2da4bffa1b6351f415",
+    "duration_seconds": 3.862,
+    "sample_rate": 48000,
+    "channels": 2,
+    "match_basis": "NFC Kannada filename match ignoring spacing and punctuation",
+    "transcript_review": "not_established"
+  },
+  "f582d2bf616a42fc8743281972db1358": {
+    "proverb_kn": "ಮನಸಿದ್ದರೆ ಮಾರ್ಗ",
+    "filename": "ಮನಸಿದ್ದರೆ ಮಾರ್ಗ.mp3",
+    "sha256": "fe15f525662a7407cd25138de145cdea14cd72d134db8683b977675d38cce00c",
+    "duration_seconds": 3.569,
+    "sample_rate": 48000,
+    "channels": 2,
+    "match_basis": "NFC Kannada filename match ignoring spacing and punctuation",
+    "transcript_review": "not_established"
+  },
+  "c24366ba998c4232bf5c350377d4b0f2": {
+    "proverb_kn": "ಮಾತು ಬೆಳ್ಳಿ, ಮೌನ ಬಂಗಾರ",
+    "filename": "ಮಾತು ಬೆಳ್ಳಿ, ಮೌನ ಬಂಗಾರ.mp3",
+    "sha256": "200fc955ca3044ed8b0a3bbcd83ac2fed4426e86971da4944d0e88146d341678",
+    "duration_seconds": 3.093,
+    "sample_rate": 48000,
+    "channels": 2,
+    "match_basis": "NFC Kannada filename match ignoring spacing and punctuation",
+    "transcript_review": "not_established"
+  },
+  "751ac039e75f4e5786e0e47fa02a4457": {
+    "proverb_kn": "ವೈದ್ಯರ ಹತ್ತಿರ, ವಕೀಲರ ಹತ್ತಿರ ಸುಳ್ಳು ಹೇಳಬೇಡ",
+    "filename": "ವೈದ್ಯರ ಹತ್ತಿರ, ವಕೀಲರ ಹತ್ತಿರ ಸುಳ್ಳು ಹೇಳಬೇಡ.mp3",
+    "sha256": "89342ef5a41323d80d404fa68f5f8ac972f960604bf9e93a4ab540ac559be923",
+    "duration_seconds": 4.872,
+    "sample_rate": 48000,
+    "channels": 2,
+    "match_basis": "NFC Kannada filename match ignoring spacing and punctuation",
+    "transcript_review": "not_established"
+  },
+  "78c2be9c5dbd45eeadcd0433b6c4c289": {
+    "proverb_kn": "ವ್ಯಾಪಾರಕ್ಕೆ ನಿಮಿಷ ಬೇಸಾಯಕ್ಕೆ ವರುಷ",
+    "filename": "ವ್ಯಾಪಾರಕ್ಕೆ ನಿಮಿಷ ಬೇಸಾಯಕ್ಕೆ ವರುಷ.mp3",
+    "sha256": "59354e86e09753036119a767b1ac5d3be52e50103ab400a1dccc3e576550562f",
+    "duration_seconds": 4.415,
+    "sample_rate": 48000,
+    "channels": 2,
+    "match_basis": "NFC Kannada filename match ignoring spacing and punctuation",
+    "transcript_review": "not_established"
+  },
+  "7a3fe2f7d1334354bef71355b7f3d6ca": {
+    "proverb_kn": "ಹನಿ ಹನಿ ಕೂಡಿದರೆ ಹಳ್ಳ",
+    "filename": "ಹನಿ ಹನಿ ಕೂಡಿದರೆ ಹಳ್ಳ.mp3",
+    "sha256": "6e9d7b0f3e0b03dcd1cee12c7e50ef73af0a00c37f03300e6214713dd4ba4d37",
+    "duration_seconds": 2.853,
+    "sample_rate": 48000,
+    "channels": 2,
+    "match_basis": "NFC Kannada filename match ignoring spacing and punctuation",
+    "transcript_review": "not_established"
+  },
+  "69216f8625b74cafaa80d76f28118eac": {
+    "proverb_kn": "ಹಾಸಿಗೆ ಇದ್ದಷ್ಟು ಕಾಲು ಚಾಚು",
+    "filename": "ಹಾಸಿಗೆ ಇದ್ದಷ್ಟು ಕಾಲು ಚಾಚು.mp3",
+    "sha256": "b854e6e9a642ba15d259efa7d797e8c5b1778993ad0631f3cd82b516ce44ab00",
+    "duration_seconds": 3.814,
+    "sample_rate": 48000,
+    "channels": 2,
+    "match_basis": "NFC Kannada filename match ignoring spacing and punctuation",
+    "transcript_review": "not_established"
+  },
+  "c4c10d3d890d4888afbfb712c7186fa1": {
+    "proverb_kn": "ಹೊಳೆಯೋದೆಲ್ಲಾ ಚಿನ್ನವಲ್ಲ",
+    "filename": "ಹೊಳೆಯೋದೆಲ್ಲಾ ಚಿನ್ನವಲ್ಲ.mp3",
+    "sha256": "5c87669d928472097b23c3c0575e98e211bd9a63ce6bdef4a62ef62bb68109bb",
+    "duration_seconds": 2.781,
+    "sample_rate": 48000,
+    "channels": 2,
+    "match_basis": "NFC Kannada filename match ignoring spacing and punctuation",
+    "transcript_review": "not_established"
+  }
+}

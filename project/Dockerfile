@@ -7,4 +7,5 @@ RUN pip install --no-cache-dir -r backend/requirements-cloud.txt
 COPY backend ./backend
 COPY scripts ./scripts
 COPY deployment ./deployment
+COPY datasets/submission/audio ./datasets/submission/audio
 CMD ["sh", "-c", "python scripts/bootstrap_cloud.py && exec uvicorn backend.app:app --host 0.0.0.0 --port ${PORT:-10000} --proxy-headers"]
