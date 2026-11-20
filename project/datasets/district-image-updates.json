@@ -152,6 +152,13 @@
       "asset": "/images/districts/bengaluru-south-updated.jpg",
       "subject": "Rocky hills in Bengaluru South district",
       "location_confirmed_by": "user"
+    },
+    {
+      "district": "mysuru",
+      "supplied_file": "WhatsApp Image 2026-11-17 at 15.37.40.jpeg",
+      "asset": "/images/districts/mysuru-updated.jpg",
+      "subject": "Mysuru Palace and flower gardens",
+      "location_confirmed_by": "user"
     }
   ],
   "duplicates": [
