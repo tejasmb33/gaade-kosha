@@ -1,0 +1,45 @@
+{
+  "model": "Shruti Kannada",
+  "model_revision": "de41117b2574a09708d2a883a8987dac71895af8",
+  "engine_source_revision": "68a8d77e88e58ed1201cc20a9c4adc5d9750723f",
+  "license": "Apache-2.0",
+  "language": "kn",
+  "sample_rate": 16000,
+  "assets": {
+    "needle/needle.js": {
+      "url": "https://raw.githubusercontent.com/udgamlabs/shruti/68a8d77e88e58ed1201cc20a9c4adc5d9750723f/examples/browser/needle/needle.js",
+      "bytes": 62082,
+      "sha256": "a675c66f506a1b6f922d852c0cc0b82a843ce9d0fab6a80a408106f516df126f"
+    },
+    "needle/needle.wasm": {
+      "url": "https://raw.githubusercontent.com/udgamlabs/shruti/68a8d77e88e58ed1201cc20a9c4adc5d9750723f/examples/browser/needle/needle.wasm",
+      "bytes": 929785,
+      "sha256": "a6f87da3e7a9e83c13982979f115cf0afa4b1a63641e58f31aa87dec8afd13d2"
+    },
+    "needle/LICENSE.txt": {
+      "url": "https://raw.githubusercontent.com/udgamlabs/shruti/68a8d77e88e58ed1201cc20a9c4adc5d9750723f/examples/browser/needle/LICENSE.txt",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    "needle/NOTICE.txt": {
+      "url": "https://raw.githubusercontent.com/udgamlabs/shruti/68a8d77e88e58ed1201cc20a9c4adc5d9750723f/examples/browser/needle/NOTICE.txt",
+      "bytes": 584,
+      "sha256": "c7b879c4a709ec824fc0d389482ab1bf3e35794ef1e23a9fcca5f0cd59397a69"
+    },
+    "LICENSE.txt": {
+      "url": "https://huggingface.co/udgamlabs/shruti-kannada/resolve/de41117b2574a09708d2a883a8987dac71895af8/LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    "NOTICE.txt": {
+      "url": "https://huggingface.co/udgamlabs/shruti-kannada/resolve/de41117b2574a09708d2a883a8987dac71895af8/NOTICE",
+      "bytes": 1253,
+      "sha256": "cf3111f33e24f3ec6ec8f040d5741c7020ed81ef2385893ea1770c727ece61e0"
+    },
+    "shruti-kannada.cact": {
+      "url": "https://huggingface.co/udgamlabs/shruti-kannada/resolve/de41117b2574a09708d2a883a8987dac71895af8/shruti-kannada.cact",
+      "bytes": 29742447,
+      "sha256": "492cdfdea934061edfefd14f2bd1e0255468adc8d0f0e3e9c2847cee69d5d5d8"
+    }
+  }
+}

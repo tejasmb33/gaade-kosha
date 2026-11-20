@@ -1,0 +1,22 @@
+Shruti Kannada
+Copyright 2026 Udgam Labs
+
+This product is a modified version of Shruti Hindi (https://huggingface.co/udgamlabs/Shruti, Udgam Labs, Apache-2.0),
+which is itself a modified version of Cactus Whistle (https://huggingface.co/Cactus-Compute/whistle), copyright Cactus
+Compute, licensed under the Apache License, Version 2.0.
+
+Changes made by Udgam Labs: added 700 Kannada vocabulary pieces to Shruti Hindi's vocabulary and used its Hindi
+language tag for Kannada; retrained all model weights on Kannada and English speech with quantisation-aware training;
+exported as shruti-kannada.cact.
+
+The model runs in the Cactus needle engine (https://huggingface.co/Cactus-Compute/needle3), Apache-2.0, which is not
+included in this repository.
+
+Training data (all licensed for commercial use; credit appreciated):
+- AI4Bharat IndicVoices, Kannada (CC-BY-4.0)
+- AI4Bharat Kathbath, Kannada (CC-BY-4.0)
+- SPRING-INX Kannada R1, SPRING Lab, IIT Madras (CC-BY-4.0)
+- ARTPARK-IISc Vaani, Kannada (transcribed part) (CC-BY-4.0)
+- English reused from Shruti Hindi's training data: LibriSpeech (CC-BY-4.0), Mozilla Common Voice 17 English (CC0-1.0),
+  AI4Bharat NPTEL (CC-BY-4.0)
+Shruti Hindi's own training data (Hindi and English) is listed in its NOTICE.
